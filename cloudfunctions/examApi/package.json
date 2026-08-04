@@ -1,0 +1,9 @@
+{
+  "name": "examApi",
+  "version": "1.0.0",
+  "description": "真题考试通 账号/审核聚合云函数",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "latest"
+  }
+}
