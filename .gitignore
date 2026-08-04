@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地环境变量
+.env
+.env.local
+
+# WorkBuddy 本地记忆（不入库）
+.workbuddy/
+
+# 说明：dist/assets/js/cloudbase.js 是 esbuild 打包产物，已入库以保证仓库可直接部署；
+# 重新生成见 tools/build-cloudbase-sdk.cjs
