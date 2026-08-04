@@ -5225,39 +5225,20 @@
   }
  },
  {
-  "id": "lele-1232",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题",
-  "count": 10,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
   "id": "lele-1266",
   "subject": "info-c",
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 C++编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5268,15 +5249,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 C++编程（小学组4-6年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5287,15 +5268,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 C++编程（小学组4-6年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5306,15 +5287,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 C++编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5325,15 +5306,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 C++编程（小学组4-6年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5344,15 +5325,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 C++编程（小学组4-6年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5363,15 +5344,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年智传民韵 C++编程（小学组4-6 年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5382,15 +5363,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年智传民韵 C++编程（小学组4-6 年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5401,15 +5382,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年智传民韵 C++编程（小学组4-6 年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5420,15 +5401,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-小学组4~6年级(C++)真题1",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -5439,186 +5420,34 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-小学组4~6年级(C++)真题2",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-668",
+  "id": "lele-1232",
   "subject": "info-c",
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛_华南赛区）真题",
-  "count": 20,
+  "yearmonth": "2025",
+  "year": "2025",
+  "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题",
+  "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-669",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛_华东赛区）真题",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-670",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题",
-  "count": 5,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-671",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛_浙江）真题",
-  "count": 6,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-672",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛_广东）真题",
-  "count": 6,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-673",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题",
-  "count": 4,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-674",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛）真题",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-675",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题2",
-  "count": 4,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-676",
-  "subject": "info-c",
-  "subjectName": "信息素养C语言",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题1",
-  "count": 4,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -5629,15 +5458,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛）模拟题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5648,15 +5477,15 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）模拟题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5667,34 +5496,186 @@
   "subjectName": "信息素养C语言",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛）真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-1234",
+  "id": "lele-668",
   "subject": "info-c",
   "subjectName": "信息素养C语言",
-  "level": 2,
-  "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（初中组_复赛）真题",
-  "count": 10,
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛_华南赛区）真题",
+  "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-669",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛_华东赛区）真题",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-671",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛_浙江）真题",
+  "count": 6,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-672",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛_广东）真题",
+  "count": 6,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-673",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题",
+  "count": 4,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-674",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_初赛）真题",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-670",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题",
+  "count": 5,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-675",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题2",
+  "count": 4,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-676",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023全国青少年信息素养大赛C++算法创意实践挑战赛（小学组_复赛）真题1",
+  "count": 4,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
    "type": "真题",
    "progress": "未开始"
   }
@@ -5705,15 +5686,15 @@
   "subjectName": "信息素养C语言",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-初中组(C++)真题1",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -5724,34 +5705,34 @@
   "subjectName": "信息素养C语言",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-初中组(C++)真题2",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-1230",
-  "subject": "info-python",
-  "subjectName": "信息素养Python",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2025全国青少年信息素养大赛Python编程挑战赛（小学组_复赛）真题",
+  "id": "lele-1234",
+  "subject": "info-c",
+  "subjectName": "信息素养C语言",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "2025",
+  "year": "2025",
+  "title": "2025全国青少年信息素养大赛C++算法创意实践挑战赛（初中组_复赛）真题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -5762,15 +5743,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Python编程（小学组1-3年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5781,15 +5762,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Python编程（小学组1-3年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5800,15 +5781,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Python编程（小学组1-3年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5819,15 +5800,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Python编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5838,15 +5819,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Python编程（小学组4-6年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5857,15 +5838,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Python编程（小学组4-6年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5876,15 +5857,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 Python编程（小学组1-3年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5895,15 +5876,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 Python编程（小学组1-3年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5914,15 +5895,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 Python编程（小学组1-3年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5933,15 +5914,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 Python编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5952,15 +5933,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 Python编程（小学组4-6年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5971,15 +5952,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年丝路新程 Python编程（小学组4-6年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -5990,15 +5971,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 Python编程（小学组1-3年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6009,15 +5990,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 Python编程（小学组1-3年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6028,15 +6009,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 Python编程（小学组1-3年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6047,15 +6028,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 Python编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6066,15 +6047,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途 Python编程（小学组4-6年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6085,15 +6066,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年智传民韵Python编程（小学组1-3年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6104,15 +6085,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人Python（小学组1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6123,15 +6104,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人Python（小学组1-3年级）复赛模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6142,15 +6123,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人Python（小学组1-3年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6161,15 +6142,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人Python小高组（小学4-6年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6180,15 +6161,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人Python小高组（小学4-6年级）复赛模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6199,15 +6180,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛丝路新程Python小低组（小学1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6218,15 +6199,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛丝路新程Python小低组（小学1-3年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6237,15 +6218,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛丝路新程Python小高组（小学4-6年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6256,15 +6237,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛丝路新程Python小高组（小学4-6年级）复赛模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6275,15 +6256,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛丝路新程Python小高组（小学4-6年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6294,15 +6275,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途Python小低组（小学1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6313,15 +6294,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途Python小低组（小学1-3年级）复赛模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6332,15 +6313,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途Python小低组（小学1-3年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6351,15 +6332,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途Python小高组（小学4-6年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6370,15 +6351,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途Python小高组（小学4-6年级）复赛模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6389,15 +6370,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途Python小高组（小学4-6年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6408,15 +6389,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵Python小低组（小学1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6427,15 +6408,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵Python小低组（小学1-3年级）复赛模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6446,15 +6427,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵Python小低组（小学1-3年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6465,15 +6446,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵Python小高组（小学4-6年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6484,15 +6465,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵Python小高组（小学4-6年级_复赛）模拟卷（二）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6503,15 +6484,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵Python小高组（小学4-6年级_复赛）模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6522,15 +6503,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-小学组1~3年级(python)真题1",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6541,15 +6522,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-小学组1~3年级(python)真题2",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6560,15 +6541,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-小学组1~3年级(python)真题3",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6579,129 +6560,34 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-小学组4~6年级(python)真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-660",
+  "id": "lele-1230",
   "subject": "info-python",
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Python编程挑战赛（小学组_复赛）真题",
-  "count": 6,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-661",
-  "subject": "info-python",
-  "subjectName": "信息素养Python",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023全国青少年信息素养大赛Python编程挑战赛（小学组_复赛_北京赛区）真题",
-  "count": 6,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-662",
-  "subject": "info-python",
-  "subjectName": "信息素养Python",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2022全国青少年信息素养大赛Python编程挑战赛（小学组_复赛_安徽赛区）真题",
-  "count": 6,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-664",
-  "subject": "info-python",
-  "subjectName": "信息素养Python",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Python编程挑战赛（小学组_初赛）真题",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-666",
-  "subject": "info-python",
-  "subjectName": "信息素养Python",
-  "level": 1,
-  "levelName": "初赛",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023全国青少年信息素养大赛Python编程挑战赛（初赛）真题",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-667",
-  "subject": "info-python",
-  "subjectName": "信息素养Python",
-  "level": 1,
-  "levelName": "初赛",
-  "yearmonth": "",
-  "year": "",
-  "title": "2022全国青少年信息素养大赛Python编程挑战赛（初赛）真题",
+  "yearmonth": "2025",
+  "year": "2025",
+  "title": "2025全国青少年信息素养大赛Python编程挑战赛（小学组_复赛）真题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6712,15 +6598,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Python编程挑战赛（小学组_初赛）真题01",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6731,15 +6617,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Python编程挑战赛（小学组_初赛）真题02",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6750,15 +6636,15 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Python编程挑战赛（小学组_初赛）模拟题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6769,16 +6655,130 @@
   "subjectName": "信息素养Python",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Python编程挑战赛（小学组_复赛）模拟题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-660",
+  "subject": "info-python",
+  "subjectName": "信息素养Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Python编程挑战赛（小学组_复赛）真题",
+  "count": 6,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-664",
+  "subject": "info-python",
+  "subjectName": "信息素养Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Python编程挑战赛（小学组_初赛）真题",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-661",
+  "subject": "info-python",
+  "subjectName": "信息素养Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023全国青少年信息素养大赛Python编程挑战赛（小学组_复赛_北京赛区）真题",
+  "count": 6,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-666",
+  "subject": "info-python",
+  "subjectName": "信息素养Python",
+  "level": 1,
+  "levelName": "初赛",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023全国青少年信息素养大赛Python编程挑战赛（初赛）真题",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-662",
+  "subject": "info-python",
+  "subjectName": "信息素养Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2022",
+  "year": "2022",
+  "title": "2022全国青少年信息素养大赛Python编程挑战赛（小学组_复赛_安徽赛区）真题",
+  "count": 6,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-667",
+  "subject": "info-python",
+  "subjectName": "信息素养Python",
+  "level": 1,
+  "levelName": "初赛",
+  "yearmonth": "2022",
+  "year": "2022",
+  "title": "2022全国青少年信息素养大赛Python编程挑战赛（初赛）真题",
+  "count": 10,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
    "progress": "未开始"
   }
  },
@@ -6788,15 +6788,15 @@
   "subjectName": "信息素养Python",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年信息素养大赛算法应用主题初赛-初中组(python)真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6807,15 +6807,15 @@
   "subjectName": "信息素养Python",
   "level": 2,
   "levelName": "复赛",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2024",
+  "year": "2024",
   "title": "2024全国青少年信息素养大赛Python编程挑战赛（复赛_浙江赛区）真题",
   "count": 6,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2024",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6826,34 +6826,15 @@
   "subjectName": "信息素养Python",
   "level": 2,
   "levelName": "复赛",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2023",
+  "year": "2023",
   "title": "2023全国青少年信息素养大赛Python编程挑战赛（复赛_海南赛区）真题",
   "count": 6,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-1226",
-  "subject": "info-scratch",
-  "subjectName": "信息素养Scratch",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小低组_复赛）真题",
-  "count": 10,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
+   "year": "2023",
    "type": "真题",
    "progress": "未开始"
   }
@@ -6864,15 +6845,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Scratch图形化编程（小学组1-3年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6883,15 +6864,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Scratch图形化编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6902,15 +6883,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途Scratch图形化编程（小学组1-3年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6921,15 +6902,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途Scratch图形化编程（小学组1-3年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6940,15 +6921,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年星火征途Scratch图形化编程（小学组1-3年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6959,15 +6940,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Scratch图形化编程（小学组4-6年级）模拟卷（二）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6978,15 +6959,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年数字守艺人Scratch图形化编程（小学组4-6年级）模拟卷（三）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -6997,15 +6978,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026年智传民韵Scratch图形化编程（小学组4-6年级）模拟卷（一）",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7016,15 +6997,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人图形化小低组（小学1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7035,15 +7016,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛数字守艺人图形化小高组（小学4-6年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7054,15 +7035,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途图形化小低组（小学1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7073,15 +7054,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛智传民韵图形化小低组（小学1-3年级）复赛模拟卷（一）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7092,15 +7073,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
@@ -7111,72 +7092,34 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026信息素养大赛星火征途图形化小低组（小学1-3年级）复赛模拟卷（三）",
   "count": 14,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "模拟",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-657",
+  "id": "lele-1226",
   "subject": "info-scratch",
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Scratch编程挑战赛（小低组_复赛）真题",
-  "count": 6,
+  "yearmonth": "2025",
+  "year": "2025",
+  "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小低组_复赛）真题",
+  "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-658",
-  "subject": "info-scratch",
-  "subjectName": "信息素养Scratch",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）真题02",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-659",
-  "subject": "info-scratch",
-  "subjectName": "信息素养Scratch",
-  "level": 1,
-  "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）真题01",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -7187,15 +7130,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -7206,15 +7149,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）模拟题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7225,15 +7168,15 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小低组_复赛）模拟题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
    "progress": "未开始"
   }
@@ -7244,34 +7187,72 @@
   "subjectName": "信息素养Scratch",
   "level": 1,
   "levelName": "1级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小低组_复赛）模拟题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-1228",
+  "id": "lele-657",
   "subject": "info-scratch",
   "subjectName": "信息素养Scratch",
-  "level": 2,
-  "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小高组_复赛）真题",
-  "count": 10,
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Scratch编程挑战赛（小低组_复赛）真题",
+  "count": 6,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-658",
+  "subject": "info-scratch",
+  "subjectName": "信息素养Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）真题02",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-659",
+  "subject": "info-scratch",
+  "subjectName": "信息素养Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Scratch编程挑战赛（小低组_初赛）真题01",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
    "type": "真题",
    "progress": "未开始"
   }
@@ -7282,72 +7263,34 @@
   "subjectName": "信息素养Scratch",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2026",
+  "year": "2026",
   "title": "2026全国青少年信息素养大赛Scratch编程挑战赛（小高组_初赛）真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2026",
    "type": "真题",
    "progress": "未开始"
   }
  },
  {
-  "id": "lele-654",
+  "id": "lele-1228",
   "subject": "info-scratch",
   "subjectName": "信息素养Scratch",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Scratch算法创意实践挑战赛（小高组_复赛）真题",
-  "count": 6,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-655",
-  "subject": "info-scratch",
-  "subjectName": "信息素养Scratch",
-  "level": 2,
-  "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2024全国青少年信息素养大赛Scratch算法创意实践挑战赛（小高组_初赛）真题",
-  "count": 20,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-656",
-  "subject": "info-scratch",
-  "subjectName": "信息素养Scratch",
-  "level": 2,
-  "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023全国青少年信息素养大赛Scratch算法创意实践挑战赛（小高组_初赛）真题",
+  "yearmonth": "2025",
+  "year": "2025",
+  "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小高组_复赛）真题",
   "count": 10,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -7358,15 +7301,15 @@
   "subjectName": "信息素养Scratch",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小高组_初赛）真题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -7377,16 +7320,73 @@
   "subjectName": "信息素养Scratch",
   "level": 2,
   "levelName": "2级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025全国青少年信息素养大赛Scratch编程挑战赛（小高组_初赛）模拟题",
   "count": 20,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2025",
    "type": "模拟",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-654",
+  "subject": "info-scratch",
+  "subjectName": "信息素养Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Scratch算法创意实践挑战赛（小高组_复赛）真题",
+  "count": 6,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-655",
+  "subject": "info-scratch",
+  "subjectName": "信息素养Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "2024",
+  "year": "2024",
+  "title": "2024全国青少年信息素养大赛Scratch算法创意实践挑战赛（小高组_初赛）真题",
+  "count": 20,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-656",
+  "subject": "info-scratch",
+  "subjectName": "信息素养Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023全国青少年信息素养大赛Scratch算法创意实践挑战赛（小高组_初赛）真题",
+  "count": 10,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
    "progress": "未开始"
   }
  },
@@ -8574,53 +8574,15 @@
   "subjectName": "信息学奥赛",
   "level": 1,
   "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025 CSP-J入门级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-609",
-  "subject": "oi",
-  "subjectName": "信息学奥赛",
-  "level": 1,
-  "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023 CSP-J入门级（第一轮）C++真题",
-  "count": 4,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-610",
-  "subject": "oi",
-  "subjectName": "信息学奥赛",
-  "level": 1,
-  "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023 CSP-J入门级（第二轮）C++真题",
-  "count": 42,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8631,34 +8593,15 @@
   "subjectName": "信息学奥赛",
   "level": 1,
   "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2024",
+  "year": "2024",
   "title": "2024 CSP-J入门级（第一轮）C++真题",
   "count": 42,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-617",
-  "subject": "oi",
-  "subjectName": "信息学奥赛",
-  "level": 1,
-  "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2022 CSP-J入门级（第一轮）C++真题",
-  "count": 44,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
+   "year": "2024",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8669,15 +8612,72 @@
   "subjectName": "信息学奥赛",
   "level": 1,
   "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2024",
+  "year": "2024",
   "title": "2024 CSP-J入门级（第二轮）C++真题",
   "count": 4,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-609",
+  "subject": "oi",
+  "subjectName": "信息学奥赛",
+  "level": 1,
+  "levelName": "入门级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023 CSP-J入门级（第一轮）C++真题",
+  "count": 4,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-610",
+  "subject": "oi",
+  "subjectName": "信息学奥赛",
+  "level": 1,
+  "levelName": "入门级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023 CSP-J入门级（第二轮）C++真题",
+  "count": 42,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-617",
+  "subject": "oi",
+  "subjectName": "信息学奥赛",
+  "level": 1,
+  "levelName": "入门级",
+  "yearmonth": "2022",
+  "year": "2022",
+  "title": "2022 CSP-J入门级（第一轮）C++真题",
+  "count": 44,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8688,15 +8688,15 @@
   "subjectName": "信息学奥赛",
   "level": 1,
   "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2021",
+  "year": "2021",
   "title": "2021 CSP-J入门级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2021",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8707,15 +8707,15 @@
   "subjectName": "信息学奥赛",
   "level": 1,
   "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2020",
+  "year": "2020",
   "title": "2020 CSP-J入门级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2020",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8726,15 +8726,15 @@
   "subjectName": "信息学奥赛",
   "level": 1,
   "levelName": "入门级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2019",
+  "year": "2019",
   "title": "2019 CSP-J入门级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2019",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8745,72 +8745,15 @@
   "subjectName": "信息学奥赛",
   "level": 3,
   "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2025",
+  "year": "2025",
   "title": "2025 CSP-S提高级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-607",
-  "subject": "oi",
-  "subjectName": "信息学奥赛",
-  "level": 3,
-  "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023 CSP-S提高级（第一轮）C++真题",
-  "count": 43,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-608",
-  "subject": "oi",
-  "subjectName": "信息学奥赛",
-  "level": 3,
-  "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2023 CSP-S提高级（第二轮）C++真题",
-  "count": 4,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
-   "type": "真题",
-   "progress": "未开始"
-  }
- },
- {
-  "id": "lele-612",
-  "subject": "oi",
-  "subjectName": "信息学奥赛",
-  "level": 3,
-  "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
-  "title": "2022 CSP-S提高级（第一轮）C++真题",
-  "count": 43,
-  "durationMin": 60,
-  "totalScore": 100,
-  "passScore": 60,
-  "tags": {
-   "year": "",
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8821,15 +8764,72 @@
   "subjectName": "信息学奥赛",
   "level": 3,
   "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2024",
+  "year": "2024",
   "title": "2024 CSP-S提高级（第一轮）C++真题",
   "count": 42,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2024",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-607",
+  "subject": "oi",
+  "subjectName": "信息学奥赛",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023 CSP-S提高级（第一轮）C++真题",
+  "count": 43,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-608",
+  "subject": "oi",
+  "subjectName": "信息学奥赛",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "2023",
+  "year": "2023",
+  "title": "2023 CSP-S提高级（第二轮）C++真题",
+  "count": 4,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-612",
+  "subject": "oi",
+  "subjectName": "信息学奥赛",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "2022",
+  "year": "2022",
+  "title": "2022 CSP-S提高级（第一轮）C++真题",
+  "count": 43,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8840,15 +8840,15 @@
   "subjectName": "信息学奥赛",
   "level": 3,
   "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2021",
+  "year": "2021",
   "title": "2021 CSP-S提高级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2021",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8859,15 +8859,15 @@
   "subjectName": "信息学奥赛",
   "level": 3,
   "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2020",
+  "year": "2020",
   "title": "2020 CSP-S提高级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2020",
    "type": "真题",
    "progress": "未开始"
   }
@@ -8878,15 +8878,15 @@
   "subjectName": "信息学奥赛",
   "level": 3,
   "levelName": "3级",
-  "yearmonth": "",
-  "year": "",
+  "yearmonth": "2019",
+  "year": "2019",
   "title": "2019 CSP-S提高级（第一轮）C++真题",
   "count": 43,
   "durationMin": 60,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
-   "year": "",
+   "year": "2019",
    "type": "真题",
    "progress": "未开始"
   }
@@ -9082,6 +9082,63 @@
   }
  },
  {
+  "id": "lele-340",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202309",
+  "year": "2023",
+  "title": "202309 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-336",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-247",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "python-1-202209",
   "subject": "python",
   "subjectName": "Python",
@@ -9115,6 +9172,158 @@
   "passScore": 60,
   "tags": {
    "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-53",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-57",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-61",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202109",
+  "year": "2021",
+  "title": "202109 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-69",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-79",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-77",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Python一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-75",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202006",
+  "year": "2020",
+  "title": "202006 青少年软件编程等级考试Python一级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-81",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "201909",
+  "year": "2019",
+  "title": "201909 青少年软件编程等级考试Python一级真题",
+  "count": 50,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2019",
    "type": "真题",
    "progress": "未开始"
   }
@@ -9367,6 +9576,63 @@
   }
  },
  {
+  "id": "lele-343",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202309",
+  "year": "2023",
+  "title": "202309 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-337",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-248",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "python-2-202209",
   "subject": "python",
   "subjectName": "Python",
@@ -9381,6 +9647,139 @@
   "passScore": 60,
   "tags": {
    "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-54",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-58",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-62",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202109",
+  "year": "2021",
+  "title": "202109 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-70",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-80",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-78",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Python二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-76",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202006",
+  "year": "2020",
+  "title": "202006 青少年软件编程等级考试Python二级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
    "type": "真题",
    "progress": "未开始"
   }
@@ -9633,6 +10032,63 @@
   }
  },
  {
+  "id": "lele-344",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202309",
+  "year": "2023",
+  "title": "202309 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-338",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-334",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "python-3-202209",
   "subject": "python",
   "subjectName": "Python",
@@ -9647,6 +10103,120 @@
   "passScore": 60,
   "tags": {
    "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-55",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-89",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-91",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202109",
+  "year": "2021",
+  "title": "202109 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-93",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-96",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-95",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Python三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
    "type": "真题",
    "progress": "未开始"
   }
@@ -9899,6 +10469,63 @@
   }
  },
  {
+  "id": "lele-347",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202309",
+  "year": "2023",
+  "title": "202309 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-339",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-335",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "python-4-202209",
   "subject": "python",
   "subjectName": "Python",
@@ -9913,6 +10540,82 @@
   "passScore": 60,
   "tags": {
    "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-56",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-90",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-92",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202109",
+  "year": "2021",
+  "title": "202109 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-94",
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Python四级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
    "type": "真题",
    "progress": "未开始"
   }
@@ -10275,6 +10978,25 @@
   "tags": {
    "year": "模拟",
    "type": "模拟",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-1478",
+  "subject": "robot",
+  "subjectName": "电子学会机器人",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 青少年等级考试机器人理论真题一级",
+  "count": 45,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
    "progress": "未开始"
   }
  },
@@ -15466,6 +16188,272 @@
   }
  },
  {
+  "id": "lele-285",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-147",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-143",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202212",
+  "year": "2022",
+  "title": "202212 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-85",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202209",
+  "year": "2022",
+  "title": "202209 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-5",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202206",
+  "year": "2022",
+  "title": "202206 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-9",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-13",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-21",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202106",
+  "year": "2021",
+  "title": "202106 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-25",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-49",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch一级模拟题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "模拟",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-29",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-33",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-37",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202006",
+  "year": "2020",
+  "title": "202006 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-45",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "201912",
+  "year": "2019",
+  "title": "201912 青少年软件编程等级考试Scratch一级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2019",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "mock-scratch-1-1",
   "subject": "scratch",
   "subjectName": "Scratch",
@@ -15727,6 +16715,272 @@
   "passScore": 60,
   "tags": {
    "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-286",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-148",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-144",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202212",
+  "year": "2022",
+  "title": "202212 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-86",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202209",
+  "year": "2022",
+  "title": "202209 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-6",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202206",
+  "year": "2022",
+  "title": "202206 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-10",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-14",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-22",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202106",
+  "year": "2021",
+  "title": "202106 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-26",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-50",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch二级模拟题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "模拟",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-30",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-34",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-38",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202006",
+  "year": "2020",
+  "title": "202006 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-46",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "2019",
+  "year": "2019",
+  "title": "2019-12 青少年软件编程等级考试Scratch二级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2019",
    "type": "真题",
    "progress": "未开始"
   }
@@ -15998,6 +17252,139 @@
   }
  },
  {
+  "id": "lele-287",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-149",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-145",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202212",
+  "year": "2022",
+  "title": "202212 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-87",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202209",
+  "year": "2022",
+  "title": "202209 青少年软件编程等级考试Scratch三级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-7",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202206",
+  "year": "2022",
+  "title": "202206 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-11",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Scratch三级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-15",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "scratch-3-202109",
   "subject": "scratch",
   "subjectName": "Scratch",
@@ -16012,6 +17399,139 @@
   "passScore": 60,
   "tags": {
    "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-23",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202106",
+  "year": "2021",
+  "title": "202106 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-27",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch三级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-51",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch三级模拟题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "模拟",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-31",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-35",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-39",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202006",
+  "year": "2020",
+  "title": "202006 青少年软件编程等级考试Scratch三级真题",
+  "count": 38,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-47",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "201912",
+  "year": "2019",
+  "title": "201912 青少年软件编程等级考试Scratch三级真题",
+  "count": 37,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2019",
    "type": "真题",
    "progress": "未开始"
   }
@@ -16278,6 +17798,253 @@
   "passScore": 60,
   "tags": {
    "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-288",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202305",
+  "year": "2023",
+  "title": "202305 青少年软件编程等级考试Scratch四级真题",
+  "count": 24,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-150",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202303",
+  "year": "2023",
+  "title": "202303 青少年软件编程等级考试Scratch四级真题",
+  "count": 24,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-146",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202212",
+  "year": "2022",
+  "title": "202212 青少年软件编程等级考试Scratch四级真题",
+  "count": 28,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-88",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202209",
+  "year": "2022",
+  "title": "202209 青少年软件编程等级考试Scratch四级真题",
+  "count": 29,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-8",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202206",
+  "year": "2022",
+  "title": "202206 青少年软件编程等级考试Scratch四级真题",
+  "count": 29,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-12",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202203",
+  "year": "2022",
+  "title": "202203 青少年软件编程等级考试Scratch四级真题",
+  "count": 24,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2022",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-16",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202112",
+  "year": "2021",
+  "title": "202112 青少年软件编程等级考试Scratch四级真题",
+  "count": 30,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-24",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202106",
+  "year": "2021",
+  "title": "202106 青少年软件编程等级考试Scratch四级真题",
+  "count": 24,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-28",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202103",
+  "year": "2021",
+  "title": "202103 青少年软件编程等级考试Scratch四级真题",
+  "count": 29,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2021",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-32",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202012",
+  "year": "2020",
+  "title": "202012 青少年软件编程等级考试Scratch四级真题",
+  "count": 29,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-36",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202009",
+  "year": "2020",
+  "title": "202009 青少年软件编程等级考试Scratch四级真题",
+  "count": 30,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-40",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202006",
+  "year": "2020",
+  "title": "202006 青少年软件编程等级考试Scratch四级真题",
+  "count": 29,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2020",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-48",
+  "subject": "scratch",
+  "subjectName": "电子学会Scratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "201912",
+  "year": "2019",
+  "title": "201912 青少年软件编程等级考试Scratch四级真题",
+  "count": 30,
+  "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2019",
    "type": "真题",
    "progress": "未开始"
   }

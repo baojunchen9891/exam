@@ -748,6 +748,13 @@
   "subjectName": "电子学会Scratch",
   "title": "202206 青少年软件编程等级考试Scratch一级真题"
  },
+ "1472": {
+  "id": "1472",
+  "subjectid": 3,
+  "subject": "python",
+  "subjectName": "电子学会Python",
+  "title": "202606 青少年软件编程等级考试Python五级真题"
+ },
  "1470": {
   "id": "1470",
   "subjectid": 3,
@@ -1454,6 +1461,13 @@
   "subject": "python",
   "subjectName": "电子学会Python",
   "title": "202203 青少年软件编程等级考试Python一级真题"
+ },
+ "1478": {
+  "id": "1478",
+  "subjectid": 4,
+  "subject": "robot",
+  "subjectName": "电子学会机器人",
+  "title": "202606 青少年等级考试机器人理论真题一级"
  },
  "1406": {
   "id": "1406",
@@ -3281,6 +3295,20 @@
   "subject": "robot",
   "subjectName": "电子学会机器人",
   "title": "202209 青少年等级考试机器人理论真题一级"
+ },
+ "1476": {
+  "id": "1476",
+  "subjectid": 5,
+  "subject": "c",
+  "subjectName": "电子学会C语言",
+  "title": "202606 青少年等级考试C/C++真题五级"
+ },
+ "1474": {
+  "id": "1474",
+  "subjectid": 5,
+  "subject": "c",
+  "subjectName": "电子学会C语言",
+  "title": "202606 青少年等级考试C/C++真题三级"
  },
  "1468": {
   "id": "1468",
