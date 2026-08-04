@@ -1,9 +1,1 @@
-{
-  "name": "examApi",
-  "version": "1.0.0",
-  "description": "真题考试通 账号/审核聚合云函数",
-  "main": "index.js",
-  "dependencies": {
-    "@cloudbase/node-sdk": "latest"
-  }
-}
+ewogICJuYW1lIjogImV4YW1BcGkiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAi55yf6aKY6ICD6K+V6YCaIOi0puWPty/lrqHmoLjogZrlkIjkupHlh73mlbAiLAogICJtYWluIjogImluZGV4LmpzIiwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBjbG91ZGJhc2Uvbm9kZS1zZGsiOiAibGF0ZXN0IgogIH0KfQo=

@@ -1,6 +1,1 @@
-// CloudBase Web SDK 浏览器全局打包入口（esbuild 把 ESM 打成 IIFE，暴露 window.cloudbase）
-// 仓库外安装 esbuild 与 @cloudbase/js-sdk 后，执行：
-//   npx esbuild tools/build-cloudbase-sdk.cjs --bundle --format=iife --global-name=cloudbase \
-//     --platform=browser --minify --outfile=dist/assets/js/cloudbase.js
-const cloudbase = require("@cloudbase/js-sdk");
-module.exports = cloudbase;
+Ly8gQ2xvdWRCYXNlIFdlYiBTREsg5rWP6KeI5Zmo5YWo5bGA5omT5YyF5YWl5Y+j77yIZXNidWlsZCDmioogRVNNIOaJk+aIkCBJSUZF77yM5pq06ZyyIHdpbmRvdy5jbG91ZGJhc2XvvIkKLy8g5LuT5bqT5aSW5a6J6KOFIGVzYnVpbGQg5LiOIEBjbG91ZGJhc2UvanMtc2RrIOWQju+8jOaJp+ihjO+8mgovLyAgIG5weCBlc2J1aWxkIHRvb2xzL2J1aWxkLWNsb3VkYmFzZS1zZGsuY2pzIC0tYnVuZGxlIC0tZm9ybWF0PWlpZmUgLS1nbG9iYWwtbmFtZT1jbG91ZGJhc2UgXAovLyAgICAgLS1wbGF0Zm9ybT1icm93c2VyIC0tbWluaWZ5IC0tb3V0ZmlsZT1kaXN0L2Fzc2V0cy9qcy9jbG91ZGJhc2UuanMKY29uc3QgY2xvdWRiYXNlID0gcmVxdWlyZSgiQGNsb3VkYmFzZS9qcy1zZGsiKTsKbW9kdWxlLmV4cG9ydHMgPSBjbG91ZGJhc2U7Cg==
