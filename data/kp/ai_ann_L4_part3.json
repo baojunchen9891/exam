@@ -1,1 +1,140 @@
-ewogICJsZXZlbCI6IDQsCiAgIml0ZW1zIjogWwogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTQxNyIsCiAgICAgICJpZHgiOiA0LAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDEwLAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDEyLAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDEzLAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDE3LAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDIwLAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDIzLAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtNDE3IiwKICAgICAgImlkeCI6IDI0LAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA0LWtwMDkiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDQta3AwOSIsCiAgICAgICJub3RlIjogIuaooeaLnyIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtMzgxIiwKICAgICAgImlkeCI6IDAsCiAgICAgICJrcF9pZHMiOiBbCiAgICAgICAgImNwcDQta3AwOSIKICAgICAgXSwKICAgICAgInByaW1hcnlfa3AiOiAiY3BwNC1rcDA5IiwKICAgICAgIm5vdGUiOiAi5qih5oufIgogICAgfSwKICAgIHsKICAgICAgInBhcGVySWQiOiAibGVsZS0zODEiLAogICAgICAiaWR4IjogMSwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNC1rcDA5IgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA0LWtwMDkiLAogICAgICAibm90ZSI6ICLmqKHmi58iCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MSIsCiAgICAgICJpZHgiOiAxMiwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNC1rcDA5IgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA0LWtwMDkiLAogICAgICAibm90ZSI6ICLmqKHmi58iCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MSIsCiAgICAgICJpZHgiOiAxMywKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNC1rcDA5IgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA0LWtwMDkiLAogICAgICAibm90ZSI6ICLmqKHmi58iCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MSIsCiAgICAgICJpZHgiOiAxNywKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNC1rcDA1IgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA0LWtwMDUiLAogICAgICAibm90ZSI6ICLlh73mlbDpgJLlvZIiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MSIsCiAgICAgICJpZHgiOiAyMiwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNC1rcDA1IgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA0LWtwMDUiLAogICAgICAibm90ZSI6ICLlh73mlbDpgJLlvZIiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MSIsCiAgICAgICJpZHgiOiAyMywKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNC1rcDA5IgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA0LWtwMDkiLAogICAgICAibm90ZSI6ICLmqKHmi58iCiAgICB9CiAgXQp9
+{
+  "level": 4,
+  "items": [
+    {
+      "paperId": "lele-417",
+      "idx": 4,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 10,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 12,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 13,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 17,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 20,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 23,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-417",
+      "idx": 24,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 0,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 1,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 12,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 13,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 17,
+      "kp_ids": [
+        "cpp4-kp05"
+      ],
+      "primary_kp": "cpp4-kp05",
+      "note": "函数递归"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 22,
+      "kp_ids": [
+        "cpp4-kp05"
+      ],
+      "primary_kp": "cpp4-kp05",
+      "note": "函数递归"
+    },
+    {
+      "paperId": "lele-381",
+      "idx": 23,
+      "kp_ids": [
+        "cpp4-kp09"
+      ],
+      "primary_kp": "cpp4-kp09",
+      "note": "模拟"
+    }
+  ]
+}
