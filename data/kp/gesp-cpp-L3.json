@@ -1,1 +1,136 @@
-ewogInN1YmplY3QiOiAiZ2VzcC1jcHAiLAogImxldmVsIjogMywKICJ2ZXJzaW9uIjogIjIwMjYtMDgiLAogInN0YXR1cyI6ICJjb25maXJtZWQiLAogImNvbmZpcm1lZEJ5IjogInVzZXItY29uZmlybWVkQDIwMjYtMDgtMDUiLAogIm5vdGUiOiAi6I2J5qGI77yM5b6F5pWZ56CU56Gu6K6kL+WinuWHj++8iOWMuumXtOWuiCAxNeKAkzI1IOS4qu+8ieOAgmlkIOeos+WumuWQjumYtuautTDmoIfms6jku6XmraTkuLrlh4bjgILlt7Lnoa7orqQgMjAyNi0wOC0wNe+8iOaVmeeglOe7iOWuoe+8jGlkIOmUgeWumu+8ieOAgiIsCiAia3AiOiBbCiAgewogICAiaWQiOiAiY3BwMy1rcDAxIiwKICAgIm5hbWUiOiAi5LiA57u05pWw57uE6L+b6Zi2IiwKICAgImNhdGVnb3J5IjogIuaVsOe7hOS4juWtl+espuS4siIsCiAgICJkZXNjIjogIuaVsOe7hOWumuS5ieOAgeWIneWni+WMluOAgeS4i+agh+mBjeWOhuOAgei+ueeVjOS4jui2iueVjOaEj+ivhiIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AwMiIsCiAgICJuYW1lIjogIuS6jOe7tOaVsOe7hC/nn6npmLUiLAogICAiY2F0ZWdvcnkiOiAi5pWw57uE5LiO5a2X56ym5LiyIiwKICAgImRlc2MiOiAi55+p6Zi15a2Y5YKo44CB6KGM5YiX6YGN5Y6G44CB6L6555WM5aSE55CG5LiO566A5Y2V55+p6Zi16L+Q566XIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDAzIiwKICAgIm5hbWUiOiAi5a2X56ym5pWw57uE5LiO5a2X56ym5Liy5Z+656GAIiwKICAgImNhdGVnb3J5IjogIuaVsOe7hOS4juWtl+espuS4siIsCiAgICJkZXNjIjogIuWtl+espuaVsOe7hOOAgWNpbi9nZXRsaW5lIOivu+WPluOAgemBjeWOhuS4jueugOWNleWtl+espuWkhOeQhiIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AwNCIsCiAgICJuYW1lIjogInN0cmluZyDlrZfnrKbkuLLov5vpmLYiLAogICAiY2F0ZWdvcnkiOiAi5pWw57uE5LiO5a2X56ym5LiyIiwKICAgImRlc2MiOiAi5a2X56ym5Liy5ou85o6l44CB5p+l5om+44CB5a2Q5Liy44CB6ZW/5bqm5LiO5pWw5YC86L2s5o2iIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDA1IiwKICAgIm5hbWUiOiAi5Ye95pWw5a6a5LmJ5LiO6LCD55SoIiwKICAgImNhdGVnb3J5IjogIuWHveaVsOS4jumAkuW9kiIsCiAgICJkZXNjIjogIuWHveaVsOWjsOaYjuOAgeWPguaVsOS8oOmAkijlgLwv5byV55SoKeOAgei/lOWbnuWAvOS4jui/lOWbnuWAvOexu+WeiyIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AwNiIsCiAgICJuYW1lIjogIuWHveaVsOmAkuW9kiIsCiAgICJjYXRlZ29yeSI6ICLlh73mlbDkuI7pgJLlvZIiLAogICAiZGVzYyI6ICLpgJLlvZLmgJ3mg7PjgIHovrnnlYwv57uI5q2i5p2h5Lu244CB6Zi25LmYL+aWkOazoumCo+WlkS/msYnor7rloZTliJ3mraUiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAzLWtwMDciLAogICAibmFtZSI6ICLlj5jph4/kvZznlKjln5/kuI7nlJ/lkb3lkajmnJ8iLAogICAiY2F0ZWdvcnkiOiAi5Z+656GA6K+t5rOVIiwKICAgImRlc2MiOiAi5bGA6YOoL+WFqOWxgOWPmOmHj+OAgeS9nOeUqOWfn+iMg+WbtOOAgXN0YXRpYyDliJ3mraUiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAzLWtwMDgiLAogICAibmFtZSI6ICLnu5PmnoTkvZMgc3RydWN0IiwKICAgImNhdGVnb3J5IjogIue7k+aehOS9k+WFpemXqCIsCiAgICJkZXNjIjogIuiHquWumuS5ieWkjeWQiOexu+Wei+OAgeaIkOWRmOiuv+mXruOAgee7k+aehOS9k+aVsOe7hCIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AwOSIsCiAgICJuYW1lIjogIuaMh+mSiOWfuuehgCIsCiAgICJjYXRlZ29yeSI6ICLmjIfpkojln7rnoYAiLAogICAiZGVzYyI6ICLmjIfpkojlrprkuYnjgIHlj5blnLDlnYDnrKbjgIHop6PlvJXnlKjjgIHmjIfpkojkuI7lj5jph4/lhbPns7siCiAgfSwKICB7CiAgICJpZCI6ICJjcHAzLWtwMTAiLAogICAibmFtZSI6ICLmjIfpkojkuI7mlbDnu4QiLAogICAiY2F0ZWdvcnkiOiAi5oyH6ZKI5Z+656GAIiwKICAgImRlc2MiOiAi5oyH6ZKI6YGN5Y6G5LiA57u05pWw57uE44CB5pWw57uE5ZCN5LiO5oyH6ZKI5YWz57O744CB5LqM57u05pWw57uE5LiO5oyH6ZKI5Yid5q2lIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDExIiwKICAgIm5hbWUiOiAi5YaS5rOh5o6S5bqPIiwKICAgImNhdGVnb3J5IjogIuaOkuW6j+afpeaJviIsCiAgICJkZXNjIjogIuebuOmCu+avlOi+g+S6pOaNouOAgeeos+WumuaAp+S4jui2n+aVsOeQhuinoyIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AxMiIsCiAgICJuYW1lIjogIumAieaLqeaOkuW6jyIsCiAgICJjYXRlZ29yeSI6ICLmjpLluo/mn6Xmib4iLAogICAiZGVzYyI6ICLpgInmnIDlgLzkuqTmjaLliLDmnKrmjpLluo/pppbkvY3nmoTmgJ3ot6/kuI7lrp7njrAiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAzLWtwMTMiLAogICAibmFtZSI6ICLmj5LlhaXmjpLluo8iLAogICAiY2F0ZWdvcnkiOiAi5o6S5bqP5p+l5om+IiwKICAgImRlc2MiOiAi5aKe6YeP5o+S5YWl5L2/5YmN5q615L+d5oyB5pyJ5bqP55qE5oCd6Lev5LiO5a6e546wIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDE0IiwKICAgIm5hbWUiOiAi5o6S5bqP5oCd5oOz5LiO5b+r5o6S5YWl6ZeoIiwKICAgImNhdGVnb3J5IjogIuaOkuW6j+afpeaJviIsCiAgICJkZXNjIjogIuWIhuayu+aAneaDs+OAgeWfuuWHhuWIkuWIhuWIneatpSjkuI3opoHmsYLlrozmlbTlv6vmjpLlrp7njrApIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDE1IiwKICAgIm5hbWUiOiAi6aG65bqP5p+l5om+IiwKICAgImNhdGVnb3J5IjogIuaOkuW6j+afpeaJviIsCiAgICJkZXNjIjogIue6v+aAp+aJq+aPj+afpeaJvuOAgeWtmOWcqOaAp+S4juS9jee9rui/lOWbniIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AxNiIsCiAgICJuYW1lIjogIuS6jOWIhuafpeaJviIsCiAgICJjYXRlZ29yeSI6ICLmjpLluo/mn6Xmib4iLAogICAiZGVzYyI6ICLmnInluo/ljLrpl7TmipjljYrmn6Xmib7jgIHlt6blj7PovrnnlYzkuI7lvqrnjq/nu4jmraLmnaHku7YiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAzLWtwMTciLAogICAibmFtZSI6ICLov5vliLbovazmjaIiLAogICAiY2F0ZWdvcnkiOiAi6L+b5Yi25LiO5L2N6L+Q566XIiwKICAgImRlc2MiOiAi5LqML+WFqy/ljYEv5Y2B5YWt6L+b5Yi25LqS6L2s44CB5L2N5p2D5LiO5oyJ5p2D5bGV5byAIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDE4IiwKICAgIm5hbWUiOiAi5L2N6L+Q566X5Yid5q2lIiwKICAgImNhdGVnb3J5IjogIui/m+WItuS4juS9jei/kOeulyIsCiAgICJkZXNjIjogIiYgfCBeIH4gPDwgPj4g5Z+65pys6L+Q566X5LiO5aWH5YG2L+aOqeeggeetieeugOWNleW6lOeUqCIKICB9LAogIHsKICAgImlkIjogImNwcDMta3AxOSIsCiAgICJuYW1lIjogIuaemuS4vueul+azlSIsCiAgICJjYXRlZ29yeSI6ICLmnprkuL7mqKHmi58iLAogICAiZGVzYyI6ICLmmrTlipvmnprkuL7jgIHnirbmgIHnqbrpl7TpgY3ljobkuI7mnIDlgLznu5/orqEiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAzLWtwMjAiLAogICAibmFtZSI6ICLmqKHmi5/nrpfms5UiLAogICAiY2F0ZWdvcnkiOiAi5p6a5Li+5qih5oufIiwKICAgImRlc2MiOiAi5oyJ6aKY5oSP6YCQ5q2l5qih5ouf6L+H56iL44CB5aSE55CG6L6T5YWl6L6T5Ye65rWB56iLIgogIH0sCiAgewogICAiaWQiOiAiY3BwMy1rcDIxIiwKICAgIm5hbWUiOiAi57u85ZCI5bqU55SoIiwKICAgImNhdGVnb3J5IjogIue7vOWQiOW6lOeUqCIsCiAgICJkZXNjIjogIuWkmuefpeivhueCuee7hOWQiCjmlbDnu4Qr57uT5p6E5L2TK+aOkuW6jy/mn6Xmib4p6Kej5Yaz5a6e6ZmF6Zeu6aKYIgogIH0KIF0KfQ==
+{
+ "subject": "gesp-cpp",
+ "level": 3,
+ "version": "2026-08",
+ "status": "confirmed",
+ "confirmedBy": "user-confirmed@2026-08-05",
+ "note": "草案，待教研确认/增减（区间守 15–25 个）。id 稳定后阶段0标注以此为准。已确认 2026-08-05（教研终审，id 锁定）。",
+ "kp": [
+  {
+   "id": "cpp3-kp01",
+   "name": "一维数组进阶",
+   "category": "数组与字符串",
+   "desc": "数组定义、初始化、下标遍历、边界与越界意识"
+  },
+  {
+   "id": "cpp3-kp02",
+   "name": "二维数组/矩阵",
+   "category": "数组与字符串",
+   "desc": "矩阵存储、行列遍历、边界处理与简单矩阵运算"
+  },
+  {
+   "id": "cpp3-kp03",
+   "name": "字符数组与字符串基础",
+   "category": "数组与字符串",
+   "desc": "字符数组、cin/getline 读取、遍历与简单字符处理"
+  },
+  {
+   "id": "cpp3-kp04",
+   "name": "string 字符串进阶",
+   "category": "数组与字符串",
+   "desc": "字符串拼接、查找、子串、长度与数值转换"
+  },
+  {
+   "id": "cpp3-kp05",
+   "name": "函数定义与调用",
+   "category": "函数与递归",
+   "desc": "函数声明、参数传递(值/引用)、返回值与返回值类型"
+  },
+  {
+   "id": "cpp3-kp06",
+   "name": "函数递归",
+   "category": "函数与递归",
+   "desc": "递归思想、边界/终止条件、阶乘/斐波那契/汉诺塔初步"
+  },
+  {
+   "id": "cpp3-kp07",
+   "name": "变量作用域与生命周期",
+   "category": "基础语法",
+   "desc": "局部/全局变量、作用域范围、static 初步"
+  },
+  {
+   "id": "cpp3-kp08",
+   "name": "结构体 struct",
+   "category": "结构体入门",
+   "desc": "自定义复合类型、成员访问、结构体数组"
+  },
+  {
+   "id": "cpp3-kp09",
+   "name": "指针基础",
+   "category": "指针基础",
+   "desc": "指针定义、取地址符、解引用、指针与变量关系"
+  },
+  {
+   "id": "cpp3-kp10",
+   "name": "指针与数组",
+   "category": "指针基础",
+   "desc": "指针遍历一维数组、数组名与指针关系、二维数组与指针初步"
+  },
+  {
+   "id": "cpp3-kp11",
+   "name": "冒泡排序",
+   "category": "排序查找",
+   "desc": "相邻比较交换、稳定性与趟数理解"
+  },
+  {
+   "id": "cpp3-kp12",
+   "name": "选择排序",
+   "category": "排序查找",
+   "desc": "选最值交换到未排序首位的思路与实现"
+  },
+  {
+   "id": "cpp3-kp13",
+   "name": "插入排序",
+   "category": "排序查找",
+   "desc": "增量插入使前段保持有序的思路与实现"
+  },
+  {
+   "id": "cpp3-kp14",
+   "name": "排序思想与快排入门",
+   "category": "排序查找",
+   "desc": "分治思想、基准划分初步(不要求完整快排实现)"
+  },
+  {
+   "id": "cpp3-kp15",
+   "name": "顺序查找",
+   "category": "排序查找",
+   "desc": "线性扫描查找、存在性与位置返回"
+  },
+  {
+   "id": "cpp3-kp16",
+   "name": "二分查找",
+   "category": "排序查找",
+   "desc": "有序区间折半查找、左右边界与循环终止条件"
+  },
+  {
+   "id": "cpp3-kp17",
+   "name": "进制转换",
+   "category": "进制与位运算",
+   "desc": "二/八/十/十六进制互转、位权与按权展开"
+  },
+  {
+   "id": "cpp3-kp18",
+   "name": "位运算初步",
+   "category": "进制与位运算",
+   "desc": "& | ^ ~ << >> 基本运算与奇偶/掩码等简单应用"
+  },
+  {
+   "id": "cpp3-kp19",
+   "name": "枚举算法",
+   "category": "枚举模拟",
+   "desc": "暴力枚举、状态空间遍历与最值统计"
+  },
+  {
+   "id": "cpp3-kp20",
+   "name": "模拟算法",
+   "category": "枚举模拟",
+   "desc": "按题意逐步模拟过程、处理输入输出流程"
+  },
+  {
+   "id": "cpp3-kp21",
+   "name": "综合应用",
+   "category": "综合应用",
+   "desc": "多知识点组合(数组+结构体+排序/查找)解决实际问题"
+  }
+ ]
+}
