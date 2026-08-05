@@ -1,1 +1,41 @@
-IyDogIPnuqfnvZHnq5kgwrcg5YWoIDgg57qn55yf6aKY5qCH5rOoICsg6K+K5pat6IyD5Zu05omp5aSn77yIMjAyNi0wOC0wNe+8iQoKIyMg5pys6L2u5a6M5oiQ77yI55So5oi35oyH5Luk77ya4pGgIDExNyDooYzmnKrlvZLnsbvmjInmnIDmlrDogIPngrnmuIXljZXmoIfms6jjgIFOT05FIOW/veeVpSDikaEgTDEvMi8zLzYvNy84IOecn+mimOagh+azqOOAgeaJqeWkp+iviuaWreiMg+WbtO+8iQoKIyMjIDEuIOWFqCA4IOe6p+iAg+eCueagh+azqO+8iOmYtuautTDvvIkKLSAqKjgg5Lu96ICD54K56KGoIGBnZXNwLWNwcC1MMX5MOC5qc29uYCDlt7IgY29uZmlybWVkKirvvIgxNjcg5Liq5ZSv5LiAIGlk77yM5LiK5LiA6L2u6ZSB5a6a77yJ44CCCi0gKirnnJ/popjmoIfms6jlhajph4/lrozmiJAqKu+8mmBhbm5vdGF0ZV9pbnB1dC5qc29uYCDlhbEgKioyMjUwIOmimCoq5YWo5pyJIGBrcF9pZHNg77yMKiowIOacquW9kuexu+OAgTAg5byC5bi4KirjgIIKICAtIOWIhuW4g++8mkwx4oCTTDgg5q+P57qn5ZCEIDI1MCDpopjvvIjlt7LmjpLpmaTlkITljbcgYW5zd2VyPU5PTkUg55qE57yW56iL5aSn6aKYIDExNiDpgZPvvIzmjInnlKjmiLfmjIfku6Qi5b+955Wl5qCH5rOoIu+8ieOAggogIC0g5p2l5rqQ77yaMTk3OCDpopggQUkg5Yid5qCH77yIMzMg5YiG5Z2X5bm26KGMIEFnZW50ICsgMSDkuKrooaXmoIcgZml4IOWdl++8iSsgMjcyIOmimOS4iuS4gOi9riBMNC9MNSDml6fmoIfkv53nlZnjgIIKLSAqKuaVsOaNruiHqua0veagoemqjCoq77ya6K+V5Y235paH5Lu2IGBkaXN0L2RhdGEvcGFwZXJzLyouanNvbmAg5LitIDIyNTAg6YGT6Z2eIE5PTkUg6aKYIDEwMCUg5bimIGBrcF9pZHNg77yM5LiOIGBhbm5vdGF0ZV9pbnB1dGAg57K+56Gu5a+55bqU77ybMTE2IOmBkyBOT05FIOmimOW3sua4hembtiBrcF9pZHPvvIjmuIXmjonkuIrkuIDova7or6/moIfnmoQgMTYg6YGTIGlkeDI1LzI2IOe8lueoi+Wkp+mimO+8ieOAggotICoq5p2D6YeN6KGoIGBrcF93ZWlnaHQuanNvbmAqKiDph43nrpfvvJropobnm5blhaggOCDnuqcgOTIg5Liq5pyJ5ZG95Lit55qE6ICD54K577yI5YW25L2ZIDc1IOS4quihpem9kOS4uiAw77yJ44CCCgojIyMgMi4g566h57q/5rOb5YyW5LiO6LSo6YeP5L+u5aSNCi0gYGtwX2V4cG9ydCAvIHByZXBfYWlfY2h1bmtzIC8gbWVyZ2VfYWlfYW5uIC8ga3BfdmFsaWRhdGVgIOS7jiBMNC9MNSDnoaznvJbnoIEg4oaSICoqbGV2ZWwg6amx5YqoKirvvIjor7vlhajpg6ggYGdlc3AtY3BwLUwqLmpzb25g77yJ44CCCi0gYG1lcmdlX2FpX2Fubi5weWDvvJrkv67lpI0i5pen5qCH5rOo5L+d55WZIuiiq+ivr+aUueWkh+azqOeahOmXrumimO+8m+WkjeWQiOS4u+mUriBgKHBhcGVySWQsIGlkeClgIOWvuem9kOOAggotICoq6KeE5YiZ5byV5pOOIGBydWxlX3Byb2IuanNgIOS/ruWkje+8iOecnyBidWfvvIkqKu+8muWOn+WBh+iuviByYXRpbyDlhajlsYDlkow9Me+8jOS9hiBrcF93ZWlnaHQg5oyJ6ICD6K+V5YmN57yA5ZCE6Ieq5b2S5LiA77yIY3BwND0x44CBY3BwNT0x4oCm77yJ77yM5re35ZCI5aSa57qn6K+K5pat5pe25p2D6YeN5ZKMPTIg4oaSICLlr7nkuIDljYoi6KKr566X5oiQ6Jma5YGHIDAuOTjjgILmlLnkuLrmjIki5pys5qyh6KKr5rWL6ICD54K56ZuG5ZCIIumHjeaWsOW9kuS4gOOAggogIC0g5YWoIDgg57qn6Ieq5qOA77ya5YWo5a+54oaSMC45OOOAgeWFqOmUmeKGkjAuMDXjgIHpmo/mnLrlnYflgLwgMC43N+KAkzAuODPvvIjiiYgwLjUvMC4277yJ77yM5pat6KiA5YWo6L+H44CCCi0g6KGl5qCHIDE2IOmimOa8j+a0nu+8mkwxX3BhcnQ0IEFnZW50IOa8j+aghyBsZWxlLTM3OCBpZHgwLTTjgIFsZWxlLTQxNCBpZHgyLDE1LTI077yM5bey5Y2V54us6KGl5qCH5b2S5L2N44CCCgojIyMgMy4g6K+K5pat6IyD5Zu05omp5aSn77yI6Zi25q61MSDihpIg5YWoIDgg57qn77yJCi0gYGRpYWdub3N0aWMuanNg77yaYENGRy5sZXZlbHM9WzQsNV1gIOKGkiAqKue6p+WIq+mAieaLqeWZqCBMMeKAk0w4KirvvIjpu5jorqQgTDTvvInvvIzor4rmlq3ml7blj6rmir3or6XnuqfnnJ/popjvvJvogIPngrnlkI3mmKDlsITjgIHmlZnluIjmi43ljLrpl7TlkIzmraXmianliLDlhaggOCDnuqfjgIIKLSBgZGlhZ25vc3RpYy5odG1sYCAvIGBkaWFnbm9zdGljLmNzc2DvvJppbnRybyDliqDnuqfliKvpgInmi6noiq/niYfvvIhMMeKAk0w477yJ77yM5paH5qGI5pu05paw5Li6IuS4gOiHs+WFq+e6p+S7u+mAiSLjgIIKLSDooYzkuLrvvJrnlKjmiLflhYjpgInnuqfliKsg4oaSIDMyIOmimOmSiOWvueivpee6pyDihpIg6KeE5YiZ5byV5pOO566XIFAg4oaSIOiWhOW8seiAg+eCuSBUb3A144CCCgojIyMgNC4g5Zyo57q/6KGo5a6h6K6h77yI6IW+6K6v5paH5qGj77yJCi0g5qCH5rOo6KGo77yaKioyMjUwIOihjCoq77yIQUnliJ3moIct5b6F5a6h5qC477yJ77yM5bey5o6o6YCB44CCCi0g6ICD54K55riF5Y2V77yaKipMMeKAk0w4IOWFqOmHjyAxNjcg6KGMKirvvIjliLfmlrDkv67lpI3kuobkuIDlpIQi6buY6K6k5o6o6YCB6KaG55uW5ZueIDQyIOihjCLnmoTpobrluo/lnZHvvInjgIIKLSDloavlhpnor7TmmI7vvJo4IOihjOOAggotIOmTvuaOpe+8mmh0dHBzOi8vZG9jcy5xcS5jb20vc2hlZXQvRFkxTkdURXR6YUUxU1IxTlgKCiMjIOW8gOaUvumhuSAvIOW+heeUqOaItwoxLiAqKuWuoeiuoeWFqOmDqCBBSSDliJ3moIcqKu+8mjIyNTAg6aKY5Z2H5Li6ICJBSeWIneaghy3lvoXlrqHmoLgi77yM6K+35Zyo5Zyo57q/6KGo6YCQ6aKYL+aKveagt+agoemqjO+8m+aXoOivr+WQjui3kSBgdGRvY19wdWxsX2Fubm90YXRpb24ucHkgLS1hcHBseWAgKyBga3BfdmFsaWRhdGUucHkgLS1zdHJpY3RgIOWbuuWMluOAggoyLiAqKuiviuaWremhteWKoOi9vSoq77yaYGxvYWRCYW5rYCDnjrDliqDovb3lhajpg6ggOTAg5aWX5Y2377yIMjI1MCDpopjvvInvvIzmtY/op4jlmajnq68gOTAg5qyhIGZldGNo77yb5aaC6ZyA5o+Q6YCf5Y+v5pS55Li65oyJ6ZyA5oyJ57qn5oeS5Yqg6L2977yI5bey55+l5LyY5YyW54K577yM6Z2e6Zi75aGe77yJ44CCCjMuICoqTk9ORSDpopjkuI3orqHlhaXor4rmlq0qKu+8muiviuaWreebruWJjeWvuee8lueoi+Wkp+mimCBgZ3JhZGVPbmVgIOi/lOWbniBudWxs77yI5LiN6K6h5YiG77yJ77yM5oq95qC35Y+v6IO95ZCr6Z2e6Ieq5Yqo6aKY77yb5aaC6ZyA57qv6YCJ5oup6K+K5pat5Y+v5ZyoIGBzZWxlY3RRdWVzdGlvbnNgIOWKoCBgYXV0b2Ag6L+H5ruk77yI5bey55+l5LyY5YyW54K577yJ44CCCjQuIGdpdCDmlLnliqjnuqYgMTk3IOS4quaWh+S7tu+8iOivleWNt+agh+azqCArIOiEmuacrCArIOWJjeerryArIOadg+mHje+8ie+8jOW+heS9oCByZXZpZXcg5ZCO5o+Q5Lqk44CCCgojIyDlhbPplK7mlofku7YKLSDmlbDmja7vvJpgZGF0YS9rcC9hbm5vdGF0ZV9pbnB1dC5qc29uYOOAgWBkYXRhL2twL2dlc3AtY3BwLUwxfkw4Lmpzb25g44CBYGRpc3QvZGF0YS9rcF93ZWlnaHQuanNvbmAKLSDor5XljbfvvJpgZGlzdC9kYXRhL3BhcGVycy9sZWxlLSouanNvbmDvvIg5MCDlpZcgZ2VzcC1jcHAg5bey5qCH77yJCi0g6ISa5pys77yaYGJ1aWxkL2twX2V4cG9ydC5weWDjgIFgYnVpbGQvcHJlcF9haV9jaHVua3MucHlg44CBYGJ1aWxkL21lcmdlX2FpX2Fubi5weWDjgIFgYnVpbGQva3BfdmFsaWRhdGUucHlg44CBYGJ1aWxkL2twX2JhY2tmaWxsLnB5YOOAgWBidWlsZC9rcF9zdGF0cy5weWDjgIFgYnVpbGQvcHVzaF90b190ZG9jLnB5YAotIOWJjeerr++8mmBkaXN0L2RpYWdub3N0aWMuaHRtbGDjgIFgZGlzdC9hc3NldHMvanMvZGlhZ25vc3RpYy5qc2DjgIFgZGlzdC9hc3NldHMvY3NzL2RpYWdub3N0aWMuY3NzYOOAgWBkaXN0L2Fzc2V0cy9qcy9ydWxlX3Byb2IuanNgCg==
+# 考级网站 · 全 8 级真题标注 + 诊断范围扩大（2026-08-05）
+
+## 本轮完成（用户指令：① 117 行未归类按最新考点清单标注、NONE 忽略 ② L1/2/3/6/7/8 真题标注、扩大诊断范围）
+
+### 1. 全 8 级考点标注（阶段0）
+- **8 份考点表 `gesp-cpp-L1~L8.json` 已 confirmed**（167 个唯一 id，上一轮锁定）。
+- **真题标注全量完成**：`annotate_input.json` 共 **2250 题**全有 `kp_ids`，**0 未归类、0 异常**。
+  - 分布：L1–L8 每级各 250 题（已排除各卷 answer=NONE 的编程大题 116 道，按用户指令"忽略标注"）。
+  - 来源：1978 题 AI 初标（33 分块并行 Agent + 1 个补标 fix 块）+ 272 题上一轮 L4/L5 旧标保留。
+- **数据自洽校验**：试卷文件 `dist/data/papers/*.json` 中 2250 道非 NONE 题 100% 带 `kp_ids`，与 `annotate_input` 精确对应；116 道 NONE 题已清零 kp_ids（清掉上一轮误标的 16 道 idx25/26 编程大题）。
+- **权重表 `kp_weight.json`** 重算：覆盖全 8 级 92 个有命中的考点（其余 75 个补齐为 0）。
+
+### 2. 管线泛化与质量修复
+- `kp_export / prep_ai_chunks / merge_ai_ann / kp_validate` 从 L4/L5 硬编码 → **level 驱动**（读全部 `gesp-cpp-L*.json`）。
+- `merge_ai_ann.py`：修复"旧标注保留"被误改备注的问题；复合主键 `(paperId, idx)` 对齐。
+- **规则引擎 `rule_prob.js` 修复（真 bug）**：原假设 ratio 全局和=1，但 kp_weight 按考试前缀各自归一（cpp4=1、cpp5=1…），混合多级诊断时权重和=2 → "对一半"被算成虚假 0.98。改为按"本次被测考点集合"重新归一。
+  - 全 8 级自检：全对→0.98、全错→0.05、随机均值 0.77–0.83（≈0.5/0.6），断言全过。
+- 补标 16 题漏洞：L1_part4 Agent 漏标 lele-378 idx0-4、lele-414 idx2,15-24，已单独补标归位。
+
+### 3. 诊断范围扩大（阶段1 → 全 8 级）
+- `diagnostic.js`：`CFG.levels=[4,5]` → **级别选择器 L1–L8**（默认 L4），诊断时只抽该级真题；考点名映射、教师拍区间同步扩到全 8 级。
+- `diagnostic.html` / `diagnostic.css`：intro 加级别选择芯片（L1–L8），文案更新为"一至八级任选"。
+- 行为：用户先选级别 → 32 题针对该级 → 规则引擎算 P → 薄弱考点 Top5。
+
+### 4. 在线表审计（腾讯文档）
+- 标注表：**2250 行**（AI初标-待审核），已推送。
+- 考点清单：**L1–L8 全量 167 行**（刷新修复了一处"默认推送覆盖回 42 行"的顺序坑）。
+- 填写说明：8 行。
+- 链接：https://docs.qq.com/sheet/DY1NGTEtzaE1SR1NX
+
+## 开放项 / 待用户
+1. **审计全部 AI 初标**：2250 题均为 "AI初标-待审核"，请在在线表逐题/抽样校验；无误后跑 `tdoc_pull_annotation.py --apply` + `kp_validate.py --strict` 固化。
+2. **诊断页加载**：`loadBank` 现加载全部 90 套卷（2250 题），浏览器端 90 次 fetch；如需提速可改为按需按级懒加载（已知优化点，非阻塞）。
+3. **NONE 题不计入诊断**：诊断目前对编程大题 `gradeOne` 返回 null（不计分），抽样可能含非自动题；如需纯选择诊断可在 `selectQuestions` 加 `auto` 过滤（已知优化点）。
+4. git 改动约 197 个文件（试卷标注 + 脚本 + 前端 + 权重），待你 review 后提交。
+
+## 关键文件
+- 数据：`data/kp/annotate_input.json`、`data/kp/gesp-cpp-L1~L8.json`、`dist/data/kp_weight.json`
+- 试卷：`dist/data/papers/lele-*.json`（90 套 gesp-cpp 已标）
+- 脚本：`build/kp_export.py`、`build/prep_ai_chunks.py`、`build/merge_ai_ann.py`、`build/kp_validate.py`、`build/kp_backfill.py`、`build/kp_stats.py`、`build/push_to_tdoc.py`
+- 前端：`dist/diagnostic.html`、`dist/assets/js/diagnostic.js`、`dist/assets/css/diagnostic.css`、`dist/assets/js/rule_prob.js`
