@@ -1,1 +1,224 @@
-Lyog5YWN6LS56IO95Yqb6K+K5pat5rWB56iL77yI6Zi25q61MSBXNO+8iQogKiDmir0gMzDigJMzNSDpopjvvIjpu5jorqQgMzLvvInihpIg562U6aKYIOKGkiDop4TliJnlvJXmk47nrpcgUCDihpIg5oql5ZGKICsg5Lya5ZGY6ZKp5a2QICsg5pWZ5biI5ouN5Yy66Ze06YeH6ZuG44CCCiAqIOS+nei1lu+8mkVYQU0oY29tbW9uLmpzKSAvIFJ1bGVQcm9iKHJ1bGVfcHJvYi5qcykgLyBSZXBvcnQocmVwb3J0LmpzKSAvIE1lbWJlcnNoaXAgLyBBbmFseXRpY3PjgIIKICog5pyq55m75b2V5Lmf5Y+v55So77yI5YWN6LS56K+K5pat5piv6I635a6i6ZKp5a2Q77yJ77yb57uT5p6c5Y+v55m75b2V5ZCO5LqR5ZCM5q2l77yI6Zi25q61NO+8ieOAggogKgogKiDor7TmmI7vvJpWMSDpmLbmrrUwIOagh+azqOacquWbnuWhq+aXtiBrcF93ZWlnaHQuanNvbiDkuLrnqbrvvIxpbml0IOS8muajgOa1i+W5tuaLpuaIqui/m+WFpeiZmuWBh+iviuaWrQogKiDvvIjmnKrmoIfms6gg4oaSIG1hc3Rlcnkg5YWo56m6IOKGkiBQIOaBkuS4uuacgOS9juWAvCAwLjA177yM5bGe5qy66aqX5oCn57uT5p6c77yM5LiN6IO95LiK57q/77yJ44CCCiAqIOmYtuautTAg5qCH5rOo5a6M5oiQ44CBa3Bfd2VpZ2h0Lmpzb24g5bCx57uq5ZCO77yM5pys6aG15peg6ZyA5pS55Luj56CB5Y2z6Ieq5Yqo6Kej6ZSB77yI5YWl5Y+j5a6I5Y2r5pS+6KGM77yJ44CCCiAqLwooZnVuY3Rpb24gKCkgewogICd1c2Ugc3RyaWN0JzsKICB2YXIgRSA9IHdpbmRvdy5FWEFNLCBSID0gd2luZG93LlJ1bGVQcm9iLCAkID0gRS5xcywgcXNhID0gRS5xc2E7CiAgaWYgKCFFIHx8ICFSKSB7IGNvbnNvbGUuZXJyb3IoJ+S+nei1luacquWKoOi9vTogRVhBTSAvIFJ1bGVQcm9iJyk7IHJldHVybjsgfQogIEUucmVuZGVyTmF2KCdkaWFnbm9zZScpOwoKICB2YXIgQ0ZHID0geyBsZXZlbDogNCwgY291bnQ6IDMyLCBwYXNzTGluZTogMC42IH07CiAgdmFyIFBBUEVSUyA9IFtdLCBRQkFOSyA9IFtdLCBTRUxFQ1RFRCA9IFtdLCBBTlNXRVJTID0ge30sIENVUiA9IDAsIERPTkUgPSBmYWxzZSwgS1BOQU1FUyA9IHt9OwoKICBmdW5jdGlvbiBha2V5KGl0KSB7IHJldHVybiBpdC5wYXBlcklkICsgJyMnICsgaXQubm87IH0KCiAgLy8g5oq96aKY77ya5oyJIHBhcGVyIOi9ruivouS/neivgeWQhOWNty/lkITnuqflnYfooaHvvJtrcENvdmVyYWdlIOe8uuWkseaXtuWNsyLpmo/mnLrlnYfooaEiCiAgLy8g77yI6Zi25q61MCDmoIfms6jlm57loavjgIFrcF93ZWlnaHQg5bCx57uq5ZCO77yM5Y+v5Zyo5q2k5pu/5o2i5Li6IuiAg+eCueimhuebluWdh+ihoSLmir3moLfvvIkKICBmdW5jdGlvbiBzZWxlY3RRdWVzdGlvbnMoYmFuaywgbikgewogICAgdmFyIGJ5UGFwZXIgPSB7fTsKICAgIGJhbmsuZm9yRWFjaChmdW5jdGlvbiAoaXQpIHsgKGJ5UGFwZXJbaXQucGFwZXJJZF0gPSBieVBhcGVyW2l0LnBhcGVySWRdIHx8IFtdKS5wdXNoKGl0KTsgfSk7CiAgICB2YXIgaWRzID0gT2JqZWN0LmtleXMoYnlQYXBlcik7CiAgICB2YXIgcG9vbHMgPSBpZHMubWFwKGZ1bmN0aW9uIChpZCkgeyByZXR1cm4gYnlQYXBlcltpZF0uc2xpY2UoKTsgfSk7CiAgICB2YXIgb3V0ID0gW10sIHJpID0gMDsKICAgIHdoaWxlIChvdXQubGVuZ3RoIDwgbiAmJiBwb29scy5zb21lKGZ1bmN0aW9uIChwKSB7IHJldHVybiBwLmxlbmd0aDsgfSkpIHsKICAgICAgdmFyIHAgPSBwb29sc1tyaSAlIHBvb2xzLmxlbmd0aF07CiAgICAgIGlmIChwLmxlbmd0aCkgb3V0LnB1c2gocC5zcGxpY2UoTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogcC5sZW5ndGgpLCAxKVswXSk7CiAgICAgIHJpKys7CiAgICB9CiAgICB3aGlsZSAob3V0Lmxlbmd0aCA8IG4gJiYgYmFuay5sZW5ndGgpIG91dC5wdXNoKGJhbmtbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogYmFuay5sZW5ndGgpXSk7CiAgICByZXR1cm4gb3V0LnNsaWNlKDAsIG4pOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gbG9hZEJhbmsoKSB7CiAgICB2YXIgaWR4ID0gYXdhaXQgRS5sb2FkSlNPTignZGF0YS9pbmRleC5qc29uJyk7CiAgICBQQVBFUlMgPSBpZHguZmlsdGVyKGZ1bmN0aW9uIChkKSB7IHJldHVybiBkLnN1YmplY3QgPT09ICdnZXNwLWNwcCc7IH0pOwogICAgdmFyIGxvYWRlZCA9IGF3YWl0IFByb21pc2UuYWxsKFBBUEVSUy5tYXAoZnVuY3Rpb24gKHApIHsKICAgICAgcmV0dXJuIEUubG9hZEpTT04oJ2RhdGEvcGFwZXJzLycgKyBwLmlkICsgJy5qc29uJykKICAgICAgICAudGhlbihmdW5jdGlvbiAoaikgeyByZXR1cm4geyBtZXRhOiBwLCBqc29uOiBqIH07IH0pCiAgICAgICAgLmNhdGNoKGZ1bmN0aW9uICgpIHsgcmV0dXJuIG51bGw7IH0pOwogICAgfSkpOwogICAgUUJBTksgPSBbXTsKICAgIGxvYWRlZC5mb3JFYWNoKGZ1bmN0aW9uIChvKSB7CiAgICAgIGlmICghbykgcmV0dXJuOwogICAgICAoby5qc29uLnF1ZXN0aW9ucyB8fCBbXSkuZm9yRWFjaChmdW5jdGlvbiAocSkgewogICAgICAgIFFCQU5LLnB1c2goewogICAgICAgICAgcGFwZXJJZDogby5tZXRhLmlkLCBsZXZlbDogby5tZXRhLmxldmVsLCBubzogcS5ubywgcTogcSwKICAgICAgICAgIGtwSWRzOiBxLmtwX2lkcyB8fCBbXSwgcHJpbWFyeUtwOiBxLnByaW1hcnlfa3AgfHwgbnVsbAogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwogICAgdHJ5IHsKICAgICAgLy8g5YWoIDgg57qn6ICD54K55ZCN5pig5bCE77yI6Zi25q61Mu+8muiviuaWreiMg+WbtOaJqeiHsyBMMeKAk0w477yJCiAgICAgIGZvciAodmFyIGx2ID0gMTsgbHYgPD0gODsgbHYrKykgewogICAgICAgIHZhciBkID0gYXdhaXQgRS5sb2FkSlNPTignZGF0YS9rcC9nZXNwLWNwcC1MJyArIGx2ICsgJy5qc29uJyk7CiAgICAgICAgKGQua3AgfHwgW10pLmZvckVhY2goZnVuY3Rpb24gKGspIHsgS1BOQU1FU1trLmlkXSA9IGsubmFtZTsgfSk7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGUpIHsgLyog5ZCN56ew57y65aSx5LiN5b2x5ZON6K+K5patICovIH0KICB9CgogIC8vIOe6p+WIq+mAieaLqeWZqO+8iEwx4oCTTDjvvIzpu5jorqQgQ0ZHLmxldmVs77yJ77yM5YiH5o2i5Y2z5pu05paw6auY5Lqu77yM5LiL5qyh5byA5aeL6K+K5pat55Sf5pWICiAgZnVuY3Rpb24gcmVuZGVyTGV2ZWxTZWwoKSB7CiAgICB2YXIgYm94ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2xldmVsU2VsJyk7CiAgICBpZiAoIWJveCkgcmV0dXJuOwogICAgdmFyIGh0bWwgPSAnPHNwYW4gY2xhc3M9ImxzLWxhYmVsIj7or4rmlq3nuqfliKs8L3NwYW4+PGRpdiBjbGFzcz0ibHMtY2hpcHMiPic7CiAgICBmb3IgKHZhciBsdiA9IDE7IGx2IDw9IDg7IGx2KyspIHsKICAgICAgaHRtbCArPSAnPGJ1dHRvbiBjbGFzcz0ibHMtY2hpcCcgKyAobHYgPT09IENGRy5sZXZlbCA/ICcgb24nIDogJycpICsgJyIgZGF0YS1sdj0iJyArIGx2ICsgJyI+TCcgKyBsdiArICc8L2J1dHRvbj4nOwogICAgfQogICAgaHRtbCArPSAnPC9kaXY+JzsKICAgIGJveC5pbm5lckhUTUwgPSBodG1sOwogICAgQXJyYXkucHJvdG90eXBlLmZvckVhY2guY2FsbChib3gucXVlcnlTZWxlY3RvckFsbCgnLmxzLWNoaXAnKSwgZnVuY3Rpb24gKGMpIHsKICAgICAgYy5vbmNsaWNrID0gZnVuY3Rpb24gKCkgewogICAgICAgIENGRy5sZXZlbCA9ICtjLmRhdGFzZXQubHY7CiAgICAgICAgQXJyYXkucHJvdG90eXBlLmZvckVhY2guY2FsbChib3gucXVlcnlTZWxlY3RvckFsbCgnLmxzLWNoaXAnKSwgZnVuY3Rpb24gKHgpIHsgeC5jbGFzc0xpc3QucmVtb3ZlKCdvbicpOyB9KTsKICAgICAgICBjLmNsYXNzTGlzdC5hZGQoJ29uJyk7CiAgICAgIH07CiAgICB9KTsKICB9CgogIGZ1bmN0aW9uIGdyYWRlT25lKGl0KSB7CiAgICB2YXIgcSA9IGl0LnE7CiAgICBpZiAoIXEuYXV0bykgcmV0dXJuIG51bGw7IC8vIOe8lueoiy/mk43kvZzpopjkuI3orqEKICAgIHZhciBzZWwgPSBBTlNXRVJTW2FrZXkoaXQpXTsKICAgIHZhciByaWdodCA9IEFycmF5LmlzQXJyYXkocS5hbnN3ZXIpID8gcS5hbnN3ZXIuc2xpY2UoKS5zb3J0KCkuam9pbignJykgOiBxLmFuc3dlcjsKICAgIHZhciBnb3QgPSBBcnJheS5pc0FycmF5KHNlbCkgPyBzZWwuc2xpY2UoKS5zb3J0KCkuam9pbignJykgOiAoc2VsIHx8ICcnKTsKICAgIHJldHVybiBnb3QgPT09IHJpZ2h0OwogIH0KCiAgZnVuY3Rpb24gcmVuZGVyUW5hdigpIHsKICAgICQoJyNxbmF2JykuaW5uZXJIVE1MID0gU0VMRUNURUQubWFwKGZ1bmN0aW9uIChpdCwgaSkgewogICAgICB2YXIgdiA9IEFOU1dFUlNbYWtleShpdCldOwogICAgICB2YXIgZG9uZSA9IHYgIT09IHVuZGVmaW5lZCAmJiAoQXJyYXkuaXNBcnJheSh2KSA/IHYubGVuZ3RoIDogdik7CiAgICAgIHZhciBjdXIgPSBpID09PSBDVVIgPyAnIGN1cicgOiAnJzsKICAgICAgdmFyIGQgPSBkb25lID8gJyBkb25lJyA6ICcnOwogICAgICByZXR1cm4gJzxzcGFuIGNsYXNzPSJxbicgKyBjdXIgKyBkICsgJyIgZGF0YS1pPSInICsgaSArICciPicgKyAoaSArIDEpICsgJzwvc3Bhbj4nOwogICAgfSkuam9pbignJyk7CiAgICBxc2EoJyNxbmF2IC5xbicpLmZvckVhY2goZnVuY3Rpb24gKG4pIHsgbi5vbmNsaWNrID0gZnVuY3Rpb24gKCkgeyBDVVIgPSArbi5kYXRhc2V0Lmk7IHJlbmRlckN1cnJlbnQoKTsgcmVuZGVyUW5hdigpOyB9OyB9KTsKICB9CgogIGZ1bmN0aW9uIHJlbmRlckN1cnJlbnQoKSB7CiAgICB2YXIgaXQgPSBTRUxFQ1RFRFtDVVJdOwogICAgJCgnI2V4YW1BcmVhJykuaW5uZXJIVE1MID0gRS5yZW5kZXJRdWVzdGlvbihpdC5xLCB7IG1vZGU6ICdleGFtJywgcGFwZXJJZDogaXQucGFwZXJJZCwgc2VsZWN0ZWQ6IEFOU1dFUlNbYWtleShpdCldIH0pOwogICAgcXNhKCcjZXhhbUFyZWEgW2RhdGEtcGlja10nKS5mb3JFYWNoKGZ1bmN0aW9uIChlbCkgewogICAgICBlbC5vbmNsaWNrID0gZnVuY3Rpb24gKCkgewogICAgICAgIHZhciBrZXkgPSBlbC5kYXRhc2V0LmtleSwgbXVsdGkgPSBlbC5kYXRhc2V0LnBpY2sgPT09ICdtdWx0aSc7CiAgICAgICAgdmFyIGN1clZhbCA9IEFOU1dFUlNbYWtleShpdCldOwogICAgICAgIGlmIChtdWx0aSkgewogICAgICAgICAgdmFyIGFyciA9IEFycmF5LmlzQXJyYXkoY3VyVmFsKSA/IGN1clZhbC5zbGljZSgpIDogW107CiAgICAgICAgICB2YXIgaXggPSBhcnIuaW5kZXhPZihrZXkpOwogICAgICAgICAgaWYgKGl4ID49IDApIGFyci5zcGxpY2UoaXgsIDEpOyBlbHNlIGFyci5wdXNoKGtleSk7CiAgICAgICAgICBBTlNXRVJTW2FrZXkoaXQpXSA9IGFyci5zb3J0KCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIEFOU1dFUlNbYWtleShpdCldID0ga2V5OwogICAgICAgIH0KICAgICAgICByZW5kZXJDdXJyZW50KCk7IHJlbmRlclFuYXYoKTsKICAgICAgfTsKICAgIH0pOwogICAgJCgnI2N1ck5vJykudGV4dENvbnRlbnQgPSAn56ysICcgKyAoQ1VSICsgMSkgKyAnIC8gJyArIFNFTEVDVEVELmxlbmd0aCArICcg6aKYJzsKICB9CgogIGZ1bmN0aW9uIGJpbmQoKSB7CiAgICAkKCcjcHJldkJ0bicpLm9uY2xpY2sgPSBmdW5jdGlvbiAoKSB7IGlmIChDVVIgPiAwKSB7IENVUi0tOyByZW5kZXJRbmF2KCk7IHJlbmRlckN1cnJlbnQoKTsgfSB9OwogICAgJCgnI25leHRCdG4nKS5vbmNsaWNrID0gZnVuY3Rpb24gKCkgeyBpZiAoQ1VSIDwgU0VMRUNURUQubGVuZ3RoIC0gMSkgeyBDVVIrKzsgcmVuZGVyUW5hdigpOyByZW5kZXJDdXJyZW50KCk7IH0gfTsKICAgICQoJyNzdWJtaXRCdG4nKS5vbmNsaWNrID0gc3VibWl0OwogICAgdmFyIHNiID0gJCgnI3N0YXJ0QnRuJyk7CiAgICBpZiAoc2IpIHNiLm9uY2xpY2sgPSBmdW5jdGlvbiAoKSB7ICQoJyNpbnRybycpLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7ICQoJyNxdWl6Jykuc3R5bGUuZGlzcGxheSA9ICdibG9jayc7IHN0YXJ0KCk7IH07CiAgfQoKICBhc3luYyBmdW5jdGlvbiBzdWJtaXQoKSB7CiAgICBpZiAoRE9ORSkgcmV0dXJuOwogICAgdmFyIHVuYW5zd2VyZWQgPSBTRUxFQ1RFRC5maWx0ZXIoZnVuY3Rpb24gKGl0KSB7CiAgICAgIHZhciB2ID0gQU5TV0VSU1tha2V5KGl0KV07CiAgICAgIHJldHVybiB2ID09PSB1bmRlZmluZWQgfHwgKEFycmF5LmlzQXJyYXkodikgJiYgIXYubGVuZ3RoKTsKICAgIH0pLmxlbmd0aDsKICAgIGlmICh1bmFuc3dlcmVkID4gMCAmJiAhY29uZmlybSgn6L+Y5pyJICcgKyB1bmFuc3dlcmVkICsgJyDpopjmnKrkvZznrZTvvIznoa7lrprkuqTljbfvvJ8nKSkgcmV0dXJuOwoKICAgIERPTkUgPSB0cnVlOwogICAgdmFyIGFucyA9IFNFTEVDVEVELm1hcChmdW5jdGlvbiAoaXQpIHsgcmV0dXJuIHsga3BJZHM6IGl0LmtwSWRzLCBwcmltYXJ5S3A6IGl0LnByaW1hcnlLcCwgY29ycmVjdDogZ3JhZGVPbmUoaXQpIH07IH0pOwogICAgdmFyIHdlaWdodHMgPSBhd2FpdCBSLmxvYWRXZWlnaHRzKCdkYXRhL2twX3dlaWdodC5qc29uJyk7CiAgICB2YXIgbWFzdGVyeSA9IFIuY29tcHV0ZU1hc3RlcnkoYW5zKTsKICAgIHZhciBwciA9IFIuY29tcHV0ZVBhc3NQcm9iYWJpbGl0eShtYXN0ZXJ5LCB3ZWlnaHRzLCB7IHBhc3NMaW5lOiBDRkcucGFzc0xpbmUgfSk7CiAgICB2YXIgdCA9IFIudGllcihwci5QKTsKICAgIHZhciB3ZWFrID0gUi53ZWFrS3BzKG1hc3RlcnksIHdlaWdodHMsIHsgdG9wOiA1IH0pOwogICAgdmFyIGxldmVsTWl4ID0ge307CiAgICBTRUxFQ1RFRC5mb3JFYWNoKGZ1bmN0aW9uIChpdCkgeyBsZXZlbE1peFtpdC5sZXZlbF0gPSAobGV2ZWxNaXhbaXQubGV2ZWxdIHx8IDApICsgMTsgfSk7CiAgICB2YXIgcmVzdWx0ID0gewogICAgICBQOiBwci5QLCB0aWVyOiB0LCBtYXN0ZXJ5OiBtYXN0ZXJ5LCB3ZWFrOiB3ZWFrLCBsZXZlbDogQ0ZHLmxldmVsLAogICAgICBleHBlY3RlZFNjb3JlOiBwci5leHBlY3RlZFNjb3JlLCBwYXNzTGluZTogcHIucGFzc0xpbmUsCiAgICAgIGNvdW50czogeyB0b3RhbDogU0VMRUNURUQubGVuZ3RoLCBsZXZlbE1peDogbGV2ZWxNaXggfSwKICAgICAgdGVhY2hlckVzdGltYXRlOiB7IGxvdzogbnVsbCwgaGlnaDogbnVsbCB9LAogICAgICB0aW1lc3RhbXA6IERhdGUubm93KCkKICAgIH07CiAgICAkKCcjcXVpeicpLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7CiAgICAkKCcjcmVwb3J0V3JhcCcpLnN0eWxlLmRpc3BsYXkgPSAnYmxvY2snOwogICAgaWYgKHdpbmRvdy5SZXBvcnQpIHdpbmRvdy5SZXBvcnQucmVuZGVyKHJlc3VsdCwgJCgnI3JlcG9ydCcpLCB7IG5hbWVNYXA6IEtQTkFNRVMgfSk7CiAgICByZW5kZXJUZWFjaGVyRXN0aW1hdGUocmVzdWx0KTsKICAgIGlmICh3aW5kb3cuQW5hbHl0aWNzKSB3aW5kb3cuQW5hbHl0aWNzLnRyYWNrKHdpbmRvdy5BbmFseXRpY3MuRVZFTlRTLlNVQk1JVCwgeyBQOiBwci5QLCB0aWVyOiB0LmtleSwgdG90YWw6IFNFTEVDVEVELmxlbmd0aCwgbGV2ZWxNaXg6IGxldmVsTWl4IH0pOwogIH0KCiAgLy8g5pWZ5biI5ouN5Yy66Ze077yI6Zi25q61MyDmoKHlh4bnlKjvvIxWMSDku4Xph4fpm4bnlZnlrZjvvIkKICBmdW5jdGlvbiByZW5kZXJUZWFjaGVyRXN0aW1hdGUocmVzdWx0KSB7CiAgICB2YXIgYm94ID0gJCgnI3RlYWNoZXJFc3RpbWF0ZScpOwogICAgaWYgKCFib3gpIHJldHVybjsKICAgIHZhciBsdk9wdHMgPSAnJzsKICAgIGZvciAodmFyIGx2ID0gMTsgbHYgPD0gODsgbHYrKykgewogICAgICBsdk9wdHMgKz0gJzxvcHRpb24gdmFsdWU9IicgKyBsdiArICciJyArIChsdiA9PT0gQ0ZHLmxldmVsID8gJyBzZWxlY3RlZCcgOiAnJykgKyAnPkdFU1AgQysrICcgKyBsdiArICcg57qnPC9vcHRpb24+JzsKICAgIH0KICAgIGJveC5pbm5lckhUTUwgPQogICAgICAnPGRpdiBjbGFzcz0idGUtaCI+5pWZ56CUIC8g5pWZ5biI5ouN5Yy66Ze077yI54Gw5bqm6YeH6ZuG77yM55So5LqO6Zi25q61MyDmoKHlh4bvvIk8L2Rpdj4nICsKICAgICAgJzxkaXYgY2xhc3M9InRlLXJvdyI+PGxhYmVsPue6p+WIqzwvbGFiZWw+PHNlbGVjdCBpZD0idGVMZXZlbCI+JyArIGx2T3B0cyArICc8L3NlbGVjdD48L2Rpdj4nICsKICAgICAgJzxkaXYgY2xhc3M9InRlLXJvdyI+PGxhYmVsPumihOS8sOmAmui/h+S4i+mZkCAlPC9sYWJlbD48aW5wdXQgaWQ9InRlTG93IiB0eXBlPSJudW1iZXIiIG1pbj0iMCIgbWF4PSIxMDAiIHBsYWNlaG9sZGVyPSLlpoIgMzAiPjwvZGl2PicgKwogICAgICAnPGRpdiBjbGFzcz0idGUtcm93Ij48bGFiZWw+6aKE5Lyw6YCa6L+H5LiK6ZmQICU8L2xhYmVsPjxpbnB1dCBpZD0idGVIaWdoIiB0eXBlPSJudW1iZXIiIG1pbj0iMCIgbWF4PSIxMDAiIHBsYWNlaG9sZGVyPSLlpoIgNzAiPjwvZGl2PicgKwogICAgICAnPGJ1dHRvbiBpZD0idGVTYXZlIiBjbGFzcz0ibWJ0biI+5o+Q5Lqk5ouN5Yy66Ze0PC9idXR0b24+JzsKICAgICQoJyN0ZVNhdmUnKS5vbmNsaWNrID0gZnVuY3Rpb24gKCkgewogICAgICB2YXIgbG93ID0gcGFyc2VGbG9hdCgkKCcjdGVMb3cnKS52YWx1ZSksIGhpZ2ggPSBwYXJzZUZsb2F0KCQoJyN0ZUhpZ2gnKS52YWx1ZSk7CiAgICAgIHZhciBsdmwgPSAkKCcjdGVMZXZlbCcpLnZhbHVlOwogICAgICBpZiAoaXNOYU4obG93KSB8fCBpc05hTihoaWdoKSB8fCBsb3cgPiBoaWdoKSB7IEUudG9hc3QoJ+ivt+Whq+WGmeWQiOazleWMuumXtO+8iOS4i+mZkCDiiaQg5LiK6ZmQ77yJJyk7IHJldHVybjsgfQogICAgICB2YXIgcmVjID0geyBsZXZlbDogK2x2bCwgbG93OiBsb3cgLyAxMDAsIGhpZ2g6IGhpZ2ggLyAxMDAsIHJ1bGVQOiByZXN1bHQuUCwgdHM6IERhdGUubm93KCkgfTsKICAgICAgcmVzdWx0LnRlYWNoZXJFc3RpbWF0ZSA9IHsgbG93OiByZWMubG93LCBoaWdoOiByZWMuaGlnaCB9OwogICAgICBpZiAod2luZG93LkFuYWx5dGljcykgd2luZG93LkFuYWx5dGljcy50cmFjayh3aW5kb3cuQW5hbHl0aWNzLkVWRU5UUy5URUFDSEVSX0VTVElNQVRFLCByZWMpOwogICAgICBFLnRvYXN0KCflt7LnlZnlrZjmi43ljLrpl7TvvIzmhJ/osKLvvIHvvIjpmLbmrrUzIOWwhuS4juinhOWImSBQIOavlOWvueagoeWHhu+8iScpOwogICAgfTsKICB9CgogIGZ1bmN0aW9uIHN0YXJ0KCkgewogICAgU0VMRUNURUQgPSBzZWxlY3RRdWVzdGlvbnMoUUJBTksuZmlsdGVyKGZ1bmN0aW9uIChpdCkgeyByZXR1cm4gaXQubGV2ZWwgPT09IENGRy5sZXZlbDsgfSksIENGRy5jb3VudCk7CiAgICBDVVIgPSAwOyBET05FID0gZmFsc2U7IEFOU1dFUlMgPSB7fTsKICAgIHJlbmRlclFuYXYoKTsgcmVuZGVyQ3VycmVudCgpOwogIH0KCiAgZnVuY3Rpb24gc2hvd0NvbWluZ1Nvb24oKSB7CiAgICB2YXIgaW50cm8gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnaW50cm8nKTsKICAgIHZhciBidG4gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3RhcnRCdG4nKTsKICAgIGlmIChidG4pIHsgYnRuLmRpc2FibGVkID0gdHJ1ZTsgYnRuLnRleHRDb250ZW50ID0gJ+iAg+eCueagh+azqOS4rSDCtyDmlazor7fmnJ/lvoUnOyBidG4uc3R5bGUub3BhY2l0eSA9ICcuNTUnOyBidG4uc3R5bGUuY3Vyc29yID0gJ25vdC1hbGxvd2VkJzsgfQogICAgaWYgKCFpbnRybykgcmV0dXJuOwogICAgdmFyIHRpcCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpOwogICAgdGlwLmNsYXNzTmFtZSA9ICdkaWFnLWNvbWluZ3Nvb24nOwogICAgdGlwLmlubmVySFRNTCA9ICfwn5qnIOWFjei0ueiviuaWreWGhea1i+S4re+8mkdFU1AgQysrIOWFqCA4IOe6p+ecn+mimOiAg+eCueagh+azqOW3suWujOaIkO+8jOW3suW8gOaUvuS4gOiHs+WFq+e6p+iviuaWreOAgic7CiAgICBpbnRyby5hcHBlbmRDaGlsZCh0aXApOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaW5pdCgpIHsKICAgIGJpbmQoKTsKICAgIHJlbmRlckxldmVsU2VsKCk7CiAgICB0cnkgewogICAgICBhd2FpdCBsb2FkQmFuaygpOwogICAgICBpZiAoIVFCQU5LLmxlbmd0aCkgeyBFLnRvYXN0KCfmnKrliqDovb3liLAgR0VTUCBDKysg55yf6aKY77yM6K+356iN5ZCO6YeN6K+VJyk7IHJldHVybjsgfQogICAgICAvLyDlhaXlj6PlrojljavvvJrpmLbmrrUwIOagh+azqOacquWbnuWhq++8iGtwX3dlaWdodCDkuLrnqbrvvInml7bvvIznpoHmraLov5vlhaXomZrlgYfor4rmlq0KICAgICAgdmFyIHdlaWdodHMgPSBhd2FpdCBSLmxvYWRXZWlnaHRzKCdkYXRhL2twX3dlaWdodC5qc29uJyk7CiAgICAgIGlmICghd2VpZ2h0cyB8fCAhT2JqZWN0LmtleXMod2VpZ2h0cykubGVuZ3RoKSB7IHNob3dDb21pbmdTb29uKCk7IHJldHVybjsgfQogICAgICBpZiAod2luZG93LkFuYWx5dGljcykgd2luZG93LkFuYWx5dGljcy50cmFjayh3aW5kb3cuQW5hbHl0aWNzLkVWRU5UUy5ESUFHTk9TRV9TVEFSVCwgeyBiYW5rOiBRQkFOSy5sZW5ndGggfSk7CiAgICB9IGNhdGNoIChlKSB7IEUudG9hc3QoJ+WKoOi9veWksei0pTogJyArIGUubWVzc2FnZSk7IH0KICB9CgogIGluaXQoKTsKfSkoKTsK
+/* 免费能力诊断流程（阶段1 W4）
+ * 抽 30–35 题（默认 32）→ 答题 → 规则引擎算 P → 报告 + 会员钩子 + 教师拍区间采集。
+ * 依赖：EXAM(common.js) / RuleProb(rule_prob.js) / Report(report.js) / Membership / Analytics。
+ * 未登录也可用（免费诊断是获客钩子）；结果可登录后云同步（阶段4）。
+ *
+ * 说明：V1 阶段0 标注未回填时 kp_weight.json 为空，init 会检测并拦截进入虚假诊断
+ * （未标注 → mastery 全空 → P 恒为最低值 0.05，属欺骗性结果，不能上线）。
+ * 阶段0 标注完成、kp_weight.json 就绪后，本页无需改代码即自动解锁（入口守卫放行）。
+ */
+(function () {
+  'use strict';
+  var E = EXAM, R = window.RuleProb, $ = E.qs, qsa = E.qsa;
+  if (!E || !R) { console.error('依赖未加载: EXAM / RuleProb'); return; }
+  E.renderNav('diagnose');
+
+  var CFG = { level: 4, count: 32, passLine: 0.6 };
+  var PAPERS = [], QBANK = [], SELECTED = [], ANSWERS = {}, CUR = 0, DONE = false, KPNAMES = {};
+
+  function akey(it) { return it.paperId + '#' + it.no; }
+
+  // 抽题：按 paper 轮询保证各卷/各级均衡；kpCoverage 缺失时即"随机均衡"
+  // （阶段0 标注回填、kp_weight 就绪后，可在此替换为"考点覆盖均衡"抽样）
+  function selectQuestions(bank, n) {
+    var byPaper = {};
+    bank.forEach(function (it) { (byPaper[it.paperId] = byPaper[it.paperId] || []).push(it); });
+    var ids = Object.keys(byPaper);
+    var pools = ids.map(function (id) { return byPaper[id].slice(); });
+    var out = [], ri = 0;
+    while (out.length < n && pools.some(function (p) { return p.length; })) {
+      var p = pools[ri % pools.length];
+      if (p.length) out.push(p.splice(Math.floor(Math.random() * p.length), 1)[0]);
+      ri++;
+    }
+    while (out.length < n && bank.length) out.push(bank[Math.floor(Math.random() * bank.length)]);
+    return out.slice(0, n);
+  }
+
+  async function loadBank() {
+    var idx = await E.loadJSON('data/index.json');
+    PAPERS = idx.filter(function (d) { return d.subject === 'gesp-cpp'; });
+    var loaded = await Promise.all(PAPERS.map(function (p) {
+      return E.loadJSON('data/papers/' + p.id + '.json')
+        .then(function (j) { return { meta: p, json: j }; })
+        .catch(function () { return null; });
+    }));
+    QBANK = [];
+    loaded.forEach(function (o) {
+      if (!o) return;
+      (o.json.questions || []).forEach(function (q) {
+        QBANK.push({
+          paperId: o.meta.id, level: o.meta.level, no: q.no, q: q,
+          kpIds: q.kp_ids || [], primaryKp: q.primary_kp || null
+        });
+      });
+    });
+    try {
+      // 全 8 级考点名映射（阶段2：诊断范围扩至 L1–L8）
+      for (var lv = 1; lv <= 8; lv++) {
+        var d = await E.loadJSON('data/kp/gesp-cpp-L' + lv + '.json');
+        (d.kp || []).forEach(function (k) { KPNAMES[k.id] = k.name; });
+      }
+    } catch (e) { /* 名称缺失不影响诊断 */ }
+  }
+
+  // 级别选择器（L1–L8，默认 CFG.level），切换即更新高亮，下次开始诊断生效
+  function renderLevelSel() {
+    var box = document.getElementById('levelSel');
+    if (!box) return;
+    var html = '<span class="ls-label">诊断级别</span><div class="ls-chips">';
+    for (var lv = 1; lv <= 8; lv++) {
+      html += '<button class="ls-chip' + (lv === CFG.level ? ' on' : '') + '" data-lv="' + lv + '">L' + lv + '</button>';
+    }
+    html += '</div>';
+    box.innerHTML = html;
+    Array.prototype.forEach.call(box.querySelectorAll('.ls-chip'), function (c) {
+      c.onclick = function () {
+        CFG.level = +c.dataset.lv;
+        Array.prototype.forEach.call(box.querySelectorAll('.ls-chip'), function (x) { x.classList.remove('on'); });
+        c.classList.add('on');
+      };
+    });
+  }
+
+  function gradeOne(it) {
+    var q = it.q;
+    if (!q.auto) return null; // 编程/操作题不计
+    var sel = ANSWERS[akey(it)];
+    var right = Array.isArray(q.answer) ? q.answer.slice().sort().join('') : q.answer;
+    var got = Array.isArray(sel) ? sel.slice().sort().join('') : (sel || '');
+    return got === right;
+  }
+
+  function renderQnav() {
+    $('#qnav').innerHTML = SELECTED.map(function (it, i) {
+      var v = ANSWERS[akey(it)];
+      var done = v !== undefined && (Array.isArray(v) ? v.length : v);
+      var cur = i === CUR ? ' cur' : '';
+      var d = done ? ' done' : '';
+      return '<span class="qn' + cur + d + '" data-i="' + i + '">' + (i + 1) + '</span>';
+    }).join('');
+    qsa('#qnav .qn').forEach(function (n) { n.onclick = function () { CUR = +n.dataset.i; renderCurrent(); renderQnav(); }; });
+  }
+
+  function renderCurrent() {
+    var it = SELECTED[CUR];
+    $('#examArea').innerHTML = E.renderQuestion(it.q, { mode: 'exam', paperId: it.paperId, selected: ANSWERS[akey(it)] });
+    qsa('#examArea [data-pick]').forEach(function (el) {
+      el.onclick = function () {
+        var key = el.dataset.key, multi = el.dataset.pick === 'multi';
+        var curVal = ANSWERS[akey(it)];
+        if (multi) {
+          var arr = Array.isArray(curVal) ? curVal.slice() : [];
+          var ix = arr.indexOf(key);
+          if (ix >= 0) arr.splice(ix, 1); else arr.push(key);
+          ANSWERS[akey(it)] = arr.sort();
+        } else {
+          ANSWERS[akey(it)] = key;
+        }
+        renderCurrent(); renderQnav();
+      };
+    });
+    $('#curNo').textContent = '第 ' + (CUR + 1) + ' / ' + SELECTED.length + ' 题';
+  }
+
+  function bind() {
+    $('#prevBtn').onclick = function () { if (CUR > 0) { CUR--; renderQnav(); renderCurrent(); } };
+    $('#nextBtn').onclick = function () { if (CUR < SELECTED.length - 1) { CUR++; renderQnav(); renderCurrent(); } };
+    $('#submitBtn').onclick = submit;
+    var sb = $('#startBtn');
+    if (sb) sb.onclick = function () { $('#intro').style.display = 'none'; $('#quiz').style.display = 'block'; start(); };
+  }
+
+  async function submit() {
+    if (DONE) return;
+    var unanswered = SELECTED.filter(function (it) {
+      var v = ANSWERS[akey(it)];
+      return v === undefined || (Array.isArray(v) && !v.length);
+    }).length;
+    if (unanswered > 0 && !confirm('还有 ' + unanswered + ' 题未作答，确定交卷？')) return;
+
+    DONE = true;
+    var ans = SELECTED.map(function (it) { return { kpIds: it.kpIds, primaryKp: it.primaryKp, correct: gradeOne(it) }; });
+    var weights = await R.loadWeights('data/kp_weight.json');
+    var mastery = R.computeMastery(ans);
+    var pr = R.computePassProbability(mastery, weights, { passLine: CFG.passLine });
+    var t = R.tier(pr.P);
+    var weak = R.weakKps(mastery, weights, { top: 5 });
+    var levelMix = {};
+    SELECTED.forEach(function (it) { levelMix[it.level] = (levelMix[it.level] || 0) + 1; });
+    var result = {
+      P: pr.P, tier: t, mastery: mastery, weak: weak, level: CFG.level,
+      expectedScore: pr.expectedScore, passLine: pr.passLine,
+      counts: { total: SELECTED.length, levelMix: levelMix },
+      teacherEstimate: { low: null, high: null },
+      timestamp: Date.now()
+    };
+    $('#quiz').style.display = 'none';
+    $('#reportWrap').style.display = 'block';
+    if (window.Report) window.Report.render(result, $('#report'), { nameMap: KPNAMES });
+    renderTeacherEstimate(result);
+    if (window.Analytics) window.Analytics.track(window.Analytics.EVENTS.SUBMIT, { P: pr.P, tier: t.key, total: SELECTED.length, levelMix: levelMix });
+  }
+
+  // 教师拍区间（阶段3 校准用，V1 仅采集留存）
+  function renderTeacherEstimate(result) {
+    var box = $('#teacherEstimate');
+    if (!box) return;
+    var lvOpts = '';
+    for (var lv = 1; lv <= 8; lv++) {
+      lvOpts += '<option value="' + lv + '"' + (lv === CFG.level ? ' selected' : '') + '>GESP C++ ' + lv + ' 级</option>';
+    }
+    box.innerHTML =
+      '<div class="te-h">教研 / 教师拍区间（灰度采集，用于阶段3 校准）</div>' +
+      '<div class="te-row"><label>级别</label><select id="teLevel">' + lvOpts + '</select></div>' +
+      '<div class="te-row"><label>预估通过下限 %</label><input id="teLow" type="number" min="0" max="100" placeholder="如 30"></div>' +
+      '<div class="te-row"><label>预估通过上限 %</label><input id="teHigh" type="number" min="0" max="100" placeholder="如 70"></div>' +
+      '<button id="teSave" class="mbtn">提交拍区间</button>';
+    $('#teSave').onclick = function () {
+      var low = parseFloat($('#teLow').value), high = parseFloat($('#teHigh').value);
+      var lvl = $('#teLevel').value;
+      if (isNaN(low) || isNaN(high) || low > high) { E.toast('请填写合法区间（下限 ≤ 上限）'); return; }
+      var rec = { level: +lvl, low: low / 100, high: high / 100, ruleP: result.P, ts: Date.now() };
+      result.teacherEstimate = { low: rec.low, high: rec.high };
+      if (window.Analytics) window.Analytics.track(window.Analytics.EVENTS.TEACHER_ESTIMATE, rec);
+      E.toast('已留存拍区间，感谢！（阶段3 将与规则 P 比对校准）');
+    };
+  }
+
+  function start() {
+    SELECTED = selectQuestions(QBANK.filter(function (it) { return it.level === CFG.level; }), CFG.count);
+    CUR = 0; DONE = false; ANSWERS = {};
+    renderQnav(); renderCurrent();
+  }
+
+  function showComingSoon() {
+    var intro = document.getElementById('intro');
+    var btn = document.getElementById('startBtn');
+    if (btn) { btn.disabled = true; btn.textContent = '考点标注中 · 敬请期待'; btn.style.opacity = '.55'; btn.style.cursor = 'not-allowed'; }
+    if (!intro) return;
+    var tip = document.createElement('div');
+    tip.className = 'diag-comingsoon';
+    tip.innerHTML = '🚧 免费诊断内测中：GESP C++ 全 8 级真题考点标注已完成，已开放一至八级诊断。';
+    intro.appendChild(tip);
+  }
+
+  async function init() {
+    bind();
+    renderLevelSel();
+    try {
+      await loadBank();
+      if (!QBANK.length) { E.toast('未加载到 GESP C++ 真题，请稍后重试'); return; }
+      // 入口守卫：阶段0 标注未回填（kp_weight 为空）时，禁止进入虚假诊断
+      var weights = await R.loadWeights('data/kp_weight.json');
+      if (!weights || !Object.keys(weights).length) { showComingSoon(); return; }
+      // 兜底：data/kp 分级文件缺失时，用 kp_weight.json 的 name 字段填充考点名映射，保证报告可读
+      if (!Object.keys(KPNAMES).length) {
+        Object.keys(weights).forEach(function (k) { if (weights[k] && weights[k].name) KPNAMES[k] = weights[k].name; });
+      }
+      if (window.Analytics) window.Analytics.track(window.Analytics.EVENTS.DIAGNOSE_START, { bank: QBANK.length });
+    } catch (e) { E.toast('加载失败: ' + e.message); }
+  }
+
+  init();
+})();
