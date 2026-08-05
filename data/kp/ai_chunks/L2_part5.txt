@@ -1,1 +1,43 @@
-IyBHRVNQIEMrKyBMMiDogIPngrnmuIXljZXvvIjlj6rog73ku47kuIvliJcgaWQg5Lit6YCJ5oup77yM56aB5q2i57yW6YCg77yJCiMgICBjcHAyLWtwMDEgfCDlj5jph4/kuI7mlbDmja7nsbvlnosgfCDln7rnoYDor63ms5UKIyAgIGNwcDIta3AwMiB8IOWIhuaUr+S4juW+queOryB8IOWfuuehgOivreazlQojICAgY3BwMi1rcDAzIHwg5Z+656GA6L6T5YWl6L6T5Ye6IHwg5Z+656GA6K+t5rOVCiMgICBjcHAyLWtwMDQgfCDlh73mlbDlrprkuYnkuI7osIPnlKggfCDlh73mlbAKIyAgIGNwcDIta3AwNSB8IOWHveaVsOWPguaVsOS8oOmAkiB8IOWHveaVsAojICAgY3BwMi1rcDA2IHwg5Ye95pWw6L+U5Zue5YC8IHwg5Ye95pWwCiMgICBjcHAyLWtwMDcgfCDkuIDnu7TmlbDnu4QgfCDmlbDnu4TkuI7lrZfnrKbkuLIKIyAgIGNwcDIta3AwOCB8IOWkmue7tOaVsOe7hCB8IOaVsOe7hOS4juWtl+espuS4sgojICAgY3BwMi1rcDA5IHwg5a2X56ym5pWw57uE5LiO5a2X56ym5LiyIHwg5pWw57uE5LiO5a2X56ym5LiyCiMgICBjcHAyLWtwMTAgfCBzdHJpbmcg5a2X56ym5Liy5aSE55CGIHwg5pWw57uE5LiO5a2X56ym5LiyCiMgICBjcHAyLWtwMTEgfCDpobrluo/mn6Xmib4gfCDmlbDnu4TkuI7lrZfnrKbkuLIKIyAgIGNwcDIta3AxMiB8IOaemuS4vueul+azlSB8IOaemuS4vuaooeaLnwojICAgY3BwMi1rcDEzIHwg5qih5ouf566X5rOVIHwg5p6a5Li+5qih5oufCiMgICBjcHAyLWtwMTQgfCDlhpLms6HmjpLluo8gfCDmjpLluo/lhaXpl6gKIyAgIGNwcDIta3AxNSB8IOmAieaLqeaOkuW6jyB8IOaOkuW6j+WFpemXqAojICAgY3BwMi1rcDE2IHwg5o+S5YWl5o6S5bqPIHwg5o6S5bqP5YWl6ZeoCiMgICBjcHAyLWtwMTcgfCDnroDljZXpgJLmjqggfCDpgJLmjqgKIyAgIGNwcDIta3AxOCB8IOaVsOe7hOe7vOWQiOW6lOeUqCB8IOe7vOWQiOW6lOeUqAojICAgY3BwMi1rcDE5IHwg5a2X56ym5Liy57u85ZCI5bqU55SoIHwg57u85ZCI5bqU55SoCiMgICBjcHAyLWtwMjAgfCDlh73mlbDkuI7nrpfms5Xnu7zlkIggfCDnu7zlkIjlupTnlKgKIwojIOWIl++8mnBhcGVySWQJaWR4CXFObwl0eXBlCXN0ZW0Jb3B0QQlvcHRCCW9wdEMJb3B0RAlhbnN3ZXIKbGVsZS0zNzkJNQk2CeWNlemAiemimAnku6XkuItDKyvku6PnoIHlrp7njrDku47lpKfliLDlsI/nmoTpobrluo/ovpPlh7ogTiDnmoTmiYDmnInlm6DlrZDjgILkvovlpoLvvIzovpPlhaUgTiA9IDE4IOaXtui+k+WHuiAxOCA5IDYgMyAyIDEg77yM5qiq57q/5aSE5bqU5aGr5YWl77yIIO+8ieOAgglB77yaOyA7CULvvJppbnQgaSA9IDE7IGkgPCBOOyBpKysJQ++8mmludCBpID0gTjsgaSA+IDA7IGktLQlE77yaaW50IGkgPSBOOyBpID4gMTsgaS0tCUMKbGVsZS0zNzkJNgk3CeWNlemAiemimAnlpoLkuIvlm77miYDnpLrvvIzovpPlh7ogTiDooYwgTiDliJfnmoTnn6npmLXvvIzlr7nop5Lnur/kuLox77yM5qiq57q/5aSE5bqU5aGr5YWl77yIIO+8ieOAgglB77yaaSA9IGoJQu+8mmogIT0gaglD77yaaSA+PSBqCUTvvJppID09IGoJRApsZWxlLTM3OQk3CTgJ5Y2V6YCJ6aKYCeS4i+mdokMrK+S7o+eggeeUqOS6juWIpOaWrSBOIOaYr+WQpuS4uui0qOaVsO+8iOe0oOaVsO+8ie+8jOe6puWumui+k+WFpSBOIOS4uuWkp+S6juetieS6jjLnmoTmraPmlbTmlbDvvIzor7flnKjmqKrnur/lpITloavlhaXlkIjpgILnmoTku6PnoIHvvIgg77yJ44CCCUHvvJpicmVhawlC77yaY29udGludWUJQ++8mmV4aXQJRO+8mnJldHVybglBCmxlbGUtMzc5CTgJOQnljZXpgInpopgJ5LiL6Z2iQysr5Luj56CB5omn6KGM5ZCO55qE6L6T5Ye65piv77yIIO+8ieOAgglB77yaMSMwCULvvJoxIwlD77yaMSMxIzEjMSMxIzEJRO+8mjEjMSMxIzEjMSMxIzAJRApsZWxlLTM3OQk5CTEwCeWNlemAiemimAnkuIvpnaJDKyvku6PnoIHmiafooYzlkI7nmoTovpPlh7rmmK/vvIgg77yJ44CCCUHvvJoxNglC77yaMjgJQ++8mjM1CUTvvJozNglBCmxlbGUtMzc5CTEwCTExCeWNlemAiemimAnkuIvpnaJDKyvku6PnoIHmiafooYzlkI7nmoTovpPlh7rmmK/vvIgg77yJ44CCCUHvvJoxCULvvJozCUPvvJoxNQlE77ya5rKh5pyJ6L6T5Ye6CUIKbGVsZS0zNzkJMTEJMTIJ5Y2V6YCJ6aKYCeS4i+mdokMrK+S7o+eggeaJp+ihjOWQjueahOi+k+WHuuaYr++8iCDvvInjgIIJQe+8mjEJQu+8mjMsOSwxMQlD77yaMyw2LDksMTAJRO+8mjEsNSw3LDExLDEzLDE1CUIKbGVsZS0zNzkJMTIJMTMJ5Y2V6YCJ6aKYCeS4i+mdouWbvuW9ouavj+S4gOihjOS7juWtl+avjUHlvIDlp4vvvIzku6VBQkPmlrnlvI/ph43lpI3jgILooYzmlbDkuLrovpPlhaXnmoTmlbTmlbDjgILor7flnKhDKyvku6PnoIHmrrXmqKrnur/lpITloavlhaXlkIjpgILku6PnoIHvvIgg77yJ44CCCUHvvJonQScgKyBqIC8gMwlC77yaKGNoYXIpKCdBJyArIGogLyAzKQlD77yaJ0EnICsgaiAlIDMJRO+8mihjaGFyKSgnQScgKyBqICUgMykJRApsZWxlLTM3OQkxMwkxNAnljZXpgInpopgJ6L6T5YWl6KGM5pWw77yM57qm5a6aIDHiiaRsaW5lQ291bnTiiaQ577yM6L6T5Ye65Lul5LiL5Zu+5b2i44CC5bqU5ZyoQysr5Luj56CB5qiq57q/5aSE5aGr5YWl77yIIO+8ieOAgglB77yaKGxpbmVDb3VudCAtIGkgLSAxKSAqIDIJQu+8mihsaW5lQ291bnQgLSBpKSAqIDIJQ++8mmxpbmVDb3VudCAtIGkgLSAxCUTvvJpsaW5lQ291bnQgLSBpCUEKbGVsZS0zNzkJMTQJMTUJ5Y2V6YCJ6aKYCeafkOePree6p+S6uuaVsOS4jeefpe+8jOi/nue7rei+k+WFpeaIkOe7qeebtOWIsOi+k+WFpei0n+aVsOWBnOatou+8jOi+k+WFpee7k+adn+WQjuaxguWHuuW5s+Wdh+aIkOe7qeOAguWcqOS7peS4i0MrK+S7o+eggeaoque6v+WkhOW6lOWhq+WFpeaYr++8iCDvvInjgIIJQe+8mnRydWUJQu+8mmZhbHNlCUPvvJpUcnVlCUTvvJpGYWxzZQlBCmxlbGUtMzc5CTE1CTEJ5Yik5pat6aKYCeaIkeS7rOW4uOivtOeahOS6kuiBlOe9ke+8iEludGVybmV077yJ5piv5LiA5Liq6KaG55uW5YWo55CD55qE5bm/5Z+f572R57uc77yM5a6D5LiN5bGe5LqO5Lu75L2V5LiA5Liq5Zu95a6244CCCUHvvJrmraPnoa4JQu+8mumUmeivrwkJCUEKbGVsZS0zNzkJMTYJMgnliKTmlq3popgJ56We5aiBwrflpKrmuZbkuYvlhYnotoXnuqforqHnrpfmnLrmmK/kuK3lm73oh6rkuLvnoJTliLbnmoTotoXnuqforqHnrpfmnLrvvIzlnKjlhajnkIPotoXnuqforqHnrpfmnLpUT1A1MDDmjpLooYzmppzkuK3lpJrmrKHojaPohrrmppzpppbjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQQpsZWxlLTM3OQkxNwkzCeWIpOaWremimAlDKyvooajovr7lvI8gNy44IC8gMiDnmoTlgLzkuLogMy45IO+8jOexu+Wei+S4uiBmbG9hdCDjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTM3OQkxOAk0CeWIpOaWremimAlDKyvooajovr7lvI8gKDIgKiAzKSB8fCAoMiArIDUpIOeahOWAvOS4uiA2NyDjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTM3OQkxOQk1CeWIpOaWremimAnlpoLmnpwgbSDlkowgbiDkuLogaW50IOexu+Wei+WPmOmHj++8jOWImeaJp+ihjCBmb3IgKG0gPSAwLCBuID0gMTsgbiA8IDk7ICkgbiA9ICgobSA9IDMgKiBuLCBtICsgMSksIG0gLTEpOyDkuYvlkI4gbiDnmoTlgLzkuLrlgbbmlbDjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQQpsZWxlLTM3OQkyMAk2CeWIpOaWremimAnlpoLmnpwgYSDkuLogaW50IOexu+Wei+eahOWPmOmHj++8jOWImeihqOi+vuW8jyAoYSA+PSA1ICYmIGEgPD0gMTApIOS4jiAoNSA8PSBhIDw9IDEwKSDnmoTlgLzmgLvmmK/nm7jlkIznmoTjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTM3OQkyMQk3CeWIpOaWremimAnkuIvpnaJDKyvku6PnoIHmiafooYzlkI7nmoTovpPlh7rkuLogMTAg44CCCUHvvJrmraPnoa4JQu+8mumUmeivrwkJCUIKbGVsZS0zNzkJMjIJOAnliKTmlq3popgJ5omn6KGM5Lul5LiLQysr5Luj56CB5ZCO55qE6L6T5Ye65Li6IDAg44CCCUHvvJrmraPnoa4JQu+8mumUmeivrwkJCUIKbGVsZS0zNzkJMjMJOQnliKTmlq3popgJ5omn6KGM5Lul5LiLQysr5Luj56CB5ZCO55qE6L6T5Ye65Li6IDMwIOOAgglB77ya5q2j56GuCULvvJrplJnor68JCQlCCmxlbGUtMzc5CTI0CTEwCeWIpOaWremimAlDKyvmmK/kuIDnp43pq5jnuqfnqIvluo/orr7orqHor63oqIDjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQQo=
+# GESP C++ L2 考点清单（只能从下列 id 中选择，禁止编造）
+#   cpp2-kp01 | 变量与数据类型 | 基础语法
+#   cpp2-kp02 | 分支与循环 | 基础语法
+#   cpp2-kp03 | 基础输入输出 | 基础语法
+#   cpp2-kp04 | 函数定义与调用 | 函数
+#   cpp2-kp05 | 函数参数传递 | 函数
+#   cpp2-kp06 | 函数返回值 | 函数
+#   cpp2-kp07 | 一维数组 | 数组与字符串
+#   cpp2-kp08 | 多维数组 | 数组与字符串
+#   cpp2-kp09 | 字符数组与字符串 | 数组与字符串
+#   cpp2-kp10 | string 字符串处理 | 数组与字符串
+#   cpp2-kp11 | 顺序查找 | 数组与字符串
+#   cpp2-kp12 | 枚举算法 | 枚举模拟
+#   cpp2-kp13 | 模拟算法 | 枚举模拟
+#   cpp2-kp14 | 冒泡排序 | 排序入门
+#   cpp2-kp15 | 选择排序 | 排序入门
+#   cpp2-kp16 | 插入排序 | 排序入门
+#   cpp2-kp17 | 简单递推 | 递推
+#   cpp2-kp18 | 数组综合应用 | 综合应用
+#   cpp2-kp19 | 字符串综合应用 | 综合应用
+#   cpp2-kp20 | 函数与算法综合 | 综合应用
+#
+# 列：paperId	idx	qNo	type	stem	optA	optB	optC	optD	answer
+lele-379	5	6	单选题	以下C++代码实现从大到小的顺序输出 N 的所有因子。例如，输入 N = 18 时输出 18 9 6 3 2 1 ，横线处应填入（ ）。	A：; ;	B：int i = 1; i < N; i++	C：int i = N; i > 0; i--	D：int i = N; i > 1; i--	C
+lele-379	6	7	单选题	如下图所示，输出 N 行 N 列的矩阵，对角线为1，横线处应填入（ ）。	A：i = j	B：j != j	C：i >= j	D：i == j	D
+lele-379	7	8	单选题	下面C++代码用于判断 N 是否为质数（素数），约定输入 N 为大于等于2的正整数，请在横线处填入合适的代码（ ）。	A：break	B：continue	C：exit	D：return	A
+lele-379	8	9	单选题	下面C++代码执行后的输出是（ ）。	A：1#0	B：1#	C：1#1#1#1#1#1	D：1#1#1#1#1#1#0	D
+lele-379	9	10	单选题	下面C++代码执行后的输出是（ ）。	A：16	B：28	C：35	D：36	A
+lele-379	10	11	单选题	下面C++代码执行后的输出是（ ）。	A：1	B：3	C：15	D：没有输出	B
+lele-379	11	12	单选题	下面C++代码执行后的输出是（ ）。	A：1	B：3,9,11	C：3,6,9,10	D：1,5,7,11,13,15	B
+lele-379	12	13	单选题	下面图形每一行从字母A开始，以ABC方式重复。行数为输入的整数。请在C++代码段横线处填入合适代码（ ）。	A：'A' + j / 3	B：(char)('A' + j / 3)	C：'A' + j % 3	D：(char)('A' + j % 3)	D
+lele-379	13	14	单选题	输入行数，约定 1≤lineCount≤9，输出以下图形。应在C++代码横线处填入（ ）。	A：(lineCount - i - 1) * 2	B：(lineCount - i) * 2	C：lineCount - i - 1	D：lineCount - i	A
+lele-379	14	15	单选题	某班级人数不知，连续输入成绩直到输入负数停止，输入结束后求出平均成绩。在以下C++代码横线处应填入是（ ）。	A：true	B：false	C：True	D：False	A
+lele-379	15	1	判断题	我们常说的互联网（Internet）是一个覆盖全球的广域网络，它不属于任何一个国家。	A：正确	B：错误			A
+lele-379	16	2	判断题	神威·太湖之光超级计算机是中国自主研制的超级计算机，在全球超级计算机TOP500排行榜中多次荣膺榜首。	A：正确	B：错误			A
+lele-379	17	3	判断题	C++表达式 7.8 / 2 的值为 3.9 ，类型为 float 。	A：正确	B：错误			B
+lele-379	18	4	判断题	C++表达式 (2 * 3) || (2 + 5) 的值为 67 。	A：正确	B：错误			B
+lele-379	19	5	判断题	如果 m 和 n 为 int 类型变量，则执行 for (m = 0, n = 1; n < 9; ) n = ((m = 3 * n, m + 1), m -1); 之后 n 的值为偶数。	A：正确	B：错误			A
+lele-379	20	6	判断题	如果 a 为 int 类型的变量，则表达式 (a >= 5 && a <= 10) 与 (5 <= a <= 10) 的值总是相同的。	A：正确	B：错误			B
+lele-379	21	7	判断题	下面C++代码执行后的输出为 10 。	A：正确	B：错误			B
+lele-379	22	8	判断题	执行以下C++代码后的输出为 0 。	A：正确	B：错误			B
+lele-379	23	9	判断题	执行以下C++代码后的输出为 30 。	A：正确	B：错误			B
+lele-379	24	10	判断题	C++是一种高级程序设计语言。	A：正确	B：错误			A
