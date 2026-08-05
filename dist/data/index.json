@@ -2318,6 +2318,63 @@
   }
  },
  {
+  "id": "lele-gesp-cpp-202606-l1",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++1级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l1",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++1级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l1",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++1级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-835",
   "subject": "gesp-cpp",
   "subjectName": "GESPC++",
@@ -2328,6 +2385,25 @@
   "title": "202509 CCF-GESP编程能力等级认证C++一级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l1",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++1级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -2470,6 +2546,63 @@
   }
  },
  {
+  "id": "lele-gesp-cpp-202606-l2",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l2",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l2",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-836",
   "subject": "gesp-cpp",
   "subjectName": "GESPC++",
@@ -2480,6 +2613,25 @@
   "title": "202509 CCF-GESP编程能力等级认证C++二级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l2",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++2级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -2622,6 +2774,63 @@
   }
  },
  {
+  "id": "lele-gesp-cpp-202606-l3",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l3",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l3",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-837",
   "subject": "gesp-cpp",
   "subjectName": "GESPC++",
@@ -2632,6 +2841,25 @@
   "title": "202509 CCF-GESP编程能力等级认证C++三级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l3",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++3级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -2774,6 +3002,63 @@
   }
  },
  {
+  "id": "lele-gesp-cpp-202606-l4",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l4",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l4",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-838",
   "subject": "gesp-cpp",
   "subjectName": "GESPC++",
@@ -2784,6 +3069,25 @@
   "title": "202509 CCF-GESP编程能力等级认证C++四级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l4",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++4级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -2926,6 +3230,82 @@
   }
  },
  {
+  "id": "lele-gesp-cpp-202606-l5",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l5",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l5",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l5",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-787",
   "subject": "gesp-cpp",
   "subjectName": "GESPC++",
@@ -3054,6 +3434,82 @@
   "passScore": 60,
   "tags": {
    "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202606-l6",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l6",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l6",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l6",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -3192,6 +3648,82 @@
   }
  },
  {
+  "id": "lele-gesp-cpp-202606-l7",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 7,
+  "levelName": "7级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++7级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l7",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 7,
+  "levelName": "7级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++7级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l7",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 7,
+  "levelName": "7级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++7级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l7",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 7,
+  "levelName": "7级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++7级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-789",
   "subject": "gesp-cpp",
   "subjectName": "GESPC++",
@@ -3301,6 +3833,82 @@
   "passScore": 60,
   "tags": {
    "year": "2023",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202606-l8",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 8,
+  "levelName": "8级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证C++8级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202603-l8",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 8,
+  "levelName": "8级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证C++8级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202512-l8",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 8,
+  "levelName": "8级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证C++8级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-cpp-202509-l8",
+  "subject": "gesp-cpp",
+  "subjectName": "GESPC++",
+  "level": 8,
+  "levelName": "8级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证C++8级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
    "type": "真题",
    "progress": "未开始"
   }
@@ -3420,6 +4028,63 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l1",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python1级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202603-l1",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Python1级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l1",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python1级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-829",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -3430,6 +4095,25 @@
   "title": "202509 CCF-GESP编程能力等级认证Python一级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202509-l1",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Python1级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -3610,6 +4294,63 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l2",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202603-l2",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Python2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l2",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-830",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -3629,6 +4370,25 @@
   }
  },
  {
+  "id": "lele-gesp-python-202509-l2",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Python2级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-745",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -3639,6 +4399,25 @@
   "title": "202506 CCF-GESP编程能力等级认证Python二级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202506-l2",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202506",
+  "year": "2025",
+  "title": "202506 CCF-GESP编程能力等级认证Python2级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -3800,6 +4579,63 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l3",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202603-l3",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Python3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l3",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-831",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -3819,6 +4655,25 @@
   }
  },
  {
+  "id": "lele-gesp-python-202509-l3",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Python3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-746",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -3829,6 +4684,25 @@
   "title": "202506 CCF-GESP编程能力等级认证Python三级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202506-l3",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202506",
+  "year": "2025",
+  "title": "202506 CCF-GESP编程能力等级认证Python3级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -3971,6 +4845,63 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l4",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202603-l4",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Python4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l4",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-832",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -3990,6 +4921,25 @@
   }
  },
  {
+  "id": "lele-gesp-python-202509-l4",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Python4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-747",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -4000,6 +4950,25 @@
   "title": "202506 CCF-GESP编程能力等级认证Python四级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202506-l4",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202506",
+  "year": "2025",
+  "title": "202506 CCF-GESP编程能力等级认证Python4级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -4142,6 +5111,63 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l5",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202603-l5",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Python5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l5",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-833",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -4161,6 +5187,25 @@
   }
  },
  {
+  "id": "lele-gesp-python-202509-l5",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Python5级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-748",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -4171,6 +5216,25 @@
   "title": "202506 CCF-GESP编程能力等级认证Python五级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202506-l5",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 5,
+  "levelName": "5级",
+  "yearmonth": "202506",
+  "year": "2025",
+  "title": "202506 CCF-GESP编程能力等级认证Python5级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -4294,6 +5358,63 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l6",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202603-l6",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Python6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l6",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-834",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -4313,6 +5434,25 @@
   }
  },
  {
+  "id": "lele-gesp-python-202509-l6",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Python6级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-749",
   "subject": "gesp-python",
   "subjectName": "GESPPython",
@@ -4323,6 +5463,25 @@
   "title": "202506 CCF-GESP编程能力等级认证Python六级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202506-l6",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 6,
+  "levelName": "6级",
+  "yearmonth": "202506",
+  "year": "2025",
+  "title": "202506 CCF-GESP编程能力等级认证Python6级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -4427,6 +5586,101 @@
   }
  },
  {
+  "id": "lele-gesp-python-202606-l7",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 7,
+  "levelName": "7级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Python7级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-python-202512-l7",
+  "subject": "gesp-python",
+  "subjectName": "GESPPython",
+  "level": 7,
+  "levelName": "7级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Python7级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202606-l1",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Scratch1级真题",
+  "count": 15,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202603-l1",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Scratch1级真题",
+  "count": 15,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202512-l1",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Scratch1级真题",
+  "count": 15,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-817",
   "subject": "gesp-scratch",
   "subjectName": "GESPScratch",
@@ -4437,6 +5691,25 @@
   "title": "202509 CCF-GESP编程能力等级认证Scratch一级真题",
   "count": 17,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202509-l1",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 1,
+  "levelName": "1级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Scratch1级真题",
+  "count": 15,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -4636,6 +5909,63 @@
   }
  },
  {
+  "id": "lele-gesp-scratch-202606-l2",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Scratch2级真题",
+  "count": 15,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202603-l2",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Scratch2级真题",
+  "count": 15,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202512-l2",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Scratch2级真题",
+  "count": 15,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-818",
   "subject": "gesp-scratch",
   "subjectName": "GESPScratch",
@@ -4646,6 +5976,25 @@
   "title": "202509 CCF-GESP编程能力等级认证Scratch二级真题",
   "count": 17,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202509-l2",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 2,
+  "levelName": "2级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Scratch2级真题",
+  "count": 15,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -4845,6 +6194,63 @@
   }
  },
  {
+  "id": "lele-gesp-scratch-202606-l3",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Scratch3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202603-l3",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Scratch3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202512-l3",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Scratch3级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-819",
   "subject": "gesp-scratch",
   "subjectName": "GESPScratch",
@@ -4855,6 +6261,25 @@
   "title": "202509 CCF-GESP编程能力等级认证Scratch三级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202509-l3",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 3,
+  "levelName": "3级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Scratch3级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
@@ -5035,6 +6460,63 @@
   }
  },
  {
+  "id": "lele-gesp-scratch-202606-l4",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202606",
+  "year": "2026",
+  "title": "202606 CCF-GESP编程能力等级认证Scratch4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202603-l4",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202603",
+  "year": "2026",
+  "title": "202603 CCF-GESP编程能力等级认证Scratch4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2026",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202512-l4",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202512",
+  "year": "2025",
+  "title": "202512 CCF-GESP编程能力等级认证Scratch4级真题",
+  "count": 25,
+  "durationMin": 90,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
   "id": "lele-820",
   "subject": "gesp-scratch",
   "subjectName": "GESPScratch",
@@ -5045,6 +6527,25 @@
   "title": "202509 CCF-GESP编程能力等级认证Scratch四级真题",
   "count": 27,
   "durationMin": 60,
+  "totalScore": 100,
+  "passScore": 60,
+  "tags": {
+   "year": "2025",
+   "type": "真题",
+   "progress": "未开始"
+  }
+ },
+ {
+  "id": "lele-gesp-scratch-202509-l4",
+  "subject": "gesp-scratch",
+  "subjectName": "GESPScratch",
+  "level": 4,
+  "levelName": "4级",
+  "yearmonth": "202509",
+  "year": "2025",
+  "title": "202509 CCF-GESP编程能力等级认证Scratch4级真题",
+  "count": 25,
+  "durationMin": 90,
   "totalScore": 100,
   "passScore": 60,
   "tags": {
