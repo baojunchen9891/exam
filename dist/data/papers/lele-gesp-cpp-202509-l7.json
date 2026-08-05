@@ -1,1 +1,1118 @@
-ewogImlkIjogImxlbGUtZ2VzcC1jcHAtMjAyNTA5LWw3IiwKICJ0aXRsZSI6ICIyMDI1MDkgQ0NGLUdFU1DnvJbnqIvog73lipvnrYnnuqforqTor4FDKys357qn55yf6aKYIiwKICJzdWJqZWN0IjogImdlc3AtY3BwIiwKICJzdWJqZWN0TmFtZSI6ICJHRVNQQysrIiwKICJsZXZlbCI6IDcsCiAibGV2ZWxOYW1lIjogIjfnuqciLAogInllYXJtb250aCI6ICIyMDI1MDkiLAogInllYXIiOiAiMjAyNSIsCiAiY291bnQiOiAyNSwKICJxdWVzdGlvbnMiOiBbCiAgewogICAibm8iOiAxLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLlt7Lnn6XlsI/lhpnlrZfmr41i55qEQVNDSeeggeS4ujk477yM5LiL5YiXQyvku6PnoIHnmoTovpPlh7rnu5PmnpzmmK8oKeOAglxuI2luY2x1ZGUgPGlvc3RyZWFtPlxudXNpbmcgbmFtZXNwYWNlIHN0ZDtcbmludCBtYWluKCl7XG5jaGFyIGEgPSAnYicrIDHvvJtcbmNvdXQgPDwgYTtcbnJldHVybiAw77ybXG59IgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaYiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8mmMiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJo5OCIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8mjk5IgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIELogIPnurLnn6Xor4bngrnvvJog5a2X56ym5LiOIEFTQ0lJIOeggeeahOi9rOaNomNoYXIg57G75Z6L5LiOIGludCDnsbvlnovorqHnrpfml7Yg77yM5Lya6Ieq5Yqo5omp5aSn57G75Z6L77yMICdiJyArIDEg55qE6K6h566X57uT5p6c5Li6IGludCDnsbvlnovnmoQgOTggKyAxID0gOTkg77yM5L2G5Zyo5a2Y5YKo5LqO5Y+Y6YePIGEg5pe25Lya6L2s5o2iIGNoYXIg57G75Z6L5a2Y5YKo77yM6ICMIDk5IOWvueW6lOeahCBBU0NJSSDlrZfnrKbkuLogJ2MnIO+8jOaXtuaMieeFpyBjaGFyIOexu+Wei+eahOi+k+WHuuinhOWIme+8jOi+k+WHuiBjIOOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMjEiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AyMSIKICB9LAogIHsKICAgIm5vIjogMiwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5bey55+lYeS4umludOexu+Wei+WPmOmHj++8jHDkuLppbnQq57G75Z6L5Y+Y6YeP77yM5LiL5YiX6KGo6L6+5byP5LiN56ym5ZCI6K+t5rOV55qE5pivKCnjgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJphKiBhIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yacCpwIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaYSAmJiBhIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77yacCAmJiBwIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIELogIPnurLnn6Xor4bngrnvvJog5oyH6ZKI6L+Q566X5LiO6YC76L6R6L+Q566XaW50IOexu+Wei+eahOaMh+mSiOWPmOmHj+S4jeiDveebtOaOpei/m+ihjOS5mOazlei/kOeul++8iCBwICBwIOivreazlemUmeivr++8ie+8myBhICogYSDmmK/mlbTmlbDkuZjms5XvvIwgYSAmJiBhIOWSjCBwICYmIHAg5piv6YC76L6R5LiO6L+Q566X77yI5oyH6ZKI6Z2e56m65YiZ5Li655yf77yJ77yM5Z2H56ym5ZCI6K+t5rOV44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AyMSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDIxIgogIH0sCiAgewogICAibm8iOiAzLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvliJflhbPkuo5DK+exu+eahOivtOazle+8jOmUmeivr+eahOaYrygp44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77ya5aaC5p6c5LiA5Liq57G75YyF5ZCr57qv6Jma5Ye95pWw77yM5YiZ5a6D5LiN6IO95YyF5ZCr5oiQ5ZGY5Y+Y6YeP44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77ya5aaC5p6c5LiA5Liq57G75YyF5ZCr57qv6Jma5Ye95pWw77yM5YiZ5LiN6IO955So5a6D5a6a5LmJ5a+56LGh44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77ya5rS+55Sf57G75a+56LGh5Y2g55So55qE5YaF5a2Y5oC75piv5LiN5bCP5LqO5Z+657G75a+56LGh44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77ya5rS+55Sf57G75Y+v5Lul5LiN5a6e546w5Z+657G755qE6Jma5Ye95pWw44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIEHogIPnurLnn6Xor4bngrnvvJog5oq96LGh57G75LiO57un5om/5YyF5ZCr57qv6Jma5Ye95pWw55qE57G75piv5oq96LGh57G777yM5oq96LGh57G75Y+v5Lul5YyF5ZCr5oiQ5ZGY5Y+Y6YeP77yIIEEg6ZSZ6K+v77yJ77yb5oq96LGh57G75LiN6IO95a6e5L6L5YyW5a+56LGh77yIIEIg5q2j56Gu77yJ77yb5rS+55Sf57G757un5om/5Z+657G75oiQ5ZGY77yM5YaF5a2Y5LiN5bCP5LqO5Z+657G777yIIEMg5q2j56Gu77yJ77yb5rS+55Sf57G76Iul5pyq5a6e546w5Z+657G76Jma5Ye95pWw77yM5LuN5Li65oq96LGh57G777yIIEQg5q2j56Gu77yJ44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AyMSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDIxIgogIH0sCiAgewogICAibm8iOiA0LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLlt7Lnn6XmlbDnu4Rh55qE5a6a5LmJaW50IGFbMTBdPXstMX07LOS4i+WIl+ivtOazleS4jeato+ehrueahOaYrygp44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77ya5pWw57uEYeiHs+WwkeWNoOeUqDEwIOS4qiBpbnQg5aSn5bCP55qE5YaF5a2Y77yM5LiA6Iis5Li6NDDkuKrlrZfoioLjgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJrmlbDnu4Rh55qE5omA5pyJ5YWD57Sg5Z2H6KKr5Yid5aeL5YyW5Li6LTHjgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJror63lj6VhWy0xXT0wO+S4jeS8muS6p+eUn+e8luivkemUmeivr++8jOS9huS8muWvvOiHtOmavuS7pemihOa1i+eahOi/kOihjOe7k+aenOOAgiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8muivreWPpWFbMTNdPTA75LiN5Lya5Lqn55Sf57yW6K+R6ZSZ6K+v77yM5L2G5Lya5a+86Ie06Zq+5Lul6aKE5rWL55qE6L+Q6KGM57uT5p6c44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIELogIPnurLnn6Xor4bngrnvvJog5pWw57uE5Yid5aeL5YyW5LiO6LaK55WM6K6/6Zeu5pWw57uE5Yid5aeL5YyW5pe277yM6Iul5Y+q5oyH5a6a6YOo5YiG5YWD57Sg77yM5Ymp5L2Z5YWD57Sg5Lya6KKr5Yid5aeL5YyW5Li6IDAg77yI6ICM6Z2e5YWo6YOoIC0xIO+8jCBCIOmUmeivr++8ie+8m+aVsOe7hOWkp+Wwj+WbuuWumuS4uiAxMCDkuKogaW50IO+8iOmAmuW4uCA0MCDlrZfoioLvvIwgQSDmraPnoa7vvInvvJvkuIvmoIfotornlYznvJbor5HkuI3miqXplJnvvIzkvYbov5DooYzml7blj6/orr/pl67pnZ7ms5XlhoXlrZjvvIggQyDjgIEgRCDmraPnoa7vvInjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDIxIgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMjEiCiAgfSwKICB7CiAgICJubyI6IDUsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4gOajteWujOWFqOS6jOWPieagkeaciTE2NeS4que7k+eCue+8jOWImeWPtue7k+eCueacieWkmuWwkeS4qu+8nygpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaMzgiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJo4MiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQ++8mjgzIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77yaODQiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQyIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogQ+iAg+e6suefpeivhueCue+8miDlrozlhajkuozlj4nmoJHnmoTmgKfotKjlrozlhajkuozlj4nmoJHkuK3vvIzoi6XmgLvnu5PngrkgbiDkuLrlpYfmlbDvvIzlj7boioLngrnmlbDkuLogKG4rMSkvMiDvvJvoi6XkuLrlgbbmlbDvvIzlj7boioLngrnmlbDkuLogbi8yIOOAgjE2NSDmmK/lpYfmlbDvvIzlj7boioLngrnmlbDkuLogKDE2NSsxKS8yID0gODMg44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AwNSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDA1IgogIH0sCiAgewogICAibm8iOiA2LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvliJflhbPkuo7kuozlj4nmoJHnmoTor7Tms5XvvIzplJnor6/nmoTmmK8oKeOAgiIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8muS6jOWPieaOkuW6j+agkeeahOS4reW6j+mBjeWOhumhuuW6j+S4juWFg+e0oOaOkuW6j+eahOmhuuW6j+aYr+ebuOWQjOeahOOAgiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8muiHquW5s+ihoeS6jOWPieafpeaJvuagkShBVkzmoJEp5piv5LiA56eN5LqM5Y+J5o6S5bqP5qCR44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yabuS4quWFg+e0oOeahOS6jOWPieaOkuW6j+agke+8jOWFtumrmOS4gOWumuS4ultsb2cybl3jgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJrku7vmhI/nmoTmo67mnpfvvIzpg73lj6/ku6XmmKDlsITkuLrkuIDpopfkuozlj4nmoJHov5vooYzooajovr7lkozlrZjlgqjjgIIiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQyIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogQ+iAg+e6suefpeivhueCue+8miDkuozlj4nmoJHnmoTnibnmgKfkuozlj4nmjpLluo/moJHnmoTpq5jluqblj5blhrPkuo7mj5LlhaXpobrluo/vvIzmnIDlnY/mg4XlhrXkuIvkuLogTyhuKSDvvIjlpoLmnInluo/mj5LlhaXlvaLmiJDljZXpk77vvInvvIzlubbpnZ7kuIDlrprkuLog4oyKIGxvZyBuIOKMiyDvvIggQyDplJnor6/vvInvvJsgQSDjgIEgQiDjgIEgRCDlnYfkuLrkuozlj4nmoJHnmoTln7rmnKzmgKfotKjjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDA1IgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMDUiCiAgfSwKICB7CiAgICJubyI6IDcsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+WIl+WFs+S6juagkeWSjOWbvueahOivtOazle+8jOmUmeivr+eahOaYrygp44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77ya5L+d55WZ5qCR55qE5omA5pyJ6IqC54K577yM5bm25oqK5qCR55qE5q+P5Liq6IqC54K55oyH5ZCR5YW254i26IqC54K577yM5YiZ5Y+v5Lul5bCG5qCR6L2s5o2i5Li65LiA5Liq5pyJ5ZCR5byx6L+e6YCa5Zu+44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77ya5L+d55WZ5qCR55qE5omA5pyJ6IqC54K577yM5bm25oqK5qCR55qE5q+P5Liq6IqC54K55oyH5ZCR5YW25a2Q6IqC54K577yM5YiZ5Y+v5Lul5bCG5qCR6L2s5o2i5Li65LiA5Liq5pyJ5ZCR5peg546v5Zu+44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77ya5q+P5Liq6L+e6YCa5Zu+6YO95a2Y5Zyo55Sf5oiQ5qCR44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77ya5q+P5Liq5a2Y5Zyo55Sf5oiQ5qCR55qE5pyJ5ZCR5Zu+77yM6YO95LiA5a6a5piv5by66L+e6YCa55qE44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkQiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIETogIPnurLnn6Xor4bngrnvvJog5qCR5LiO5Zu+55qE6L2s5o2i5pyJ5ZCR5Zu+55qE55Sf5oiQ5qCR5LuF5L+d6K+B5byx6L+e6YCa77yI5Lu75oSP5Lik6IqC54K55a2Y5Zyo6Lev5b6E77yM5LiN6KaB5rGC5pa55ZCR77yJ77yM5L2G5LiN5LiA5a6a5by66L+e6YCa77yI5Lu75oSP5Lik6IqC54K55Y+M5ZCR5Y+v6L6+77yMIEQg6ZSZ6K+v77yJ77ybIEEg44CBIEIg44CBIEMg5Z2H5q2j56Gu44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AxMSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDExIgogIH0sCiAgewogICAibm8iOiA4LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLlr7nkuIDkuKrljIXlkKtW5Liq6aG254K544CBReadoei+ueeahOWbvu+8jOaJp+ihjOW5v+W6puS8mOWFiOaQnOe0ou+8jOWFtuacgOS8mOaXtumXtOWkjeadguW6puaYrygp44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaTyhWK0UpIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaTyhWKSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQ++8mk8oRSkiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJpPKFYyKSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJBIiwKICAgImFuYWx5c2lzIjogIuetlOahiO+8miBB6ICD57qy55+l6K+G54K577yaIOW5v+W6puS8mOWFiOaQnOe0ou+8iCBCRlMg77yJ55qE5pe26Ze05aSN5p2C5bqmQkZTIOiHs+WwkemcgOiuv+mXruaJgOaciemhtueCue+8iCBPKFYpIO+8ieWSjOaJgOaciei+ue+8iCBPKEUpIO+8ie+8jOaAu+aXtumXtOWkjeadguW6puS4uiBPKFYrRSkg77yM6L+Z5piv5aSN5p2C5bqm55qE5LiL55WM77yM6K+l5aSN5p2C5bqm5Zyo5L2/55So6YK75o6l6KGo5a2Y5YKo5pe25Y+v5Lul6L6+5Yiw77yMIOWboOatpCDmmK/mnIDkvJjlpI3mnYLluqbjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDExIgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMTEiCiAgfSwKICB7CiAgICJubyI6IDksCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS7peS4i+WTquS4quaWueahiOS4jeiDveWQiOeQhuino+WGs+aIlue8k+ino+WTiOW4jOihqOWGsueqgSgp44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77ya55So5paw5YWD57Sg6KaG55uW5Y+R55Sf5Yay56qB55qE5ZOI5biM6KGo6aG544CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77ya5Zyo5q+P5Liq5ZOI5biM6KGo6aG55aSE77yM5L2/55So5Y2V6ZO+6KGo566h55CG6K+l6KGo6aG555qE5Yay56qB5YWD57Sg44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77ya5bu656uL6aKd5aSW55qE5Y2V6ZO+6KGo77yM55So5p2l566h55CG5omA5pyJ5Y+R55Sf5Yay56qB55qE5YWD57Sg44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77ya5L2/55So5LiN5ZCM55qE5ZOI5biM5Ye95pWw5YaN5bu656uL5LiA5Liq5ZOI5biM6KGo77yM55So5p2l566h55CG5omA5pyJ5Y+R55Sf5Yay56qB55qE5YWD57Sg44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIEHogIPnurLnn6Xor4bngrnvvJog5ZOI5biM6KGo5Yay56qB6Kej5Yaz5pa55rOV6KaG55uW5Yay56qB5YWD57Sg5Lya5a+86Ie05pWw5o2u5Lii5aSx77yM5peg5rOV6Kej5Yaz5Yay56qB77yIIEEg6ZSZ6K+v77yJ77ybIEIg5piv6ZO+5Zyw5Z2A5rOV77yMIEMg44CBIEQg5piv5YaN5ZOI5biM5oiW5YiG56a76ZO+6KGo55qE5Y+Y5L2T77yM5Z2H5Li65ZCI55CG55qE5Yay56qB6Kej5Yaz562W55Wl44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AyMSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDIxIgogIH0sCiAgewogICAibm8iOiAxMCwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5Lul5LiL5YWz5LqO6LSq5b+D5rOV5ZKM5Yqo5oCB6KeE5YiS55qE6K+05rOV5Lit77yM6ZSZ6K+v55qE5pivKCnjgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJrlr7nnibnlrprnmoTpl67popjvvIzotKrlv4Pms5XkuI3kuIDlrprpgILnlKjjgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJrlvZPnibnlrprnmoTpl67popjpgILnlKjotKrlv4Pms5Xml7bvvIzpgJrluLjmr5TliqjmgIHop4TliJLnmoTml7bpl7TlpI3mnYLluqbmm7TkvY7jgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJrlr7nlvojlpJrpl67popjvvIzpgJLmjqjlrp7njrDlkozpgJLlvZLlrp7njrDliqjmgIHop4TliJLmlrnms5XnmoTml7bpl7TlpI3mnYLluqbnm7jlvZPjgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJrph4fnlKjliqjmgIHop4TliJLnmoTnrpfms5XkuIDlrprlhbfmnInlpJrpobnlvI/ml7bpl7TlpI3mnYLluqbjgIIiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiRCIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogROiAg+e6suefpeivhueCue+8miDotKrlv4Pms5XkuI7liqjmgIHop4TliJLnmoTnibnmgKfliqjmgIHop4TliJLnmoTml7bpl7TlpI3mnYLluqblj5blhrPkuo7nirbmgIHmlbDlkozovaznp7vlpI3mnYLluqbvvIzmn5Dkupvpl67popjvvIjlpoLml4XooYzllYbnmoTliqjmgIHop4TliJLop6Pms5XvvInml7bpl7TlpI3mnYLluqbkuLrmjIfmlbDnuqfvvIggRCDplJnor6/vvInvvJsgQSDjgIEgQiDjgIEgQyDlnYfmraPnoa7jgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDEyIgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMTIiCiAgfSwKICB7CiAgICJubyI6IDExLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvpnaLnqIvluo/nmoTovpPlh7rkuLooKeOAglxuI2luY2x1ZGUgPGlvc3RyZWFtPlxudXNpbmcgbmFtZXNwYWNlIHN0ZDtcbmludCBmaWIoaW50IG4pe1xuaWYgKG4gPT0wKVxucmV0dXJuIDHvvJtcbnJldHVybiBmaWIobiAtIDEpICsgZmliKG4gLSAyKe+8m1xufVxuaW50IG1haW4oKXtcbmNvdXQgPDwgZmliKDYpIDw8IGVuZGw7XG5yZXR1cm4gMO+8m1xufSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mjgiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJoxMyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQ++8mjIxIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77ya5peg5rOV5q2j5bi457uT5p2f44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkQiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIETogIPnurLnn6Xor4bngrnvvJog6YCS5b2S5Ye95pWw55qE57uI5q2i5p2h5Lu25Ye95pWw57y65bCRIG49MSDnmoTnu4jmraLmnaHku7bvvIzlvZPorqHnrpcgZmliKDYpIOaXtuS8mumAkuW9kuWIsCBmaWIoLTEpIOOAgSBmaWIoLTIpIOetie+8jOmZt+WFpeaXoOmZkOmAkuW9ku+8jOaXoOazleato+W4uOe7k+adn+OAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMTIiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AxMiIKICB9LAogIHsKICAgIm5vIjogMTIsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+mdoueoi+W6j+eahOaXtumXtOWkjeadguW6puS4uigp44CCXG5pbnQgcmVjX2ZpYltNQVhfTl07XG5pbnQgZmliKGludCBuKSB7XG5pZihuIDw9MSlcbnJldHVybiBuO1xuaWYgKHJlY19maWJbbl0g77yBPSAwKVxucmV0dXJuIHJlY19maWJbbl07XG5yZXR1cm4gZmliKG4gLSAxKSArIGZpYihuIC0gMinvvJtcbn0iCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJpPKM+GKe+8jM+GPTUrMSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8mk8oMm4pIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaTyhuMikiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJpPKG4pIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIETogIPnurLnn6Xor4bngrnvvJog6K6w5b+G5YyW6YCS5b2S55qE5pe26Ze05aSN5p2C5bqm56iL5bqP6YCa6L+HIHJlY19maWIg5pWw57uE57yT5a2Y6K6h566X57uT5p6c77yM5q+P5LiqIGZpYihuKSDku4XorqHnrpfkuIDmrKHvvIzmgLvorqHnrpfmrKHmlbDkuLogTyhuKSDvvIzml7bpl7TlpI3mnYLluqbkuLrnur/mgKfjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDEyIgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMTIiCiAgfSwKICB7CiAgICJubyI6IDEzLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvpnaJpbml0X3NpZXZl5Ye95pWw55qE5pe26Ze05aSN5p2C5bqm5Li6KCnjgIJcbmludCBzaWV2ZVtNQVhfTl07XG52b2lkIGluaXRfc2lldmUoaW50IG4pe1xuZm9yIChpbnQgaSA9IDHvvJtpIDw9IG47IGkrKylcbnNpZXZlW2ldID0gaTtcbmZvciAoaW50IGk9IDLvvJtpIDw9IG47IGkrKylcbmZvciAoaW50IGo9IGk7IGogPD0gbjtqKz0gaSlcbnNpZXZlW2pdLTtcbn0iCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJpPKG4pIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaTyhuIGxvZyBsb2cgbikiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJpPKG4gbG9nIG4pIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77yaTyhuMikiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQyIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogQ+iAg+e6suefpeivhueCue+8miDltYzlpZflvqrnjq/nmoTml7bpl7TlpI3mnYLluqbliIbmnpDlpJblsYLlvqrnjq8gaSDku44gMiDliLAgbiDvvIzlhoXlsYLlvqrnjq8gaiDnmoTmiafooYzmrKHmlbDkuLogbi9pIO+8jOaAu+asoeaVsOS4uiBuLzIgKyBuLzMgKyAuLi4gKyBuL24g4omIIG4gbG9nIG4g77yM5Zug5q2k5pe26Ze05aSN5p2C5bqm5Li6IE8obmxvZ24pIOOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMTUiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AxNSIKICB9LAogIHsKICAgIm5vIjogMTQsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+mdomNvdW50X3RyaXBsZSDlh73mlbDnmoTml7bpl7TlpI3mnYLluqbkuLooKeOAglxuaW50IGdjZChpbnQgbSwgaW50IG4pIHtcbmlmIChtID09IDApIHJldHVybiBuO1xucmV0dXJuIGdjZChuICUgbSwgbSk7XG59XG5pbnQgY291bnRfdHJpcGxlKGludCBuKSB7XG5pbnQgY250ID0gMO+8m1xuZm9yIChpbnQgdj0gMe+8myB2KnYqNCA8PSBuO3YrKylcbmZvciAoaW50IHU9disxO3UqKHUrdikqMjw9bjt1Kz0yKVxuaWYgKGdjZCh1LCB2KSA9IDEpe1xuaW50IGE9dSogdS12KnZcbmludCBiPSB1KnYqIDLvvJtcbmludCBjPXUqIHUrdiogdjtcbmNudCArPSBuLyhhKyBiK2MpO1xufVxucmV0dXJuIGNudDtcbn0iCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJpPKG4yKSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8mk8objIgbG9nIG4pIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaTyhuIGxvZyBuKSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8mk8obikiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQyIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogQ+iAg+e6suefpeivhueCue+8miDlpJrph43lvqrnjq/kuI4gR0NEIOeahOaXtumXtOWkjeadguW6puWkluWxguW+queOryB2IOeahOiMg+WbtOS4uiBPKOKImm4pIO+8jOWGheWxguW+queOryB1IOeahOiMg+WbtOS4uiBPKOKImm4pIO+8jOaAu+W+queOr+asoeaVsOS4uiBPKG4pIO+8myBHQ0Qg55qE5pe26Ze05aSN5p2C5bqm5Li6IE8obG9nIG4pIO+8jOWboOatpOaAu+WkjeadguW6puS4uiBPKG5sb2duKSDjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDE2IgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMTYiCiAgfSwKICB7CiAgICJubyI6IDE1LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvliJfpgInpobnkuK3vvIzlk6rkuKrkuI3lj6/og73mmK/kuIvlm77nmoTmt7HluqbkvJjlhYjpgY3ljobluo/liJcoKeOAglxuMlxuM1xuNFxuNlxuOFxuOSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mjIsMyw1LDcsOCw5LDYsNCwxIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaNSw3LDgsOSwxLDIsNCwzLDYiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJo2LDgsOSw1LDcsMSwyLDMsNCIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8mjgsNSw3LDksMSwyLDMsNiw0IgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIELogIPnurLnn6Xor4bngrnvvJog5rex5bqm5LyY5YWI6YGN5Y6G77yIIERGUyDvvInnmoTnibnmgKdERlMg6KaB5rGC6K6/6Zeu5LiA5Liq6IqC54K55ZCO77yM5LyY5YWI5rex5YWl5YW25pyq6K6/6Zeu55qE6YK75o6l6IqC54K544CC6YCJ6aG5IEIg5Lit77yM6K6/6ZeuIDIg5ZCO55u05o6l6Lez5YiwIDQxIO+8jOS9hiA0IOaMh+WQkeeahOiKgueCue+8iOWmgiAzIO+8ieacquiiq+iuv+mXru+8jOS4jeespuWQiCBERlMg6KeE5YiZ77yM5pWF5LiN5Y+v6IO95pivIERGUyDluo/liJfjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDExIgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMTEiCiAgfSwKICB7CiAgICJubyI6IDE2LAogICAidHlwZSI6ICLliKTmlq3popgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICJDKyvor63oqIDkuK3vvIzooajovr7lvI85JjEy55qE57uT5p6c57G75Z6L5Li6aW5044CB5YC85Li6OOOAgiIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIumUmSIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogw5fogIPnurLnn6Xor4bngrnvvJog6YC76L6R5LiO6L+Q566X55qE57uT5p6cJiYg5piv6YC76L6R5LiO6L+Q566X56ym77yM5Lik6L656Z2eIDAg5YiZ57uT5p6c5Li6IDEg77yI55yf77yJ77yM57G75Z6L5Li6IGludCDvvIzmlYXnu5PmnpzlupTkuLogMSDogIzpnZ4gOCDjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDE3IgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMTciCiAgfSwKICB7CiAgICJubyI6IDE3LAogICAidHlwZSI6ICLliKTmlq3popgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICJDKyvor63oqIDkuK3vvIzlnKjmnIlpbnQgYVsxMF075a6a5LmJ55qE6IyD5Zu05YaF77yM6YCa6L+H6KGo6L6+5byPYVstMV3ov5vooYzorr/pl67lsIblr7zoh7TnvJbor5HplJnor6/jgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAi5a+5IiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a+5IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIumUmSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICLplJkiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIMOX6ICD57qy55+l6K+G54K577yaIOaVsOe7hOS4i+agh+i2iueVjOeahOe8luivkeeJueaAp0MrKyDnvJbor5HlmajkuI3mo4Dmn6XmlbDnu4TkuIvmoIfmmK/lkKbotornlYzvvIwgYVstMV0g57yW6K+R5pe25LiN5Lya5oql6ZSZ77yM5L2G6L+Q6KGM5pe25Lya6K6/6Zeu6Z2e5rOV5YaF5a2Y44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AyMSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDIxIgogIH0sCiAgewogICAibm8iOiAxOCwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6YCJ5oup5o6S5bqP5LiA6Iis5piv5LiN56iz5a6a55qE44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi5a+5IiwKICAgImFuYWx5c2lzIjogIuetlOahiO+8muKImuiAg+e6suefpeivhueCue+8miDmjpLluo/nrpfms5XnmoTnqLPlrprmgKfpgInmi6nmjpLluo/kuK3vvIzkuqTmjaLlhYPntKDlj6/og73mlLnlj5jnm7jnrYnlhYPntKDnmoTnm7jlr7npobrluo/vvIjlpoIgWzIsIDIsIDFdIOaOkuW6j+WQjuesrOS4gOS4qiAyIOS8muiiq+S6pOaNouWIsOacq+Wwvu+8ie+8jOWboOatpOS4jeeos+WumuOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMjEiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AyMSIKICB9LAogIHsKICAgIm5vIjogMTksCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIkMrK+ivreiogOS4re+8jGZsb2F05ZKMaW5057G75Z6L5LiA6Iis6YO95pivNOWtl+iKgu+8jOWboOatpGZsb2F057G75Z6L6IO95aSf6KGo6L6+5LiN5ZCM55qE5rWu54K55pWw5YC855qE5pWw6YeP77yM5LiOaW50IOexu+Wei+iDveWkn+ihqOi+vuS4jeWQjOeahOaVtOaVsOWAvOeahOaVsOmHj+aYr+ebuOWQjOeahOOAgiIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIumUmSIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJogw5fogIPnurLnn6Xor4bngrnvvJog5rWu54K55Z6L5LiO5pW05Z6L55qE5a2Y5YKo5beu5byCaW50IOexu+Wei+iDveWkn+ihqOi+viAyXjMyIOS4quS4jeWQjOeahOaVtOaVsOWAvO+8myBmbG9hdCDnsbvlnovog73lpJ/ooajovr7nmoTmta7ngrnmlbDlgLznmoTmlbDph4/nlaXlsJHkuo4gMl4zMiDvvIzov5nmmK/nlLHkuo7lrZjlnKjlpJrnp43kuozov5vliLbmqKHlvI/nlKjmnaXooajnpLrnibnmrorlgLzvvIggKzAg44CBIC0wIOOAgSArSW5mIOOAgSAtSW5mIOOAgSBOYU4g562J77yJIOOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMjEiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AyMSIKICB9LAogIHsKICAgIm5vIjogMjAsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS9v+eUqG1hdGguaOaIliBjbWF0aOWktOaWh+S7tuS4reeahOWvueaVsOWHveaVsO+8jOihqOi+vuW8j2xvZygyNTYp55qE57uT5p6c57G75Z6L5Li6ZG91Ymxl44CB5YC857qm5Li6OC4w44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi6ZSZIiwKICAgImFuYWx5c2lzIjogIuetlOahiO+8miDDl+iAg+e6suefpeivhueCue+8miDlr7nmlbDlh73mlbDnmoTlupXmlbBsb2cg5Ye95pWw6buY6K6k5Lul6Ieq54S25bi45pWwIGUg5Li65bqV77yMIGxvZygyNTYpIOeahOWAvOe6puS4uiA1LjU0NSDvvIzku6UgMiDkuLrlupXnmoTlr7nmlbDpnIDnlKggbG9nMigyNTYpID0gOC4wIOOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMTciCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AxNyIKICB9LAogIHsKICAgIm5vIjogMjEsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4gOajteaciU7kuKroioLngrnnmoTlrozlhajkuozlj4nmoJHvvIzliJnmoJHnmoTmt7HluqbkuLpbbG9nMihOKeOAjSsx44CCKCkiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAi5a+5IiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a+5IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIumUmSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICLlr7kiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77ya4oia6ICD57qy55+l6K+G54K577yaIOWujOWFqOS6jOWPieagkeeahOa3seW6puiuoeeul+WujOWFqOS6jOWPieagkeeahOa3seW6puWFrOW8j+S4uiDijIogbG9nIOKCgiBOIOKMiyArIDEg77yM5L6L5aaCIE49OCDml7bvvIzmt7HluqbkuLogNCDvvIgg4oyKIGxvZyDigoIgOCDijIsgKyAxID0gMyArIDEgPSA0IOa3seW6puS4uiAzKzE9NCDvvIzlrp7pmYUgOCDkuKroioLngrnnmoTlrozlhajkuozlj4nmoJHmt7HluqbkuLogNCDvvIzlhazlvI/mraPnoa7vvInjgIIiLAogICAiYXV0byI6IHRydWUsCiAgICJrcF9pZHMiOiBbCiAgICAiY3BwNy1rcDA1IgogICBdLAogICAicHJpbWFyeV9rcCI6ICJjcHA3LWtwMDUiCiAgfSwKICB7CiAgICJubyI6IDIyLAogICAidHlwZSI6ICLliKTmlq3popgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLpgrvmjqXooajlkozpgrvmjqXnn6npmLXpg73mmK/lm77nmoTlrZjlgqjlvaLlvI/jgILpgJrluLjvvIzkvb/nlKjpgrvmjqXooajmr5Tkvb/nlKjpgrvmjqXnn6npmLXnmoTml7bpl7TlpI3mnYLluqbmm7TkvY7jgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAi5a+5IiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a+5IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIumUmSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICLplJkiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77yaIMOX6ICD57qy55+l6K+G54K577yaIOWbvueahOWtmOWCqOe7k+aehOWvueavlOaXtumXtOWkjeadguW6puWPluWGs+S6juaTjeS9nOexu+Wei++8mumCu+aOpeihqOmAguWQiOmBjeWOhui+ue+8iCBPKEUpIO+8ie+8jOmCu+aOpeefqemYtemAguWQiOWIpOaWrei+ueaYr+WQpuWtmOWcqO+8iCBPKDEpIO+8ie+8jOS4jeiDveS4gOamguiAjOiuuumCu+aOpeihqOaXtumXtOWkjeadguW6puabtOS9juOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMTEiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AxMSIKICB9LAogIHsKICAgIm5vIjogMjMsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIkMrK+ivreiogOS4re+8jOexu+eahOaehOmAoOWHveaVsOWPr+S7peWjsOaYjuS4uuengeaciShwcml2YXRlKeOAgiIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIuWvuSIsCiAgICJhbmFseXNpcyI6ICLnrZTmoYjvvJriiJrogIPnurLnn6Xor4bngrnvvJog56eB5pyJ5p6E6YCg5Ye95pWw55qE55So6YCU56eB5pyJ5p6E6YCg5Ye95pWw5Y+v6Ziy5q2i57G76KKr5a6e5L6L5YyW77yI5aaC5Y2V5L6L5qih5byP77yJ77yM5piv5ZCI5rOV55qE6K+t5rOV44CCIiwKICAgImF1dG8iOiB0cnVlLAogICAia3BfaWRzIjogWwogICAgImNwcDcta3AyMSIKICAgXSwKICAgInByaW1hcnlfa3AiOiAiY3BwNy1rcDIxIgogIH0sCiAgewogICAibm8iOiAyNCwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5rOb5rSq566X5rOV55qE6YCS5b2S5a6e546w5a655piT6YCg5oiQ5rqi5Ye677yM5Zug5q2k5aSn55qE5LqM57u05Zyw5Zu+566X5rOV5Lit77yM5LiA6Iis5L2/55So5bm/5bqm5LyY5YWI5pCc57Si5a6e546w44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi5a+5IiwKICAgImFuYWx5c2lzIjogIuetlOahiO+8muKImuiAg+e6suefpeivhueCue+8miDms5vmtKrnrpfms5XnmoTlrp7njrDmlrnlvI/pgJLlvZLms5vmtKrlj5fmoIjmt7HluqbpmZDliLbvvIzlpKflnLDlm77mmJPmoIjmuqLlh7rvvJsgQkZTIOeUqOmYn+WIl+WunueOsO+8jOaXoOatpOmXrumimO+8jOabtOmAguWQiOWkp+WcsOWbvuOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMTEiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AxMSIKICB9LAogIHsKICAgIm5vIjogMjUsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuW+iOWkmua4uOaIj+S4reS4uueOqeWutuiuvue9ruWkmuenjeWPr+S+m+WtpuS5oOeahOaKgOiDve+8jOimgeWtpuS5oOeJueWumuaKgOiDveWPiOW+gOW+gOmcgOimgeWFiOWtpuS5oDHkuKrmiJbku6XkuIrnmoTliY3nva7mioDog73jgILlsL3nrqHov5nmoLfnmoTmioDog73pl7Tkvp3otZblhbPns7vluLjooqvnjqnlrrbnp7DkuLrigJzmioDog73moJHigJ3vvIzkvYblroPlubbkuI3kuIDlrprmmK/moJHvvIzmm7Tlj6/og73mmK/mnInlkJHml6Dnjq/lm77jgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAi5a+5IiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a+5IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIumUmSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICLlr7kiLAogICAiYW5hbHlzaXMiOiAi562U5qGI77ya4oia6ICD57qy55+l6K+G54K577yaIOacieWQkeaXoOeOr+Wbvu+8iCBEQUcg77yJ55qE5bqU55So5oqA6IO95L6d6LWW5Y+v6IO95a2Y5Zyo5aSa5Liq5YmN572u5p2h5Lu277yI5aaC5oqA6IO9IEMg6ZyA6KaBIEEg5ZKMIEIg77yJ77yM5b2i5oiQIERBRyDvvJvmoJHlj6rog73mnInkuIDkuKrniLboioLngrnvvIzmlYXmioDog73kvp3otZbmm7Tlj6/og73mmK8gREFHIOOAgiIsCiAgICJhdXRvIjogdHJ1ZSwKICAgImtwX2lkcyI6IFsKICAgICJjcHA3LWtwMTEiCiAgIF0sCiAgICJwcmltYXJ5X2twIjogImNwcDcta3AxMSIKICB9CiBdLAogImR1cmF0aW9uTWluIjogOTAsCiAidG90YWxTY29yZSI6IDEwMCwKICJwYXNzU2NvcmUiOiA2MCwKICJ0YWdzIjogewogICJ5ZWFyIjogIjIwMjUiLAogICJ0eXBlIjogIuecn+mimCIsCiAgInByb2dyZXNzIjogIuacquW8gOWniyIKIH0sCiAic291cmNlIjogInh4dzEyMy5jb20iLAogInBpZCI6IDE3MSwKICJrcENvdmVyYWdlIjogewogICJ0b3RhbCI6IDI1LAogICJ0YWdnZWQiOiAyNSwKICAiY292ZXJhZ2UiOiAxLjAKIH0KfQ==
+{
+ "id": "lele-gesp-cpp-202509-l7",
+ "title": "202509 CCF-GESP编程能力等级认证C++7级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 7,
+ "levelName": "7级",
+ "yearmonth": "202509",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知小写字母b的ASCI码为98，下列C+代码的输出结果是()。\n#include <iostream>\nusing namespace std;\nint main(){\nchar a = 'b'+ 1；\ncout << a;\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：b"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：c"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：98"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：99"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 字符与 ASCII 码的转换char 类型与 int 类型计算时 ，会自动扩大类型， 'b' + 1 的计算结果为 int 类型的 98 + 1 = 99 ，但在存储于变量 a 时会转换 char 类型存储，而 99 对应的 ASCII 字符为 'c' ，时按照 char 类型的输出规则，输出 c 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知a为int类型变量，p为int*类型变量，下列表达式不符合语法的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a* a"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：p*p"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a && a"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：p && p"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 指针运算与逻辑运算int 类型的指针变量不能直接进行乘法运算（ p  p 语法错误）； a * a 是整数乘法， a && a 和 p && p 是逻辑与运算（指针非空则为真），均符合语法。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于C+类的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如果一个类包含纯虚函数，则它不能包含成员变量。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果一个类包含纯虚函数，则不能用它定义对象。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：派生类对象占用的内存总是不小于基类对象。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：派生类可以不实现基类的虚函数。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 抽象类与继承包含纯虚函数的类是抽象类，抽象类可以包含成员变量（ A 错误）；抽象类不能实例化对象（ B 正确）；派生类继承基类成员，内存不小于基类（ C 正确）；派生类若未实现基类虚函数，仍为抽象类（ D 正确）。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知数组a的定义int a[10]={-1};,下列说法不正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：数组a至少占用10 个 int 大小的内存，一般为40个字节。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：数组a的所有元素均被初始化为-1。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：语句a[-1]=0;不会产生编译错误，但会导致难以预测的运行结果。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：语句a[13]=0;不会产生编译错误，但会导致难以预测的运行结果。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 数组初始化与越界访问数组初始化时，若只指定部分元素，剩余元素会被初始化为 0 （而非全部 -1 ， B 错误）；数组大小固定为 10 个 int （通常 40 字节， A 正确）；下标越界编译不报错，但运行时可访问非法内存（ C 、 D 正确）。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一棵完全二叉树有165个结点，则叶结点有多少个？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：38"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：82"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：83"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：84"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 完全二叉树的性质完全二叉树中，若总结点 n 为奇数，叶节点数为 (n+1)/2 ；若为偶数，叶节点数为 n/2 。165 是奇数，叶节点数为 (165+1)/2 = 83 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp05"
+   ],
+   "primary_kp": "cpp7-kp05"
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于二叉树的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：二叉排序树的中序遍历顺序与元素排序的顺序是相同的。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：自平衡二叉查找树(AVL树)是一种二叉排序树。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：n个元素的二叉排序树，其高一定为[log2n]。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：任意的森林，都可以映射为一颗二叉树进行表达和存储。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 二叉树的特性二叉排序树的高度取决于插入顺序，最坏情况下为 O(n) （如有序插入形成单链），并非一定为 ⌊ log n ⌋ （ C 错误）； A 、 B 、 D 均为二叉树的基本性质。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp05"
+   ],
+   "primary_kp": "cpp7-kp05"
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于树和图的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：保留树的所有节点，并把树的每个节点指向其父节点，则可以将树转换为一个有向弱连通图。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：保留树的所有节点，并把树的每个节点指向其子节点，则可以将树转换为一个有向无环图。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：每个连通图都存在生成树。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：每个存在生成树的有向图，都一定是强连通的。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 树与图的转换有向图的生成树仅保证弱连通（任意两节点存在路径，不要求方向），但不一定强连通（任意两节点双向可达， D 错误）； A 、 B 、 C 均正确。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp11"
+   ],
+   "primary_kp": "cpp7-kp11"
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对一个包含V个顶点、E条边的图，执行广度优先搜索，其最优时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(V+E)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(V)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(E)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(V2)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 广度优先搜索（ BFS ）的时间复杂度BFS 至少需访问所有顶点（ O(V) ）和所有边（ O(E) ），总时间复杂度为 O(V+E) ，这是复杂度的下界，该复杂度在使用邻接表存储时可以达到， 因此 是最优复杂度。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp11"
+   ],
+   "primary_kp": "cpp7-kp11"
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下哪个方案不能合理解决或缓解哈希表冲突()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：用新元素覆盖发生冲突的哈希表项。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在每个哈希表项处，使用单链表管理该表项的冲突元素。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：建立额外的单链表，用来管理所有发生冲突的元素。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：使用不同的哈希函数再建立一个哈希表，用来管理所有发生冲突的元素。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 哈希表冲突解决方法覆盖冲突元素会导致数据丢失，无法解决冲突（ A 错误）； B 是链地址法， C 、 D 是再哈希或分离链表的变体，均为合理的冲突解决策略。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于贪心法和动态规划的说法中，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：对特定的问题，贪心法不一定适用。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：当特定的问题适用贪心法时，通常比动态规划的时间复杂度更低。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：对很多问题，递推实现和递归实现动态规划方法的时间复杂度相当。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：采用动态规划的算法一定具有多项式时间复杂度。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 贪心法与动态规划的特性动态规划的时间复杂度取决于状态数和转移复杂度，某些问题（如旅行商的动态规划解法）时间复杂度为指数级（ D 错误）； A 、 B 、 C 均正确。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp12"
+   ],
+   "primary_kp": "cpp7-kp12"
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的输出为()。\n#include <iostream>\nusing namespace std;\nint fib(int n){\nif (n ==0)\nreturn 1；\nreturn fib(n - 1) + fib(n - 2)；\n}\nint main(){\ncout << fib(6) << endl;\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：8"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：13"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：21"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：无法正常结束。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 递归函数的终止条件函数缺少 n=1 的终止条件，当计算 fib(6) 时会递归到 fib(-1) 、 fib(-2) 等，陷入无限递归，无法正常结束。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp12"
+   ],
+   "primary_kp": "cpp7-kp12"
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的时间复杂度为()。\nint rec_fib[MAX_N];\nint fib(int n) {\nif(n <=1)\nreturn n;\nif (rec_fib[n] ！= 0)\nreturn rec_fib[n];\nreturn fib(n - 1) + fib(n - 2)；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(φ)，φ=5+1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(2n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： D考纲知识点： 记忆化递归的时间复杂度程序通过 rec_fib 数组缓存计算结果，每个 fib(n) 仅计算一次，总计算次数为 O(n) ，时间复杂度为线性。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp12"
+   ],
+   "primary_kp": "cpp7-kp12"
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面init_sieve函数的时间复杂度为()。\nint sieve[MAX_N];\nvoid init_sieve(int n){\nfor (int i = 1；i <= n; i++)\nsieve[i] = i;\nfor (int i= 2；i <= n; i++)\nfor (int j= i; j <= n;j+= i)\nsieve[j]-;\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n log log n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n2)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 嵌套循环的时间复杂度分析外层循环 i 从 2 到 n ，内层循环 j 的执行次数为 n/i ，总次数为 n/2 + n/3 + ... + n/n ≈ n log n ，因此时间复杂度为 O(nlogn) 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp15"
+   ],
+   "primary_kp": "cpp7-kp15"
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面count_triple 函数的时间复杂度为()。\nint gcd(int m, int n) {\nif (m == 0) return n;\nreturn gcd(n % m, m);\n}\nint count_triple(int n) {\nint cnt = 0；\nfor (int v= 1； v*v*4 <= n;v++)\nfor (int u=v+1;u*(u+v)*2<=n;u+=2)\nif (gcd(u, v) = 1){\nint a=u* u-v*v\nint b= u*v* 2；\nint c=u* u+v* v;\ncnt += n/(a+ b+c);\n}\nreturn cnt;\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n2 log n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 多重循环与 GCD 的时间复杂度外层循环 v 的范围为 O(√n) ，内层循环 u 的范围为 O(√n) ，总循环次数为 O(n) ； GCD 的时间复杂度为 O(log n) ，因此总复杂度为 O(nlogn) 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp16"
+   ],
+   "primary_kp": "cpp7-kp16"
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列选项中，哪个不可能是下图的深度优先遍历序列()。\n2\n3\n4\n6\n8\n9"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2,3,5,7,8,9,6,4,1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：5,7,8,9,1,2,4,3,6"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：6,8,9,5,7,1,2,3,4"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：8,5,7,9,1,2,3,6,4"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 深度优先遍历（ DFS ）的特性DFS 要求访问一个节点后，优先深入其未访问的邻接节点。选项 B 中，访问 2 后直接跳到 41 ，但 4 指向的节点（如 3 ）未被访问，不符合 DFS 规则，故不可能是 DFS 序列。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp11"
+   ],
+   "primary_kp": "cpp7-kp11"
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，表达式9&12的结果类型为int、值为8。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 逻辑与运算的结果&& 是逻辑与运算符，两边非 0 则结果为 1 （真），类型为 int ，故结果应为 1 而非 8 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp17"
+   ],
+   "primary_kp": "cpp7-kp17"
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，在有int a[10];定义的范围内，通过表达式a[-1]进行访问将导致编译错误。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数组下标越界的编译特性C++ 编译器不检查数组下标是否越界， a[-1] 编译时不会报错，但运行时会访问非法内存。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "选择排序一般是不稳定的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：√考纲知识点： 排序算法的稳定性选择排序中，交换元素可能改变相等元素的相对顺序（如 [2, 2, 1] 排序后第一个 2 会被交换到末尾），因此不稳定。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，float和int类型一般都是4字节，因此float类型能够表达不同的浮点数值的数量，与int 类型能够表达不同的整数值的数量是相同的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 浮点型与整型的存储差异int 类型能够表达 2^32 个不同的整数值； float 类型能够表达的浮点数值的数量略少于 2^32 ，这是由于存在多种二进制模式用来表示特殊值（ +0 、 -0 、 +Inf 、 -Inf 、 NaN 等） 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用math.h或 cmath头文件中的对数函数，表达式log(256)的结果类型为double、值约为8.0。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 对数函数的底数log 函数默认以自然常数 e 为底， log(256) 的值约为 5.545 ，以 2 为底的对数需用 log2(256) = 8.0 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp17"
+   ],
+   "primary_kp": "cpp7-kp17"
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一棵有N个节点的完全二叉树，则树的深度为[log2(N)」+1。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：√考纲知识点： 完全二叉树的深度计算完全二叉树的深度公式为 ⌊ log ₂ N ⌋ + 1 ，例如 N=8 时，深度为 4 （ ⌊ log ₂ 8 ⌋ + 1 = 3 + 1 = 4 深度为 3+1=4 ，实际 8 个节点的完全二叉树深度为 4 ，公式正确）。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp05"
+   ],
+   "primary_kp": "cpp7-kp05"
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "邻接表和邻接矩阵都是图的存储形式。通常，使用邻接表比使用邻接矩阵的时间复杂度更低。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 图的存储结构对比时间复杂度取决于操作类型：邻接表适合遍历边（ O(E) ），邻接矩阵适合判断边是否存在（ O(1) ），不能一概而论邻接表时间复杂度更低。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp11"
+   ],
+   "primary_kp": "cpp7-kp11"
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，类的构造函数可以声明为私有(private)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：√考纲知识点： 私有构造函数的用途私有构造函数可防止类被实例化（如单例模式），是合法的语法。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp21"
+   ],
+   "primary_kp": "cpp7-kp21"
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "泛洪算法的递归实现容易造成溢出，因此大的二维地图算法中，一般使用广度优先搜索实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：√考纲知识点： 泛洪算法的实现方式递归泛洪受栈深度限制，大地图易栈溢出； BFS 用队列实现，无此问题，更适合大地图。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp11"
+   ],
+   "primary_kp": "cpp7-kp11"
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "很多游戏中为玩家设置多种可供学习的技能，要学习特定技能又往往需要先学习1个或以上的前置技能。尽管这样的技能间依赖关系常被玩家称为“技能树”，但它并不一定是树，更可能是有向无环图。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：√考纲知识点： 有向无环图（ DAG ）的应用技能依赖可能存在多个前置条件（如技能 C 需要 A 和 B ），形成 DAG ；树只能有一个父节点，故技能依赖更可能是 DAG 。",
+   "auto": true,
+   "kp_ids": [
+    "cpp7-kp11"
+   ],
+   "primary_kp": "cpp7-kp11"
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 171,
+ "kpCoverage": {
+  "total": 25,
+  "tagged": 25,
+  "coverage": 1.0
+ }
+}
