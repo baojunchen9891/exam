@@ -1,1 +1,91 @@
-Lyog6K+V5Y236ZiF6KeIOiDlsZXnpLrnnJ/popggKyDmlLbol48gKyDkuIvovb1Xb3JkICovCihmdW5jdGlvbiAoKSB7CiAgY29uc3QgRSA9IEVYQU0sICQgPSBFLnFzOwogIGlmICghRS5yZXF1aXJlTG9naW4oKSkgcmV0dXJuOwogIEUucmVuZGVyTmF2KCJob21lIik7CgogIGNvbnN0IHBpZCA9IG5ldyBVUkxTZWFyY2hQYXJhbXMobG9jYXRpb24uc2VhcmNoKS5nZXQoInBpZCIpOwogIGlmICghcGlkKSB7IGxvY2F0aW9uLmhyZWYgPSAiL2luZGV4Lmh0bWwiOyByZXR1cm47IH0KCiAgbGV0IFBBUEVSID0gbnVsbCwgc2hvd0FucyA9IGZhbHNlOwoKICBhc3luYyBmdW5jdGlvbiBpbml0KCkgewogICAgdHJ5IHsKICAgICAgY29uc3QgaWR4ID0gYXdhaXQgRS5sb2FkSlNPTigiZGF0YS9pbmRleC5qc29uIik7CiAgICAgIGNvbnN0IG1ldGEgPSBpZHguZmluZChkID0+IGQuaWQgPT09IHBpZCk7CiAgICAgIFBBUEVSID0gYXdhaXQgRS5sb2FkSlNPTigiZGF0YS9wYXBlcnMvIiArIHBpZCArICIuanNvbiIpOwogICAgICBpZiAobWV0YSkgUEFQRVIubWV0YSA9IG1ldGE7CiAgICB9IGNhdGNoIChlKSB7IEUudG9hc3QoIuWKoOi9veWksei0pTogIiArIGUubWVzc2FnZSk7IHJldHVybjsgfQogICAgcmVuZGVySGVhZCgpOwogICAgcmVuZGVyUXVlc3Rpb25zKCk7CiAgICBiaW5kKCk7CiAgfQoKICBmdW5jdGlvbiByZW5kZXJIZWFkKCkgewogICAgY29uc3QgbSA9IFBBUEVSLm1ldGEgfHwge307CiAgICAkKCIjaGVhZEJveCIpLmlubmVySFRNTCA9IGA8aDIgY2xhc3M9InNlY3Rpb24tdGl0bGUiIHN0eWxlPSJtYXJnaW4tYm90dG9tOjZweCI+JHtFLmVzYyhQQVBFUi50aXRsZSl9PC9oMj4KICAgICAgPGRpdiBjbGFzcz0ibWV0YSIgc3R5bGU9ImNvbG9yOnZhcigtLW11dGVkKSI+5YWxICR7UEFQRVIuY291bnR9IOmimCDCtyDml7bplb8gJHttLmR1cmF0aW9uTWluIHx8IDYwfSDliIbpkp8gwrcg5oC75YiGICR7bS50b3RhbFNjb3JlIHx8IDEwMH0gwrcg5Y+K5qC8ICR7bS5wYXNzU2NvcmUgfHwgNjB9PC9kaXY+YDsKICAgICQoIiNzdGF0IikudGV4dENvbnRlbnQgPSBg5bey5pS26JePICR7RS5mYXZzKCkuZmlsdGVyKHggPT4geC5wYXBlcklkID09PSBwaWQpLmxlbmd0aH0g6aKYYDsKICB9CgogIGZ1bmN0aW9uIHJlbmRlclF1ZXN0aW9ucygpIHsKICAgICQoIiNwYXBlckNvbnRlbnQiKS5pbm5lckhUTUwgPSBQQVBFUi5xdWVzdGlvbnMubWFwKHEgPT4KICAgICAgRS5yZW5kZXJRdWVzdGlvbihxLCB7IG1vZGU6ICJ2aWV3IiwgcGFwZXJJZDogcGlkLCBzaG93RmF2OiB0cnVlLCBzaG93QW5zd2VyOiBzaG93QW5zIH0pKS5qb2luKCIiKTsKICB9CgogIGZ1bmN0aW9uIGJpbmQoKSB7CiAgICAkKCIjdG9nZ2xlQW5zIikub25jbGljayA9ICgpID0+IHsKICAgICAgc2hvd0FucyA9ICFzaG93QW5zOwogICAgICAkKCIjdG9nZ2xlQW5zIikudGV4dENvbnRlbnQgPSBzaG93QW5zID8gIumakOiXj+etlOahiCIgOiAi5pi+56S6562U5qGIIjsKICAgICAgcmVuZGVyUXVlc3Rpb25zKCk7CiAgICB9OwogICAgJCgiI3BhcGVyQ29udGVudCIpLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGUpID0+IHsKICAgICAgY29uc3QgYiA9IGUudGFyZ2V0LmNsb3Nlc3QoIltkYXRhLWZhdl0iKTsKICAgICAgaWYgKCFiKSByZXR1cm47CiAgICAgIGNvbnN0IG5vID0gK2IuZGF0YXNldC5mYXY7CiAgICAgIGNvbnN0IHEgPSBQQVBFUi5xdWVzdGlvbnMuZmluZCh4ID0+IHgubm8gPT09IG5vKTsKICAgICAgY29uc3Qgb24gPSBFLnRvZ2dsZUZhdih7IHBhcGVySWQ6IHBpZCwgdGl0bGU6IFBBUEVSLnRpdGxlLCBubywgdHlwZTogcS50eXBlLCBzdGVtOiBxLnN0ZW0sIG9wdGlvbnM6IHEub3B0aW9ucywgYW5zd2VyOiBxLmFuc3dlciwgYW5hbHlzaXM6IHEuYW5hbHlzaXMgfSk7CiAgICAgIGIuY2xhc3NMaXN0LnRvZ2dsZSgib24iLCBvbik7CiAgICAgIGIudGV4dENvbnRlbnQgPSBvbiA/ICLimIUg5bey5pS26JePIiA6ICLimIYg5pS26JePIjsKICAgICAgJCgiI3N0YXQiKS50ZXh0Q29udGVudCA9IGDlt7LmlLbol48gJHtFLmZhdnMoKS5maWx0ZXIoeCA9PiB4LnBhcGVySWQgPT09IHBpZCkubGVuZ3RofSDpophgOwogICAgICBFLnRvYXN0KG9uID8gIuW3suWKoOWFpeaUtuiXjyIgOiAi5bey5Y+W5raI5pS26JePIik7CiAgICB9KTsKICAgICQoIiNkbFdvcmQiKS5vbmNsaWNrID0gZG93bmxvYWRXb3JkOwogIH0KCiAgLyogLS0tLS0tLS0tLSDnlJ/miJAgV29yZCguZG9jLCBIVE1M5qC85byPKSAtLS0tLS0tLS0tICovCiAgZnVuY3Rpb24gZG93bmxvYWRXb3JkKCkgewogICAgY29uc3QgZXNjID0gRS5lc2M7CiAgICBsZXQgYm9keSA9IGA8aDEgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyIj4ke2VzYyhQQVBFUi50aXRsZSl9PC9oMT5gOwogICAgYm9keSArPSBgPHAgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyO2NvbG9yOiM2NjYiPuWFsSAke1BBUEVSLmNvdW50fSDpopg8L3A+YDsKICAgIFBBUEVSLnF1ZXN0aW9ucy5mb3JFYWNoKHEgPT4gewogICAgICBib2R5ICs9IGA8cD48Yj7nrKwgJHtxLm5vfSDpopgg44CQJHtlc2MocS50eXBlKX3jgJE8L2I+PC9wPmA7CiAgICAgIGJvZHkgKz0gYDxwPiR7RS5zZWdIdG1sKHEuc3RlbSl9PC9wPmA7CiAgICAgIGlmIChxLm9wdGlvbnMgJiYgcS5vcHRpb25zLmxlbmd0aCkgewogICAgICAgIHEub3B0aW9ucy5mb3JFYWNoKG8gPT4geyBib2R5ICs9IGA8cD4ke28ua2V5fS4gJHtFLnNlZ0h0bWwoby5jb250ZW50KX08L3A+YDsgfSk7CiAgICAgIH0KICAgIH0pOwogICAgYm9keSArPSBgPGhyPjxoMj7nrZTmoYjkuI7op6PmnpA8L2gyPmA7CiAgICBQQVBFUi5xdWVzdGlvbnMuZm9yRWFjaChxID0+IHsKICAgICAgYm9keSArPSBgPHA+PGI+56ysICR7cS5ub30g6aKYPC9iPiDmraPnoa7nrZTmoYjvvJo8Yj4ke2VzYyhxLmFuc3dlciB8fCAi77yI57yW56iL6aKY77yM5Lq65bel5Yik5YiG77yJIil9PC9iPmA7CiAgICAgIGlmIChxLmFuYWx5c2lzKSBib2R5ICs9IGDjgIDop6PmnpDvvJoke2VzYyhxLmFuYWx5c2lzKX1gOwogICAgICBib2R5ICs9IGA8L3A+YDsKICAgIH0pOwogICAgY29uc3QgaHRtbCA9IGA8aHRtbCB4bWxuczpvPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOm9mZmljZTpvZmZpY2UiIHhtbG5zOnc9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOndvcmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy9UUi9SRUMtaHRtbDQwIj48aGVhZD48bWV0YSBjaGFyc2V0PSJ1dGYtOCI+PC9oZWFkPjxib2R5PiR7Ym9keX08L2JvZHk+PC9odG1sPmA7CiAgICBjb25zdCBibG9iID0gbmV3IEJsb2IoWyLvu78iLCBodG1sXSwgeyB0eXBlOiAiYXBwbGljYXRpb24vbXN3b3JkIiB9KTsKICAgIGNvbnN0IGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJhIik7CiAgICBhLmhyZWYgPSBVUkwuY3JlYXRlT2JqZWN0VVJMKGJsb2IpOwogICAgYS5kb3dubG9hZCA9IFBBUEVSLnRpdGxlICsgIi5kb2MiOwogICAgYS5jbGljaygpOwogICAgVVJMLnJldm9rZU9iamVjdFVSTChhLmhyZWYpOwogICAgRS50b2FzdCgiV29yZCDlt7LnlJ/miJAiKTsKICB9CgogIGluaXQoKTsKfSkoKTsK
+/* 试卷阅览: 展示真题 + 收藏 + 下载Word */
+(function () {
+  const E = EXAM, $ = E.qs;
+  if (!E.requireLogin()) return;
+  E.renderNav("home");
+
+  const pid = new URLSearchParams(location.search).get("pid");
+  if (!pid) { location.href = "/index.html"; return; }
+
+  let PAPER = null, showAns = false;
+
+  async function init() {
+    try {
+      const idx = await E.loadJSON("data/index.json");
+      const meta = idx.find(d => d.id === pid);
+      PAPER = await E.loadJSON("data/papers/" + pid + ".json");
+      if (meta) PAPER.meta = meta;
+    } catch (e) { E.toast("加载失败: " + e.message); return; }
+    renderHead();
+    renderQuestions();
+    bind();
+  }
+
+  function renderHead() {
+    const m = PAPER.meta || {};
+    $("#headBox").innerHTML = `<h2 class="section-title" style="margin-bottom:6px">${E.esc(PAPER.title)}</h2>
+      <div class="meta" style="color:var(--muted)">共 ${PAPER.count} 题 · 时长 ${m.durationMin || 60} 分钟 · 总分 ${m.totalScore || 100} · 及格 ${m.passScore || 60}</div>`;
+    $("#stat").textContent = `已收藏 ${E.favs().filter(x => x.paperId === pid).length} 题`;
+  }
+
+  function renderQuestions() {
+    $("#paperContent").innerHTML = PAPER.questions.map((q, i) =>
+      E.renderQuestion(q, { mode: "view", paperId: pid, showFav: true, showAnswer: showAns, seq: i + 1 })).join("");
+  }
+
+  function bind() {
+    $("#toggleAns").onclick = () => {
+      showAns = !showAns;
+      $("#toggleAns").textContent = showAns ? "隐藏答案" : "显示答案";
+      renderQuestions();
+    };
+    $("#paperContent").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-fav]");
+      if (!b) return;
+      // q.no 可能重复,改用 qcard 的 id="qN" 解析下标 (seq 与下标差 1)
+      const card = b.closest(".qcard");
+      let q = null;
+      if (card && card.id && /^q\d+$/.test(card.id)) {
+        const seq = +card.id.slice(1);
+        q = PAPER.questions[seq - 1];
+      }
+      if (!q) q = PAPER.questions.find(x => x.no === +b.dataset.fav);
+      const on = E.toggleFav({ paperId: pid, title: PAPER.title, no: q.no, type: q.type, stem: q.stem, options: q.options, answer: q.answer, analysis: q.analysis });
+      b.classList.toggle("on", on);
+      b.textContent = on ? "★ 已收藏" : "☆ 收藏";
+      $("#stat").textContent = `已收藏 ${E.favs().filter(x => x.paperId === pid).length} 题`;
+      E.toast(on ? "已加入收藏" : "已取消收藏");
+    });
+    $("#dlWord").onclick = downloadWord;
+  }
+
+  /* ---------- 生成 Word(.doc, HTML格式) ---------- */
+  function downloadWord() {
+    const esc = E.esc;
+    let body = `<h1 style="text-align:center">${esc(PAPER.title)}</h1>`;
+    body += `<p style="text-align:center;color:#666">共 ${PAPER.count} 题</p>`;
+    PAPER.questions.forEach((q, i) => {
+      body += `<p><b>第 ${i + 1} 题 【${esc(q.type)}】(原题号 ${esc(q.no)})</b></p>`;
+      body += `<p>${E.segHtml(q.stem)}</p>`;
+      if (q.options && q.options.length) {
+        q.options.forEach(o => { body += `<p>${o.key}. ${E.segHtml(o.content)}</p>`; });
+      }
+    });
+    body += `<hr><h2>答案与解析</h2>`;
+    PAPER.questions.forEach((q, i) => {
+      body += `<p><b>第 ${i + 1} 题</b>(原题号 ${esc(q.no)}) 正确答案：<b>${esc(q.answer || "（编程题，人工判分）")}</b>`;
+      if (q.analysis) body += `　解析：${esc(q.analysis)}`;
+      body += `</p>`;
+    });
+    const html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"></head><body>${body}</body></html>`;
+    const blob = new Blob(["﻿", html], { type: "application/msword" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = PAPER.title + ".doc";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    E.toast("Word 已生成");
+  }
+
+  init();
+})();
