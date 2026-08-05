@@ -1,1 +1,40 @@
-IyBHRVNQIEMrKyBMMSDogIPngrnmuIXljZXvvIjlj6rog73ku47kuIvliJcgaWQg5Lit6YCJ5oup77yM56aB5q2i57yW6YCg77yJCiMgICBjcHAxLWtwMDEgfCDorqHnrpfmnLrln7rnoYDnn6Xor4YgfCDorqHnrpfmnLrln7rnoYAKIyAgIGNwcDEta3AwMiB8IOeoi+W6j+S4jua1geeoi+WbviB8IOiuoeeul+acuuWfuuehgAojICAgY3BwMS1rcDAzIHwg5Y+Y6YeP5LiO5pWw5o2u57G75Z6LIHwg5Z+656GA6K+t5rOVCiMgICBjcHAxLWtwMDQgfCDluLjph4/kuI7moIfor4bnrKblkb3lkI0gfCDln7rnoYDor63ms5UKIyAgIGNwcDEta3AwNSB8IOagh+WHhui+k+WFpei+k+WHuiB8IOWfuuehgOivreazlQojICAgY3BwMS1rcDA2IHwg566X5pyv5LiO6LWL5YC86L+Q566XIHwg6L+Q566X5LiO6KGo6L6+5byPCiMgICBjcHAxLWtwMDcgfCDlhbPns7vkuI7pgLvovpHov5DnrpcgfCDov5DnrpfkuI7ooajovr7lvI8KIyAgIGNwcDEta3AwOCB8IOmhuuW6j+e7k+aehCB8IOmhuuW6j+e7k+aehAojICAgY3BwMS1rcDA5IHwgaWYg5YiG5pSv57uT5p6EIHwg5YiG5pSv57uT5p6ECiMgICBjcHAxLWtwMTAgfCBzd2l0Y2gg5YiG5pSv57uT5p6EIHwg5YiG5pSv57uT5p6ECiMgICBjcHAxLWtwMTEgfCBmb3Ig5b6q546vIHwg5b6q546v57uT5p6ECiMgICBjcHAxLWtwMTIgfCB3aGlsZSDlvqrnjq8gfCDlvqrnjq/nu5PmnoQKIyAgIGNwcDEta3AxMyB8IOW+queOr+aOp+WItiB8IOW+queOr+e7k+aehAojICAgY3BwMS1rcDE0IHwg5bWM5aWX5b6q546vIHwg5b6q546v57uT5p6ECiMgICBjcHAxLWtwMTUgfCDkuIDnu7TmlbDnu4TlhaXpl6ggfCDmlbDnu4TkuI7lrZfnrKbkuLIKIyAgIGNwcDEta3AxNiB8IHN0cmluZyDlrZfnrKbkuLLln7rnoYAgfCDmlbDnu4TkuI7lrZfnrKbkuLIKIyAgIGNwcDEta3AxNyB8IOi/m+WItuWIneatpSB8IOi/m+WItuS4jui/kOeulwojICAgY3BwMS1rcDE4IHwg566A5Y2V5pWw5a2m5bqU55SoIHwg6L+b5Yi25LiO6L+Q566XCiMgICBjcHAxLWtwMTkgfCDnu7zlkIjvvJrpobrluo/kuI7liIbmlK8gfCDnu7zlkIjlupTnlKgKIyAgIGNwcDEta3AyMCB8IOe7vOWQiO+8muW+queOr+S4juaVsOe7hCB8IOe7vOWQiOW6lOeUqAojCiMg5YiX77yacGFwZXJJZAlpZHgJcU5vCXR5cGUJc3RlbQlvcHRBCW9wdEIJb3B0QwlvcHRECWFuc3dlcgojID09PT09IOW+heihpeaghyAxNiDpopjvvIhMMV9wYXJ0NCDmvI/moIfvvIk9PT09PQpsZWxlLTQxNAkyCTMJ5Y2V6YCJ6aKYCeWBh+iuvueOsOWcqOaYr+S4iuWNiOWNgeeCue+8jOaxguWHuk7lsI/ml7bvvIjmraPmlbTmlbDvvInlkI7mmK/nrKzlh6DlpKnlh6Dml7bvvIzlpoLovpPlhaUyMOWwj+aXtuWImeS4uuesrDLlpKk254K577yM5aaCTui+k+WFpTTliJnkuLrku4rlpKkxNOeCueOAguS4uuWunueOsOebuOW6lOWKn+iDve+8jOW6lOWcqOaoque6v+WkhOWhq+WGmeS7o+eggeaYryggKeOAgglB77yaKDEwICsgTikgJSAyNCAsICgxMCArIE4pIC8gMjQJQu+8migxMCArIE4pIC8gMjQgLCAoMTAgKyBOKSAlIDI0CUPvvJpOICUgMjQgLCBOIC8gMjQJRO+8mjEwIC8gMjQgLCAxMCAlIDI0CUIKbGVsZS00MTQJMTUJMQnliKTmlq3popgJQysr6KGo6L6+5byPIGludCgzLjE0KSDnmoTlgLzkuLoz44CCKCApCUHvvJrmraPnoa4JQu+8mumUmeivrwkJCUEKbGVsZS00MTQJMTYJMgnliKTmlq3popgJQysr6K+t5Y+lIGNvdXQgPDwgKDIgKiAzLCAzICUgMTAsIDIrMykg55qE6L6T5Ye65Li6IDYsMyw1IOOAgiAoICkJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTQxNAkxNwkzCeWIpOaWremimAlmb3IoaW50IGkgPSAxOyBpIDwgMTA7IGkgKz0gMzspIDsg6KGo56S6aeS7jjHlvIDlp4vliLAxMOe7k+adn+mXtOmalOS4ujPvvIznm7jlvZPkuo4x44CBNOOAgTfjgIExMOOAgu+8iCDvvIkJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTQxNAkxOAk0CeWIpOaWremimAlDKyvooajovr7lvI8wMTArMTAwKzAwMeeahOWAvOS4ujExMeOAgu+8iCDvvIkJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTQxNAkxOQk1CeWIpOaWremimAlpZiDor63lj6XkuK3nmoTmnaHku7booajovr7lvI/nmoTnu5Pmnpzlj6/ku6XkuLogaW50IOexu+Wei+OAgiggKQlB77ya5q2j56GuCULvvJrplJnor68JCQlBCmxlbGUtNDE0CTIwCTYJ5Yik5pat6aKYCeWcqOS4i+mdoueahEMrK+S7o+eggSB3aGlsZSgxKSBjb250aW51ZTsg5Lit77yM55Sx5LqO5b6q546v5Lit55qEIGNvbnRpbnVlIOaYr+aXoOadoeS7tuiiq+aJp+ihjO+8jOWboOatpOWwhuWvvOiHtOatu+W+queOr+OAgu+8iCDvvIkJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQQpsZWxlLTQxNAkyMQk3CeWIpOaWremimAlDKyvooajovr7lvI8gKCcxJysnMSc9PScyJz8gZmxhZz0xOmZsYWc9Mikg55qE57uT5p6c5YC85ZKM6KGo6L6+5byPIChmbGFnPT0yKSDnmoTnm7jlkIzjgILvvIgg77yJCUHvvJrmraPnoa4JQu+8mumUmeivrwkJCUIKbGVsZS00MTQJMjIJOAnliKTmlq3popgJ5ZyoQysr55qE56iL5bqP5Lit77yM5LiN6IO955SoIHNjYW5mIOS9nOS4uuWPmOmHj+WQjeOAgu+8iCDvvIkJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQgpsZWxlLTQxNAkyMwk5CeWIpOaWremimAnlsI/mnajmnIDov5HlnKjlh4blpIfogINHRVNQ77yM5LuW55So55qERGV2IEMrK+adpee7g+S5oOWSjOi/kOihjOeoi+W6j++8jOaJgOS7pURldiBDKyvkuZ/mmK/kuIDkuKrlsI/lnovmk43kvZzns7vnu5/jgILvvIgg77yJCUHvvJrmraPnoa4JQu+8mumUmeivrwkJCUIKbGVsZS00MTQJMjQJMTAJ5Yik5pat6aKYCeS7u+S9leS4gOS4qiB3aGlsZSDlvqrnjq/pg73lj6/ku6XovazljJbkuLrnrYnku7fnmoQgZm9yIOW+queOr++8iCDvvInjgIIJQe+8muato+ehrglC77ya6ZSZ6K+vCQkJQQpsZWxlLTM3OAkwCTEJ5Y2V6YCJ6aKYCeaIkeS7rOmAmuW4uOivtOeahOKAnOWGheWtmOKAneWxnuS6juiuoeeul+acuuS4reeahO+8iCDvvInjgIIJQe+8mui+k+WHuuiuvuWkhwlC77ya6L6T5YWl6K6+5aSHCUPvvJrlrZjlgqjorr7lpIcJRO+8muaJk+WNsOiuvuWkhwlDCmxlbGUtMzc4CTEJMgnljZXpgInpopgJ5Lul5LiLQysr5LiN5Y+v5Lul5L2c5Li65Y+Y6YeP55qE5ZCN56ew55qE5piv77yIIO+8ieOAgglB77yacmVkU3RhcglC77yaUmVkU3RhcglD77yacmVkX3N0YXIJRO+8mnJlZCBzdGFyCUQKbGVsZS0zNzgJMgkzCeWNlemAiemimAlDKyvooajovr7lvI8gMiAtIDEgJiYgMiAlIDEwIOeahOWAvOaYr++8iCDvvInjgIIJQe+8mjAJQu+8mjEJQ++8mjIJRO+8mjMJQgpsZWxlLTM3OAkzCTQJ5Y2V6YCJ6aKYCeS4i+mdokMrK+S7o+eggeauteaJp+ihjOWQjueahOi+k+WHuuaYr++8iCDvvInjgIIJQe+8mjMrND0gNwlC77yaMys0PTcJQ++8mmErYj03CUTvvJphK2I9YStiCUMKbGVsZS0zNzgJNAk1CeWNlemAiemimAnlnKhDKyvor63oqIDkuK3vvIwgaW50IOexu+Wei+eahOWPmOmHjyB4IOOAgSB5IOOAgSB6IOeahOWAvOWIhuWIq+S4uiAyIOOAgSA0IOOAgSA2IO+8jOS7peS4i+ihqOi+vuW8j+eahOWAvOS4uuecn+eahOaYr++8iCDvvInjgIIJQe+8mnggPiB5IHx8IHggPiB6CULvvJp4ICE9IHogLSB5CUPvvJp6ID4geSArIHgJRO+8mnggPCB5IHx8ICF4IDwgeglECg==
+# GESP C++ L1 考点清单（只能从下列 id 中选择，禁止编造）
+#   cpp1-kp01 | 计算机基础知识 | 计算机基础
+#   cpp1-kp02 | 程序与流程图 | 计算机基础
+#   cpp1-kp03 | 变量与数据类型 | 基础语法
+#   cpp1-kp04 | 常量与标识符命名 | 基础语法
+#   cpp1-kp05 | 标准输入输出 | 基础语法
+#   cpp1-kp06 | 算术与赋值运算 | 运算与表达式
+#   cpp1-kp07 | 关系与逻辑运算 | 运算与表达式
+#   cpp1-kp08 | 顺序结构 | 顺序结构
+#   cpp1-kp09 | if 分支结构 | 分支结构
+#   cpp1-kp10 | switch 分支结构 | 分支结构
+#   cpp1-kp11 | for 循环 | 循环结构
+#   cpp1-kp12 | while 循环 | 循环结构
+#   cpp1-kp13 | 循环控制 | 循环结构
+#   cpp1-kp14 | 嵌套循环 | 循环结构
+#   cpp1-kp15 | 一维数组入门 | 数组与字符串
+#   cpp1-kp16 | string 字符串基础 | 数组与字符串
+#   cpp1-kp17 | 进制初步 | 进制与运算
+#   cpp1-kp18 | 简单数学应用 | 进制与运算
+#   cpp1-kp19 | 综合：顺序与分支 | 综合应用
+#   cpp1-kp20 | 综合：循环与数组 | 综合应用
+#
+# 列：paperId	idx	qNo	type	stem	optA	optB	optC	optD	answer
+# ===== 待补标 16 题（L1_part4 漏标）=====
+lele-414	2	3	单选题	假设现在是上午十点，求出N小时（正整数）后是第几天几时，如输入20小时则为第2天6点，如N输入4则为今天14点。为实现相应功能，应在横线处填写代码是( )。	A：(10 + N) % 24 , (10 + N) / 24	B：(10 + N) / 24 , (10 + N) % 24	C：N % 24 , N / 24	D：10 / 24 , 10 % 24	B
+lele-414	15	1	判断题	C++表达式 int(3.14) 的值为3。( )	A：正确	B：错误			A
+lele-414	16	2	判断题	C++语句 cout << (2 * 3, 3 % 10, 2+3) 的输出为 6,3,5 。 ( )	A：正确	B：错误			B
+lele-414	17	3	判断题	for(int i = 1; i < 10; i += 3;) ; 表示i从1开始到10结束间隔为3，相当于1、4、7、10。（ ）	A：正确	B：错误			B
+lele-414	18	4	判断题	C++表达式010+100+001的值为111。（ ）	A：正确	B：错误			B
+lele-414	19	5	判断题	if 语句中的条件表达式的结果可以为 int 类型。( )	A：正确	B：错误			A
+lele-414	20	6	判断题	在下面的C++代码 while(1) continue; 中，由于循环中的 continue 是无条件被执行，因此将导致死循环。（ ）	A：正确	B：错误			A
+lele-414	21	7	判断题	C++表达式 ('1'+'1'=='2'? flag=1:flag=2) 的结果值和表达式 (flag==2) 的相同。（ ）	A：正确	B：错误			B
+lele-414	22	8	判断题	在C++的程序中，不能用 scanf 作为变量名。（ ）	A：正确	B：错误			B
+lele-414	23	9	判断题	小杨最近在准备考GESP，他用的Dev C++来练习和运行程序，所以Dev C++也是一个小型操作系统。（ ）	A：正确	B：错误			B
+lele-414	24	10	判断题	任何一个 while 循环都可以转化为等价的 for 循环（ ）。	A：正确	B：错误			A
+lele-378	0	1	单选题	我们通常说的“内存”属于计算机中的（ ）。	A：输出设备	B：输入设备	C：存储设备	D：打印设备	C
+lele-378	1	2	单选题	以下C++不可以作为变量的名称的是（ ）。	A：redStar	B：RedStar	C：red_star	D：red star	D
+lele-378	2	3	单选题	C++表达式 2 - 1 && 2 % 10 的值是（ ）。	A：0	B：1	C：2	D：3	B
+lele-378	3	4	单选题	下面C++代码段执行后的输出是（ ）。	A：3+4= 7	B：3+4=7	C：a+b=7	D：a+b=a+b	C
+lele-378	4	5	单选题	在C++语言中， int 类型的变量 x 、 y 、 z 的值分别为 2 、 4 、 6 ，以下表达式的值为真的是（ ）。	A：x > y || x > z	B：x != z - y	C：z > y + x	D：x < y || !x < z	D
