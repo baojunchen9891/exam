@@ -1,1 +1,77 @@
-ewogICJsZXZlbCI6IDUsCiAgIml0ZW1zIjogWwogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MiIsCiAgICAgICJpZHgiOiA2LAogICAgICAia3BfaWRzIjogWwogICAgICAgICJjcHA1LWtwMjIiCiAgICAgIF0sCiAgICAgICJwcmltYXJ5X2twIjogImNwcDUta3AyMiIsCiAgICAgICJub3RlIjogIue7vOWQiOW6lOeUqCIKICAgIH0sCiAgICB7CiAgICAgICJwYXBlcklkIjogImxlbGUtMzgyIiwKICAgICAgImlkeCI6IDcsCiAgICAgICJrcF9pZHMiOiBbCiAgICAgICAgImNwcDUta3AyMiIKICAgICAgXSwKICAgICAgInByaW1hcnlfa3AiOiAiY3BwNS1rcDIyIiwKICAgICAgIm5vdGUiOiAi57u85ZCI5bqU55SoIgogICAgfSwKICAgIHsKICAgICAgInBhcGVySWQiOiAibGVsZS0zODIiLAogICAgICAiaWR4IjogOCwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNS1rcDIyIgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA1LWtwMjIiLAogICAgICAibm90ZSI6ICLnu7zlkIjlupTnlKgiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MiIsCiAgICAgICJpZHgiOiAxNSwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNS1rcDIyIgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA1LWtwMjIiLAogICAgICAibm90ZSI6ICLnu7zlkIjlupTnlKgiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MiIsCiAgICAgICJpZHgiOiAxNiwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNS1rcDIyIgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA1LWtwMjIiLAogICAgICAibm90ZSI6ICLnu7zlkIjlupTnlKgiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MiIsCiAgICAgICJpZHgiOiAxNywKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNS1rcDIyIgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA1LWtwMjIiLAogICAgICAibm90ZSI6ICLnu7zlkIjlupTnlKgiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MiIsCiAgICAgICJpZHgiOiAyMywKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNS1rcDIyIgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA1LWtwMjIiLAogICAgICAibm90ZSI6ICLnu7zlkIjlupTnlKgiCiAgICB9LAogICAgewogICAgICAicGFwZXJJZCI6ICJsZWxlLTM4MiIsCiAgICAgICJpZHgiOiAyNCwKICAgICAgImtwX2lkcyI6IFsKICAgICAgICAiY3BwNS1rcDIyIgogICAgICBdLAogICAgICAicHJpbWFyeV9rcCI6ICJjcHA1LWtwMjIiLAogICAgICAibm90ZSI6ICLnu7zlkIjlupTnlKgiCiAgICB9CiAgXQp9
+{
+  "level": 5,
+  "items": [
+    {
+      "paperId": "lele-382",
+      "idx": 6,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 7,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 8,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 15,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 16,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 17,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 23,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    },
+    {
+      "paperId": "lele-382",
+      "idx": 24,
+      "kp_ids": [
+        "cpp5-kp22"
+      ],
+      "primary_kp": "cpp5-kp22",
+      "note": "综合应用"
+    }
+  ]
+}
