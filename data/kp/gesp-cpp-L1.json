@@ -1,1 +1,130 @@
-ewogInN1YmplY3QiOiAiZ2VzcC1jcHAiLAogImxldmVsIjogMSwKICJ2ZXJzaW9uIjogIjIwMjYtMDgiLAogInN0YXR1cyI6ICJjb25maXJtZWQiLAogImNvbmZpcm1lZEJ5IjogInVzZXItY29uZmlybWVkQDIwMjYtMDgtMDUiLAogIm5vdGUiOiAi6I2J5qGI77yM5b6F5pWZ56CU56Gu6K6kL+WinuWHj++8iOWMuumXtOWuiCAxNeKAkzI1IOS4qu+8ieOAgmlkIOeos+WumuWQjumYtuautTDmoIfms6jku6XmraTkuLrlh4bjgILlt7Lnoa7orqQgMjAyNi0wOC0wNe+8iOaVmeeglOe7iOWuoe+8jGlkIOmUgeWumu+8ieOAgiIsCiAia3AiOiBbCiAgewogICAiaWQiOiAiY3BwMS1rcDAxIiwKICAgIm5hbWUiOiAi6K6h566X5py65Z+656GA55+l6K+GIiwKICAgImNhdGVnb3J5IjogIuiuoeeul+acuuWfuuehgCIsCiAgICJkZXNjIjogIuiuoeeul+acuuWPkeWxleOAgeehrOS7tue7hOaIkOOAgeWtmOWCqOWNleS9jeOAgeaTjeS9nOezu+e7n+S4jui9r+S7tuamguW/tSIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AwMiIsCiAgICJuYW1lIjogIueoi+W6j+S4jua1geeoi+WbviIsCiAgICJjYXRlZ29yeSI6ICLorqHnrpfmnLrln7rnoYAiLAogICAiZGVzYyI6ICLnqIvluo/mpoLlv7XjgIHmtYHnqIvlm77nrKblj7fjgIHnlKjoh6rnhLbor63oqIAv5rWB56iL5Zu+5o+P6L+w566X5rOVIgogIH0sCiAgewogICAiaWQiOiAiY3BwMS1rcDAzIiwKICAgIm5hbWUiOiAi5Y+Y6YeP5LiO5pWw5o2u57G75Z6LIiwKICAgImNhdGVnb3J5IjogIuWfuuehgOivreazlSIsCiAgICJkZXNjIjogImludC9mbG9hdC9kb3VibGUvY2hhci9ib29sIOeahOWumuS5ieOAgei1i+WAvOS4juWNoOeUqOWtl+iKgiIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AwNCIsCiAgICJuYW1lIjogIuW4uOmHj+S4juagh+ivhuespuWRveWQjSIsCiAgICJjYXRlZ29yeSI6ICLln7rnoYDor63ms5UiLAogICAiZGVzYyI6ICJjb25zdCDluLjph4/jgIHlj5jph4/lkb3lkI3op4TliJnjgIFDKysg5YWz6ZSu5a2XIgogIH0sCiAgewogICAiaWQiOiAiY3BwMS1rcDA1IiwKICAgIm5hbWUiOiAi5qCH5YeG6L6T5YWl6L6T5Ye6IiwKICAgImNhdGVnb3J5IjogIuWfuuehgOivreazlSIsCiAgICJkZXNjIjogImlvc3RyZWFt44CBdXNpbmcgbmFtZXNwYWNlIHN0ZOOAgWNpbi9jb3V044CBZW5kbCDkuI7moLzlvI8iCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMDYiLAogICAibmFtZSI6ICLnrpfmnK/kuI7otYvlgLzov5DnrpciLAogICAiY2F0ZWdvcnkiOiAi6L+Q566X5LiO6KGo6L6+5byPIiwKICAgImRlc2MiOiAiKyAtICogLyAl44CB5aSN5ZCI6LWL5YC844CB6Ieq5aKe6Ieq5YeP6L+Q566XIgogIH0sCiAgewogICAiaWQiOiAiY3BwMS1rcDA3IiwKICAgIm5hbWUiOiAi5YWz57O75LiO6YC76L6R6L+Q566XIiwKICAgImNhdGVnb3J5IjogIui/kOeul+S4juihqOi+vuW8jyIsCiAgICJkZXNjIjogIuWkp+Wwj+avlOi+g+OAgT0944CBJiYgfHwgISDluIPlsJTooajovr7lvI/msYLlgLwiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMDgiLAogICAibmFtZSI6ICLpobrluo/nu5PmnoQiLAogICAiY2F0ZWdvcnkiOiAi6aG65bqP57uT5p6EIiwKICAgImRlc2MiOiAi6K+t5Y+l6Ieq5LiK6ICM5LiL5omn6KGM44CB6KGo6L6+5byP5LiO6LWL5YC86K+t5Y+l6aG65bqPIgogIH0sCiAgewogICAiaWQiOiAiY3BwMS1rcDA5IiwKICAgIm5hbWUiOiAiaWYg5YiG5pSv57uT5p6EIiwKICAgImNhdGVnb3J5IjogIuWIhuaUr+e7k+aehCIsCiAgICJkZXNjIjogImlmIC8gaWYtZWxzZSAvIOW1jOWllyBpZiDnmoTmnaHku7bpgInmi6nkuI7miafooYwiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMTAiLAogICAibmFtZSI6ICJzd2l0Y2gg5YiG5pSv57uT5p6EIiwKICAgImNhdGVnb3J5IjogIuWIhuaUr+e7k+aehCIsCiAgICJkZXNjIjogInN3aXRjaC1jYXNlIOWkmuWIhuaUr+OAgWJyZWFrIOS4jiBkZWZhdWx0IOeUqOazlSIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AxMSIsCiAgICJuYW1lIjogImZvciDlvqrnjq8iLAogICAiY2F0ZWdvcnkiOiAi5b6q546v57uT5p6EIiwKICAgImRlc2MiOiAiZm9yIOivreazleOAgeiuoeaVsOWZqOW+queOr+OAgeWumuWMuumXtOmHjeWkjeaJp+ihjCIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AxMiIsCiAgICJuYW1lIjogIndoaWxlIOW+queOryIsCiAgICJjYXRlZ29yeSI6ICLlvqrnjq/nu5PmnoQiLAogICAiZGVzYyI6ICJ3aGlsZSDmnaHku7blvqrnjq/jgIHlvqrnjq/lj5jph4/mm7TmlrDkuI7nu4jmraLmnaHku7YiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMTMiLAogICAibmFtZSI6ICLlvqrnjq/mjqfliLYiLAogICAiY2F0ZWdvcnkiOiAi5b6q546v57uT5p6EIiwKICAgImRlc2MiOiAiYnJlYWsvY29udGludWUg5L2c55So44CB6YG/5YWN5q275b6q546vIgogIH0sCiAgewogICAiaWQiOiAiY3BwMS1rcDE0IiwKICAgIm5hbWUiOiAi5bWM5aWX5b6q546vIiwKICAgImNhdGVnb3J5IjogIuW+queOr+e7k+aehCIsCiAgICJkZXNjIjogIuWPjOmHjeW+queOr+OAgeaJk+WNsOWbvuW9ouS4jueugOWNleaemuS4viIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AxNSIsCiAgICJuYW1lIjogIuS4gOe7tOaVsOe7hOWFpemXqCIsCiAgICJjYXRlZ29yeSI6ICLmlbDnu4TkuI7lrZfnrKbkuLIiLAogICAiZGVzYyI6ICLmlbDnu4TlrprkuYnjgIHkuIvmoIforr/pl67jgIHpgY3ljobkuI7ovrnnlYwgKDAg6LW35aeLKSIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AxNiIsCiAgICJuYW1lIjogInN0cmluZyDlrZfnrKbkuLLln7rnoYAiLAogICAiY2F0ZWdvcnkiOiAi5pWw57uE5LiO5a2X56ym5LiyIiwKICAgImRlc2MiOiAic3RyaW5nIOWumuS5ieOAgemVv+W6piBsZW5ndGjjgIHkuIvmoIforr/pl67kuI7mi7zmjqUiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMTciLAogICAibmFtZSI6ICLov5vliLbliJ3mraUiLAogICAiY2F0ZWdvcnkiOiAi6L+b5Yi25LiO6L+Q566XIiwKICAgImRlc2MiOiAi5LqM6L+b5Yi2L+WNgei/m+WIti/ljYHlha3ov5vliLbmpoLlv7Xlj4rnm7jkupLovazmjaIiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMTgiLAogICAibmFtZSI6ICLnroDljZXmlbDlrablupTnlKgiLAogICAiY2F0ZWdvcnkiOiAi6L+b5Yi25LiO6L+Q566XIiwKICAgImRlc2MiOiAi5pW06ZmkL+WPluaooeOAgeWlh+WBtuWIpOaWreOAgee0r+WKoOS4jue0r+S5mCIKICB9LAogIHsKICAgImlkIjogImNwcDEta3AxOSIsCiAgICJuYW1lIjogIue7vOWQiO+8mumhuuW6j+S4juWIhuaUryIsCiAgICJjYXRlZ29yeSI6ICLnu7zlkIjlupTnlKgiLAogICAiZGVzYyI6ICLliIbmlK/liKTmlq3nu5PlkIjov5DnrpfnmoTlsI/nu7zlkIjpopgiCiAgfSwKICB7CiAgICJpZCI6ICJjcHAxLWtwMjAiLAogICAibmFtZSI6ICLnu7zlkIjvvJrlvqrnjq/kuI7mlbDnu4QiLAogICAiY2F0ZWdvcnkiOiAi57u85ZCI5bqU55SoIiwKICAgImRlc2MiOiAi5b6q546v57uf6K6hL+aVsOe7hOafpeaJvi/orqHmlbDlsI/nu7zlkIjpopgiCiAgfQogXQp9
+{
+ "subject": "gesp-cpp",
+ "level": 1,
+ "version": "2026-08",
+ "status": "confirmed",
+ "confirmedBy": "user-confirmed@2026-08-05",
+ "note": "草案，待教研确认/增减（区间守 15–25 个）。id 稳定后阶段0标注以此为准。已确认 2026-08-05（教研终审，id 锁定）。",
+ "kp": [
+  {
+   "id": "cpp1-kp01",
+   "name": "计算机基础知识",
+   "category": "计算机基础",
+   "desc": "计算机发展、硬件组成、存储单位、操作系统与软件概念"
+  },
+  {
+   "id": "cpp1-kp02",
+   "name": "程序与流程图",
+   "category": "计算机基础",
+   "desc": "程序概念、流程图符号、用自然语言/流程图描述算法"
+  },
+  {
+   "id": "cpp1-kp03",
+   "name": "变量与数据类型",
+   "category": "基础语法",
+   "desc": "int/float/double/char/bool 的定义、赋值与占用字节"
+  },
+  {
+   "id": "cpp1-kp04",
+   "name": "常量与标识符命名",
+   "category": "基础语法",
+   "desc": "const 常量、变量命名规则、C++ 关键字"
+  },
+  {
+   "id": "cpp1-kp05",
+   "name": "标准输入输出",
+   "category": "基础语法",
+   "desc": "iostream、using namespace std、cin/cout、endl 与格式"
+  },
+  {
+   "id": "cpp1-kp06",
+   "name": "算术与赋值运算",
+   "category": "运算与表达式",
+   "desc": "+ - * / %、复合赋值、自增自减运算"
+  },
+  {
+   "id": "cpp1-kp07",
+   "name": "关系与逻辑运算",
+   "category": "运算与表达式",
+   "desc": "大小比较、==、&& || ! 布尔表达式求值"
+  },
+  {
+   "id": "cpp1-kp08",
+   "name": "顺序结构",
+   "category": "顺序结构",
+   "desc": "语句自上而下执行、表达式与赋值语句顺序"
+  },
+  {
+   "id": "cpp1-kp09",
+   "name": "if 分支结构",
+   "category": "分支结构",
+   "desc": "if / if-else / 嵌套 if 的条件选择与执行"
+  },
+  {
+   "id": "cpp1-kp10",
+   "name": "switch 分支结构",
+   "category": "分支结构",
+   "desc": "switch-case 多分支、break 与 default 用法"
+  },
+  {
+   "id": "cpp1-kp11",
+   "name": "for 循环",
+   "category": "循环结构",
+   "desc": "for 语法、计数器循环、定区间重复执行"
+  },
+  {
+   "id": "cpp1-kp12",
+   "name": "while 循环",
+   "category": "循环结构",
+   "desc": "while 条件循环、循环变量更新与终止条件"
+  },
+  {
+   "id": "cpp1-kp13",
+   "name": "循环控制",
+   "category": "循环结构",
+   "desc": "break/continue 作用、避免死循环"
+  },
+  {
+   "id": "cpp1-kp14",
+   "name": "嵌套循环",
+   "category": "循环结构",
+   "desc": "双重循环、打印图形与简单枚举"
+  },
+  {
+   "id": "cpp1-kp15",
+   "name": "一维数组入门",
+   "category": "数组与字符串",
+   "desc": "数组定义、下标访问、遍历与边界 (0 起始)"
+  },
+  {
+   "id": "cpp1-kp16",
+   "name": "string 字符串基础",
+   "category": "数组与字符串",
+   "desc": "string 定义、长度 length、下标访问与拼接"
+  },
+  {
+   "id": "cpp1-kp17",
+   "name": "进制初步",
+   "category": "进制与运算",
+   "desc": "二进制/十进制/十六进制概念及相互转换"
+  },
+  {
+   "id": "cpp1-kp18",
+   "name": "简单数学应用",
+   "category": "进制与运算",
+   "desc": "整除/取模、奇偶判断、累加与累乘"
+  },
+  {
+   "id": "cpp1-kp19",
+   "name": "综合：顺序与分支",
+   "category": "综合应用",
+   "desc": "分支判断结合运算的小综合题"
+  },
+  {
+   "id": "cpp1-kp20",
+   "name": "综合：循环与数组",
+   "category": "综合应用",
+   "desc": "循环统计/数组查找/计数小综合题"
+  }
+ ]
+}
