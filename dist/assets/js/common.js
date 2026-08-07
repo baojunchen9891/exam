@@ -508,6 +508,7 @@ const EXAM = (() => {
       <div class="brand">
         <div class="logo"><span class="dot"></span>真题考试通</div>
         <div class="navtabs">
+          <a href="${BASE}index.html" class="${activeClass("home")}">首页</a>
           <a href="${BASE}curriculum.html" class="${activeClass("curriculum")}">课程体系</a>
           <a href="${BASE}diagnostic.html" class="${activeClass("diagnose")}">免费诊断</a>
           <a href="${BASE}cspjsjixun.html" class="${activeClass("csp")}">CSP集训</a>
