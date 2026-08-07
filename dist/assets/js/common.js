@@ -2,12 +2,27 @@
  * 数据层已切换为独立 HTTP API（见 api.js），不再依赖 CloudBase。
  */
 // 站点部署在根路径 "/"，所有内部页面跳转统一以 BASE 拼接，避免子目录页面相对路径解析 404
-const BASE = "/";
+const BASE = "";
+// 防御性获取 ExamAPI：api.js 可能未加载或执行失败，此时降级为空壳
+var _API = (typeof window !== "undefined" && window.ExamAPI) || null;
+var _safeAPI = _API || {
+  getToken: function(){ return ""; },
+  setToken: function(){},
+  clearTokens: function(){},
+  getRefresh: function(){ return ""; },
+  setRefresh: function(){},
+  refreshOnce: function(){ return Promise.resolve(""); },
+  request: function(){ return Promise.resolve({code:-1,message:"API 未加载"}); },
+  get: function(){ return Promise.resolve({code:-1,message:"API 未加载"}); },
+  post: function(){ return Promise.resolve({code:-1,message:"API 未加载"}); },
+  put: function(){ return Promise.resolve({code:-1,message:"API 未加载"}); }
+};
+
 const EXAM = (() => {
   const TOKEN_KEY = "exam_token";
   const REFRESH_KEY = "exam_refresh";
   const USER_KEY = "exam_user";
-  const API = window.ExamAPI;
+  const API = _safeAPI;
 
   const getToken = API.getToken;
   const setToken = API.setToken;
