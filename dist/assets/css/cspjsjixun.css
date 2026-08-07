@@ -5,8 +5,8 @@
   color: #fff;
   padding: 0;
   position: sticky;
-  top: 0;
-  z-index: 50;
+  top: 52px;
+  z-index: 49;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .csp-bar-inner {
@@ -504,7 +504,7 @@
   padding: 14px 18px;
   margin-bottom: 18px;
   position: sticky;
-  top: 56px;
+  top: 100px;
   z-index: 10;
 }
 .csp-toc-title {
@@ -532,7 +532,7 @@
   border-radius: 12px;
   padding: 22px 26px;
   margin-bottom: 18px;
-  scroll-margin-top: 130px;
+  scroll-margin-top: 100px;
 }
 .csp-leaf-body h2 {
   font-size: 20px;
