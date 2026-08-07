@@ -1,1 +1,57 @@
-ewogInRpdGxlIjogIuKRpSDlpI3otZvlrp7miJjkvZPns7siLAogImludHJvIjogIiIsCiAibGVhdmVzIjogWwogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL29uc2l0ZS9vdmVydmlldy5waHAiLAogICAidGl0bGUiOiAi5aSN6LWb5oC76KeIIiwKICAgImRlc2MiOiAiIgogIH0sCiAgewogICAicGF0aCI6ICJrbm93bGVkZ2Uvb25zaXRlL3N1cnZpdmFsLnBocCIsCiAgICJ0aXRsZSI6ICLnlJ/lrZjmjIfljZfCt+aWh+S7tkktTyIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL29uc2l0ZS9zZWxlY3QucGhwIiwKICAgInRpdGxlIjogIuaVsOaNruiMg+WbtOKGkueul+azlemAieWeiyIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL29uc2l0ZS90ZW1wbGF0ZXMucGhwIiwKICAgInRpdGxlIjogIuS7o+eggeaooeadv+W6kyIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL29uc2l0ZS9kdWVsLnBocCIsCiAgICJ0aXRsZSI6ICLlr7nmi43kuI7osIPor5UiLAogICAiZGVzYyI6ICIiCiAgfSwKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9vbnNpdGUvZHVlbF9sYWIucGhwIiwKICAgInRpdGxlIjogIuWvueaLjeWunumqjOWupCIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL29uc2l0ZS9kZWJ1Z19hZHZhbmNlLnBocCIsCiAgICJ0aXRsZSI6ICLosIPor5Xov5vpmLYiLAogICAiZGVzYyI6ICIiCiAgfSwKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9vbnNpdGUvcHJhY3RpY2UucGhwIiwKICAgInRpdGxlIjogIuecn+mimOWunuaImOiuree7gyIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL29uc2l0ZS9lcnJvcl9jb2Rlcy5waHAiLAogICAidGl0bGUiOiAi6ZSZ6K+v56CB5aSn5YWoIiwKICAgImRlc2MiOiAiIgogIH0sCiAgewogICAicGF0aCI6ICJrbm93bGVkZ2Uvb25zaXRlL3Njb3JpbmcucGhwIiwKICAgInRpdGxlIjogIuW+l+WIhuetlueVpeS4jua4heWNlSIsCiAgICJkZXNjIjogIiIKICB9CiBdLAogInBhdGgiOiAibW9kdWxlX29uc2l0ZS5waHAiCn0=
+{
+ "title": "⑥ 复赛实战体系",
+ "intro": "",
+ "leaves": [
+  {
+   "path": "knowledge/onsite/overview.php",
+   "title": "复赛总览",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/survival.php",
+   "title": "生存指南·文件I-O",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/select.php",
+   "title": "数据范围→算法选型",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/templates.php",
+   "title": "代码模板库",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/duel.php",
+   "title": "对拍与调试",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/duel_lab.php",
+   "title": "对拍实验室",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/debug_advance.php",
+   "title": "调试进阶",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/practice.php",
+   "title": "真题实战训练",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/error_codes.php",
+   "title": "错误码大全",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/onsite/scoring.php",
+   "title": "得分策略与清单",
+   "desc": ""
+  }
+ ],
+ "path": "module_onsite.php"
+}

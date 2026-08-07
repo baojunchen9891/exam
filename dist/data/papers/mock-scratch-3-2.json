@@ -1,1 +1,1080 @@
-ewogImlkIjogIm1vY2stc2NyYXRjaC0zLTIiLAogInRpdGxlIjogIlNjcmF0Y2ggM+e6pyDmqKHmi5/ljbfvvIgy77yJIiwKICJzdWJqZWN0IjogInNjcmF0Y2giLAogInN1YmplY3ROYW1lIjogIlNjcmF0Y2giLAogImxldmVsIjogMywKICJsZXZlbE5hbWUiOiAiM+e6pyIsCiAieWVhcm1vbnRoIjogIm1vY2siLAogInllYXIiOiAi5qih5oufIiwKICJjb3VudCI6IDI1LAogImR1cmF0aW9uTWluIjogNjAsCiAidG90YWxTY29yZSI6IDEwMCwKICJwYXNzU2NvcmUiOiA2MCwKICJ0YWdzIjogewogICJ5ZWFyIjogIuaooeaLnyIsCiAgInR5cGUiOiAi5qih5oufIiwKICAicHJvZ3Jlc3MiOiAi5pyq5byA5aeLIgogfSwKICJxdWVzdGlvbnMiOiBbCiAgewogICAibm8iOiAxLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLmoYzlrZDkuIrmnInkuIDkuLLlvannj6DvvIzmjpLluo/mmK/nrKwx5Liq57qi6Imy44CB56ysMuS4que7v+iJsuOAgeesrDPkuKrok53oibLjgIHnrKw05Liq6buE6Imy77yM5Lul5q2k57G75o6o44CC6K+36Zeu56ysMTAw5Liq5b2p54+g5piv5LuA5LmI6aKc6Imy77yf77yIIO+8iSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi57qi6ImyIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLnu7/oibIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuiTneiJsiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6buE6ImyIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkQiLAogICAiYW5hbHlzaXMiOiAi56ysMeS4que6ouiJsuOAgeesrDLkuKrnu7/oibLjgIHnrKwz5Liq6JOd6Imy44CB56ysNOS4qum7hOiJsu+8jOeUseatpOWPr+S7peW+l+WIsO+8jDTkuKrkuLrkuIDlkajmnJ/vvIzku6XmraTnsbvmjqjvvIwxMDDlr7k05Y+W5L2Z5Li6MO+8jOmCo+S5iOesrDEwMOS4quW9qeePoOaYr+m7hOiJsuOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAyLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLopoHnlLvlh7rlpoLkuIvlm77miYDnpLrnmoTlm77lvaLvvIznqIvluo/nqbrnmb3lpITku47kuIrlvoDkuIvlupTloavlhpnvvJ/vvIggwqDvvIkiCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNzY4ODE5MjA1NDMyMC5wbmciCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNzY4ODE5MjEwOTU3Ny5wbmciCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjbvvIw277yMMzAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjbvvIw277yMNjAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjPvvIwz77yMNjAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjPvvIwz77yMMzAiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICLln7rnoYDlm77lvaLkuLo26L655b2i77yM5YWx5pyJNuS4quWbvuW9ou+8jOaJgOS7pemAiei9rOS4ujYw44CC5pWF562U5qGI5Li6QuOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAzLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLlsI/njKvkvY3kuo7oiJ7lj7DkuK3lpK7vvIzov5DooYzkuIvliJfnqIvluo/lkI7vvIzoiJ7lj7DkuIrog73nnIvliLDvvJ/vvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTcyMTgxMDgzOTg2NTEucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTcyMTgxMDg1Mzg3MDQucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTcyMTgxMDg2MjI5NzEucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTcyMTgxMDg2ODE4ODkucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTcyMTgxMDg3Mzc0ODQucG5nIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAi5bCP54yr5LiA6L655YWL6ZqG77yM5LiA6L655ZCR5Y+z5peL6L2s77yM5q2j5aW95Zub5qyh77yM6ICM5YWL6ZqG5L2T5q+P5qyh5aKe5Yqg5aSn5bCPMzDvvIzlubbnp7vliqgxMDDmraXvvIzmiYDku6XpgIlBIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDQsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIum7mOiupOinkuiJsuWwj+eMq++8jOi/kOihjOS4i+WIl+eoi+W6j+WQju+8jOiInuWPsOS4reWPr+S7peeci+WIsOWHoOWPquWwj+eMq++8n++8iCDvvIkiCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNzI5NTAyMjU5MjUyMS5wbmciCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjHlj6oiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjLlj6oiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjPlj6oiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjTlj6oiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQyIsCiAgICJhbmFseXNpcyI6ICLph43lpI3miafooYw05qyh77yM5omn6KGM5Zub5qyh5Zu+56ug5ZG95Luk44CC5L2G5pyJ5bCP54yr6L+b6KGM5LqG6KaG55uW77yM5omA5Lul6Iie5Y+w5LiK6IO955yL5YiwM+WPquWwj+eMq+OAguato+ehruetlOahiOS4ukPjgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogNSwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6L+Q6KGM5LiL5YiX56iL5bqP77yM5Y+v5Lul6K6h566X5Ye6MS0xMDDkuYvpl7TnmoTmiYDmnInlgbbmlbDlkozjgILvvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc2ODgyMjEzODYwMTcucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJCIiwKICAgImFuYWx5c2lzIjogImHku44x5byA5aeL77yM6K6h566X55qE5pivMSszKzUr4oCm4oCmOTkg55qE57uT5p6c44CC5pivMS0xMDDnmoTlpYfmlbDlkozjgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogNiwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5p+Q5ZCM5a2m5Yi25L2c5LqG5LiA5Liq5qih5ouf6Z+z5LmQ5pKt5pS+5Zmo55qE5L2c5ZOB77yM5YW25Lit5pyJ5LiA5Liq5oyJ6ZKu6KeS6Imy77yM6YCg5Z6L5aaC5LiL5Zu+5omA56S677yM54K55Ye75aSE5LqO5pKt5pS+6YCg5Z6L55qE5oyJ6ZKu5pe277yM5Y+v5Lul5byA5aeL5pKt5pS+6Z+z5LmQ77yb54K55Ye75aSE5LqO5pqC5YGc6YCg5Z6L55qE5oyJ6ZKu5pe277yM5Y+v5Lul5L2/5q2j5Zyo5pKt5pS+55qE6Z+z5LmQ5pqC5YGc44CC5LiL5YiX5ZOq5Liq6YCJ6aG55Y+v5Lul5a6e546w6L+Z5Liq5pWI5p6c77yf77yIIO+8iSIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3NDQ4ODAwOTQzNjg2LnBuZyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3NDQ4ODAxMDU5NDEwLnBuZyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3NDQ4ODAxMTE5OTY4LnBuZyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3NDQ4ODAxMTYyNTcyLnBuZyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3NDQ4ODAxMjIyMjU5LnBuZyIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJDIiwKICAgImFuYWx5c2lzIjogIkFCROmAiemhueS7o+eggeeahOaViOaenOmDveaYr+WSjOmimOW5suimgeaxguebuOWPjeeahO+8jOeCueWHu+aSreaUvuaYr+aaguWBnO+8jOeCueWHu+aaguWBnOaYr+aSreaUvu+8jOWPquaciUPpgInpobnmmK/mraPnoa7nmoTjgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogNywKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6buY6K6k5bCP54yr6KeS6Imy77yM6L+Q6KGM5LiL5YiX56iL5bqP5ZCO77yM6K+05Ye655qE5YC85piv77yf77yIIO+8iSIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3NjAxNzQyOTYxOTMyLnBuZyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiODAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjkwIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICIxMDAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjExMCIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJCIiwKICAgImFuYWx5c2lzIjogIuacrOmimOS+p+mHjeiAg+Wvn+WtpueUn+Wvuea2iOaBr+W5v+aSreeahOeQhuino+WSjOW6lOeUqOeoi+W6pu+8jOmavuW6puezu+aVsOS4jeWkp+OAguW5v+aSrea2iOaBr+WSjOW5v+aSrea2iOaBr+W5tuetieW+he+8jOi/meS4pOS4queoi+W6j+Wdl+eahOWMuuWIq++8jOaYr+S4gOWumuS8muiAg+Wvn+eahOWGheWuueOAguWmguaenOi/memHjOeUqOeahOaYr+W5v+aSrea2iOaBr+W5tuetieW+he+8jOWIme+8jOivtOWHuueahOe7k+aenOaYrzEwMO+8m+iAjOeUqOeahOaYr+W5v+aSrea2iOaBr++8jOivtOWHuueahOe7k+aenOWwseaYrzkw44CC5Li65LuA5LmI5ZGi77yf6L+Z5bCx5piv6ZyA6KaB5aSn5a625riF5pmw5o6M5o+h55qE5Lik6ICF55qE5Yy65Yir44CC5bm/5pKt5raI5oGv56iL5bqP5Z2X5Zyo5omn6KGM6L+H56iL5Lit77yM5LiN5Lya6Zi75pat5Li756iL5bqP55qE5omn6KGM77yM5q2k5pe277yM5Li756iL5bqP5ZKM5o6l5pS25Yiw5raI5oGv5bm/5pKt56iL5bqP5Lya5ZCM5pe25omn6KGM77yM55Sx5LqO5o6l5pS25Yiw5raI5oGv5bm/5pKt56iL5bqP5Lit5pyJMeenkueahOS4reaWre+8jOatpOaXtu+8jOS4u+eoi+W6j+eahOeoi+W6j+W3sue7j+aJp+ihjOWujOaIkOS6hu+8jOS5n+i+k+WHuuS6huWkp+Wwj++8m+iAjOaOpeaUtuWIsOa2iOaBr+W5v+aSreeahOeoi+W6j+WNs+S9v+WwhuWkp+Wwj+WGjeWinuWKoDEw77yM5Lmf5LiN5Lya5b2x5ZON6L6T5Ye657uT5p6c44CC5Y2z5L2/5q2k5pe26KeS6Imy5aSn5bCP5a6e6ZmF5pivMTAw44CCIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDgsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuePree6p+WFg+aXpuaZmuS8mu+8jOimgemaj+acuuaKveWPljjkuKrlubjov5DlpZbvvIzlhajnj63mnIk1MOS9jeWQjOWtpu+8jOi/kOihjOS4i+WIl+eoi+W6j++8jOivt+mXruS4i+WIl+mAiemhueaPj+i/sOato+ehrueahOaYr++8n++8iCDvvIkiCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNzA0Njg3MDczNDMxOS5wbmciCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIueoi+W6j+i/kOihjOWQju+8jOWPquaKveWPluWHuuS4gOS4quWtpuWPt+WwseWBnOatouS6hiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a2m5Y+35Li6NTDlj7fnmoTlkIzlrabvvIzkuIDlrprml6Dms5Xooqvmir3lj5bliLAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWtpuWPt+S4ujHlj7fnmoTlkIzlrabvvIzkuIDlrprml6Dms5Xooqvmir3lj5bliLAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWQjOS4gOS4quWQjOWtpuWPr+iDveS8muaKveWIsOWkmuasoSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJEIiwKICAgImFuYWx5c2lzIjogIueoi+W6j+S4reayoeacieWwhuW3suaKveS4reeahOWtpuWPt+WBmuaOkumZpO+8jOWQjOS4gOS4quWQjOWtpuWPr+iDveS8muaKveWIsOWkmuasoeOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiA5LAogICAidHlwZSI6ICLliKTmlq3popgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLov5DooYzkuIvliJfnqIvluo/vvIzovpPlhaXmlbDlrZflkI7vvIzlj6/ku6XliKTmlq3mlbDlrZfmmK/lpYfmlbDov5jmmK/lgbbmlbDjgILvvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc1MjQwMTM1Nzg3NjMucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJBIiwKICAgImFuYWx5c2lzIjogIui/kOihjOeoi+W6j+WQju+8jOi+k+WFpeaVsOWtl++8jOWmguaenOaVsOWtl+mZpOS7pTLnmoTkvZnmlbDkuLowIO+8jOivtOaYjuaVsOWtl+S4uuWBtuaVsO+8jOWQpuWImeaVsOWtl+S4uuWlh+aVsO+8jOaVheivpeivtOazleato+ehruOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxMCwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5omn6KGM5LiL5YiX56iL5bqP5ZCO77yM6KeS6Imy5Lya5LiA55u06Lef6ZqP6byg5qCH56e75Yqo77yM5Zyo6L+Z5Liq6L+H56iL5Lit5aaC5p6c56Kw5Yiw6Iie5Y+w6L6557yY77yM5YGc5q2i5YWo6YOo6ISa5pys44CCIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTY2NTU4NzA5Nzg0MTIucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLmraPnoa4iCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmeivryIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJBIiwKICAgImFuYWx5c2lzIjogIuino+aekO+8miIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxMSwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6L+Q6KGM5LiL5YiX56iL5bqP5ZCO77yM5bCP54yr5Y+q6K+05Ye65LiA5Liq5pWw5a2X77yaMTLjgILvvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTcyMTgxMTM2NDE3MzMucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLmraPnoa4iCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmeivryIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJBIiwKICAgImFuYWx5c2lzIjogIuaIkeeahOWPmOmHj+S7jjDliLAyMO+8jOWPquaciTEy5pei6IO96KKrM+aVtOmZpOWPiOiDveiiqzTmlbTpmaTjgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTIsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIue7mOWItuWHuuWmguS4i+WbvuaJgOekuueahOWbvuahiO+8jOeoi+W6j+S4reeahOe6ouahhuWkhOW6lOWhq+eahOaVsOWAvOWIhuWIq+aYr++8n++8iCDvvIkiCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNzI5NTAyNDg3MzM0My5wbmciCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNzI5NTAyNDkxOTQ1Ni5wbmciCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjUgNiA1IDYiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjUgNiA2IDUiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjYgNSA2IDUiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIjYgNSA1IDYiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICLltYzlpZflpJblvqrnjq/otJ/otKPlm77moYjnmoTmlbDph4/vvIzltYzlpZflhoXlvqrnjq/otJ/otKPlh6DkvZXlm77lvaLovrnmlbDjgIIzNjDpmaTku6Xnm7jlupTmlbDvvIzkv53or4Hop5LoibLlj6/ku6Xml4vovazkuIDlkajjgILmiYDku6XmraPnoa7nrZTmoYjkuLpC44CCIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDEzLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLop5LoibLoi7nmnpzvvIzov5DooYzkuIvpnaLnqIvluo/nu5jliLbnmoTlm77lvaLmmK/vvJ8iCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNjY1NTg1MDUyMzk3My5wbmciCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNjY1NTg1MTQxNDQ5Ni5wbmciCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNjY1NTg1MTU1NDM2MS5wbmciCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNjY1NTg1MTczMzE3Mi5wbmciCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNjY1NTg1MTg3MzI0OC5wbmciCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQSIsCiAgICJhbmFseXNpcyI6ICLop6PmnpDvvJoiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTQsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuW9k+WFi+mahuS9k+WQr+WKqOaXtuS8muS4gOebtOacneedgOm8oOagh+aMh+mSiOeahOaWueWQkeenu+WKqO+8jOWmguaenOeisOWIsOiInuWPsOi+uee8mO+8jOWFi+mahuS9k+Wwsea2iOWkseOAgu+8iCDvvIkiCiAgICB9LAogICAgewogICAgICJpbWciOiAiYXNzZXRzL2ltYWdlcy8xNjk3NzcyMDY1NDgwMS5wbmciCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuato+ehriIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZ6K+vIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAi6YeN5aSN5omn6KGM5Lya5LiN5YGc5Zyw6L+Q6KGM5YW25Lit55qE5Luj56CB77yM5omA5Lul5b2T5YWL6ZqG5L2T5ZCv5Yqo5pe277yM56iL5bqP5Lya5LiA55u06Z2i5ZCR6byg5qCH5oyH6ZKI56e75YqoNDDmraXvvIzlubbkuJTkuI3lgZzliKTmlq3mmK/lkKbnorDliLDkuoboiJ7lj7DovrnnvJjvvIzlpoLmnpznorDliLDlsLHpmpDol4/jgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTUsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuWwj+eMq+inkuiJsuacieS4gOS4quKAnOS7hemAgueUqOS6juW9k+WJjeinkuiJsuKAneeahOWPmOmHj2HvvIzkuIvliJfor7Tms5XmraPnoa7nmoTmmK/vvJ/vvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc1MjQwMDgzMDg2MzkucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlj5jph49h5piv5bCP54yr6KeS6Imy55qE56eB5pyJ5Y+Y6YeP77yM5YW25a6D6KeS6Imy5oiW6Iie5Y+w6YO95peg5rOV6K+75Y+W5Y+Y6YePYeeahOWAvCIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5bCP54uX6KeS6Imy5Y+v5Lul5q2j5bi46K+75Y+W5ZKM5L+u5pS55Y+Y6YePYSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6Iie5Y+w6KeS6Imy5Y+v5Lul5q2j5bi46K+75Y+W5ZKM5L+u5pS55Y+Y6YePYSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5YW25a6D6KeS6Imy5ZKM6Iie5Y+w5LiN6IO955u05o6l5L+u5pS55Y+Y6YePYe+8jOS9huWPr+S7pemAmui/h+enr+acqOivu+WPlmEiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiRCIsCiAgICJhbmFseXNpcyI6ICLigJzku4XpgILnlKjkuo7lvZPliY3op5LoibLigJ3nmoTlj5jph4/lsZ7kuo7np4HmnIko5oiW5L+d5oqkKeWPmOmHj++8jOmZpOS6huinkuiJsuacrOi6q+WPr+S7peato+W4uOivu+WGmeiuv+mXruS5i+Wklu+8jOWFtuWug+inkuiJsuWSjOiInuWPsOWPr+S7pemAmui/h+S+pua1i+enr+acqOivu+WPluiuv+mXruOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxNiwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5paw5bu65LiA5Liq5Y+Y6YeP77yM6Iul5Zyo56iL5bqP5Lit5L2/55So5LqG6L+Z5Liq5Y+Y6YeP77yM5YiZ5LiN6IO95YaN5L+u5pS55Y+Y6YeP5ZCN44CC77yIIO+8iSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a+5IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICLlj5jph4/lj6/ku6Xpmo/ml7booqvmlLnlkI3vvIzmlLnlkI3ml7bnqIvluo/kuK3lvJXnlKjnmoTlj5jph4/lkI3pmo/kuYvlj5jljJbjgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTcsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIum7mOiupOWwj+eMq++8jOWIneWni+S9jee9ruWcqOiInuWPsOS4reW/g++8jOS4i+mdoueoi+W6j+S4jeiDveeUu+WHuuS7u+S9leWbvuahiOOAgiIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE2NjU1ODc0NzI0MTEyLnBuZyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5q2j56GuIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJnor68iCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICLop6PmnpDvvJoiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTgsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuWcqOS4gOadoemVvzQw57Gz55qE5bCP6Lev5LiA6L655qSN5qCR77yM5q+P6ZqUNeexs+enjeS4gOajte+8jOS4pOerr+mDveimgeenje+8jOS4gOWFseimgeenjTjmo7XmlbDjgILvvIgg77yJIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJCIiwKICAgImFuYWx5c2lzIjogIuagueaNruajteagkT3mrrXmlbArMe+8jOWFiOaxguauteaVsDQww7c1PTjvvIzmiYDku6Xmo7XmoJHkuLo4KzE9OeOAguaVheetlOahiOS4uumUmeivr+OAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxOSwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5b2T6KeS6Imy5bm/5pKt5raI5oGv5ZCO77yM5LiL5YiX6K+05rOV5q2j56Gu55qE5piv77yf77yIIO+8iSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5omA5pyJ6KeS6Imy6YO95Y+v5Lul5o6l5pS26K+l6KeS6Imy5Y+R5Ye655qE5bm/5pKtIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLoh6rlt7HkuI3og73mjqXmlLboh6rlt7Hlj5Hlh7rnmoTlub/mkq0iCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWPquacieiHquW3seaJjeWPr+S7peaOpeaUtuiHquW3seWPkeWHuueahOW5v+aSre+8jOWFtuS7luinkuiJsumDveS4jeWPr+S7pSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5Lu75L2V6KeS6Imy6YO95LiN5Y+v5Lul5o6l5pS26K+l6KeS6Imy5Y+R5Ye655qE5bm/5pKtIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAi5omA5pyJ6KeS6Imy6YO95Y+v5Lul5o6l5pS26K+l6KeS6Imy5Y+R5Ye655qE5bm/5pKt44CCIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDIwLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvliJflk6rkuKrnp6/mnKjkuI3mmK/lvqrnjq/or63lj6XvvJ/vvIgg77yJIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc2MDE3Mzc4NDc5ODMucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc2MDE3Mzc4OTEwMzMucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc2MDE3Mzc5NTYwMjEucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc2MDE3MzgwMjcyOTkucG5nIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkMiLAogICAiYW5hbHlzaXMiOiAiY+S4uuadoeS7tuWIpOaWre+8jOmAieaLqeWIhuaUr+OAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAyMSwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6L+Q6KGM56iL5bqP5ZCO77yM6Iie5Y+w5LiK5LiN5Lya5Ye6546w5bCP54yr44CC77yIIO+8iSIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE2OTc3NzIzMzQ4MDQ4LnBuZyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5q2j56GuIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJnor68iCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICLogIPlr5/lm77nq6DnmoTnibnmgKfjgIIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMjIsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIui/kOihjOS4i+WIl+eoi+W6j+WQju+8jOiInuWPsOS4iuiDveeci+WIsDEw5Y+q5bCP54yr44CC77yIIO+8iSIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3MjE4MTEyNzYzOTA3LnBuZyIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3MjE4MTEyODIzMTQyLnBuZyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5q2j56GuIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJnor68iCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICLnp7vliqjlkI7lho3lhYvpmobvvIzmnIDlkI7kuIDkuKrlhYvpmobkvZPlkozlsI/njKvph43lkIjvvIzog73nnIvliLA55Y+q5bCP54yr44CCIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDIzLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLpu5jorqTlsI/njKvop5LoibLvvIzov5DooYzkuIvliJfnqIvluo/lkI7vvIzoiJ7lj7Dog73nnIvliLDvvJ/vvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODc5OTUyODgucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODgxMTc0OTAucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODgxNjU0OTUucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODgyMjk5NTMucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODgyNzQxNDAucG5nIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAi5pys6aKY6ICD5a+f5a2m55Sf5a+55YWL6ZqG5Lul5Y+K54m55pWI55qE5bqU55So55qE54af57uD56iL5bqm44CC5YWL6ZqG6Ieq5bex5ZCO77yM5YWL6ZqG5L2T5Lya57un5om/5Li75L2T55qE5bGe5oCn77yM5YyF5ous5aSn5bCP5ZKM6aKc6Imy54m55pWI44CC5b2T5Li75L2T5LiN5pat5Y+Y5YyW77yM5YWL6ZqG5L2T5Lqn55Sf5pe25Lmf5Lya6ZqP552A5Y+Y5YyW44CC5Zug5q2k6YCJ5oupQuOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAyNCwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6buY6K6k5bCP54yr6KeS6Imy77yM6L+Q6KGM5LiL5YiX56iL5bqP77yM6Iie5Y+w5LiK6IO955yL5Yiw77yf77yIIO+8iSIKICAgIH0sCiAgICB7CiAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3Njg4MjEwNTI5Nzg2LnBuZyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3Njg4MjEwNjM3MjE4LnBuZyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3Njg4MjEwNjkzOTgzLnBuZyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3Njg4MjEwNzczMzc1LnBuZyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgImltZyI6ICJhc3NldHMvaW1hZ2VzLzE3Njg4MjEwODI4MDk4LnBuZyIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJBIiwKICAgImFuYWx5c2lzIjogIuS4gOWFseaciTblj6rlsI/njKvvvIzmnKzkvZPlpKflsI/kuLo1MO+8jOWFi+mahuS9k+eahOWkp+Wwj+mDveS4ujcw44CCIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDI1LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLpu5jorqTlsI/njKvop5LoibLvvIzngrnlh7vnu7/ml5flkI7kvp3mrKHmjInkuIvvvJrihpLjgIHihpPjgIHihpDjgIHihpHvvIznu5jliLbnmoTlm77moYjmmK/vvJ/vvIgg77yJIgogICAgfSwKICAgIHsKICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODQyOTM4NDcucG5nIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODQ0Mjg4MTYucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODQ0ODI0MDUucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODQ1NDc0ODUucG5nIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAiaW1nIjogImFzc2V0cy9pbWFnZXMvMTc3OTcxODQ1OTY0MDEucG5nIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkQiLAogICAiYW5hbHlzaXMiOiAi55Sx6aKY55uu5Y+v55+l5Zu+5b2i5piv5Liq5Zub6L655b2i77yM5Zub56eN5LiN5ZCM55qE6aKc6Imy77yM5pWF562U5qGI5Li6ROOAgiIsCiAgICJhdXRvIjogdHJ1ZQogIH0KIF0KfQ==
+{
+ "id": "mock-scratch-3-2",
+ "title": "Scratch 3级 模拟卷（2）",
+ "subject": "scratch",
+ "subjectName": "Scratch",
+ "level": 3,
+ "levelName": "3级",
+ "yearmonth": "mock",
+ "year": "模拟",
+ "count": 25,
+ "durationMin": 60,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "模拟",
+  "type": "模拟",
+  "progress": "未开始"
+ },
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "桌子上有一串彩珠，排序是第1个红色、第2个绿色、第3个蓝色、第4个黄色，以此类推。请问第100个彩珠是什么颜色？（ ）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "红色"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "绿色"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "蓝色"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "黄色"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "第1个红色、第2个绿色、第3个蓝色、第4个黄色，由此可以得到，4个为一周期，以此类推，100对4取余为0，那么第100个彩珠是黄色。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "要画出如下图所示的图形，程序空白处从上往下应填写？（  ）"
+    },
+    {
+     "img": "assets/images/17688192054320.png"
+    },
+    {
+     "img": "assets/images/17688192109577.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "6，6，30"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "6，6，60"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "3，3，60"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "3，3，30"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "基础图形为6边形，共有6个图形，所以选转为60。故答案为B。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小猫位于舞台中央，运行下列程序后，舞台上能看到？（ ）"
+    },
+    {
+     "img": "assets/images/17218108398651.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/17218108538704.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/17218108622971.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/17218108681889.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/17218108737484.png"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "小猫一边克隆，一边向右旋转，正好四次，而克隆体每次增加大小30，并移动100步，所以选A",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认角色小猫，运行下列程序后，舞台中可以看到几只小猫？（ ）"
+    },
+    {
+     "img": "assets/images/17295022592521.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "1只"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "2只"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "3只"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "4只"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "重复执行4次，执行四次图章命令。但有小猫进行了覆盖，所以舞台上能看到3只小猫。正确答案为C。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "运行下列程序，可以计算出1-100之间的所有偶数和。（ ）"
+    },
+    {
+     "img": "assets/images/17688221386017.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "a从1开始，计算的是1+3+5+……99 的结果。是1-100的奇数和。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某同学制作了一个模拟音乐播放器的作品，其中有一个按钮角色，造型如下图所示，点击处于播放造型的按钮时，可以开始播放音乐；点击处于暂停造型的按钮时，可以使正在播放的音乐暂停。下列哪个选项可以实现这个效果？（ ）"
+    },
+    {
+     "img": "assets/images/17448800943686.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/17448801059410.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/17448801119968.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/17448801162572.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/17448801222259.png"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "ABD选项代码的效果都是和题干要求相反的，点击播放是暂停，点击暂停是播放，只有C选项是正确的。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，运行下列程序后，说出的值是？（ ）"
+    },
+    {
+     "img": "assets/images/17601742961932.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "80"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "90"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "100"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "110"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "本题侧重考察学生对消息广播的理解和应用程度，难度系数不大。广播消息和广播消息并等待，这两个程序块的区别，是一定会考察的内容。如果这里用的是广播消息并等待，则，说出的结果是100；而用的是广播消息，说出的结果就是90。为什么呢？这就是需要大家清晰掌握的两者的区别。广播消息程序块在执行过程中，不会阻断主程序的执行，此时，主程序和接收到消息广播程序会同时执行，由于接收到消息广播程序中有1秒的中断，此时，主程序的程序已经执行完成了，也输出了大小；而接收到消息广播的程序即使将大小再增加10，也不会影响输出结果。即使此时角色大小实际是100。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "班级元旦晚会，要随机抽取8个幸运奖，全班有50位同学，运行下列程序，请问下列选项描述正确的是？（ ）"
+    },
+    {
+     "img": "assets/images/17046870734319.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "程序运行后，只抽取出一个学号就停止了"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "学号为50号的同学，一定无法被抽取到"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "学号为1号的同学，一定无法被抽取到"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "同一个同学可能会抽到多次"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "程序中没有将已抽中的学号做排除，同一个同学可能会抽到多次。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "运行下列程序，输入数字后，可以判断数字是奇数还是偶数。（ ）"
+    },
+    {
+     "img": "assets/images/17524013578763.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "运行程序后，输入数字，如果数字除以2的余数为0 ，说明数字为偶数，否则数字为奇数，故该说法正确。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下列程序后，角色会一直跟随鼠标移动，在这个过程中如果碰到舞台边缘，停止全部脚本。"
+    },
+    {
+     "img": "assets/images/16655870978412.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "正确"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错误"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "解析：",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "运行下列程序后，小猫只说出一个数字：12。（ ）"
+    },
+    {
+     "img": "assets/images/17218113641733.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "正确"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错误"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "我的变量从0到20，只有12既能被3整除又能被4整除。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "绘制出如下图所示的图案，程序中的红框处应填的数值分别是？（ ）"
+    },
+    {
+     "img": "assets/images/17295024873343.png"
+    },
+    {
+     "img": "assets/images/17295024919456.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "5 6 5 6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "5 6 6 5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "6 5 6 5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "6 5 5 6"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "嵌套外循环负责图案的数量，嵌套内循环负责几何图形边数。360除以相应数，保证角色可以旋转一周。所以正确答案为B。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "角色苹果，运行下面程序绘制的图形是？"
+    },
+    {
+     "img": "assets/images/16655850523973.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/16655851414496.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/16655851554361.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/16655851733172.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/16655851873248.png"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "解析：",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "当克隆体启动时会一直朝着鼠标指针的方向移动，如果碰到舞台边缘，克隆体就消失。（ ）"
+    },
+    {
+     "img": "assets/images/16977720654801.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "正确"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错误"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "重复执行会不停地运行其中的代码，所以当克隆体启动时，程序会一直面向鼠标指针移动40步，并且不停判断是否碰到了舞台边缘，如果碰到就隐藏。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小猫角色有一个“仅适用于当前角色”的变量a，下列说法正确的是？（ ）"
+    },
+    {
+     "img": "assets/images/17524008308639.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "变量a是小猫角色的私有变量，其它角色或舞台都无法读取变量a的值"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "小狗角色可以正常读取和修改变量a"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "舞台角色可以正常读取和修改变量a"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "其它角色和舞台不能直接修改变量a，但可以通过积木读取a"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "“仅适用于当前角色”的变量属于私有(或保护)变量，除了角色本身可以正常读写访问之外，其它角色和舞台可以通过侦测积木读取访问。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "新建一个变量，若在程序中使用了这个变量，则不能再修改变量名。（ ）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "变量可以随时被改名，改名时程序中引用的变量名随之变化。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫，初始位置在舞台中心，下面程序不能画出任何图案。"
+    },
+    {
+     "img": "assets/images/16655874724112.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "正确"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错误"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "解析：",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在一条长40米的小路一边植树，每隔5米种一棵，两端都要种，一共要种8棵数。（ ）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "根据棵树=段数+1，先求段数40÷5=8，所以棵树为8+1=9。故答案为错误。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "当角色广播消息后，下列说法正确的是？（ ）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "所有角色都可以接收该角色发出的广播"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "自己不能接收自己发出的广播"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "只有自己才可以接收自己发出的广播，其他角色都不可以"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "任何角色都不可以接收该角色发出的广播"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "所有角色都可以接收该角色发出的广播。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列哪个积木不是循环语句？（ ）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/17601737847983.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/17601737891033.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/17601737956021.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/17601738027299.png"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "c为条件判断，选择分支。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "运行程序后，舞台上不会出现小猫。（ ）"
+    },
+    {
+     "img": "assets/images/16977723348048.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "正确"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错误"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "考察图章的特性。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "运行下列程序后，舞台上能看到10只小猫。（ ）"
+    },
+    {
+     "img": "assets/images/17218112763907.png"
+    },
+    {
+     "img": "assets/images/17218112823142.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "正确"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "错误"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "移动后再克隆，最后一个克隆体和小猫重合，能看到9只小猫。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，运行下列程序后，舞台能看到？（ ）"
+    },
+    {
+     "img": "assets/images/17797187995288.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/17797188117490.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/17797188165495.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/17797188229953.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/17797188274140.png"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "本题考察学生对克隆以及特效的应用的熟练程度。克隆自己后，克隆体会继承主体的属性，包括大小和颜色特效。当主体不断变化，克隆体产生时也会随着变化。因此选择B。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，运行下列程序，舞台上能看到？（ ）"
+    },
+    {
+     "img": "assets/images/17688210529786.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/17688210637218.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/17688210693983.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/17688210773375.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/17688210828098.png"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "一共有6只小猫，本体大小为50，克隆体的大小都为70。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，点击绿旗后依次按下：→、↓、←、↑，绘制的图案是？（ ）"
+    },
+    {
+     "img": "assets/images/17797184293847.png"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "img": "assets/images/17797184428816.png"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "img": "assets/images/17797184482405.png"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "img": "assets/images/17797184547485.png"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "img": "assets/images/17797184596401.png"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "由题目可知图形是个四边形，四种不同的颜色，故答案为D。",
+   "auto": true
+  }
+ ]
+}

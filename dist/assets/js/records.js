@@ -1,1 +1,93 @@
-Lyog5oiR55qE6K6w5b2VOiDogIPor5XorrDlvZUgLyDplJnpopjorrDlvZUgLyDmlLbol4/orrDlvZUgKi8KKGZ1bmN0aW9uICgpIHsKICBjb25zdCBFID0gRVhBTSwgJCA9IEUucXM7CiAgaWYgKCFFLnJlcXVpcmVMb2dpbigpKSByZXR1cm47CiAgRS5yZW5kZXJOYXYoInJlY29yZHMiKTsKCiAgY29uc3QgS0lORF9OQU1FID0geyBleGFtOiAiZXhhbSIsIHdyb25nOiAid3JvbmciLCBmYXY6ICJmYXYiIH07CiAgbGV0IGtpbmQgPSAobG9jYXRpb24uaGFzaCB8fCAiI2V4YW0iKS5zbGljZSgxKTsKICBpZiAoIUtJTkRfTkFNRVtraW5kXSkga2luZCA9ICJleGFtIjsKCiAgLy8g5qC55o2uIFVSTCBoYXNoIOWIneWni+WMlumhtemdoiB0YWIg6auY5LquCiAgRS5xc2EoIi5yZWN0YWJzIC50YWIiKS5mb3JFYWNoKHQgPT4gewogICAgdC5jbGFzc0xpc3QudG9nZ2xlKCJhY3RpdmUiLCB0LmRhdGFzZXQuayA9PT0ga2luZCk7CiAgfSk7CgogIGZ1bmN0aW9uIGZtdERhdGUoaXNvKSB7CiAgICBjb25zdCBkID0gbmV3IERhdGUoaXNvKTsKICAgIHJldHVybiBgJHtkLmdldEZ1bGxZZWFyKCl9LSR7U3RyaW5nKGQuZ2V0TW9udGgoKSArIDEpLnBhZFN0YXJ0KDIsICIwIil9LSR7U3RyaW5nKGQuZ2V0RGF0ZSgpKS5wYWRTdGFydCgyLCAiMCIpfSAke1N0cmluZyhkLmdldEhvdXJzKCkpLnBhZFN0YXJ0KDIsICIwIil9OiR7U3RyaW5nKGQuZ2V0TWludXRlcygpKS5wYWRTdGFydCgyLCAiMCIpfWA7CiAgfQoKICBmdW5jdGlvbiByZW5kZXIoKSB7CiAgICBjb25zdCBib3ggPSAkKCIjcmVjTGlzdCIpOwogICAgaWYgKGtpbmQgPT09ICJleGFtIikgcmV0dXJuIHJlbmRlckV4YW0oYm94KTsKICAgIGlmIChraW5kID09PSAid3JvbmciKSByZXR1cm4gcmVuZGVyV3JvbmcoYm94KTsKICAgIGlmIChraW5kID09PSAiZmF2IikgcmV0dXJuIHJlbmRlckZhdihib3gpOwogIH0KCiAgZnVuY3Rpb24gcmVuZGVyRXhhbShib3gpIHsKICAgIGNvbnN0IGxpc3QgPSBFLmV4YW1SZWNvcmRzKCk7CiAgICBpZiAoIWxpc3QubGVuZ3RoKSB7IGJveC5pbm5lckhUTUwgPSBlbXB0eSgi6L+Y5rKh5pyJ6ICD6K+V6K6w5b2V77yM5Y676aaW6aG15byA5aeL5LiA5Zy65qih5ouf6ICD6K+V5ZCn77yBIik7IHJldHVybjsgfQogICAgYm94LmlubmVySFRNTCA9IGA8ZGl2IGNsYXNzPSJyZWNsaXN0Ij5gICsgbGlzdC5tYXAociA9PiB7CiAgICAgIGNvbnN0IHBhc3MgPSByLnNjb3JlID49IChyLnBhc3NTY29yZSB8fCA2MCk7CiAgICAgIHJldHVybiBgPGRpdiBjbGFzcz0icmVpdGVtIj4KICAgICAgICA8ZGl2IGNsYXNzPSJ0Ij4ke0UuZXNjKHIudGl0bGUpfTwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9Im0iPiR7Zm10RGF0ZShyLmRhdGUpfSDCtyDnlKjml7YgJHtFLmZtdFRpbWUoci51c2VkU2VjIHx8IDApfTwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9Im0iIHN0eWxlPSJtYXJnaW4tdG9wOjZweCI+5b6X5YiGIDxzcGFuIGNsYXNzPSJzY29yZWJpZyIgc3R5bGU9ImZvbnQtc2l6ZToyMHB4O2NvbG9yOiR7cGFzcyA/ICJ2YXIoLS1jb2xvci1zdWNjZXNzKSIgOiAidmFyKC0tY29sb3ItZGFuZ2VyKSJ9Ij4ke3Iuc2NvcmV9PC9zcGFuPgogICAgICAgICAgwrcg5q2j56GuICR7ci5jb3JyZWN0fSDCtyDplJnor68gJHtyLndyb25nfSDCtyDkurrlt6XliKTliIYgJHtyLm1hbnVhbH08L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJ0b29sYmFyIiBzdHlsZT0ibWFyZ2luLXRvcDo4cHgiPgogICAgICAgICAgPGEgY2xhc3M9ImJ0biBnaG9zdCBzbSIgaHJlZj0iL3BhcGVyLmh0bWw/cGlkPSR7ci5wYXBlcklkfSI+5p+l55yL6K+V5Y23PC9hPgogICAgICAgICAgPGEgY2xhc3M9ImJ0biBhbWJlciBzbSIgaHJlZj0iL2V4YW0uaHRtbD9waWQ9JHtyLnBhcGVySWR9Ij7ph43mlrDogIPor5U8L2E+CiAgICAgICAgPC9kaXY+PC9kaXY+YDsKICAgIH0pLmpvaW4oIiIpICsgYDwvZGl2PmA7CiAgfQoKICBmdW5jdGlvbiByZW5kZXJXcm9uZyhib3gpIHsKICAgIGNvbnN0IGxpc3QgPSBFLndyb25ncygpOwogICAgaWYgKCFsaXN0Lmxlbmd0aCkgeyBib3guaW5uZXJIVE1MID0gZW1wdHkoIui/mOayoeaciemUmemimO+8jOe7p+e7reS/neaMge+8gSIpOyByZXR1cm47IH0KICAgIGJveC5pbm5lckhUTUwgPSBgPGRpdiBzdHlsZT0iY29sb3I6dmFyKC0tY29sb3ItdGV4dC1tZXRhKTtmb250LXNpemU6MTNweDttYXJnaW4tYm90dG9tOjEwcHgiPuWFsSAke2xpc3QubGVuZ3RofSDpgZPplJnpopjvvIjoh6rliqjmlLblvZXoh6rmqKHmi5/ogIPor5XvvIk8L2Rpdj5gICsKICAgICAgYDxkaXYgY2xhc3M9InJlY2xpc3QiPmAgKyBsaXN0Lm1hcCgodywgaSkgPT4gaXRlbUNhcmQodywgIndyb25nIiwgaSkpICsgYDwvZGl2PmA7CiAgfQoKICBmdW5jdGlvbiByZW5kZXJGYXYoYm94KSB7CiAgICBjb25zdCBsaXN0ID0gRS5mYXZzKCk7CiAgICBpZiAoIWxpc3QubGVuZ3RoKSB7IGJveC5pbm5lckhUTUwgPSBlbXB0eSgn6L+Y5rKh5pyJ5pS26JeP6aKY55uu77yM5Zyo6K+V5Y235oiW6ICD6K+V5Lit54K55Ye7IDxpIGRhdGEtbHVjaWRlPSJzdGFyIj48L2k+IOaUtuiXj+WQp++8gScpOyByZXR1cm47IH0KICAgIGJveC5pbm5lckhUTUwgPSBgPGRpdiBzdHlsZT0iY29sb3I6dmFyKC0tY29sb3ItdGV4dC1tZXRhKTtmb250LXNpemU6MTNweDttYXJnaW4tYm90dG9tOjEwcHgiPuWFsSAke2xpc3QubGVuZ3RofSDpgZPmlLbol488L2Rpdj5gICsKICAgICAgYDxkaXYgY2xhc3M9InJlY2xpc3QiPmAgKyBsaXN0Lm1hcCgoZiwgaSkgPT4gaXRlbUNhcmQoZiwgImZhdiIsIGkpKSArIGA8L2Rpdj5gOwogIH0KCiAgZnVuY3Rpb24gaXRlbUNhcmQoaXQsIGssIGkpIHsKICAgIGNvbnN0IHEgPSB7IG5vOiBpdC5ubywgdHlwZTogaXQudHlwZSwgc3RlbTogaXQuc3RlbSwgb3B0aW9uczogaXQub3B0aW9ucywgYW5zd2VyOiBpdC5hbnN3ZXIsIGFuYWx5c2lzOiBpdC5hbmFseXNpcyB9OwogICAgY29uc3QgaGVhZCA9IGA8ZGl2IGNsYXNzPSJ0IiBzdHlsZT0iZm9udC1zaXplOjE0cHgiPiR7RS5lc2MoaXQudGl0bGUpfSDCtyDnrKwgJHtpICsgMX0g5p2h77yI6aKY5Z6L77yaJHtFLmVzYyhpdC50eXBlKX3vvIk8L2Rpdj5gOwogICAgY29uc3QgYm9keSA9IEUucmVuZGVyUXVlc3Rpb24ocSwgeyBtb2RlOiAidmlldyIsIHNob3dBbnN3ZXI6IHRydWUsIHNlcTogaSArIDEgfSk7CiAgICBjb25zdCBhY3QgPSBrID09PSAid3JvbmciCiAgICAgID8gYDxidXR0b24gY2xhc3M9ImJ0biBnaG9zdCBzbSIgZGF0YS1ybT0id3JvbmciIGRhdGEtaT0iJHtpfSI+56e76Zmk6ZSZ6aKYPC9idXR0b24+YAogICAgICA6IGA8YnV0dG9uIGNsYXNzPSJidG4gZ2hvc3Qgc20iIGRhdGEtcm09ImZhdiIgZGF0YS1pPSIke2l9Ij7lj5bmtojmlLbol488L2J1dHRvbj5gOwogICAgcmV0dXJuIGA8ZGl2IGNsYXNzPSJyZWl0ZW0iPiR7aGVhZH0ke2JvZHl9CiAgICAgIDxkaXYgY2xhc3M9InRvb2xiYXIiIHN0eWxlPSJtYXJnaW4tdG9wOjhweCI+CiAgICAgICAgPGEgY2xhc3M9ImJ0biBnaG9zdCBzbSIgaHJlZj0iL3BhcGVyLmh0bWw/cGlkPSR7aXQucGFwZXJJZH0iPuafpeeci+WOn+WNtzwvYT4ke2FjdH08L2Rpdj48L2Rpdj5gOwogIH0KCiAgZnVuY3Rpb24gZW1wdHkobXNnKSB7IHJldHVybiBgPGRpdiBjbGFzcz0iZW1wdHkiPiR7bXNnfTwvZGl2PmA7IH0KCiAgLy8g5LqL5Lu2CiAgRS5xc2EoIi5yZWN0YWJzIC50YWIiKS5mb3JFYWNoKHQgPT4gdC5vbmNsaWNrID0gKCkgPT4gewogICAga2luZCA9IHQuZGF0YXNldC5rOwogICAgbG9jYXRpb24uaGFzaCA9IGtpbmQ7CiAgICBFLnFzYSgiLnJlY3RhYnMgLnRhYiIpLmZvckVhY2goeCA9PiB4LmNsYXNzTGlzdC5yZW1vdmUoImFjdGl2ZSIpKTsKICAgIHQuY2xhc3NMaXN0LmFkZCgiYWN0aXZlIik7CiAgICBFLnJlbmRlck5hdigicmVjb3JkcyIpOwogICAgcmVuZGVyKCk7CiAgfSk7CiAgJCgiI3JlY0xpc3QiKS5hZGRFdmVudExpc3RlbmVyKCJjbGljayIsIChlKSA9PiB7CiAgICBjb25zdCBiID0gZS50YXJnZXQuY2xvc2VzdCgiW2RhdGEtcm1dIik7CiAgICBpZiAoIWIpIHJldHVybjsKICAgIGNvbnN0IGFyciA9IGIuZGF0YXNldC5ybSA9PT0gIndyb25nIiA/IEUud3JvbmdzKCkgOiBFLmZhdnMoKTsKICAgIGFyci5zcGxpY2UoK2IuZGF0YXNldC5pLCAxKTsKICAgIEUuc2V0UmVjKGIuZGF0YXNldC5ybSwgYXJyKTsKICAgIEUudG9hc3QoIuW3suenu+mZpCIpOwogICAgcmVuZGVyKCk7CiAgfSk7CgogIChhc3luYyAoKSA9PiB7IGF3YWl0IEUuZW5zdXJlU3R1ZHkoKTsgcmVuZGVyKCk7IH0pKCk7Cn0pKCk7Cg==
+/* 我的记录: 考试记录 / 错题记录 / 收藏记录 */
+(function () {
+  const E = EXAM, $ = E.qs;
+  if (!E.requireLogin()) return;
+  E.renderNav("records");
+
+  const KIND_NAME = { exam: "exam", wrong: "wrong", fav: "fav" };
+  let kind = (location.hash || "#exam").slice(1);
+  if (!KIND_NAME[kind]) kind = "exam";
+
+  // 根据 URL hash 初始化页面 tab 高亮
+  E.qsa(".rectabs .tab").forEach(t => {
+    t.classList.toggle("active", t.dataset.k === kind);
+  });
+
+  function fmtDate(iso) {
+    const d = new Date(iso);
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+  }
+
+  function render() {
+    const box = $("#recList");
+    if (kind === "exam") return renderExam(box);
+    if (kind === "wrong") return renderWrong(box);
+    if (kind === "fav") return renderFav(box);
+  }
+
+  function renderExam(box) {
+    const list = E.examRecords();
+    if (!list.length) { box.innerHTML = empty("还没有考试记录，去首页开始一场模拟考试吧！"); return; }
+    box.innerHTML = `<div class="reclist">` + list.map(r => {
+      const pass = r.score >= (r.passScore || 60);
+      return `<div class="reitem">
+        <div class="t">${E.esc(r.title)}</div>
+        <div class="m">${fmtDate(r.date)} · 用时 ${E.fmtTime(r.usedSec || 0)}</div>
+        <div class="m" style="margin-top:6px">得分 <span class="scorebig" style="font-size:20px;color:${pass ? "var(--color-success)" : "var(--color-danger)"}">${r.score}</span>
+          · 正确 ${r.correct} · 错误 ${r.wrong} · 人工判分 ${r.manual}</div>
+        <div class="toolbar" style="margin-top:8px">
+          <a class="btn ghost sm" href="/paper.html?pid=${r.paperId}">查看试卷</a>
+          <a class="btn amber sm" href="/exam.html?pid=${r.paperId}">重新考试</a>
+        </div></div>`;
+    }).join("") + `</div>`;
+  }
+
+  function renderWrong(box) {
+    const list = E.wrongs();
+    if (!list.length) { box.innerHTML = empty("还没有错题，继续保持！"); return; }
+    box.innerHTML = `<div style="color:var(--color-text-meta);font-size:13px;margin-bottom:10px">共 ${list.length} 道错题（自动收录自模拟考试）</div>` +
+      `<div class="reclist">` + list.map((w, i) => itemCard(w, "wrong", i)) + `</div>`;
+  }
+
+  function renderFav(box) {
+    const list = E.favs();
+    if (!list.length) { box.innerHTML = empty('还没有收藏题目，在试卷或考试中点击 <i data-lucide="star"></i> 收藏吧！'); return; }
+    box.innerHTML = `<div style="color:var(--color-text-meta);font-size:13px;margin-bottom:10px">共 ${list.length} 道收藏</div>` +
+      `<div class="reclist">` + list.map((f, i) => itemCard(f, "fav", i)) + `</div>`;
+  }
+
+  function itemCard(it, k, i) {
+    const q = { no: it.no, type: it.type, stem: it.stem, options: it.options, answer: it.answer, analysis: it.analysis };
+    const head = `<div class="t" style="font-size:14px">${E.esc(it.title)} · 第 ${i + 1} 条（题型：${E.esc(it.type)}）</div>`;
+    const body = E.renderQuestion(q, { mode: "view", showAnswer: true, seq: i + 1 });
+    const act = k === "wrong"
+      ? `<button class="btn ghost sm" data-rm="wrong" data-i="${i}">移除错题</button>`
+      : `<button class="btn ghost sm" data-rm="fav" data-i="${i}">取消收藏</button>`;
+    return `<div class="reitem">${head}${body}
+      <div class="toolbar" style="margin-top:8px">
+        <a class="btn ghost sm" href="/paper.html?pid=${it.paperId}">查看原卷</a>${act}</div></div>`;
+  }
+
+  function empty(msg) { return `<div class="empty">${msg}</div>`; }
+
+  // 事件
+  E.qsa(".rectabs .tab").forEach(t => t.onclick = () => {
+    kind = t.dataset.k;
+    location.hash = kind;
+    E.qsa(".rectabs .tab").forEach(x => x.classList.remove("active"));
+    t.classList.add("active");
+    E.renderNav("records");
+    render();
+  });
+  $("#recList").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-rm]");
+    if (!b) return;
+    const arr = b.dataset.rm === "wrong" ? E.wrongs() : E.favs();
+    arr.splice(+b.dataset.i, 1);
+    E.setRec(b.dataset.rm, arr);
+    E.toast("已移除");
+    render();
+  });
+
+  (async () => { await E.ensureStudy(); render(); })();
+})();

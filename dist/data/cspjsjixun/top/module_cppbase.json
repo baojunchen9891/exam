@@ -1,1 +1,87 @@
-ewogInRpdGxlIjogIuKRoSBDKysg56iL5bqP6K+t5rOVIiwKICJpbnRybyI6ICIiLAogImxlYXZlcyI6IFsKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9jcHAvZGF0YXR5cGVfcmFuZ2UucGhwIiwKICAgInRpdGxlIjogIuaVsOaNruexu+Wei+S4juWPluWAvOiMg+WbtCIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9vcGVyYXRvcl9wcmlvcml0eS5waHAiLAogICAidGl0bGUiOiAi6L+Q566X56ym5LyY5YWI57qnL+efrei3ryIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9jb250cm9sX2Zsb3cucGhwIiwKICAgInRpdGxlIjogIuWIhuaUr+S4juW+queOr+aOp+WItiIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9sb29wX3RyYXAucGhwIiwKICAgInRpdGxlIjogIuW+queOr+i+ueeVjOmZt+mYsSIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9hcnJheV9zdHJpbmcucGhwIiwKICAgInRpdGxlIjogIuaVsOe7hOS4juWtl+espuS4siIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9iaXR3aXNlLnBocCIsCiAgICJ0aXRsZSI6ICLkvY3ov5DnrpciLAogICAiZGVzYyI6ICIiCiAgfSwKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9jcHAvcmVjdXJzaW9uLnBocCIsCiAgICJ0aXRsZSI6ICLlh73mlbDkuI7pgJLlvZIiLAogICAiZGVzYyI6ICIiCiAgfSwKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9jcHAvc3RydWN0X3NvcnQucGhwIiwKICAgInRpdGxlIjogIue7k+aehOS9k+S4juaOkuW6jyIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9pb19vcHRpbWl6ZS5waHAiLAogICAidGl0bGUiOiAi6L6T5YWl6L6T5Ye65o+Q6YCfIiwKICAgImRlc2MiOiAiIgogIH0sCiAgewogICAicGF0aCI6ICJrbm93bGVkZ2UvY3BwL3N0YXRlX2NvbXByZXNzLnBocCIsCiAgICJ0aXRsZSI6ICLnirbmgIHljovnvKkiLAogICAiZGVzYyI6ICIiCiAgfSwKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9jcHAvcG9pbnRlcl9yZWZlcmVuY2UucGhwIiwKICAgInRpdGxlIjogIuaMh+mSiOS4juW8leeUqCIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9zdGxfY29udGFpbmVyLnBocCIsCiAgICJ0aXRsZSI6ICJTVEwg5bi455So5a655ZmoIiwKICAgImRlc2MiOiAiIgogIH0sCiAgewogICAicGF0aCI6ICJrbm93bGVkZ2UvY3BwL2ZpbGVfaW8ucGhwIiwKICAgInRpdGxlIjogIuaWh+S7tuivu+WGmeS4jumHjeWumuWQkSIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9tb2Rlcm5fY3BwLnBocCIsCiAgICJ0aXRsZSI6ICLnjrDku6MgQysrIOivreazlSIsCiAgICJkZXNjIjogIiIKICB9LAogIHsKICAgInBhdGgiOiAia25vd2xlZGdlL2NwcC9kZWJ1Z19ydW50aW1lLnBocCIsCiAgICJ0aXRsZSI6ICLosIPor5XkuI7luLjop4HplJnor68iLAogICAiZGVzYyI6ICIiCiAgfSwKICB7CiAgICJwYXRoIjogImtub3dsZWRnZS9jcHAvZXhwcl9ldmFsLnBocCIsCiAgICJ0aXRsZSI6ICLooajovr7lvI/msYLlgLzkuI7moIjvvIjliJ3otZvnu4/lhbjvvIkiLAogICAiZGVzYyI6ICIiCiAgfQogXSwKICJwYXRoIjogIm1vZHVsZV9jcHBiYXNlLnBocCIKfQ==
+{
+ "title": "② C++ 程序语法",
+ "intro": "",
+ "leaves": [
+  {
+   "path": "knowledge/cpp/datatype_range.php",
+   "title": "数据类型与取值范围",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/operator_priority.php",
+   "title": "运算符优先级/短路",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/control_flow.php",
+   "title": "分支与循环控制",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/loop_trap.php",
+   "title": "循环边界陷阱",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/array_string.php",
+   "title": "数组与字符串",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/bitwise.php",
+   "title": "位运算",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/recursion.php",
+   "title": "函数与递归",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/struct_sort.php",
+   "title": "结构体与排序",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/io_optimize.php",
+   "title": "输入输出提速",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/state_compress.php",
+   "title": "状态压缩",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/pointer_reference.php",
+   "title": "指针与引用",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/stl_container.php",
+   "title": "STL 常用容器",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/file_io.php",
+   "title": "文件读写与重定向",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/modern_cpp.php",
+   "title": "现代 C++ 语法",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/debug_runtime.php",
+   "title": "调试与常见错误",
+   "desc": ""
+  },
+  {
+   "path": "knowledge/cpp/expr_eval.php",
+   "title": "表达式求值与栈（初赛经典）",
+   "desc": ""
+  }
+ ],
+ "path": "module_cppbase.php"
+}

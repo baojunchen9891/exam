@@ -1,1 +1,1013 @@
-ewogImlkIjogImxlbGUtZ2VzcC1weXRob24tMjAyNTEyLWwyIiwKICJ0aXRsZSI6ICIyMDI1MTIgQ0NGLUdFU1DnvJbnqIvog73lipvnrYnnuqforqTor4FQeXRob24y57qn55yf6aKYIiwKICJzdWJqZWN0IjogImdlc3AtcHl0aG9uIiwKICJzdWJqZWN0TmFtZSI6ICJHRVNQUHl0aG9uIiwKICJsZXZlbCI6IDIsCiAibGV2ZWxOYW1lIjogIjLnuqciLAogInllYXJtb250aCI6ICIyMDI1MTIiLAogInllYXIiOiAiMjAyNSIsCiAiY291bnQiOiAyNSwKICJxdWVzdGlvbnMiOiBbCiAgewogICAibm8iOiAxLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLov5Hml6XvvIznqbrkuK3lrqLovablhazlj7jooajnpLrvvIznuqY2MDAw5p6256m65a6iQTMyMOezu+WIl+mjnuacuumcgOimgee0p+aApeabtOaNouS4gOenjeaYk+WPl+WkqumYs+i+kOWwhOW9seWTjeeahOmjnuihjOaOp+WItui9r+S7tuOAguepuuWuouihqOekuu+8jOWcqOWvueS4gOi1t+mjnuihjOS6i+aVhei/m+ihjOWIhuaekOWQju+8jOihqOaYjuW8uueDiOeahOWkqumYs+i+kOWwhOWPr+iDveS8muaNn+Wdj+mjnuihjOaOp+WItuezu+e7n+aJgOmcgOeahOWFs+mUruaVsOaNru+8jOWvvOiHtOWIpOaWreWkseivr++8jOi/m+iAjOWPr+iDveW8leWPkemjnuihjOW8guW4uOOAguWcqOi/memHjOeahOmjnuihjOaOp+WItuezu+e7n+S4re+8jOaJp+ihjOWIpOaWreeahOmDqOS7tuacgOWPr+iDveaYr+S4i+mdoueahCgp44CCIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77ya6L6Q5bCE5Lyg5oSf5ZmoIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77ya5aSE55CG5ZmoIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77ya5YaF5a2Y5Y2V5YWDIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77ya6L6T5Ye66K6+5aSHIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDIsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuWwj+adqOacgOi/keS4uuS6huWkh+iAg0dFU1As5byA5aeL55yL572R57uc5LiK5YWz5LqO572R57uc55+l6K+G55qE6KeG6aKR44CC5YW25Lit5o+Q5Yiw6K6h566X5py6572R57uc57O757uf5pyJ5LiN5ZCM55qE5YiS5YiG5qCH5YeG77yM5YW25Lit5LmL5LiA5bCx5piv5oyJ54Wn5Zyw55CG6KaG55uW55qE6IyD5Zu05p2l5YiS5YiG44CC6YKj5LuW5bmz5pe25LiK5a2m5omA5Zyo55qE5pWZ5a2m5qW85YaF55qE572R57uc5piv5LiA5LiqKCnjgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJpQQU4iCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJpMQU4iCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJpNQU4iCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJpXQU4iCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMywKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5LiL6Z2i5pyJ5YWzUHl0aG9u5Y+Y6YeP55qE6K+05rOV77yM5q2j56Gu55qE5pivKCnjgIIiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAiQSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkHvvJrkuI3lj6/ku6XnlKggZm9yIOS9nOS4uuWPmOmHj+WQje+8jOWboOS4uiBmb3Ig5pivUHl0aG9u55qE5YWz6ZSu5a2X77yI5L+d55WZ5a2X77yJ44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaX3RudCDkuI3lj6/ku6XmmK/lj5jph4/lkI3vvIzlm6DkuLrlj5jph4/lkI3nmoTnrKzkuIDkuKrlrZfnrKblv4XpobvmmK/oi7HmloflrZfmr43jgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJpfdG50X+S4jeWPr+S7peaYr+WPmOmHj+WQje+8jOWboOS4uuacgOWQjuS4gOS4quWtl+espuWuueaYk+S4juWHj+WPt+a3t+a3huOAgiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8muWPr+S7peeUqCBwcmludCDkvZzkuLrlj5jph4/lkI3vvIzlm6DkuLogcHJpbnQg5piv5YWz6ZSu5a2X77yM5L2G6L+Z5LiN5piv5aW95Lmg5oOv77yM5Zug5Li6cHJpbnQg5pyJ57qm5a6a55qE5Yqf6IO95LiO5ZCr5LmJ44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDQsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4gOS4quaXoOmZkOW+queOr+Wwj+aVsOaYrzAuMTIzMTIzMTIzLi4uLi4u77yM5YW25bCP5pWw54K55ZCO56ysMeS9jeaYrzHvvIzlkI7nrKwy5L2N5pivMu+8jOWQjuesrDPkvY3mmK8z77yM5ZCO56ysNOS9jeaYrzHvvIzkvp3mraTnsbvmjqjvvIzmsYLnrKxO5L2N44CC5qiq57q/5aSE5bqU5aGr5YWl55qE5Luj56CB5pivKCnjgIJcbjEgTiA9IGludChpbnB1dCgpKVxuMiByZW1haW5kZXIgPSBcbjMgaWYgcmVtYWluZGVyID09IDDvvJpcbjUgcHJpbnQoMSlcbjYgZWxpZiByZW1haW5kZXIgPT0gMe+8mlxuIHByaW50KDIpXG44IGVsc2U6XG45IHByaW50KDMpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaTiUzIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaKE4tMSklMyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQ++8mk4gLy8zIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77yaKE4gLTEpLy8zIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDUsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuafkOWQjOWtpuaJp+ihjFB5dGhvbuS7o+eggSBwcmludCgzKzMuMTQp5pe26L6T5Ye6Ni4xNDAwMDAwMDAwMDAwMDHvvIzlhbbljp/lm6DmmK8oKeOAgiIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mlB5dGhvbuS4reaVtOaVsOWSjOa1rueCueaVsOebuOWKoOaXtu+8jOaVtOaVsOS8muiiq+i9rOaNouS4uua1rueCueaVsO+8jOiAjOafkOS6m+WNgei/m+WItuWwj+aVsOWmgjMuMTTml6Dms5XnlKjmnInpmZDkvY3kuozov5vliLbnsr7noa7ooajnpLrvvIzku47ogIzkuqfnlJ/lvq7lsI/nmoToiI3lhaXor6/lt67jgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJpQeXRob27nmoQgcHJpbnTlh73mlbDlnKjovpPlh7rmta7ngrnmlbDml7bmnInpu5jorqTlsI/mlbDngrnkvY3mlbDvvIzlm6DmraTovpPlh7rkuobmm7TlpJrkvY3mlbDjgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJozLjE05piv5LiA5Liq5peg6ZmQ5b6q546v5bCP5pWw77yM5Zyo6K6h566X5py65Lit5peg5rOV57K+56Gu6KGo56S644CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77ya55Sx5LqO6K6h566X5py6Q1BV55qE6L+Q566X6ZSZ6K+v5a+86Ie044CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkEiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDYsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuafkOWNleS9jeW3peWPt+eahOe8lueggeinhOWIme+8mue8lueggeaAu+mVvzXkvY3vvIzlnYfkuLrmlbDlrZfvvIzliY005L2N5L6d5qyh5pW06Zmk5LulM++8jOWFtuWAvOe0r+WKoOS5i+WSjOmZpOS7pTEw55qE5L2Z5pWw5Li656ysNeS9jeaVsOWtl+OAguWmguafkOW3peWPt+S4ujc2NTg377yM5YmNNOS9jeWIhuWIq+aVtOmZpDPlkI7vvIzllYbliIbliKvkuLoy44CBMuOAgTHjgIEy77yM5YW257Sv5Yqg5LmL5ZKM5Li6N++8jOmZpOS7pTEw55qE5L2Z5pWw5Li6N++8jOaVheesrDXkvY3kuLo344CC5LiL6Z2i55qE56iL5bqP5L6d5qyh6L6T5YWl5YmNNOS9jeaVsOWtl++8jOW5tuiuoeeul+i+k+WHuuacgOWQjuS4gOS9jeOAgueoi+W6j+mAkOihjOi+k+WFpeWJjTTkvY3mlbDlrZfvvIzopoHovpPlh7rnrKw15L2N5pWw5a2X44CC5YiZ5Zyo5qiq57q/5aSE5bqU5aGr5LiK55qE5Luj56CB5pivKCnjgIJcbjEgcnN0ID0gMFxuMiBmb3IgXyBpbiByYW5nZSg0KTpcbjMgTiA9aW50KGlucHV0KCkpXG4gcnN0ICs9XG4gcHJpbnQoXyIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mk4lM1xuMlxucnN0IC8vIDEwIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaTi8vM1xuMlxucnN0ICUgMTAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJpOJTNcbjJcbnJzdCAlIDEwIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77yaTi8vM1xuMlxucnN0IC8vIDEwIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDcsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+mdoueahFB5dGhvbuS7o+eggeaJp+ihjOS5i+WQjueahOi+k+WHuuaYrygp44CCXG4xIGZvciBpIGluIHJhbmdlKC0yLCAyKe+8mlxuMiBpZiBpJTI6XG4gcHJpbnQoaSwgZW5kID0gXCIjXCIpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaLTEjMSMiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJotMSMwIzEjIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaLTIjLTEjMSMyIyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8mi0yIy0xIzAjMSMiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQSIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogOCwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5LiL6Z2i55qEUHl0aG9u5Luj56CB5omn6KGM5ZCO5YW26L6T5Ye65pivKCnjgIJcbiBjbnQgPSAwXG4xMjM0NSBmb3IgaSBpbiByYW5nZSgxLCAxMO+8jCAyKe+8mlxuIGZvciBqIGluIHJhbmdlKGkpOlxuIGNudCArPSAxXG4gcHJpbnQoY250KSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mjEwMCIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8mjU1IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaNDUiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJoyNSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJEIiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiA5LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvpnaJQeXRob27ku6PnoIHmiafooYzlkI7lhbbovpPlh7rmmK8oKeOAglxuMSBmb3IgaSBpbiByYW5nZSgxLCAxMinvvJpcbjIgaWYgaSUyPT0wOlxuMyBjb250aW51ZVxuNCBmb3IgaiBpbiByYW5nZShpKTpcbjUgaWYgaSAlIGogPT0gMDpcbjYgYnJlYWtcbjcgZWxzZTpcbjggcHJpbnQoaSAqIGosIGVuZD1cIlwiKVxuOSBlbHNlOlxuMTAgcHJpbnQoaSAqIGopIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaMDAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJoxMSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJDIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQ++8mjAiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJowIDExIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkMiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDEwLAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuI7kuIvpnaJQeXRob27ovpPlh7rmlYjmnpzkuI3kuIDoh7TnmoTku6PnoIHmmK8oKeOAglxuMTIgZm9yIGkgaW4gcmFuZ2UoMTApOlxuIHByaW50KGkpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaaT0wXG53aGlsZSBpIDwgMTDvvJpcbiBwcmludChpKVxuIGkrPTEiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQiIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkLvvJppPTBcbndoaWxlIGkgPCAxMDpcbiBpKz0xXG4gcHJpbnQoaSkiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJppPTBcbndoaWxlIFRydWU6XG4gcHJpbnQoaSlcbiBpKz0xXG4gaWYgaT49MTA6XG4gYnJlYWsiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJppPTBcbndoaWxlIFRydWU6XG4gaWYgaT49MTA6XG4gYnJlYWtcbiBwcmludChpKVxuIGkrPTEiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQiIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTEsCiAgICJ0eXBlIjogIuWNlemAiemimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+mdolB5dGhvbuS7o+eggeaJp+ihjOWQjui+k+WHuuaYrygp44CCXG4gbnVtPSAwXG4yIHdoaWxlIG51bSA8PSA177yaXG4zIG51bSArPSAxXG40IGlmIG51bSAlIDPvvJpcbjUgY29udGludWVcbjYgcHJpbnQobnVtLCBlbmQ9JyMnKVxuNyBlbHNlOlxuOCBwcmludChudW0pIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaMyM2IyIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8mjMjNiM2IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaMSMyIzMjNCM1IzYjIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkQiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJE77yaMSMyIzMjNCM1IzYjNiIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJCIiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxMiwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5LiL6Z2iUHl0aG9u5Luj56CB5omn6KGM5ZCO77yM5YW26L6T5Ye65pivKCnjgIJcbjEgY250ID0gMFxuMiBmb3IgaSBpbiByYW5nZSg1KTpcbjMgZm9yIGogaW4gcmFuZ2UoaSw0KTpcbiBjbnQgKz0gMVxuNSBwcmludChjbnQpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIkEiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJB77yaOSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8mjEwIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaMTQiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJoyMCIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJCIiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxMywKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5ryC5Lqu5pWw55qE5a6a5LmJ5piv77ya5aaC5p6cTuiDveiiq03mlbTpmaTvvIzmiJbogIXmn5DkvY3mmK9NLOaIluiAhU7nmoTmr4/kvY3mlbDkuYvlkozog73ooqtN5pW06Zmk77yM5YiZ6K+0TuaYr03nmoTmvILkuq7mlbDjgILlpoLmnpzkuInkuKrmnaHku7bpg73mu6HotrPvvIzliJnmmK/lrozmlbTmvILkuq7mlbDjgIIxMjPmmK8z55qE5a6M5pW05ryC5Lqu5pWw77yM5Zug5Li6MTIz6IO96KKrM+aVtOmZpO+8jOS5n+WQq+aciTPvvIzlhbbmr4/kvY3mlbDkuYvlkozkuLo25Lmf6IO96KKrM+aVtOmZpOOAguS4i+mdoueahOS7o+eggeeUqOS6juWIpOaWrU7mmK/lkKbkuLpN55qE5a6M5pW05ryC5Lqu5pWw5bm26L6T5Ye644CC55u45YWz6K+05rOV5q2j56Gu55qE5pivKCnjgIJcbk4gPWludChpbnB1dChcIuivt+i+k+WFpU4sTuW/hemhu+aYrzDmiJbmraPmlbTmlbDvvJpcIikpXG4yIE0gPWludChpbnB1dChcIuivt+i+k+WFpU06TeW/hemhu+Wkp+S6jjHlsI/kuo7nrYnkuo4577yaXCIpKVxuM1xuNCBTdW0gPTAj6K6w5b2V5ZCE5L2N5pWw5LmL5ZKMXG41XG42IEZsYWcgPUZhbHNlICPlvZVO5piv5ZCm5ZCr5pyJTVxuN1xuOCB3aGlsZSBOIO+8gT0gMO+8mlxuOSBudW09TiAlMTBcbjEwXG4xMSBTdW0gKz0gbnVtXG4xMiBpZiBudW0gPT0gTTpcbjEzIEZsYWcgPSBUcnVlXG4xNFxuMTUgTiAvPTEwXG4xNlxuMTcgaWYgKE4gJSBNID09IDApIGFuZCAoRmxhZyA9PSBUcnVlKSBhbmQgKFN1bSAlIE0gPT0gMCnvvJpcbjE4IHByaW50KGZcIntOfeaYr3tNfeeahOWujOaVtOa8guS6ruaVsFwiKVxuMTkgZWxzZTpcbjIwIHByaW50KGZcIntOfeS4jeaYr3tNfeeahOWujOaVtOa8guS6ruaVsFwiKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8muS7o+eggeiDveWujOaIkOmimOebruiuvuWumuebruagh+OAgiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJCIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQu+8muWcqHdoaWxlIOW+queOr+S4rSBOIOacgOe7iOWwhuWPmOaIkDDvvIzlm6DkuLrku6PnoIFOJU3lsIbmgLvmmK/mu6HotrPmnaHku7bvvIzlj6/ku6XlnKh3aGlsZeWJjeWinuWKoOS4gOihjOS7o+eggSBvbGRfbnVtID1OLOW5tuWwhiBOICUgTSDmlLnkuLogb2xkX251bSVNLOmaj+WQjnByaW50KCnkuK3nmoR7Tn3mlLnkuLp7b2xkX251bX3jgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiQyIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkPvvJp3aGlsZSDlvqrnjq/kuK0gaWYg5Yik5pat6K+t5Y+l5Y+v5Lul5aKe5YqgIGVsc2Ug5a2Q5Y+l77yM5YW25YaF5a655Li6IEZsYWcgPSBGYWxzZSDjgIIiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJrlpoLmnpzlhYjlkI7ovpPlhaUw5ZKMM++8jOWImeiCr+WumuS8mui+k+WHujDmmK8z55qE5a6M5pW05ryC5Lqu5pWw44CCIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIkIiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDE0LAogICAidHlwZSI6ICLljZXpgInpopgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLpmIXor7vkuIvpnaLnmoRQeXRob27ku6PnoIHjgILmiafooYzlkI7lpoLovpPlhaU177yM5YW26L6T5Ye655qE5a2X56ym5Zu+5b2i5pivKCnjgIJcbjEgbiA9aW50KGlucHV0KCkpXG4gZm9yIGkgaW4gcmFuZ2Uobik6XG4zIGZvciBqIGluIHJhbmdlKG4gLSBpIC0gMSnvvJpcbjQgcHJpbnQoXCIgXCIsIGVuZD1cIlwiKVxuNSBmb3IgayBpbiByYW5nZSgyICogaSArIDEp77yaXG42IHByaW50KFwiKlwiLCBlbmQ9XCJcIilcbjcgcHJpbnQoKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mioqKioqXG4qKioqXG4qKipcbioqXG4qIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77yaKlxuKioqXG4qKioqKlxuKioqKioqKlxuKioqKioqKioqIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaKlxuKipcbioqKlxuKioqKlxuKioqKioiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAiRCIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIkTvvJoqXG4qKlxuKioqXG4qKioqXG4qKioqKioqKiIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICJCIiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxNSwKICAgInR5cGUiOiAi5Y2V6YCJ6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5p+Q5a2m5qCh5Li+5Yqe4oCc5Y2B5L2z5q2M5omL5aSn5aWW6LWb4oCd77yM57uP6L+H6YCJ5ouU5pyA57uI5Y+C6LWb6YCJ5omL5pyJMjXkurrvvIzor4Tlp5QxMOS6uu+8jOacgOe7iOiuoeWIhuinhOWImeWOu+aOieS4gOS4quacgOmrmOWIhuWOu+aOieS4gOS4quacgOS9juWIhuS9nOS4uuivpeWPgui1m+mAieaJi+eahOacgOe7iOW+l+WIhu+8jOW5tui+k+WHuuivpeW+l+WIhuOAguavj+S9jeivhOWnlOmDveW/hemhu+aJk+WIhu+8jOS4lOWIhuaVsOmDveWkp+S6juetiTDjgILnm7jlhbPor7Tms5XmraPnoa7nmoTmmK8oKeOAglxuMSBmb3IgXyBpbiByYW5nZSgyNSk6XG4yXG4zIG1heF9zY29yZSA9MCPlvZXmnIDpq5hcbjQgbWluX3Njb3JlID0gOTk5OSPorrDlvZXmnIDkvY7liIZcbjVcbjYgdG90YWxfc2NvcmUgPTAj6K6w5b2V5oC75YiGXG43XG44IGZvciBfIGluIHJhbmdlKDEwKTpcbjlcbjEwIG5vd19zY29yZSA9ZmxvYXQoaW5wdXQoKSPlvZXlhaXor4Tlp5TmiZPliIZcbjExXG4xMiBpZiBub3dfc2NvcmUgPiBtYXhfc2NvcmU6XG4xMyBtYXhfc2NvcmUgPSBub3dfc2NvcmVcbjE0XG4xNSBpZiBub3dfc2NvcmUgPCBtaW5fc2NvcmU6XG4xNiBtaW5fc2NvcmUgPSBub3dfc2NvcmVcbjE3XG4xOCB0b3RhbF9zY29yZSArPSBub3dfc2NvcmVcbjE5XG4yMCBwcmludCh0b2NhbF9zY29yZSAtIG1heF9zY29yZSAtbWluX3Njby5lKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICJBIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiQe+8mueoi+W6j+aAu+S9k+mAu+i+kemUmeivr+OAguWboOS4uuimgeWOu+aOieacgOmrmOWIhuWSjOacgOS9juWIhizpnIDopoHmjpLluo8s6ICM56iL5bqP5rKh5pyJ55u45YWz5Luj56CB44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkIiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJC77ya5YaF5bGC5b6q546v5ZKM5aSW5bGC5b6q546v5LmL6Ze055qE5LiJ6KGM5Luj56CB5Lmf5bCx5pivIG1heF9zY29yZT0w5byA5aeL55qE5LiJ6KGM5Luj56CB5bqU6K+l56e75Yqo5Yiw5aSW5bGC5b6q546v5aSW44CCIgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIkMiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICJD77yaaWYgbm93X3Njb3JlID4gbWF4X3Njb3JlIOWSjCBpZiBub3dfc2NvcmUgPCBtaW5fc2NvcmUg5Lit55qEID4g5ZKMIDzliIbliKvosIPmlbTkuLogPj0g5ZKMIDw9IOS4jeW9seWTjeeoi+W6j+aJp+ihjOe7k+aenOOAgiIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICJEIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAiRO+8mnRvdGFsX3Njb3JlICs9IG5vd19zY29yZSDkuI3lj6/ku6Xmm7TmlLnkuLogdG90YWxfc2NvcmUgPSB0b3RhbF9zY29yZSArIG5vd19zY29yZSDjgIIiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAiQyIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTYsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIum4v+iSmeaYr+WNjuS4uuWFrOWPuOW8gOWPkeeahOS4gOasvuaTjeS9nOezu+e7n++8jOmCo+S5iOWug+iDveWkn+Wwhuato+ehrueahOa6kOeoi+W6j+e/u+ivkeaIkOebruagh+eoi+W6j++8jOW5tui/kOihjOOAgigpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi6ZSZIiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAxNywKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAiUHl0aG9u6KGo6L6+5byPNSA8IDEwIGFuZCAyMOeahOWAvOS4ulRydWXjgIIoKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIumUmSIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTgsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIlB5dGhvbuihqOi+vuW8jzEwICogMC41ID0gMTAgKiAxLyAy55qE5YC85Li6RmFsc2XjgIIoKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIuWvuSIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMTksCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+mdolB5dGhvbuS7o+eggeaJp+ihjOaXtuWmguaenOi+k+WFpeaVtOaVsO+8iOWMheaLrOi0n+aVtOaVsOOAgTDlkozmraPmlbTmlbDvvInvvIzlhbbovpPlh7rpg73lsIbmmK8w44CCKClcbk4gPWludChpbnB1dCgpXG4xMjM0IHdoaWxlIE46XG4gTiAvPTEwXG4gcHJpbnQoTikiCiAgICB9CiAgIF0sCiAgICJvcHRpb25zIjogWwogICAgewogICAgICJrZXkiOiAi5a+5IiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi5a+5IgogICAgICB9CiAgICAgXQogICAgfSwKICAgIHsKICAgICAia2V5IjogIumUmSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIumUmSIKICAgICAgfQogICAgIF0KICAgIH0KICAgXSwKICAgImFuc3dlciI6ICLplJkiLAogICAiYW5hbHlzaXMiOiAiIiwKICAgImF1dG8iOiB0cnVlCiAgfSwKICB7CiAgICJubyI6IDIwLAogICAidHlwZSI6ICLliKTmlq3popgiLAogICAic3RlbSI6IFsKICAgIHsKICAgICAidCI6ICLkuIvpnaLnmoRQeXRob27ku6PnoIHmiafooYzlkI7vvIzlhbbovpPlh7rmmK80IEZhbHNl44CCKClcbjEyMyBhPTRcbiBiPWE9PTVcbiBwcmludChhLGIpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi5a+5IiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAyMSwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5LiL6Z2iUHl0aG9u5Luj56CB5omn6KGM5ZCO5bCG6L6T5Ye6NeOAgigpXG5pPTBcbjEyMzQ1IHdoaWxlIGk8IDXvvJpcbiBpKz0xXG4gY29udGludWVcbiBwcmludChpKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIuWvuSIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMjIsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+mdoueahFB5dGhvbuS7o+eggeWPr+S7peeUqOS6juWIpOaWreato+aVtOaVsE7nmoTkvY3mlbDvvIjljbPlh6DkvY3mlbDvvIzlpoIxMjPmmK8z5L2N5pWw77yMMTLkuLoy5L2N5pWw77yJ44CCKClcbk4gPSBpbnQoaW5wdXQoKSlcbjEyMzQ1IGk9MVxuIHdoaWxlIFRydWU6XG4gaWYgTiAlKDEwICogaSkgPSBOOlxuIHByaW50KGZcIntOfeaYr3tpfeS9jeaVsFwiKVxuNiBicmVha1xuNyBpKz0xIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi5a+5IiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAyMywKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi6K6h566X5Lqk5Y+J5Yqg5YeP55qE57uT5p6c77yM5b2i5aaCMS0yKzMtNCs1LS4uLuOAguWwhuS4i+mdolB5dGhvbuS7o+eggeS4reeahEZsYWcgPSAtRmxhZ+aUueS4ukZsYWcgLT1GbGFn5pWI5p6c55u45ZCM44CCKClcbjEyMyBOID0gaW50KGlucHV0KClcbiBGbGFnID0gLTFcbiB0bnQgPSAwXG40IGZvciBpIGluIHJhbmdlKDEsIE4gKyAxKe+8mlxuNSBGbGFnID0tRmxhZ1xuNiB0bnQgKz0gRmxhZyAqIGlcbjcgcHJpbnQodG50KSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIumUmSIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9LAogIHsKICAgIm5vIjogMjQsCiAgICJ0eXBlIjogIuWIpOaWremimCIsCiAgICJzdGVtIjogWwogICAgewogICAgICJ0IjogIuS4i+WIl1B5dGhvbuS7o+eggeaJp+ihjOWQjuWwhui+k+WHujU144CCKClcbmNudCA9IDBcbjEyMzQ1ICgxMCk6XG4gY250ICs9IDFcbiBwcmludChjbnQpIgogICAgfQogICBdLAogICAib3B0aW9ucyI6IFsKICAgIHsKICAgICAia2V5IjogIuWvuSIsCiAgICAgImNvbnRlbnQiOiBbCiAgICAgIHsKICAgICAgICJ0IjogIuWvuSIKICAgICAgfQogICAgIF0KICAgIH0sCiAgICB7CiAgICAgImtleSI6ICLplJkiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLplJkiCiAgICAgIH0KICAgICBdCiAgICB9CiAgIF0sCiAgICJhbnN3ZXIiOiAi5a+5IiwKICAgImFuYWx5c2lzIjogIiIsCiAgICJhdXRvIjogdHJ1ZQogIH0sCiAgewogICAibm8iOiAyNSwKICAgInR5cGUiOiAi5Yik5pat6aKYIiwKICAgInN0ZW0iOiBbCiAgICB7CiAgICAgInQiOiAi5LiL6Z2iUHl0aG9u5Luj56CB5omn6KGM5ZCO6L6T5Ye65aaC5LiL77yM5Zug5Li65Luj56CBcHJpbnQoKeeahOaLrOWPt+S4reayoeacieS7u+S9leWGheWuue+8jOWIoOmZpOS4jeW9seWTjei+k+WHuuaViOaenOOAgigpXG4yNDY4MTAxMjE0MTYxOFxuMzY5MTIxNTE4MjEyNDI3XG40ODEyMTYyMDI0MjgzMjM2XG41MTAxNTIwMjUzMDM1NDA0NVxuNjEyMTgyNDMwMzY0MjQ4NTRcbjgxNjI0MzI0MDQ4NTY2NDcyXG45MTgyNzM2NDU1NDYzNzI4MVxuZm9yIGkgaW4gcmFuZ2UoMSwxMCk6XG4xMjM0IGZvciBqIGluIHJhbmdlKDEsMTApOlxuIHByaW50KGZcIntpKmo6M31cIixlbmQ9XCIpXG4gcHJpbnQoKSIKICAgIH0KICAgXSwKICAgIm9wdGlvbnMiOiBbCiAgICB7CiAgICAgImtleSI6ICLlr7kiLAogICAgICJjb250ZW50IjogWwogICAgICB7CiAgICAgICAidCI6ICLlr7kiCiAgICAgIH0KICAgICBdCiAgICB9LAogICAgewogICAgICJrZXkiOiAi6ZSZIiwKICAgICAiY29udGVudCI6IFsKICAgICAgewogICAgICAgInQiOiAi6ZSZIgogICAgICB9CiAgICAgXQogICAgfQogICBdLAogICAiYW5zd2VyIjogIumUmSIsCiAgICJhbmFseXNpcyI6ICIiLAogICAiYXV0byI6IHRydWUKICB9CiBdLAogImR1cmF0aW9uTWluIjogOTAsCiAidG90YWxTY29yZSI6IDEwMCwKICJwYXNzU2NvcmUiOiA2MCwKICJ0YWdzIjogewogICJ5ZWFyIjogIjIwMjUiLAogICJ0eXBlIjogIuecn+mimCIsCiAgInByb2dyZXNzIjogIuacquW8gOWniyIKIH0sCiAic291cmNlIjogInh4dzEyMy5jb20iLAogInBpZCI6IDE5Ngp9
+{
+ "id": "lele-gesp-python-202512-l2",
+ "title": "202512 CCF-GESP编程能力等级认证Python2级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 2,
+ "levelName": "2级",
+ "yearmonth": "202512",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "近日，空中客车公司表示，约6000架空客A320系列飞机需要紧急更换一种易受太阳辐射影响的飞行控制软件。空客表示，在对一起飞行事故进行分析后，表明强烈的太阳辐射可能会损坏飞行控制系统所需的关键数据，导致判断失误，进而可能引发飞行异常。在这里的飞行控制系统中，执行判断的部件最可能是下面的()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：辐射传感器"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：处理器"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：内存单元"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：输出设备"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨最近为了备考GESP,开始看网络上关于网络知识的视频。其中提到计算机网络系统有不同的划分标准，其中之一就是按照地理覆盖的范围来划分。那他平时上学所在的教学楼内的网络是一个()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：PAN"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：LAN"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：MAN"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：WAN"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面有关Python变量的说法，正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：不可以用 for 作为变量名，因为 for 是Python的关键字（保留字）。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：_tnt 不可以是变量名，因为变量名的第一个字符必须是英文字母。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：_tnt_不可以是变量名，因为最后一个字符容易与减号混淆。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：可以用 print 作为变量名，因为 print 是关键字，但这不是好习惯，因为print 有约定的功能与含义。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一个无限循环小数是0.123123123......，其小数点后第1位是1，后第2位是2，后第3位是3，后第4位是1，依此类推，求第N位。横线处应填入的代码是()。\n1 N = int(input())\n2 remainder = \n3 if remainder == 0：\n5 print(1)\n6 elif remainder == 1：\n print(2)\n8 else:\n9 print(3)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：N%3"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(N-1)%3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：N //3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(N -1)//3"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某同学执行Python代码 print(3+3.14)时输出6.140000000000001，其原因是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Python中整数和浮点数相加时，整数会被转换为浮点数，而某些十进制小数如3.14无法用有限位二进制精确表示，从而产生微小的舍入误差。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Python的 print函数在输出浮点数时有默认小数点位数，因此输出了更多位数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3.14是一个无限循环小数，在计算机中无法精确表示。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：由于计算机CPU的运算错误导致。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某单位工号的编码规则：编码总长5位，均为数字，前4位依次整除以3，其值累加之和除以10的余数为第5位数字。如某工号为76587，前4位分别整除3后，商分别为2、2、1、2，其累加之和为7，除以10的余数为7，故第5位为7。下面的程序依次输入前4位数字，并计算输出最后一位。程序逐行输入前4位数字，要输出第5位数字。则在横线处应填上的代码是()。\n1 rst = 0\n2 for _ in range(4):\n3 N =int(input())\n rst +=\n print(_"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：N%3\n2\nrst // 10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：N//3\n2\nrst % 10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：N%3\n2\nrst % 10"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：N//3\n2\nrst // 10"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码执行之后的输出是()。\n1 for i in range(-2, 2)：\n2 if i%2:\n print(i, end = \"#\")"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：-1#1#"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：-1#0#1#"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：-2#-1#1#2#"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：-2#-1#0#1#"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码执行后其输出是()。\n cnt = 0\n12345 for i in range(1, 10， 2)：\n for j in range(i):\n cnt += 1\n print(cnt)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：55"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：45"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：25"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后其输出是()。\n1 for i in range(1, 12)：\n2 if i%2==0:\n3 continue\n4 for j in range(i):\n5 if i % j == 0:\n6 break\n7 else:\n8 print(i * j, end=\"\")\n9 else:\n10 print(i * j)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：00"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：11"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0 11"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "与下面Python输出效果不一致的代码是()。\n12 for i in range(10):\n print(i)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：i=0\nwhile i < 10：\n print(i)\n i+=1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：i=0\nwhile i < 10:\n i+=1\n print(i)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：i=0\nwhile True:\n print(i)\n i+=1\n if i>=10:\n break"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：i=0\nwhile True:\n if i>=10:\n break\n print(i)\n i+=1"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后输出是()。\n num= 0\n2 while num <= 5：\n3 num += 1\n4 if num % 3：\n5 continue\n6 print(num, end='#')\n7 else:\n8 print(num)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3#6#"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3#6#6"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1#2#3#4#5#6#"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1#2#3#4#5#6#6"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后，其输出是()。\n1 cnt = 0\n2 for i in range(5):\n3 for j in range(i,4):\n cnt += 1\n5 print(cnt)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：9"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：14"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：20"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "漂亮数的定义是：如果N能被M整除，或者某位是M,或者N的每位数之和能被M整除，则说N是M的漂亮数。如果三个条件都满足，则是完整漂亮数。123是3的完整漂亮数，因为123能被3整除，也含有3，其每位数之和为6也能被3整除。下面的代码用于判断N是否为M的完整漂亮数并输出。相关说法正确的是()。\nN =int(input(\"请输入N,N必须是0或正整数：\"))\n2 M =int(input(\"请输入M:M必须大于1小于等于9：\"))\n3\n4 Sum =0#记录各位数之和\n5\n6 Flag =False #录N是否含有M\n7\n8 while N ！= 0：\n9 num=N %10\n10\n11 Sum += num\n12 if num == M:\n13 Flag = True\n14\n15 N /=10\n16\n17 if (N % M == 0) and (Flag == True) and (Sum % M == 0)：\n18 print(f\"{N}是{M}的完整漂亮数\")\n19 else:\n20 print(f\"{N}不是{M}的完整漂亮数\")"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码能完成题目设定目标。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在while 循环中 N 最终将变成0，因为代码N%M将总是满足条件，可以在while前增加一行代码 old_num =N,并将 N % M 改为 old_num%M,随后print()中的{N}改为{old_num}。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：while 循环中 if 判断语句可以增加 else 子句，其内容为 Flag = False 。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果先后输入0和3，则肯定会输出0是3的完整漂亮数。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读下面的Python代码。执行后如输入5，其输出的字符图形是()。\n1 n =int(input())\n for i in range(n):\n3 for j in range(n - i - 1)：\n4 print(\" \", end=\"\")\n5 for k in range(2 * i + 1)：\n6 print(\"*\", end=\"\")\n7 print()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：*****\n****\n***\n**\n*"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：*\n***\n*****\n*******\n*********"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：*\n**\n***\n****\n*****"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：*\n**\n***\n****\n********"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某学校举办“十佳歌手大奖赛”，经过选拔最终参赛选手有25人，评委10人，最终计分规则去掉一个最高分去掉一个最低分作为该参赛选手的最终得分，并输出该得分。每位评委都必须打分，且分数都大于等0。相关说法正确的是()。\n1 for _ in range(25):\n2\n3 max_score =0#录最高\n4 min_score = 9999#记录最低分\n5\n6 total_score =0#记录总分\n7\n8 for _ in range(10):\n9\n10 now_score =float(input()#录入评委打分\n11\n12 if now_score > max_score:\n13 max_score = now_score\n14\n15 if now_score < min_score:\n16 min_score = now_score\n17\n18 total_score += now_score\n19\n20 print(tocal_score - max_score -min_sco.e)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：程序总体逻辑错误。因为要去掉最高分和最低分,需要排序,而程序没有相关代码。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：内层循环和外层循环之间的三行代码也就是 max_score=0开始的三行代码应该移动到外层循环外。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：if now_score > max_score 和 if now_score < min_score 中的 > 和 <分别调整为 >= 和 <= 不影响程序执行结果。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：total_score += now_score 不可以更改为 total_score = total_score + now_score 。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "鸿蒙是华为公司开发的一款操作系统，那么它能够将正确的源程序翻译成目标程序，并运行。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python表达式5 < 10 and 20的值为True。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python表达式10 * 0.5 = 10 * 1/ 2的值为False。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面Python代码执行时如果输入整数（包括负整数、0和正整数），其输出都将是0。()\nN =int(input()\n1234 while N:\n N /=10\n print(N)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码执行后，其输出是4 False。()\n123 a=4\n b=a==5\n print(a,b)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后将输出5。()\ni=0\n12345 while i< 5：\n i+=1\n continue\n print(i)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码可以用于判断正整数N的位数（即几位数，如123是3位数，12为2位数）。()\nN = int(input())\n12345 i=1\n while True:\n if N %(10 * i) = N:\n print(f\"{N}是{i}位数\")\n6 break\n7 i+=1"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "计算交叉加减的结果，形如1-2+3-4+5-...。将下面Python代码中的Flag = -Flag改为Flag -=Flag效果相同。()\n123 N = int(input()\n Flag = -1\n tnt = 0\n4 for i in range(1, N + 1)：\n5 Flag =-Flag\n6 tnt += Flag * i\n7 print(tnt)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下列Python代码执行后将输出55。()\ncnt = 0\n12345 (10):\n cnt += 1\n print(cnt)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后输出如下，因为代码print()的括号中没有任何内容，删除不影响输出效果。()\n24681012141618\n369121518212427\n4812162024283236\n51015202530354045\n61218243036424854\n81624324048566472\n91827364554637281\nfor i in range(1,10):\n1234 for j in range(1,10):\n print(f\"{i*j:3}\",end=\")\n print()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 196
+}
