@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202503-l6",
+ "title": "202503 CCF-GESP编程能力等级认证Python6级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 6,
+ "levelName": "6级",
+ "yearmonth": "202503",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在面向对象编程中，类是一种重要的概念。下面关于类的描述中，不正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：类是一个抽象的概念，用于描述具有相同属性和行为的对象集合。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：类可以包含属性和方法，属性用于描述对象的状态，方法用于描述对象的行为。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：类可以被实例化，生成具体的对象。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：类一旦定义后，其属性和方法不能被修改或扩展。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "哈夫曼编码是一种用于数据压缩的算法。以下关于哈夫曼编码的描述中，不正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：哈夫曼编码是一种变长编码，频率高的字符使用较短的编码，频率低的字符使用较长的编码。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在构造哈夫曼树时，频率越低的字符离根节点越近，频率越高的字符离根节点越远。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：哈夫曼编码的生成过程基于贪心算法，每次选择频率最低的两个节点进行合并。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：哈夫曼编码是一种前缀编码，任何一个字符的编码都不会是另一个字符编码的前缀，因此可以实现唯一解码。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码实现了树的哪种遍历方式？\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef traverse(root):\n    if root is None:\n        return\n    print(root.val, end=\"\")\n    traverse(root.left)\n    traverse(root.right)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：前序遍历"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：中序遍历"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：后序遍历"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：层次遍历"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于完全二叉树的代码描述，正确的是()。\n```python\nfrom collections import deque\n\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef is_complete_tree(root):\n    if root is None:\n        return True\n    q = deque()\n    q.append(root)\n    has_null = False\n    while q:\n        node = q.popleft()\n        if node is None:\n            has_null = True\n        else:\n            if has_null:\n                return False\n            q.append(node.left)\n            q.append(node.right)\n    return True\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：该代码用于判断一棵树是否为满二叉树"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：该代码用于判断一棵树是否为完全二叉树"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：该代码用于判断一棵树是否为二叉搜索树"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：该代码用于计算树的高度"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码实现了二叉排序树的哪种操作？\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef op(root, val):\n    if root is None:\n        return TreeNode(val)\n    if val < root.val:\n        root.left = op(root.left, val)\n    else:\n        root.right = op(root.right, val)\n    return root\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：查找"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：插入"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：删除"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：遍历"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定字符集{A,B,C,D}的出现频率分别为{5,1,6,2}，则正确的哈夫曼编码是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A:0,B:100,C:11,D:101"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：A:11,B:100,C:0,D:101"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：A:0,B:101,C:11,D:100"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：A:10,B:101,C:0,D:100"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于动态规划的描述，正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：动态规划算法的时间复杂度总是低于贪心算法。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：动态规划要求问题必须具有最优子结构和重叠子问题两个性质。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：动态规划通过递归实现时不需要存储中间结果。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：动态规划的核心思想是将问题分解为互不重叠的子问题。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码中，类的构造函数被调用了()次。\n```python\nimport copy\nclass MyClass:\n    def __init__(self):\n        print(\"Constructor called!\")\nif __name__ == \"__main__\":\n    obj1 = MyClass()\n    obj2 = copy.deepcopy(obj1)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码中function1()实现了循环队列的哪种操作？\n```python\nclass CircularQueue:\n    def __init__(self, k):\n        self.size = k\n        self.arr = [0] * k\n        self.front = -1\n        self.rear = -1\n\n    def is_full(self):\n        return (self.rear + 1) % self.size == self.front\n\n    def is_empty(self):\n        return self.front == -1\n\n    def function1(self, value):\n        if self.is_full():\n            return False\n        if self.is_empty():\n            self.front = 0\n        self.rear = (self.rear + 1) % self.size\n        self.arr[self.rear] = value\n        return True\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：入队"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：出队"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：查看队首元素"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：判断队列是否为空"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码实现了二叉树的深度优先搜索(DFS)，并统计了叶子节点的数量。横线上应填写()。\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef count_leaf_nodes(root):\n    if root is None:\n        return 0\n    stack = []\n    stack.append(root)\n    count = 0\n    while stack:\n        node = stack.pop()\n        if node.left is None and node.right is None:\n            count += 1\n        if node.right:\n            stack.append(node.right)\n        if node.left:\n            ________\n    return count\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：stack.append(node.left)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：stack.append(node.right)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：stack.delete(node.left)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：stack.delete(node.right)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码实现了二叉树的广度优先搜索(BFS)，并查找特定值的节点。横线上应填写()。\n```python\nfrom collections import deque\n\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef find_node(root, target):\n    if root is None:\n        return None\n    q = deque()\n    q.append(root)\n    while q:\n        current = q.popleft()\n        if current.val == target:\n            return current\n        ________\n    return None\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：if current.left: q.append(current.right) if current.right: q.append(current.left)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：if current.left: q.append(current.left) if current.right: q.append(current.right)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：if current.left: q.append(current) if current.right: q.append(current.right)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：if current.left: q.append(current.left) if current.right: q.append(current)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码用于生成n位格雷编码。横线上应填写()。\n```python\ndef generate_gray_code(n):\n    if n == 0:\n        return [\"0\"]\n    if n == 1:\n        return [\"0\", \"1\"]\n    prev = generate_gray_code(n - 1)\n    result = [\"0\" + s for s in prev]\n    ________\n    return result\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：result += [\"1\" + s for s in reversed(prev)]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：result += [\"0\" + s for s in reversed(prev)]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：result += [\"1\" + s for s in reversed(1)]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：result += [\"1\" + s for s in reversed(0)]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码实现了0/1背包问题的动态规划解法。假设物品重量为weights[]，价值为values[]，背包容量为W，横线上应填写()。\n```python\ndef knapsack(W, weights, values):\n    n = len(weights)\n    dp = [[0] * (W + 1) for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for j in range(1, W + 1):\n            if weights[i - 1] > j:\n                dp[i][j] = dp[i - 1][j]\n            else:\n                dp[i][j] = max(________)\n    return dp[n][W]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dp[i][j], dp[i - 1][j - weights[i - 1]] + values[i - 1]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dp[i - 1][j], dp[i][j - weights[i - 1]] + values[i - 1]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dp[i - 1][j], dp[i - 1][j - weights[i - 1]] + values[i - 1]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dp[i - 1][j], dp[i - 1][j - weights[i]] + values[i]"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码用于检查字符串中的括号是否匹配，横线上应填写()。\n```python\ndef is_balanced(s):\n    stack = []\n    for c in s:\n        if c in '([{':\n            stack.append(c)\n        else:\n            if not stack:\n                return False\n            top = stack.pop()\n            if (c == ')' and top != '(') or \\\n               (c == ']' and top != '[') or \\\n               (c == '}' and top != '{'):\n                return False\n    ________\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：True"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：False"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：return stack"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：return not stack"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个二叉排序树(BST)，其中节点的值均为正整数。以下关于BST的说法中，错误的是："
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：对BST进行中序遍历，得到的序列一定是有序的。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在BST中查找一个值为k的节点，最坏情况下需要遍历整棵树。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：向BST中插入一个新节点，可能会破坏BST的平衡性。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：删除BST中的一个节点后，树的高度一定不会增加。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "哈夫曼树在构造过程中，每次合并权值最小的两个节点，最终生成的树带权路径和最小。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "格雷编码的相邻两个编码之间必须有多位不同，以避免数据传输错误。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在树的深度优先搜索(DFS)中，使用队列作为辅助数据结构以实现“先进后出”的访问顺序。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "以下代码实现的是二叉树的中序遍历：\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\n\ndef traverse(root):\n    if root is None:\n        return\n    traverse(root.left)\n    print(root.val, end=\" \")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "python可以直接定义多个构造函数，但默认无参数的构造函数只能有一个。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二叉排序树(BST)中，若某节点的左子树为空，则该节点一定是树中的最小值节点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在动态规划解决一维硬币找零问题时，若硬币面额为[1,3,4]，目标金额为6，则最少需要2枚硬币(3+3)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "面向对象编程中，封装是指将数据和行为绑定在一起，并对外隐藏实现细节。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "以下代码创建的树是一棵完全二叉树：\n```python\nclass TreeNode:\n    def __init__(self, val=0, left=None, right=None):\n        self.val = val\n        self.left = left\n        self.right = right\nroot = TreeNode(1)\nroot.left = TreeNode(2)\nroot.right = TreeNode(3)\nroot.left.left = TreeNode(4)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "栈和队列均可以用双向链表实现，插入和删除操作的时间复杂度为O(1)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 145
+}

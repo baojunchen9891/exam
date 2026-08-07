@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202506-l1",
+ "title": "202506 CCF-GESP编程能力等级认证Python1级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 1,
+ "levelName": "1级",
+ "yearmonth": "202506",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2025年4月19日在北京举行了一场颇为瞩目的人形机器人半程马拉松赛。比赛期间，跑动着的机器人会利用身上安装的多个传感器所反馈的数据来调整姿态、保持平衡等，那么这类传感器类似于计算机的()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：处理器"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：存储器"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：输入设备"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：输出设备"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨购置的计算机使用一年后觉得内存不够用了，想购置一个容量更大的内存条，这时其需要的内存条是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：RAM"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：ROM"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：CACHE"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：EPROM"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列Python代码执行后，其结果是()。\n```cpp\nfirst =10\nprint(f\"{First}\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：输出10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：输出{First}"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：输出\"{First}\""
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：报错，因为{First}中的First应该是first"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "Python表达式14-3*3 **2的值是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：99"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：25"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：-13"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：-67"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码执行后，其输出是()。\n```cpp\nx=10\ny=20\nx=x+y\ny=x-y\nx=x-y\nprint(x,y)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1020"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2010"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1010"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2020"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后的输出是()。\n```cpp\na,b,c=3,4,5\nprint(f\"a={a} b={b} c={c},a^2+b^2={a*2+b**2},c^2={c*2}\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a=3 b=4 c=5,a^2+b^2=25,c^2=25"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3=34=45=5,9+16=25,25=25"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a={a} b={b} c={c},a^2+b^2={a*2+b**2},c^2={c*2}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：a=3 b=4 c=5,1+6=25,7=25"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读下面的Python代码，横线上应填入的代码是()。\n```cpp\nYearOld =input(\"您今年的整数年龄是？\")\nprint(f\"您出生于\n年。\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：{2025-int(YearOld)}"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：{2025-Year0ld}"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{2025}-{int(Year0ld)}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：{2025}-{Year0ld}"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后的输出是()。\n```cpp\na=3\nb=4\nprint(\"a+b=\",a+b,\"a+b={a+b}\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a+b= 7 a+b={a+b}"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：a+b=7a+b=7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a+b=7a+b={a+b}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：a+b=7a+b=7"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码用于求M天后是星期几，横线处应填入的代码是()。\n```cpp\nN=int(input(\"当前星期几？\"))#星期日是0\nM = int(input(\"求多少天后？\"))#输入正整数\nD=\nif\n..\nprint(f\"{M}后是星期日\")\nelse:\nprint(f\"{M}后是星期{D}\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：(N+M)//7\nD==0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(N+M)%7\nD==0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：(N+M)//7\nD<=e"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(N+M)%7\nD=0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后输出是()。\n```cpp\nfor i in range(1,11,3):\n    continue\n    if i%2==0:\n        break\n    print(i,end=\"#\")\nelse:\n    print(\"END\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：END"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1#"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1#4#END"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1#4#7#10#END"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码用于求N的所有因数，如输入12则将输出12,6,4,3,2,1，。()。\n```cpp\nN =int(input())\ni=N\nwhile\n    if N%i== 0：\n        print(i, end = \"，\")\n    i-=1\nprint(1)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：i<=1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：i==1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：i>1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：i>=1"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后输出的是()。\n```cpp\nSum = 0\nfor i in range(10):\n    if i%2==0:\n        continue\n    if i%5==0:\n        break\n    Sum += i\nprint(Sum)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：55"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：15"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：9"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "turtle.forward(100)是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：让海龟向右转100度"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：让海龟向上移动100像素"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：让海龟向前移动100像素"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：让海龟向前移动100单位"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "为在Python Turtle中输出如下图形，代码横线处应填入()。\n```cpp\nimport turtle\nturtle.pensize(2)\nfor i in range(\n):\n    if i%2=0:\n        turtle.color(\"red\")\n    else:\n        turtle.color(\"green\")\n    turtle.forward(i*5)\n    turtle.right(90)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：11"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1,12"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1,13"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：14"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "为在Python Turtle中输出如下图形，代码横线处应填入()。\n```cpp\nimport turtle\nfor i in range(9):\n    turtle.forward(100)\n    turtle.left(120)\n    if i%3==2:\n        turtle.right(\n        )\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：30"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：60"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：90"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：120"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "现在，人们参加各种闭卷考试时通常都不允许将智能手机、平板电脑等带入考场，因为智能手表通常都有嵌入操作系统及通信等功能，所以也不允许携带入考场。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果Python表达式int(N * 0.5)** 2 =N的值为True,则N是完全平方数，如4、9等。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在下面Python代码中，删除break 语句对程序执行结果没有影响。()\n```cpp\nfor i in range(10):\n    continue\n    print(i, end = \"#\")\n    break\nelse:\n    print(\"END\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "删除下面Python代码中的continue后其输出是 0#2#4#6#8#。()\n```cpp\nfor i in range(10):\n    if i%2==0:\n        print(i, end = \"#\")\n        continue\n    else:\n        print(\"END\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "将下面Python代码中的 range(100)修改为 range(1,100),其输出与当前代码输出相同。()\n```cpp\ncnt= 0\nfor i in range(100):\n    cnt +=1\nprint(cnt)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "交换下面Python代码中的i += 2和cnt += 1 ，其输出相同。()\n```cpp\ncnt = 0\ni=0\nwhile i< 10：\n    i+=2\n    cnt += 1\nprint(cnt)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码执行后将输出45。()\n```cpp\ni=0\nfor i in range(10):\n    cnt += i\nprint(cnt)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行Python代码print(12+12.12)将报错，因为12是int类型，而12.12是float类型，不同类型不能直接运算。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码执行后，海龟指向不会发生变化。()\n```cpp\nimport turtle\nturtle.left(30)\nturtle.right(30)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码被执行后将绘制出正六边形。()\n```cpp\nimport turtle\nfor i in range(6):\n    turtle.forward(100)\n    turtle.right(120)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 159
+}

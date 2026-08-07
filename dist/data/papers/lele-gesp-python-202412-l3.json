@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202412-l3",
+ "title": "202412 CCF-GESP编程能力等级认证Python3级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 3,
+ "levelName": "3级",
+ "yearmonth": "202412",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2024年10月8日，诺贝尔物理学奖“意外地”颁给了两位计算机科学家约翰·霍普菲尔德(JohnJ.Hopfield)和杰弗里·辛顿(Geoffrey E. Hinton)。这两位科学家的主要研究方向是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：天体物理"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：流体力学"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：人工智能"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：量子理论"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "计算机系统中存储的基本单位用B来表示，比如某个照片大小为3MB,其中B代表的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Byte"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Block"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：Bulk"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：Bit"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列流程图的输出结果是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：12"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：13"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：14"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：15"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "十六进制数2024转换为八进制数是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3750"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：20044"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：11111101000"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：10000000100100"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行print(10^3)语句的输出结果是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：9"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：30"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1000"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下列程序，输出结果是？()\n1\nmylist = list(range(1, 13))\n2\nprint(mylist[1:3])"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[3,6,9,12]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[2,5,8,11]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[1,4,7,10]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：上述代码执行报错"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列创建列表的方法中不正确的是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：lst=[1,2,'信息']"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：lst=[1]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：lst=['信息'，]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：lst = '音乐'，'体育'，'美术'"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下列程序，输出结果是？()\n122\ntuple1 = (4， 3,2,1)\ntuple2 =(2)\n3\nprint(tuple1 * tuple2)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：(4,3,2,1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(8,6,4,2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：(4,3,2,1,4,3,2,1)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：上述代码执行报错"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于字典的描述错误的是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：字典查找和插入的速度极快，通常不会随着key的增加而增加"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：可以通过字典的键找到对应的值，也可以通过值来找到对应的键"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：字典里面的值（不是键）可以包含列表和其它数据类型"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：字典的元素以键为索引进行访问"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于字符串的描述正确的是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：多个字符串不能进行连接"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：字符串是一个可变的序列"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：\"Hello\".find(\"l\")的结果是3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：字符串是用一对双引号\"\"或者单引号\"括起来的零个或者多个字符"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序执行结果正确的是？()\n× = set(\"杜甫\")\n2\ny = set(\"杜牧\")\n3\nprint(x& y)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：{'杜'}"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：{'杜甫'}"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{'杜牧'}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：{'杜甫杜牧'}"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "向集合s=set()中添加多个元素的方法是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：add()"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：update()"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：extend()"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：利用(+=)运算符"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "图书馆准备举办一次读书分享会，设计通知的过程中需要对一段文本进行编辑，文本由大小写英文字母和英文标点符号组成，根据活动主题，需要将文本中小写字母'b'替换为大写字母'B'。有一点要注意：第一个和最后一个'b'不用替换。请在下面程序空白处填上正确内容以实现程序功能。\n1\ns = input()\n2\n#如输入： book boy beautiful bicycle box building\n3\nx= s.find('b')\n4\ny= s.rfind('b')\nt=\n#填写代码\n6\nt= t.replace('b', 'B')\n7\nprint(s[0:x+ 1]+t+ s[y:])"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：s[x:]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：s[x + 1：y]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：s[x:y]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：s[:y]"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨想编写一个程序来统计日志文件中每种错误出现的次数，这样可以方便他快速定位问题。他希望能够输入一段日志文件的内容后，程序就输出每种错误及其出现的次数。请在下面程序空白处填上正确内容以实现程序功能。\n1\nlog = input(\"请输入日志文件内容：\")\n2\n#如输入：SyntaxError TypeError SyntaxError IndexError\n3\nerror_count = {}\n4\nerrors = log.split()\n5\nfor error in errors:\n6\nif error in error_count:\n7\n#填写代码①\n8\nelse:\n9\n#填写代码②\n10\nprint(\"日志中每种错误出现的次数如下：\")\n11\nfor error, count in error_count.items():\n12\nprint(f\"{error}:{count}\")"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：① error_count[error] += 1 ② error_count[error] = 1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：① error_count[error] = 1 ② error_count[error] += 1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：① error_count[error]+ ②error_count[error] = 1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：① error_count[error] = 1 ② error_count[error]+"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨想要编写一个程序来记录他每周的健身情况。他希望在输入每天健身的时间后，能够查看一周内健身的总时间。为了实现这个目标，请在下面程序空白处填上正确内容以实现程序功能。\n1\ngym_times = []\n2\nfor i in range(1, 8)：\n3\ntime = input(f\"请输入第{i}天健身的时间：\")\n4\ngym_times.append(time)\n5\n6\nprint(\"一周内的健身情况如下：\")\n7\nfor i in range(7):\n8\nprint(f\"第{i+ 1}天健身的时间：{gym_times[i]}\")\n9\n10\ntotal_gym_time = sum(\n)#填写代码\n11\nprint(\"一周内健身的总时间为：\"，total_gym_time)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：gym_times"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：gym_times[:]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：time for time in gym_times"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：int(time) for time in gym_times"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Windows的资源管理器中为已有文件A建立副本的操作是Ctrl+C,然后Ctrl+V。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "整数-8的16位反码可用十六进制表示为FFF8。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "运行下列代码，输出的结果可能是{1：'1'，2：'2'，3：'3'}。\na=['1','2','3']\n1234\nb=[1,2,3]\nc = dict(zip(a, b)\nprint(c)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "表达式 int('13',8)的返回值是11。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python代码 print([x for x in range(1,11) if ×% 2 == 1])被执行后，将得到从1到11所有的奇数，不含11。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python代码 print(f\"{3.1415926:06.3f}\")被执行后，输出为3.142。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "编写Python程序模拟石头剪刀布游戏，数字0代表石头，数字1代表剪刀，数字2代表布，石头胜剪刀，剪刀胜布，布胜石头，模拟玩家出拳可以使用下面的程序代码。\n12\nimport random\na = random.randint(0, 2)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下列两段Python代码，输出的结果相同。\n1\nlst =[0,1,2,3,4,5,5,3,1]\n2\na=[]\n3\nfor item in lst:\n4\nif item not in a:\n5\na.append(item)\n6\nprint(sorted(a))\n123\nlst =[0,1,2,3,4,5,5,3,1]\na = sorted(list(set(lst))\nprint(a)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，使用乘法运算符*乘一个正整数可以对同一个字符串、列表、元组甚至是集合进行合并，即以下赋值语句都是合法的。\nmy_string = \"123\" * 3\n1234\nmy_list = [10， 20， 30] * 3\nmy_tuple = (10， 20， 30) * 3\nmy_set = {10， 20， 30} * 3"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "“水仙花数”是指一个三位数各位数字的立方和等于该数本身，求100到999之间的所有水仙花数并统计个数。可以使用枚举的方法来求解这个问题。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 124
+}

@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202409-l5",
+ "title": "202409 CCF-GESP编程能力等级认证Python5级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202409",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在升序数组 nums 中寻找目标值 target,下列程序可以填入的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：mid= (right + left) // 2 + left"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：mid =(right - left)/ 2 + left"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：mid = (right - left)/ 2 -right"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：mid = (right + left)// 2 - left"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "500个病毒样本中，已知有一个是病毒检测呈阳性，用试纸测试阳性病毒以后，试纸在3天以后会变色，用试纸测试时间不计，三天以后要出结果，请问最少用多少个试纸能够找出哪一个病毒样本有毒()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：499"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：250"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：9"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：125"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一名收银员，给顾客找零，找零的目标是给出确定金额的同时，使用尽可能少的硬币。有不同面额的硬币：1分，5分，10分，25分.如果需要给顾客准确的零钱77分，同时使用最少的硬币下列程序中横线应该填写()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：amount -= coin"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：amount <=coin"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：amount >=coin"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：amount +=coin"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序是素数筛的程序，横线处应该填上()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：for j in range(i, n+1, i):"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：for jin range(i*i, 1， n):"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：for j in range(i*i,n+1, i):"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：for j in range(i, n, i):"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序是埃氏筛的一个实现，横线处应该填写()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：for i in range(i*i,n+1,i):"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：for j in range(i*i,n,j):"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：for j in range(i*i,n+1,i):"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：for j in range(j*j,n+1,i):"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序中，使用了二分查找算法，横线处应该填写的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：mid = (low - high)// 2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：mid =(low + high)/ 2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：mid = (low + high)/ 2"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：mid = (low - high)/ 2"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "正整数1024的所有约数的和为多少()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2050"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2059"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：2047"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2044"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序是对n!进行唯一分解，横线处应该填入的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：while n %i ！= 0 and i ！= n:"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：while n %i ==  and i == n:"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：while n %i ==  and i ！= n:"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：while n %i ！= 0 and i = n:"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设有一些物品，每个物品都有自己的重量，我们需要将这些物品装入箱子中，每个箱子也有自己的重量限制。贪心算法每次都选择重量最轻的物品放入当前最轻的箱子中，如果箱子可以装下，就放入；如果箱子不能装下，就尝试下一个箱子，直到找到可以放入的箱子。下列贪心算法程序中，横线处应该填入的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：boxes[j] = (box[0] - item, boxes[j][1])"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：boxes[i] = (box[0] - item, boxes[j][1])"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：boxes[j] = (box[0] - item, boxes[i][1])"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：boxes[i] = (box[0] - item, boxes[i][1])"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列归并算法程序中，横线处应该填入的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：while i > len(left) and j< len(right):"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：while i < len(left) and j> len(right):"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：while i> len(left)and j> len(right):"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：while i < len(left) and j< len(right):"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列快速排序算法中，横线处应该填入的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：p = arr[len() // 2]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：p = arr[len(arr)+1 // 2]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：p = arr[len(arr)-1 / 2]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：p = arr[len(arr)// 2]"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列二分枚举算法中，{}处应该填入的程序是({}不算做程序的一部分)()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：```Python\nmid=(low+high)∥2\nif arr[mid] = x:\nreturn mid\nelif arr[mid+1]>x:\nhigh=mid-1\nelse:\nlow=mid+1\n```"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：```Python\nmid = (low + high) // 2\nif arr[mid] ！= x:\nreturn mid\nelif arr[mid+1]>x:\nhigh = mid - 1\nelse:\nlow=mid + 1\n```"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：```Python\nmid=(low+high)/∥2\nif arr[mid] == x:\nreturn mid\nelif arr[mid]>x:\nhigh=mid-1\nelse:\nlow=mid+1\n```"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：```Python\nmid = (low + high)// 2\nif arr[mid] ！= x:\nreturn mid\nelif arr[mid]>x:\nhigh = mid - 1\nelse:\nlow = mid + 1\n```"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码是寻找水仙花数的程序，横线处应该填写的代码是()。【是指一个n位数(n≥3)，其每位数字的n次幂之和等于它本身】"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：```Python\nsum_of _powers = sum(int(digit) ** num_digits for digit in num)\n```"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：```Python\nsum_of_powers = sum(int(digit) * num for digit in str_num)\n```"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：```Python\nsum_of _powers =sum(int(num) * num_digits for digit in str_num)\n```"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：```python\nsum_of_powers = sum(int(digit) * num_digits for digit in str_num)\n```"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对于正整数n,欧拉函数f(n),表示小于或等于n的正整数中与n互质的数的数目，例如f(8)=4。f(100)=()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：50"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：55"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：45"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：40"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序输出的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：chen a dai"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dai a chen"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：iad a nehc"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：chenadai"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "(-1)mod127和126 mod127的结果是一样的"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一个数的反码，实际上是这个数对于一个模的同余数"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "1997和615用欧几里得算法计算最大公约数的过程如下：\n1\n1997/615=3(余152)\n2\n615/152=4(余7)\n3\n152/7=21(余5)\n4\n7/5=1(余2)\n5\n5/2=2(余1)\n6\n2/1=2(余0)\n7\n得出最大公约是是1"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "欧几里得算法适用于实数"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "每个大于1的整数可以唯一地写成质数的乘积的形式"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪婪算法的复杂度通常是线性的，即O(n),其中n是输入的大小"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序的时间复杂度为0(n log n)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "根据同余计算，可以推导出(a*b)%m=(a%m*b%m)%m"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二分查找算法的复杂度通常表示为O(logn),其中n是数组的长度"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "def(十六进制)=103231（五进制）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 108
+}

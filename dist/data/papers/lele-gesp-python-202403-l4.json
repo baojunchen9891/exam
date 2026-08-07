@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202403-l4",
+ "title": "202403 CCF-GESP编程能力等级认证Python4级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 4,
+ "levelName": "4级",
+ "yearmonth": "202403",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨的父母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：小程序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：计时器"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：操作系统"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：神话人物"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "中国计算机学会(CCF)在2024年1月27日的颁奖典礼上颁布了王选奖，王选先生的重大贡献是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：制造自动驾驶汽车"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：创立培训学校"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：发明汉字激光照排系统"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：成立方正公司"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面有关Python的说法，正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Python是低级程序设计语言，适合初学者"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Python一门编译型语言"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：和C/C++、Java一样，Python也是静态类型的语言"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：Python是脚本型程序设计语言"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关Python语句 print(3,2,sep='#')说法错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3和2称之为位置参数"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：sep称之为命名关键字参数"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3和2称之为变参参数"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：sep参数可以放在3和2之前"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后，第4行输出是()。\n```cpp\nlstA =[1,2]\nlstB, lstC =[lstA, lstA * 3]\nlstA[1]=100\nprint(1stA, lstB, lstC)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[1,2][1,2][1,2,1,2,1,2]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[1,100][1,100][1,100,1,100,1,100]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[1,100][1,2][1,2,1,2,1,2]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：[1,100][1,100][1,2,1,2,1,2]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码最后执行后最后一行输出是()。\n```cpp\ndef Foo(lst):\n    for i in range(len(lst)):\n        lst[i] *=2\n    return lst\nlstA = list(range(1,10,2))\nprint(Foo(lstA),lstA)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[2,6,10,14,18][1,3,5,7,9]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[1,3,5,7,9][2,6,10,14,18]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[2,6,10,14,18][2,6,10,14,18]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：[1,3,5,7,9][1,3,5,7,9]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后输出是()。\n```cpp\ndef Foo(lst):\n    lst = len(lst)\n    return lst\nlst=[1,2,3]\nprint(Foo(lst),lst)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3 [1,2,3]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3 3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[1,2,3] [1,2,3]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：[1,2,3] 3"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行后输出是()。\n```cpp\ndef DIV(m,n):\n    return m // n, m%n\nprint(DIV(10,3))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3,1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(3,1)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：报错。因为第2行只能返回一个值，不可以是两个值"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "Python代码 print({(i,i * 2) for i in range(5)})执行后可能输出是（ ）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：((0,0),(1,1),(2,4),(3,9),(4, 16))"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[(0,0),(1,1),(2,4),(3,9),(4,16)]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{(2,4),(4,16),(0,0),(1,1),(3,9)}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：{0:0,1:1,2:4,3:9,4:16}"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码执行，其输出是()。\n```cpp\nA=[1,2,3]\nB=A\nC=A[:]\nprint(A is B, A== B, A is C, A ==C)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：True True True True"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：True False False True"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：False False False False"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：True True False True"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在Python中，对list、tuple或str类型执行in运算，其时间复杂度均为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(N2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：非上述备选答案"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列Python代码用于寻找1~100之间的因数最多的数及其因数，程序本意是factor变量存储形如{6：[1,2,3,6]，8：[1,2,4,8]}。下面有关说法正确的是()。\n```cpp\nfactor = {}\nfor i in range(1,100):\n    for j in range(1,i+1):\n        if i%j==0:\n            factor[i] = factor.get(i,[]).append(j)\nprint(max(factor.items(), key = lambda x:len(x[1])))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：程序第5行存在语法错误，因为append()的返回值为None"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：程序第5行存在语法错误，当某个数第1次作为factor的key时，其对应的值为append()的返回值即None,当该数第2次作为factor的key时，factor.get(i,[])返回值为None不再是[]，append()不能成其为函数"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：程序第6行存在语法错误，因为max()不能有key参数"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：程序第6行存在语法错误，max()虽然可以有key作为参数，但其中lambda函数存在语法错误"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在如下Python代码中，假设变量zen代表很多字符此处仅为示例，代码实现按小写字母频次升序，如频次相同则按字符ASCI升序输出，横线处应填入是()。\n```cpp\nzen = \"Beautiful is better than ugly\"\nalphaCount ={}\nfor c in zen:\n    # 横线处\nprint(sorted(alphaCount.items(), key = lambda x:(x[1],ord(x[0]))))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：alphaCount[c]+=1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：alphaCount[c.lower()]+=1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：alphaCount[c.lower]=alphaCount.get(c.lower,0)+1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：alphaCount[c.lower()]=alphaCount.get(c.lower(),0)+1"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码能正确执行。在代码被执行之前，abc.txt已经存在，其文件字节数为100。下面有关说法，正确的是()。\n```cpp\nwFile = open(\"abc.txt\",\"w\")\nwFile.close()\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：abc.txt的内容将被覆盖，但由于没有写入操作，文件字节数为0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：abc.txt的内容不会被覆盖，因为没有执行任何文件写入操作，abc.txt将继续原样存在"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：原abc.txt的内容将被复制到abc.bak之中，然后覆盖abc.txt,由于没有写入操作，因此文件字节数为0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：abc.txt将被删除，因为第一行代码执行后，原文件内容将被删除，但由于没有写入操作，因此abc.txt将不会存在"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列Python代码执行后，将输出的是()。\n```cpp\ndef DIV(m,n):\n    if n == 0:\n        raise ZeroDivisionError(\"除数不能为零\")\n    return m / n\ntry:\n    print(10/0)\n    print(DIV(10/0))\nexcept ZeroDivisionError:\n    print(0,end=\"#\")\nexcept:\n    print(1,end=\"#\")\nfinally:\n    print(2,end=\"#\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0#2#"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：0#1#2#"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1#2#"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0#"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "任何一个for循环都可以转化为等价的while循环。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置ip地址并接入到WIFI盒子才能收看节目，那这个WIFI盒子具有路由器的功能。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨在练习Python准备GESP考试的过程中，发现如果执行import os,可以通过os.system()启动外部程序，因此也可以说Python是一个小型操作系统。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，任何一个while循环都可以转化为等价的for循环()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，list类型有sort()函数，但tuple、set和dict则没有sort()函数。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "当对list和tuple类型执行in运算时，其时间复杂度为O(N)。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，[i*2 for i in range(10)]*3是合法的表达式。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在下面Python代码中，文本文件abc.txt共有10行，每行由1个英文半角字母组成。第5行代码执行后其输出为10。()\n```cpp\nrFile = open(\"abc.txt\",\"r\")\nfileContent = rFile.read()\nrFile.close()\nprint(len(fileContent))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，已执行tpl=([1,2],[3,4],[5,6]),如果执行 tpl[1]=[99,100]将报错，而执行 tpl[1][1]=[99,100]则不会报错。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，表达式len(set(\"China\")^set(\"china\")的值为2。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 72
+}

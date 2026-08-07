@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202412-l5",
+ "title": "202412 CCF-GESP编程能力等级认证Python5级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202412",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的程序中，x,y都是正整数，完成的算法是()\ndef chenadai(x, y):\n    while y:\n        x,y=y,x%y\n    return x"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：最小公倍数"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：最大公约数"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：数字x能够整除y的最小数"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：数字x与数字y的所有公约数"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序中实现的是(\ndef chenadai(x, y):\n    return x * y / (x,y的最大公约数)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：实现了求x,y的最小公约数"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：实现了求x,y的最大公约数"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：实现了求x,y的最小公倍数"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：实现了求x,y的平均值"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "欧几里得算法又称作辗转相除算法，下面程序中是这种算法的是()\nA.\ndef gcd(a,b):\n    if b == 0:\n        return a\n    return gcd(b, a % b)\nB.\ndef gcd(a, b):\n    if a < b:\n        a,b = b, a\n    while b != 0:\n        a,b = b, a % b\n    return b\nC.\ndef gcd(a,b):\n    if b == 0:\n        return a\n    return gcd(a, a % b)\nD.\ndef gcd(a,b):\n    if b == 0:\n        return a\n    return gcd(b, b % a)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序是二分法的程序，横线处应该填上()。\ndef binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        >\n    return -1\nA.\nif arr[mid] == target:\n    return mid\nelif arr[mid] > target:\n    right = mid - 1\nelse:\n    left = mid + 1\nB.\nif arr[mid] == target:\n    return mid\nelif arr[mid] > target:\n    right = mid\nelse:\n    left = mid\nC.\nif arr[mid] == target:\n    return mid\nelif arr[mid] > target:\n    right = mid - 1\nelse:\n    left = mid + 1\nD.\nif arr[mid] == target:\n    return mid\nelse:\n    left = mid + 1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面折半查找程序的时间复杂度为()\ndef binary_search(arr, x):\n    low = 0\n    high = len(arr) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if arr[mid] == x:\n            return mid\n        elif arr[mid] > x:\n            high = mid - 1\n        else:\n            low = mid + 1\n    return -1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n * logn)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(logn)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n2)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序中，使用了埃氏筛法，横线处应该填写的是()\ndef aishishai(n):\n    if n < 2:\n        return []\n    prime = [True] * (n + 1)\n    prime[0] = prime[1] = False\n    \n    if prime[p]:\n        for i in range(p * p, n + 1, p):\n            prime[i] = False\n    return [p for p in range(n + 1) if prime[p]]"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：for p in range(2, n * 0.5 + 1):"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：for p in range(2, int(n * 0.5) + 1):"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：for p in range(2, int(n * 0.5) + 0.5):"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：for p in range(2, n ** 0.5 + 0.5):"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "18到100之间的所有素数的和为多少()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1060"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1004"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1002"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1052"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序是对2024进行唯一分解，最后的结果应该是()。\ndef weiyi(n):\n    factors = {}\n    for i in range(2, n+1):\n        while n % i == 0:\n            if i in factors:\n                factors[i] += 1\n            else:\n                factors[i] = 1\n            n /= i\n    return factors"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1,2,3,13,23"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2,7,11,23"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：2:3,11:1,23:1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2,3,13,23"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面关于循环链表的说法正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：循环链表的最后一个结点指向头结点，形成一个闭环"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：必须通过特定结点才可以遍历整个链表"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：不属于链式存储结构"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：在长度为n的顺序表下标为i的位置前插入一个元素(1≤i≤n+1),元素的移动次数为n-i+1"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列归并算法程序中，横线处应该填入的是()\ndef merge_sort(array):\n    if len(array) == 1:\n        return array\n    \n    return merge(left, right)\n\ndef merge(left, right):\n    left_index, right_index, merge_array = 0, 0, list()\n    while left_index < len(left) and right_index < len(right):\n        if left[left_index] <= right[right_index]:\n            merge_array.append(left[left_index])\n            left_index += 1\n        else:\n            merge_array.append(right[right_index])\n            right_index += 1\n    merge_array = merge_array + left[left_index:] + right[right_index:]\n    return merge_array\nA.\nleft = merge_sort(array[: len(array)-1//2])\nright = merge_sort(array[len(array)-1//2:])\nB.\nleft = merge_sort(array[len(array)//2-1])\nright = merge_sort(array[len(array)/2:])\nC.\nleft = merge_sort(array[len(array)//2-1])\nright = merge_sort(array[len(array)//2])\nD.\nleft = merge_sort(array[: len(array)/2])\nright = merge_sort(array[len(array)/2:])"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于算法复杂度，下列说法不正确的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：简单的for循环的时间复杂度是O(1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：归并排序的时间复杂度是O(nlog(n))"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：选择排序中的内循环时间复杂度是O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：递归的 Fibonacci 数列计算时间复杂度是O(2n)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序中，实现了16进制转到8进制。横线处应该填入的是()\ndef dec_conversion_n(n, base):\n    str_list = \"0123456789ABCDEF\"\n    if n < base:\n        return str_list[n]\n    else:\n        \nA.\nreturn dec_conversion_n(n / base, base) + str_list[n % base]\nB.\nreturn dec_conversion_n(n / base, n) + str_list[n % base]\nC.\nreturn dec_conversion_n(n / base, base) + str_list[n / base]\nD.\nreturn dec_conversion_n(n / base, n) + str_list[n // base]"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "水仙花数是指一个3位数，它的每个数位上的数字的3次幂之和等于它本身。下面代码是计算100到n之间有多少个水仙花数的程序，横线处应该填写的一行或多行代码是()。\nn = int(input(\"输入一个正整数N:\"))\nsum = 0\nfor i in range(100, n+1):\n    \nprint(sum)\nA.\nge = i%10\nshi = i//10%10\nbai = i//100\nif i = ge*ge*ge+shi*shi*shi+bai*bai*bai:\n    sum+=1\nB.\nge = i%10\nshi = i%10%10\nbai = i//100\nif i = ge*ge*ge+shi*shi*shi+bai*bai*bai:\n    sum+=1\nC.\nge = i%10\nshi = i//10%10\nbai = i%100\nif i == ge*ge*ge+shi*shi*shi+bai*bai*bai:\n    sum+=1\nD.\nge = i%10\nshi = i%10%10\nbai = i%100\nif i == ge*ge*ge+shi*shi*shi+bai*bai*bai:\n    sum+=1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序输出的是\ndef func(x):\n    if x%2 == 1:\n        return x+1\n    else:\n        return func(x-1)\nprint(func(9))\nprint(func(6))"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：10\n6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：9\n6"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：10\n7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：9\n7"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "旋转数组是一种常见的数据结构问题，通常是指一个有序数组经过旋转后，使得所有元素逆序排列。整数数组nums 按升序排列，数组中的值互不相同。在预先未知的某个下标k(0<=k<nums.length)上进行了旋转，使数组变为[nums[k],nums[k+1],...,nums[n-1],nums[0],nums[1],...,nums[k-1]](下标从0开始计数)。现在给定旋转后的数组nums 和一个整数 target,如果 nums 中存在这个目标值 target,则返回它的下标，否则返回-1。下面程序中()处应填入的程序是：例如，给定一个数组[4,5,6,7,0,1,2]，它可能经过旋转变为[0,1,2,4,5,6,7]。二分查找算法搜索旋转排序数组的程序，下面横线中，应填入的一行或多行代码是()\ndef search(nums, target):\n    left, right = 0, len(nums) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if nums[mid] == target:\n            return True\n        if nums[mid] > nums[right]:\n            if nums[mid] > target or nums[left] <= target:\n                right = mid - 1\n            else:\n                left = mid + 1\n        elif nums[mid] < nums[right]:\n            \n        else:\n            right -= 1\n    return False\nA.\nif nums[mid] < target or nums[right] >= target:\n    left = mid - 1\nelse:\n    right = mid + 1\nB.\nif nums[mid-1] < target and nums[right+1] >= target:\n    left = mid + 1\nelse:\n    right = mid - 1\nC.\nif nums[mid] < target or nums[right] >= target:\n    left = mid\nelse:\n    right = mid\nD.\nif nums[mid] < target and nums[right] >= target:\n    left = mid + 1\nelse:\n    right = mid - 1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "两个整数的最大公约数等于其中较小的那个数和两数相除余数的最大公约数"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "任何一个大于1的自然数都可以分解成若干个不同的质数的乘积，且分解方式是唯一的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "要得到不大于某个自然数n(不等于0)的所有素数，只要在2至n中将不大于√n的素数的倍数全部划去即可"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "任何一个大于1的自然数，要么所有质因子都小于等于√n，要么只有一个质因子大于√n，其余质因子都小于√n。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法的空间复杂度通常是O(1)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序的空间复杂度为O(n)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "时间复杂度对比O(1)<O(logn)<O(n)<O(nlogn)<O(n2logn)<O(n2)<O(n3)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "对于任意整数a≡a(mod m)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下列程序输出的是21\ndef digui(n):\n    if n <= 1:\n        return n\n    else:\n        return digui(n-1) + digui(n-2)\nprint(digui(8))"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "CCF(十六进制)=1653(13进制)"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 126
+}

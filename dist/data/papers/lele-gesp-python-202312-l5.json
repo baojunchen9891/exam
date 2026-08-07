@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202312-l5",
+ "title": "202312 CCF-GESP编程能力等级认证Python5级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202312",
+ "year": "2023",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "通讯卫星在通信网络系统中主要起到()的作用。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：信息过滤"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：信号中继"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：避免攻击"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：数据加密"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨想编写一个判断任意输入的整数N是否为素数的程序，下面哪个方法不合适？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：埃氏筛法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：线性筛法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：二分答案"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：枚举法"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "内排序有不同的类别，下面哪种排序算法和冒泡排序是同一类？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：希尔排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：快速排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：堆排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：插入排序"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码用于求斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。下面有关说法错误的是()。\n```cpp\n1 def fiboA(N):\n2     if N == 1 or N == 2：\n3         return 1\n4     return fiboA(N -1)+ fiboA(N -2)\n5 def fiboB(N):\n6     if N == 1 or N == 2：\n7         return 1\n8     last2, last1 = 1， 1\n9     for i in range(2,N):\n10        nowVal = last1 + last2\n11        last2, last1 =last1,nowVal\n12    return nowVal\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：fiboA()用递归方式，fiboB()循环方式"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：fiboA()更加符合斐波那契数列的数学定义，直观易于理解，而fiboB()需要将数学定义转换为计算机程序实现"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：fiboA()不仅仅更加符合数学定义，直观易于理解，且因代码量较少执行效率更高"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：fiboB()虽然代码量有所增加，但其执行效率更高"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码以递归方式实现合并排序，并假设merge(left,right)函数能对有序（同样排序规则）的left和right 排序。横线处应填上代码是()。\n```cpp\n1 def mergeSort(listData):\n2     if len(listData) <= 1：\n3         return listData\n4     Middle = len(listData)// 2\n5     Left, Right = _______\n6     return merge(Left, Right)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：mergeSort(listData[:Middle]), mergeSort(listData[Middle:])"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：mergeSort(listData[:Middle-1]), mergeSort(listData[Middle+1:])"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：mergeSort(listData[:Middle]),mergeSort(listData[Middle+1:])"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：mergeSort(listData[:Middle-1]),mergeSort(listData[Middle:])"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读下面的Python代码，执行后其输出是()。\n```cpp\n1 stepCount = 0\n2 def countIt(Fx):\n3     def wrapper(*args,**kwargs):\n4         rtn = Fx(*args,**kwargs)\n5         global stepCount\n6         stepCount +=1\n7         print(stepCount,end=\"->\")\n8         return rtn\n9     return wrapper\n10\n11 @countIt\n12 def fracA(N):\n13     rtn =1\n14     for i in range(1,N+1):\n15         rtn *=i\n16     return rtn;\n17\n18 @countIt\n19 def fracB(N):\n20     if N == 1：\n21         return 1\n22     return N*fracB(N-1)\n23\n24 print(fracA(5),end=\"\")\n25 print(\"<===>\",end=\"\")\n26 print(fracB(5))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1->120<===>2->120"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1->120<===>1->120"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1->120<===>1->2->3->4->5->120"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1->120<===>2->3->4->5->6->120"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python用于对lstA排序，使得偶数在前奇数在后，横线处不应填入()。\n```cpp\n1 def isEven(N):\n2     return N%2==0\n3 lstA = list(range(1,100))\n4 lstA.sort(_______)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：key = not isEven"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：key = lambda x: isEven(x), reverse = True"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：key = isEven, reverse = True"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：key = lambda x: not isEven(x)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码用于排序sA字符串中每个字符出现的次数（字频），sA字符串可能很长，此处仅为示例。排序要求是按字频降序，如果字频相同则按字符的ASCII升序，横线处应填入代码是()。\n```cpp\n1 sA = \"Simple is better than complex\"\n2 charCount={}#每个字符对应数量\n3 for c in sA:\n4     charCount[c]=charCount.get(c,0)+1\n5 print(sorted(_______))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：charCount, key = lambda x:(-x[1],x[0])"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：charCount.items(), key = lambda x:(-x[1],ord(x[0]))"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：charCount.items(), key = lambda x:(x[1],-ord(x[0]))"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：触发异常，不能对字典进行排序。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面Python代码正确的是()。\n```cpp\n1 isEven = lambda x: x %2 == 0\n2 def isOdd(N):\n3     return N%2==1\n4 print(type(isEven) == type(isOdd), isEven(10),isOdd(10))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：True True False"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：False True False"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：False False True"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：触发异常"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码实现对list的快速排序，有关说法，错误的是()。\n```cpp\n1 def qSort(lst):\n2     if len(lst)< 2：\n3         return lst\n4     pivot = lst[0]\n5     less = [i for i in lst[1:] if i <= pivot]\n6     greater = [i for i in lst[1:] if i > pivot]\n7     return _______\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：qSort(less)+ qSort(greater)+[pivot]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[pivot]+ qSort(less)+ qSort(greater)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：qSort(less)+[pivot]+ qSort(greater)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：qSort(less)+ pivot + qSort(greater)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码中的isPrimeA()和isPrimeB()都用于判断参数N是否素数，有关其时间复杂度的正确说法是()。\n```cpp\n1 def isPrimeA(N):\n2     if N < 2： return False\n3     for i in range(2,N // 2 +1)：\n4         if N % i == 0： return False\n5     return True\n6\n7 def isPrimeB(N):\n8     if N < 2： return False\n9     for i in range(2, int(N * 0.5)+1)：\n10        if N % i == 0： return False\n11    return True\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：isPrimeA()的最坏时间复杂度是O(),isPrimeB()的最坏时间复杂度是O(logN),isPrimeA()优于isPrimeB()"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：isPrimeA()的最坏时间复杂度是O(),isPrimeB()的最坏时间复杂度是O(N),isPrimeB()绝大多数情况下优于isPrimeA()"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：isPrimeA()的最坏时间复杂度是O(N),isPrimeB()的最坏时间复杂度是O(N),isPrimeA()优于isPrimeB()"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：isPrimeA()的最坏时间复杂度是O(logN),isPrimeB()的最坏时间复杂度是O(N),isPrimeA()优于isPrimeB()"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码用于有序list的二分查找，有关说法错误的是()。\n```cpp\n1 def bSearch(lst,Val):\n2     def binarySearch(lst, Low, High, Target):\n3         if Low > High:\n4             return -1\n5         Mid=(Low+High)//2#求序列中间位置\n6         if Target == lst[Mid]:\n7             return Mid\n8         elif Target < lst[Mid]:#如目标值小于中间元素，在左半部分查找\n9             return binarySearch(lst, Low, Mid -1， Target)\n10        else:#如目标值大于中间元素，在右半部分查找\n11            return binarySearch(lst, Mid + 1， High, Target)\n12    return binarySearch(lst,0,len(lst), Val)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码采用二分法实现有序list的查找"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：代码采用分治算法实现有序list的查找"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：代码采用递归方式实现有序list的查找"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：代码采用动态规划算法实现有序list的查找"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在上题的算法中，其时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(log N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(Nlog N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N2)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码用于实现每个字符后紧跟随字符及其出现次数，并对紧跟随字符排序，即出现次数最多排在前，形如：{'中'：[('文'，1)，('国'，2)，('华'，2)]}，此处S仅是部分字符，可能很多，横线处应填入代码是()。\n```cpp\n1 S=\"\"\"中国华夏中华中华人民共和国中国人中文\"\"\"\n2 dictAfter = {}\n3 for i,hz in enumerate(S[1:]):\n4     tmpDict = dictAfter.get(S[i],{})\n5     tmpDict[hz]=tmpDict.get(hz,0)+1\n6     dictAfter[S[i]] = tmpDict\n7 dictAfter ={_______ for x in dictAfter.items()}\n8 print(dictAfter)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：x[0]:x[1].items().sort(key = lambda x:x[1], reverse = True)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：x[0]:x[1].items().sort(key = lambda x:x[0], reverse = True)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：x[0]:sorted(x[1].items(),key = lambda x:-x[0])"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：x[0]:sorted(x[1].items(), key = lambda x:-x[1])"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面Python代码的说法正确的是()。\n```cpp\n1 class Node:\n2     def __init__(self, Val, Prv=None, Nxt = None):\n3         self.Value = Val\n4         self.Prev = Prv\n5         self.Next = Nxt\n6\n7 firstNode = Node(10)\n8 firstNode.Next = Node(100,firstNode)\n9 firstNode.Next.Next = Node(111,firstNode.Next)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：上述代码构成单向链表"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：上述代码构成双向链表"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：上述代码构成循环链表"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：上述代码构成指针链表"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨想写一个程序来算出正整数N有多少个因数，经过思考他写出了一个重复没有超过N/2次的循环就能够算出来了。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "同样的整数序列分别保存在单链表和双向链中，这两种链表上的简单冒泡排序的复杂度相同。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序的时间复杂度是O(NlogN)。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，当对list类型进行in运算查找元素是否存在时，其查找通常采用二分法。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "以下Python代码能以递归方式实现斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。()\n```cpp\n1 def Fibo(N):\n2     if N == 1 or N == 2：\n3         return 1\n4     else:\n5         m = fiboA(N -1)\n6         n = fiboB(N -2)\n7         return m + n\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法可以达到局部最优，但可能不是全局最优解。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果自定义class已经定义了 __lt__()魔术方法，则自动支持内置函数 sorted()。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "插入排序有时比快速排序时间复杂度更低。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码能实现十进制正整数N转换为八进制并输出。()\n```cpp\n1 N = int(input())\n2 rst=\"\"#保存转换结果\n3 while N != 0：\n4     rst += str(N%8)\n5     N//=8\n6 print(rst)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python代码 print(sorted(list(range(10)), key = lambda x:x%5)执行后将输出[0,5,1，6,2,7,3,8,4,9]。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2023",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 55
+}

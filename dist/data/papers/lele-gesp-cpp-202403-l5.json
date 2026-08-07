@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202403-l5",
+ "title": "202403 CCF-GESP编程能力等级认证C++5级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202403",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "唯一分解定理描述的内容是()？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：任意整数都可以分解为素数的乘积"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：每个合数都可以唯一分解为一系列素数的乘积"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：两个不同的整数可以分解为相同的素数乘积"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上都不对"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 唯一分解定理任何一个大于 1 的整数 n 都可以分解成若干个素因数的连乘积，若 n 为素数，则乘积为 n 本身，若 n 为合数 , 则乘积包含若干素数的乘积。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "贪心算法的核心思想是()？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：在每一步选择中都做当前状态下的最优选择"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在每一步选择中都选择局部最优解"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：在每一步选择中都选择全局最优解"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上都对"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 贪心算法贪心算法核心思想是选择当前状态下的最佳选择，动态规划的核心思想应该是“最优子结构”和“重叠子问题”",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的C++代码片段用于计算阶乘。请在横线处填入()，实现正确的阶乘计算。\n```cpp\nint factorial(int n){\n    if (n ==0 || n =1){\n        return 1；\n    } else {\n        //在此处填入代码\n    }\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：return n * factorial(n -1)；"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：return factorial(n - 1) / n;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：return n * factorial(n);"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：return factorial(n / 2) * factorial(n / 2)；"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 递归算法由递归式 ,if(n>=2)return fact[n-1]*n;",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的代码片段用于在双向链表中删除一个节点。请在横线处填入()，使其能正确实现相应功能。\n```cpp\nvoid deleteNode(DoublyListNode*& head, int value){\n    DoublyListNode* current = head;\n    while (current != nullptr && current->val != value) {\n        current = current->next;\n    }\n    if (current != nullptr){\n        if (current->prev != nullptr){\n            //在此处填入代码\n        } else {\n            head = current->next;\n        }\n        if (current->next != nullptr){\n            current->next->prev = current->prev;\n        }\n        delete current;\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：if (current->next != nullptr) current->next->prev = current->prev;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：current->prev->next = current->next;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：delete current->next;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：current->prev = current->next;"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 链表双链表 current 的删除需要处理两个指针current 的前驱的 next 指针更新到 prev 的后继current 的后继的 prev 指针更新到 current 的前驱空白处需要填写的是 将 current 的前驱的 next 更新为 current 的 nextA 更新的是 current 的后继显然不对 ,C 是删除了 current 的后继， D 更新的是 current 的前驱 而不是前驱的 next",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "辗转相除法也被称为()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：高斯消元法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：费马定理"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：欧几里德算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：牛顿迭代法"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 辗转相除法高斯消元法 是线性代数中求解线性方程组的一种求解方法费马定理 分为费马小定理和费马大定理 是初等数论中的两个重要原理。欧几里得算法 又称辗转相除法是求解最大公约数的一种算法 另一种算法为更相减损法是出自《九章算术》中 中国古代提出的一种最大公约数的算法牛顿迭代法 又称牛顿 - 拉夫逊（拉弗森）方法，它是牛顿在 17 世纪提出的一种在实数域和复数域上近似求解方程的方法。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的代码片段用于计算斐波那契数列。该代码的时间复杂度是()？\n```cpp\nint fibonacci(int n){\n    if (n <= 1){\n        return n;\n    } else {\n        return fibonacci(n - 1) + fibonacci(n - 2)；\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(log n)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 算法复杂度的估计斐波那契递推式为 :f(n)=f(n-1)+f(n-2), 结合递归树，以最坏的情况考虑， f(n) 每次减少 1 的问题规模需要变为两个分支，记为 f(n)=2 f(n-1)=2²f(n-2)=…=2^(n-1) f(1)=2^(n-1)，因此复杂度为 O(2^n)。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的代码片段用于将两个高精度整数进行相加。请在横线处填入()，使其能正确实现相应功能。\n```cpp\nstring add(string num1, string num2){\n    string result;\n    int carry = 0；\n    int i = num1.size() -1， j = num2.size() - 1；\n    while (i >= 0 || j >= 0 || carry){\n        int x = (i >= 0) ? num1[i--] - '0' : 0；\n        int y = (j >= 0) ? num2[j--] - '0'：0；\n        int sum = x + y + carry;\n        carry = sum / 10；\n        //在此处填入代码\n    }\n    return result;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：result = to_string(sum % 10) + result;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：result = to_string(carry % 10) + result;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：result = to_string(sum / 10) + result;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：result = to_string(sum % 10 + carry) + result;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 数组模拟高精度string 下标 0 的位置对应 num1 和 num2 的最高位 , 模拟加法从个位开始，第 4 行的 i,j 两个指针指向了 num1 和 num2 的数组最高下标，对应个位 ;第 5 行自低位向高位模拟加法计算，同时保证了 : 只要有其中一个数参与加法或者最终产生更高进位 carry 就执行技法。第 6,7 行将字符转换为数字，同时若有一方已超过位数，补 0 参与加法运算。第 8 行为模拟计算，第 9 行为处理进位，第 10 行处理当前位为 sum%10同时程序返回了 string 类型的 result, 输出 result 时自高位向低位进行，新的位 sum 需要在右侧衔接 result",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定序列：1,3,6,9,17,31,39,52,61,79,81,90,96。使用以下代码进行二分查找查找元素82时，需要循环多少次，即最后输出的times值为()。\n```cpp\nint binarySearch(const std::vector<int>& arr, int target){\n    int left = 0；\n    int right = arr.size() - 1；\n    int times = 0；\n    while (left <= right){\n        times ++；\n        int mid = left + (right - left)/ 2；\n        if (arr[mid] == target){\n            cout << times << endl;\n            return mid;\n        } else if (arr[mid] < target){\n            left = mid + 1；\n        } else {\n            right = mid - 1；\n        }\n    }\n    cout << times << endl;\n    return -1；\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 二分查找82 并没有出现在序列中，二分的层数如下，对 [L,R],mid 将区间分为了 :[L,mid-1],mid,[mid+1,R] 三个部分，每向下一层 times 都需要自增一次；time=1 left =0 mid=6 right=12time=2 left =7 mid=9 right=12time=3 left =10 mid=11 right=12time=4 left =10 mid=10 right=10共需四次，也是图中的红色的查找路线。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的代码片段用于判断一个正整数是否为素数。请对以下代码进行修改，使其能正确实现相应功能。()\n```cpp\nbool isPrime(int num){\n    if (num < 2){\n        return false;\n    }\n    for (int i = 2； i * i < num; ++i){\n        if (num % i == 0){\n            return false;\n        }\n    }\n    return true;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：num < 2 应该改为 num <= 2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：循环条件 i * i < num 应该改为 i * i <= num"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：循环条件应该是 i <= num"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：循环体中应该是 if(num % i != 0)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 素数判定对于判断 n 是否为素数，如果整数 k 是 n 的一个约数，那么 n/k 也是 n 的一个约数， k 和 n/k 必然满足，一个小于等于 sqrt （ n ），另一个大于等于 sqrt(n) ， sqrt(n) 为根号 n 。所以只要判断 n 是否能被 2,3…sqrt(n) 中的一个数整除，即可判定 n 是否为素数，时间复杂度为 O(sqrt(n)) 。I ≤ sqrt(n) 或者 i*i ≤ n",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在埃拉托斯特尼筛法中，要筛选出不大于n的所有素数，最外层循环应该遍历什么范围()？\n```cpp\nvector<int> sieveOfEratosthenes(int n){\n    std::vector<bool> isPrime(n + 1， true);\n    std::vector<int> primes;\n    // 在此处填入循环\n    {\n        if(isPrime[i]){\n            primes.push_back(i);\n            for (int j = i * i; j <= n; j += i){\n                isPrime[j] = false;\n            }\n        }\n    }\n    for (int i = sqrt(n) + 1； i <= n; ++i){\n        if(isPrime[i]){\n            primes.push_back(i);\n        }\n    }\n    return primes;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：for(int i = 2; i <= n; ++i)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：for (int i = 1； i < n; ++i)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：for (int i = 2； i <= sqrt(n); ++i)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：for (int i = 1； i <= sqrt(n); ++i)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 素数表的埃式筛法下图就是埃式筛法的过程；因此 i 只需进行到 sqrt(n) 即可；程序第 15 行进行了超过 sqrt(n) 部分的质数统计；",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "素数的线性筛法时间复杂度为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n log log n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n^2)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 素数表的线性筛法线性筛法 ( 欧拉筛 ) 是一个能够做到 O(n) 的时间复杂度，也就是线性的质数筛法，是目前性能最优秀的质数筛法。一秒钟可以处理 1e8 范围的质数 ;B 选项为埃式筛法的复杂度，一秒钟可以处理 2e7 范围内的质数。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "归并排序的基本思想是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：动态规划"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：分治"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：贪心算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：回溯算法"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 分治算法 ( 归并排序和快速排序 )归并排序基于分治思想时间复杂度为 O(N *logN), 空间复杂度为 O(N) ；",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在快速排序中，选择的主元素(pivot)会影响算法的()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：不影响"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：时间复杂度"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：空间复杂度"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：时间复杂度和空间复杂度"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 分治算法 ( 归并排序和快速排序 )快速排序平均复杂度为 O(N *logN) ，对区间 [L,R], 每次选出主元素 pivot ，将区间划分为两部分，左侧子区间 ≤pivot, 右侧子区间 >pivot ，如果排序过程中这两个子区间一直比较均衡，则快速排序复杂度达到最优为 O(nlogn) ，比较极端时，某一个子区间一直不存在，此时排序复杂度达到上界 O(n²)",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "递归函数在调用自身时，必须满足()，以避免无限递归？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：有终止条件"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：函数参数递减（或递增）"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：函数返回值固定"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上都对"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 递归一个问题要用递归算法来解决，须满足以下三个条件：1. 能自己调用自己；2. 调用自己时问题规模有规律地递减；3. 有递归终止条件，也就是经过有限次调用，问题得到解决。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设给定链表为：1→3→5→7→nullptr,若调用 searchValue(head,5),函数返回值为()。\n```cpp\nint searchValue(ListNode* head, int target){\n    while (head != nullptr) {\n        if (head->val == target){\n            return 1；\n        }\n        head = head->next;\n    }\n    return 0；\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：返回1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：返回0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：死循环，无法返回"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：返回-1"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 单链表5 在单链表中存在，因此函数返回 1",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "辗转相除法用于求两个整数的最大公约数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 辗转相除法欧几里得算法 是用来求两个正整数最大公约数的算法。古希腊数学家欧几里得在其著作《 The Elements 》中最早描述这种算法 , 被命名为欧几里得算法。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "插入排序的时间复杂度是O(NlogN)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 排序算法 ( 插入排序 )插入排序的时间复杂度在平均情况下为 O(n²) ，最好情况下的时间复杂度为 O(n) ，最坏情况下的时间复杂度为 O(n²) 。这是因为：平均情况：当待排序数组中的元素分布较为均匀时，插入排序需要进行的比较次数大约是输入规模的一半，即 O(n²) 。最好情况：如果待排序数组已经是有序的，那么插入排序只需进行 n-1 次比较即可完成排序，此时的时间复杂度为 O(n) 。最坏情况：当待排序数组是完全逆序的，即所有元素都比前一个元素大（或小），此时需要进行的比较次数达到最大，即 1+2+3+…+N-1 ，总次数为 N(N-1)/2 ，因此时间复杂度为 O(n²) 。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二分查找要求被搜索的序列是有序的，否则无法保证正确性。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 二分查找二分查找的前提是查找的数据具备单调性",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用贪心算法解决问题时，每一步的局部最优解一定会导致全局最优解。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 贪心算法贪心算法 (greedy algorithm) 又称贪婪算法 ) 是一种常用的算法设计思想，用于解决最优化问题。基本思想是通过每一步的局部最优选择来达到全局最优解。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "分治算法的核心思想是将一个大问题分解成多个相同或相似的子问题进行解决，最后合并得到原问题的解。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 分治算法 ( 归并排序和快速排序 )分治法是一种很重要的算法。字面上的解释是“分而治之”，就是把一个复杂的问题分成两个或更多的相同或相似的子问题，再把子问题分成更小的子问题……直到最后子问题可以简单的直接求解，原问题的解即子问题的解的合并。分治法的精髓：分 -- 将问题分解为规模更小的子问题；治 -- 将这些规模更小的子问题逐个击破；合 -- 将已解决的子问题合并，最终得出“母”问题的解",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "分治算法的典型应用之一是归并排序，其时间复杂度为O(NlogN)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 分治 算法 ( 归并排序和快速排序 )归并排序基于分治思想时间复杂度为 O(N *logN), 空间复杂度为 O(N) ；",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "素数表的埃氏筛法和线性筛法的时间复杂度都是O(NloglogN)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 素数表的埃氏筛法和线性筛法线性筛法 ( 欧拉筛 ) 是一个能够做到 O(n) 的时间复杂度，也就是线性的质数筛法，是目前性能最优秀的质数筛法。一秒钟可以处理 1e8 范围的质数 ; 埃式筛法的复杂度为 O(NloglogN) ，一秒钟可以处理 2e7 范围内的质数。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法是一种可以应用于所有问题的通用解决方案。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 贪心算法贪心算法核心思想是选择当前状态下的最佳选择，动态规划的核心思想应该是“最优子结构”和“重叠子问题”。贪心不能解决动态规划类问题。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "单链表和双链表都可以在常数时间内实现在链表头部插入或删除节点的操作。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 单链表、双链表无论是单链表还是双链表，头结点是一开始就可以访问的，做链表的插入操作即可。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C语言中，递归的实现方式通常会占用更多的栈空间，可能导致栈溢出。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 递归递归调用的特点是每递归一次，就要创建一个新的栈帧，而且还要保留之前的环境（栈帧），直到遇到结束条件。所以递归调用一定要明确好结束条件，不要出现死循环，而且要避免栈太深。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 61
+}

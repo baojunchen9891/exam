@@ -1,0 +1,980 @@
+{
+ "id": "lele-gesp-cpp-202406-l4",
+ "title": "202406 CCF-GESP编程能力等级认证C++4级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 4,
+ "levelName": "4级",
+ "yearmonth": "202406",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列代码中，输出结果是()\n1 #include<iostream>\n2 using namespace std;\n3\nint func(int x,int y)\n4旦{\n5\nint a=x,b=y;\n6\nint t;\n7\nt=a;\n8\na=b\n9\nb=t;\n10\ncout<<a<<\"\"<<b<<\"\";\n11\n12\nint main(\n13\n日\n{\n14\nint c,d;\n15\nc=12;\n16\nd=24;\n17\nfunc(12,24);\n18\ncout<<c<<”\"<d<endl;\n19\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：12242412"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：24 121224"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：12 12 2424"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：24 24 1212"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 函数的定义与调用【解析】模拟一下 func() 函数的过程，可以发现它将变量 x 和 y 的值进行了交换，而传入的 x 、 y 的分别是 12 和 24 ，交换之后便是 24 和 12 ，因此前两个数输出 24 和 12 ，后两个数字就是顺序输出的 c 、 d 的值，也就是 12 和 24 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面函数不能正常执行的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：```cpp\n#include<iostream>\n2\nusing namespace std:\n3\nint func()\n4旦{\n5\n//...\nA.\n6\nL}\n7\nint main()\n8旦{\n//..\nL\n}\n```"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：```cpp\n#include<iostream>\n2\nusing namespace std;\n3\nint main()\n4\n{\n5\nfunc();\nB.\n6\n<\n}\n7\nint func()\n8日\n{\n9\n//...\n10\n<\n```"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：```cpp\n#include<iostream>\n2\nusing namespace std;\n3\nint func()\n4\n{\n5\n//..\nC.\n6\nL\n2\n>\nint main()\n8\n{\n9\nfunc();\n10\n11\n```"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：```cpp\n#include<iostream>\n2\nusing namespace std;\n3\nint func();\n4\nint main()\n5日\n{\nD.\n6\nfunc();\n7\n√\n}\n8\nint func()\n9\n10\n//...\n11\n}\n```"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 函数的定义与调用【解析】在调用函数之前，应该先定义函数。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序输出的是()\n1\n#include<iostream>\n2\nusing namespace std;\n3 int main()\n4旦{\n5\nint a[2][3]={0};\n6\ncout<<a<<endl;\n8\nL"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0x6ffe04"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：0x6ffe0C"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0x6ffe08"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0x6ffe00"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 形参与实参、作用域【解析】注意 for 循环内部的变量 i 只作用于 for 循环内部，因此第二个输出的数应该是 10 ；而第 6 行的变量 i 的作用域则不包含 for 循环内部的部分，因此第 3 、 4 个数的值取决于第 6 行变量 i 的初始值，模拟计算一下即可。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设变量a的地址是0x6ffe14,下面程序的输出是()。\n1 #include<iostream>\n2\nusing namespace std;\n3\nint main()\n4旦{\n5\nint *p;\n6\nint a=10;\n7\np=&a;\n8\np++;\ncout<<p<<endl;\n10\nL"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：0x6ffe14"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0x6ffe15"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0x6ffe18"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： C++ 指针类型的概念及基本应用【解析】一个 int 变量占 4 字节，因此当指针 p 移动到下一个地址时，应当加上对应的字节数 4 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "如果下列程序输出的地址是0x6ffe00,则cout<<a+1<<endl;输出的是()"
+    }
+   ],
+   "options": [],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： C++ 指针类型的概念及基本应用【解析】一个 int 变量占 4 字节，而 a 是一个 2*3 规模的二维数组，相当于是 2 个 3 长度的一维数组； a 的地址是第 0 个数组的第 0 个元素的地址，而 a+1 的地址是第 1 个数组的第 0 个元素的地址；中间间隔了 3 个 int 变量，因此应当加上对应的总字节数 12 。",
+   "auto": false
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "C+中，关于文件路径说法错误的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：\"GESP.txt\":指定与当前工作目录中的程序文件相同目录中的 GESP.txt文件"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：\"./data/GESP.txt\":指定与当前工作目录中的程序文件上一级目录下的 data目录中的GESP.txt 文件"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：\"./data/GESP.txt\":指定与当前工作目录中的程序文件同级目录下的 data 目录中的GESP.txt文件"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：\"GESP.txt\"是绝对路径"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 文件重定向【解析】当“ GESP.txt” 文件前面没有其他前置路径的时候，其表示的意思就是与当前 ⼯ 作 ⽬ 录中的程序 ⽂ 件相同 ⽬ 录中的 GESP.txt ⽂ 件",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于直接插入排序，下列说法错误的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：插入排序的最好情况是数组已经有序，此时只需要进行n-1次比较，时间复杂度为O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：最坏情况是数组逆序排序，此时需要进行n(n-1)/2次比较以及n-1次赋值操作（插入）"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：平均来说插入排序算法的复杂度为O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：空间复杂度上，直接插入法是就地排序，空间复杂度为O(n)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 排序算法【解析】就地排序只需要 O(1) 的额外空间。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序横线处，应该输入的是()。\n1\n#include<iostream>\n2\nusing namespace std;\n3\nint n,a[10001];\n4\nvoid swap(int &a,int &b)\n5日\n{\n6\nint t=a;\n7\na=b;\n8\nb=t;\n9\n<\n}\n10\nint main()\n11日\n12\ncin>>n;\n13\nfor(int i=1;i<=n;i++)\n14\ncin>>a[i];\n15\nfor(int i=n;i>1;i--)\n16\nfor(int j=1;j<i;j++)\n17\nif(a[j]>a[j+1])\n18\n19\nfor(int i=1;i<=n;i++)\n20\ncout<<a[i]<<\"\";\n21\ncout<<endl;\n22\nreturn 0；"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：swap(a[j],a[j+1]);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：swap(a[j-1],a[j]);"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：swap(a[j-1],a[j+1]);"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：swap(&a[j-1],&a[j+1]);"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 排序算法【解析】考察冒泡排序的过程，不断地把较大的值往后放，因此，如果 a[j]>a[j+1] 成立，说明 a[j] 是较大的值，应当通过交换操作来将 a[j] 换到后面去。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面关于递推的说法不正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：递推表现为自己调用自己"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：递推是从简单问题出发，一步步的向前发展，最终求得问题。是正向的"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：递推中，问题的n要求是在计算中确定，不要求计算前就知道n"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：斐波那契数列可以用递推实现求解"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 递推算法【解析】自己调用自己是递归的表现，而不是递推，注意区分。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于几种排序算法的说法，下面说法错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：选择排序不是一个稳定的排序算法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：冒泡排序算法不是一种稳定的排序算法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：插入排序是一种稳定的排序算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果排序前2个相等的数在序列中的前后位置顺序和排序后它们2个的前后位置顺序相同，则称为一种稳定的排序算法"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排序算法【解析】在冒泡排序中，两个元素交换的条件是 a[j]>a[j+1] ，如果两个元素的值相等，他们并不会发生交换，因此是一种稳定的排序算法。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "数组{45,66,23,1,10,97,52,88,5,33}进行从小到大冒泡排序过程中，第一遍冒泡过后的序列是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：{45,23,1,10,66,52,88,5,33,97}"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：{45,66,1,23,10,97,52,88,5,33}"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{45,66,23,1,10,52,88,5,33,97}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：{45,66,23,1,10,97,52,88,33,5}"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 排序算法【解析】按照冒泡排序的过程模拟一遍即可， 66 会被一直交换到 97 的前面的位置， 97 会被一直交换到数组末尾的位置。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的排序算法程序中，横线处应该填入的是()。\n1\nint a[8]={ 2,3,4,5,6,2,3,1}；\n2\nfor (int i=1;i<8;i+)\n3\n{\n4\n5\nint key = a[i];\n6\nint j=i-1;\n7\nwhile(a[j]>key && j>=0)\n8\n{\n9\n;\n10\nj-=1;\n11\n12\n}\n13\na[j+ 1]= key;\n14\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a[j]=a[j-1];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：a[j]=a[j+1];"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a[j+1]=a[j-1];"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：a[j+1]=a[j];"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 排序算法【解析】考察插入排序的过程，不断地将 a[i] 与前面的数字比较，以便找到合适的位置插入进去；因此，在已排好序的部分中，所有比 a[i] 大的数字都要整体往右移动一个单位；若 a[j] 比 a[i] 大，那么它往右移动一个单位之后的位置是 j+1 ，所以应该将 a[j] 赋值给 a[j+1] 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的程序中，如果输入100，会输出()。\n#include<iostream>\n1234\nusing namespace std;\ndouble Division(int a, int b)\n5\n{\n6\n7\nif (b = 0)\n8\nthrow \"Division by zero condition!\";\n9\n10\nelse\n11\nreturn(double)a /(double)b);\n12\n13\n14\nvoid func()\n15\n{\n16\nint len, time;\n17\ncin >> len >> time;\n18\ncout < Division(len, time)<< endl;\n19\n28\n21\nint main()\n22\n23\ntry {\n24\nfunc();\n25\n26\ncatch (const char* errmsg)\n27\n28\ncout < errmsg < end1;\n29\n30\ncatch (const int errmsg)\n31\n32\ncout << errmsg < end1;\n33\n34\nreturn ；"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Division by zero condition!"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：10"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：100"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 函数的定义与调用、函数参数传递【解析】输入 len=10 与 time=0 ，分别传入 Division() 函数中的 a 、 b ，于是有 a=10 、 b=0 ，条件 b==0 成立。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "10条直线，最多可以把平面分为多少个区域()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：55"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：56"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：54"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：58"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 贪心【解析】当第 x 条直线加入进来的时候，我们总有一种贪心的方法，让这条直线与前面的所有 x-1 条直线相交，每发生一次相交都会额外产生一个区域，因此会产生 x-1 个区域，再加上整个平面本身会被分割一次，所以会产生 x 个区域，于是 10 条直线能够分割出来的区域数量就是 1+2+3+4+5+6+7+8+9+10=55 ，最后不要忘记整个平面本身最初也有一个区域，所以还要加 1 ，答案是 55+1=56 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序中，如果语句 cout<p<endl;输出的是0x6ffe00,则cout<+p<<endl;输出的是()\nint x[10][10][10]={0};\n12345\nint *p;\np=&x[0][0][0];\ncout<<p<<endl;\ncout<<+p<endl;"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0x6ffe0c"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：0x6ffe09"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0x6ffe06"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0x6ffe04"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： C++ 指针类型的概念及基本应用【解析】一个 int 变量占 4 字节， p 指针指向了 x 数组的首地址，因此，在 ++p 之后， p 指针移动到了下一个元素的地址，需要加上对应的 int 变量的字节数。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "int&a和&a是一样的，都是取a的地址。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： C++ 指针类型的概念及基本运用【解析】 &a 是取 a 的地址，而 int& a 是引用变量，作用是获取某个变量的“引用”，即给某一个变量起一个别名。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "以下代码不能够正确执行。\n1\n#include<iostream>\n2\nusing namespace std;\n3\nint main()\n4\n日\n{\n5\nint a=20;\n6\nint& ra;\n7\nra=&a;\n8\ncout<<ra<endl;\n9"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 指针类型的概念及基本运用【解析】同上一题， int& ra 是引用变量，需要在定义时设置一个初始值。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "引用是一个指针常量。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 指针类型的概念及基本运用【解析】指针常量指向的内存地址无法修改，而指向的内存地址对应的值可以修改。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面程序两个输出结果是一样的。\n1\n#include<iostream>\n2\nusing namespace std;\n3\nint main()\n4日\n567\nint a[2][3]={0};\ncout<<a<<endl;\ncout<&a[0][0]<end1;\n8"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 指针类型的概念及基本运用【解析】输出 a 即直接输出数组 a 的首地址，而 a[0][0] 是数组 a 的第 0 个元素，因此 &a[0][0] 相当于就是取了第 0 个元素的地址，即首地址。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "函数不可以调用自己。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 函数的定义与使用【解析】递归算法的实现就是“函数调用自己”。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "函数参数传递过程中，如果传常量值、常量引用和常量指针都是不能被修改的，它们可以防止函数对实参的值或地址进行修改。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 指针类型的概念及基本运用【解析】常量无法被修改，因此若想要实参的值不被修改，传入常量即可。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面代码输出的值等于0。\n1\n#include<iostream>\n2\nusing namespace std;\n3\nint main()\n4\n早{\n5\nint *p=NULL;\n6\ncout<<p<<endl;\n7\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 指针类型的概念及基本运用【解析】空指针指向 0 地址。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在下面这个程序里，a[i][j]和一个普通的整型变量一样使用。\n1 #include<iostream>\n2\nusing namespace std;\n3\nint main()\n4日\n{\n5\nint a[10][10]={0};\n6\nfor(int i=0;i<10;i++)\n8\nfor(int j=0;j<10;j++)\n9\n{\n10\nif(i=j)\n11日\n12\na[i][j]=1;\n13\n14\n15\n16"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 二维数组与多维数组的应用【解析】整型二维数组中的每一个元素都是一个整型变量。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一个一维数组，至少含有一个自然数N,是一个合法的数列。可以在一维数组末尾加入一个自然数M,M不能超过一维数组末尾元素的一半，形成一个新的合法的一维数组，如果N=6,那么可以有6个不同的合法数组。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 递推【解析】合法的 6 个数组分别是 {6} 、 {6,1} 、 {6,2} 、 {6,3} 、 {6,3,1} 、 {6,2,1}",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "插入排序算法中，平均时间复杂度是O(n2),最坏的情况逆序情况下，达到最大时间复杂度。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 排序算法【解析】在最坏的逆序情况下，每一个元素都会被插入到已排好序部分的最前面。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 78
+}

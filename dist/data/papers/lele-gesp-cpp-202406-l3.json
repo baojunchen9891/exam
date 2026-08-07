@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202406-l3",
+ "title": "202406 CCF-GESP编程能力等级认证C++3级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 3,
+ "levelName": "3级",
+ "yearmonth": "202406",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨父母带他到某培训机构给他报名参加CCF组织的GESP认证考试的第1级，那他可以选择的认证语言有( )种。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.4"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：可选语言：图形化编程、C++、Python",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面流程图在yr输入2024时，可以判定yr代表闰年，并输出2月是29天，则图中菱形框中应该填入()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.(yr%400=0)||(yr%4=0)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.(yr%400==0)|(yr%4=0 && yr%100!=0)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.(yr%400=0)&(yr%4=0)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.(yr%400==0)&(yr%4=0 && yr%100!=0)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 未明确说明解析：判断闰年，闰年定义：普通闰年：公历年份是4的倍数，且不是100的倍数的，为闰年（如2004年、2020年等就是闰年）。世纪闰年：公历年份是整百数的，必须是400的倍数才是闰年（如1900年不是闰年，2000年是闰年）。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一般默认64位计算机系统中整型变量(int)还是32位，则整数能够表示的数据范围是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.0~232"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.0~264"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.-231~(231)-1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.-263~(263)-1"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：int一32位，其中1位为符号位，其余31位表示数值，范围-2^31 ~ (2^31)-1",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列代码将十进制转化成八进制，则横线上应填入()。\n```cpp\n#include <iostream>\nusing namespace std;\nvoid decimal2octal(int decimal){\n    int oct_number[100];\n    int i= 0;\n    while(decimal > 0){\n        //在此处填入代码\n    }\n    for (int j = i - 1; j >= 0; j--){\n        cout << oct_number[j];\n    }\n    cout << endl;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A. oct_number[i] = decimal%8; decimal /= 8;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. oct_number[i] = decimal / 8; decimal %/= 8;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. oct_number[i+] = decimal %8; decimal /= 8;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D. oct_number[i++] = decimal / 8; decimal %= 8;"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：每放入一个数值，i需要+1，即需要使用oct_number[i++]，存入的数值为整除8之后的余数，即decimal%8，然后decimal需要重新赋值为整除8之后的值",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "二进制数101.11对应的十进制数是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.6.5"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.5.5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.5.75"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.5.25"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：按位权展开，整数末尾位为R^0，向高位递增，低位递减，因此1 0 1 .1 12^2 2^1 2^0 2^-1 2^-2即12^2+02^1+12^0+12^-1+1*2^-2=5.75",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列流程图的输出结果是()。\nNO\n输出sum\n结束\nYES\nsum增加1\nsum=0\n开始\ni<5\nYES\nj=0\nj<i\nNO\ni=0\ni增加1\nj增加1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.5"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.20"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.30"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 未明确说明解析：嵌套循环语句，外层循环5次，i的值从0~4，内层循环i次，j从0~i，内层循环一次sum增加1，即sum记录内层循环的循环次数sum=0+1+2+3+4=10",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列代码的输出结果是()。\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 12;\n    int result = a >> 2;\n    cout << result << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.12"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.6"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.1"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：>>2快速计算为除以2^2，然后向下取整，即12/4=3，需要注意，如果输入的数不够除以2，会输出0",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列代码的输出结果是()。\n```cpp\n#include <iostream>\nusing namespace std;\nint main(){\n    int a = 5;\n    int b= 10;\n    a=a^b;\n    b=a^b;\n    a=a^b;\n    cout << \"a =\"<< a << \"，b =\"<< b << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.a=5,b=10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.a=5,b=5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.a=10,b=5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.a=10,b=10"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：本题使用异或^来交换两个变量的值",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "如果字符串定义为char str[]=\"GESP\";，则字符数组 str的长度为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.4"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.6"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：\"GESP\"除了四个字符，末尾还有不可见字符'\\0'",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在下列代码的横线处填写()，可以使得输出是“7”。\n```cpp\n#include <iostream>\nusing namespace std;\nint main(){\n    int array[5] = {3,7,5,2,4};\n    int max = 0;\n    for(int i=0; i<5; i++)\n        if( //在此处填入代码 )\n            max = array[i];\n    cout << max << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.max >array[i]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. max< array[i]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. max= array[i]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.以上均不对"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 未明确说明解析：计算最大值，打擂台，如果array[i]比max更大，max记录array[i]的值",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨在做数学题，题目要求找出从1到35中能被7整除的数字，即[7,14,21,28,35]，则横线处应填入哪个代码？()\n```cpp\n#include <iostream>\nusing namespace std;\nint main(){\n    int arr[35];\n    int count = 0;\n    for (int i= 1; i <= 35; i++) {\n        if(i%7==0)\n            //在此处填入代码\n    }\n    for (int i = 0; i < count; i++)\n        cout << arr[i] << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A. arr[count++] = i;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. arr[i] = count++;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. arr[i] = count;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D. arr[count] = count++;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 未明确说明解析：count变量用于记录当前已经储存的数的个数，也可做下标，初始值为0，记录数值i之后+1，即arr[count++]=i。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知字符'0'的ASCII编码的十进制表示为48，则执行下面C++代码后，输出是()。\n```cpp\n#include <iostream>\nusing namespace std;\nint main(){\n    string s = \"0629\";\n    int n = s.length();\n    int x= 0;\n    for(int i= 0; i< n; i++)\n        x += s[i];\n    cout << x << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A.17"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B.158"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C.209"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.316"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 未明确说明解析：本题计算字符串s中所有字符的ASCII码的和，x=48+(48+6)+(48+2)+(48+9)=48*4+(6+2+9)=209",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某小学男子篮球队招募新成员，要求加入球队的成员身高在135厘米以上（不含135厘米）。本次报名的人员有10人，他们的身高分别是125、127、136、134、137、138、126、135、140、145。完善以下代码，求出本次球队能够招募到新成员的人数？()\n```cpp\n#include <iostream>\nusing namespace std;\nint main(){\n    int arr[10] = {125,127,136,134,137,138,126,135,140,145};\n    int count = 0;\n    for(int i=0; i<10; i++)\n        //在此处填入代码\n    cout << count << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A. count = arr[i]>135? 1: 0;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. count += arr[i]>135? 1: 0;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. count++;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.以上都不对"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 未明确说明解析：三目运算符：条件？条件成立：条件不成立 本题为arr[i]>135那么count+=1，否则count+=0",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面可以正确输出 They're planning a party for their friend's birthday.的C++语句是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A. cout << 'They\\'re planning a party for their friend'\\s birthday.' << endl;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. cout << \"They\\'re planning a party for their friend's birthday.'<< endl;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. cout << 'They're planning a party for their friend's birthday.'<< endl;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D. cout << \"They\\'re planning a party for their friend\\'s birthday.\" << endl;"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 未明确说明解析：C++中字符串为成对的双引号；另外考察转义字符，由于'有特殊含义，因此可以使用\\'来转义输出（'可用可不用，有些特殊字符必须加转义字符\\）",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "如果执行下面C++代码后，输出的结果是“gesp ccforg cn”，则横线上应填入哪个代码？()\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    string str=\"gesp.ccf.org.cn\";\n    string delimiter = \".\";\n    string result=\"\";\n    string token;\n    size_t found = str.find(delimiter);\n    while(found != string::npos){\n        token = str.substr(0, found);\n        result += token;\n        result += \" \";\n        //在此处填入代码\n        found = str.find(delimiter);\n    }\n    //最后一部分\n    result += str;\n    result += \" \";\n    cout << result << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A. str = str.substr(found + delimiter.length(), str.length() - 1);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. str = str.substr(found, str.length());"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. str = str.substr(found, str.length() -1);"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D.以上都不对"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 未明确说明解析：缺失部分为保留找到的第一个delimiter之后的字符，因此从found+delimiter.length()开始截取，直到最后",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "GESP测试是对认证者的编程能力进行等级认证，同一级别的能力基本上与编程语言无关。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 未明确说明解析：本题考察对GESP的认识，GESP认证是对认证者的编程能力进行等级认证，同一级别的能力基本上与编程语言无关",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "整数-6的16位补码可用十六进制表示为FFFA。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 未明确说明解析：6=(1000 0000 0000 0110)原=(1111 1111 1111 1001)反=(1111 1111 1111 1010)补使用四位对一位快速转换，对应16进制补码FFFA",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "补码的优点是可以将减法运算转化为加法运算，从而简化计算机的硬件设计。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 未明确说明解析：例如计算1-1就可以转化为1+(-1)的补码",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "字符常量'\\0'常用来表示字符串结束，和字符常量'0'相同。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 未明确说明解析：'\\0'表示字符串结束，ASCII码为0，字符'0'ASCII为48",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "数组的所有元素在内存中可以不连续存放。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 未明确说明解析：数组无论是物理上（内存），还是逻辑上（下标），均是连续的",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++中可以对数组和数组的每个基础类型的元素赋值。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 未明确说明解析：数组中的元素可以赋值，数组不行",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果a为int类型的变量，且表达式(a|3)==3的值为true，则说明a在从0到3之间（可能为0、可能为3）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 未明确说明解析：((a|3)==3)表示a的2进制数后除后两位均为0，后两位值不限，因此范围0~3，包含0和3",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下面C++代码后，输出的结果是8。\n```cpp\nint a = 0b1010;\nint b = 01100;\nint c= a & b;\ncout << c <<endl;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 未明确说明解析：a为2进制1010，0b为2进制表示形式 b为8进制1100，0为8进制的表示形式",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下面C++代码后，输出的结果不可能是89781。()\n```cpp\n#include <iostream>\n#include <cstdlib>\n#include <ctime>\nusing namespace std;\nint main(){\n    srand(time(NULL));\n    int i= 1;\n    int s[5];\n    while(i <= 5)\n    {\n        int a = rand()% 10;\n        if(a%3==(i+1)%3)\n            s[i++]= a;\n    }\n    for(int i = 1; i <= 5; i++)\n        cout << s[i];\n    cout << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 未明确说明解析：限制a为0~9之间的随机数i和(i+1)%3的对应关系：i 1 2 3 4 5(i+1)%3 2 0 1 2 0当(i+1)%3值为0时，a可以为0、3、6、9当(i+1)%3值为1时，a可以为1、4、7当(i+1)%3值为2时，a可以为2、5、8因此第一位可以为2、5、8，第二位可以为0、3、6、9，第三位可以为1、4、7，第四位可以为2、5、8，第五位可以为0、3、6、9 因此89781的最后一位不符合",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "把整数3025从中剪开分为30和25两个数，此时再将这两数之和平方，计算结果又等于原数。(30+25)×(30+25)=55×55=3025，这样的数叫“雷劈数”。可以使用枚举的方法求出所有符合这样条件的四位数。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 未明确说明解析：枚举：列举所有情况，找出符合要求的情况。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 77
+}

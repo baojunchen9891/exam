@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202506-l5",
+ "title": "202506 CCF-GESP编程能力等级认证C++5级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202506",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "与数组相比，链表在()操作上通常具有更高的效率。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：随机访问元素"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：查找指定元素"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：在已知位置插入或删除节点"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：遍历所有元素"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 链表与数组的特性对比，链表在插入和删除操作上的优势解析：数组的随机访问效率高（通过索引直接访问），但插入删除需要移动大量元素；链表随机访问效率低（需从头遍历），但在已知位置插入删除只需修改指针，效率更高。遍历和查找效率两者相近，因此选 C 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面C++代码实现双向链表。函数is_empty()判断链表是否为空，如链表为空返回true,否则返回false。横线处不能填写()。\n```cpp\nstruct Node {\n    int data;\n    Node* prev;\n    Node* next;\n};\n\nstruct DoubleLink {\n    Node* head;\n    Node* tail;\n    int size;\n\n    DoubleLink(){\n        head = nullptr;\n        tail = nullptr;\n        size = 0;\n    }\n\n    ~DoubleLink(){\n        Node* curr = head;\n        while(curr){\n            Node* next = curr->next;\n            delete curr;\n            curr = next;\n        }\n    }\n\n    bool is_empty() const {\n        // 横线处\n    }\n};\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：return head == nullptr;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：return tail == nullptr;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：return head.data == 0;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：return size = 0;"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 双向链表的基本操作，空链表的判断条件解析：链表为空时， head 和 tail 均为 nullptr ， size 为 0 ，因此 A 、 B 、 D 均正确。 C 选项错误，因为 head 是指针，空链表中 head 为 nullptr ，访问 head.data 会导致空指针异常。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "基于上题代码正确的前提下，填入相应代码完善append(),用于在双向链表尾部增加新节点，横线上应填写()。\n```cpp\nvoid append(int data){\n    Node* newNode = new Node{data, nullptr, nullptr};\n    if(is_empty()){\n        head = tail = newNode;\n    } else {\n        // 横线处\n        ++size;\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：tail->next = newNode;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：newNode->prev = tail; tail = newNode;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：tail = newNode; newNode->prev = tail; tail->next = newNode;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：tail->next = newNode; newNode->prev = tail; tail = newNode;"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 双向链表的插入操作，链表节点指针的调整解析：在尾部添加节点需完成三步： 1. 原尾节点的 next 指向新节点； 2. 新节点的 prev 指向原尾节点； 3. 更新 tail 为新节点。 A 缺少后两步， B 缺少第一步， C 顺序错误（先更新 tail 会导致指针错误），因此 D 正确。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列C++代码用循环链表解决约瑟夫问题，即假设n个人围成一圈，从第一个人开始数，每次数到第k个的人就出圈，输出最后留下的那个人的编号。横线上应填写()。\n```cpp\nstruct Node {\n    int data;\n    Node* next;\n};\n\nNode* createCircularList(int n){\n    Node* head = new Node{1, nullptr};\n    Node* prev = head;\n    for (int i = 2; i <= n; ++i){\n        Node* node = new Node{i, nullptr};\n        prev->next = node;\n        prev = node;\n    }\n    prev->next = head;\n    return head;\n}\n\nint findLastSurvival(int n, int k){\n    Node* head = createCircularList(n);\n    Node* p = head;\n    Node* prev = nullptr;\n    while(p->next != p){\n        for (int count = 1; count < k; ++count){\n            prev = p;\n            p = p->next;\n        }\n        // 横线处\n    }\n    cout << \"最后留下的人编号是：\" << p->data << endl;\n    delete p;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：prev->next = p->next; delete p; p = prev->next;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：delete p; prev->next = p->next; p = prev->next;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：delete p; p = prev->next; prev->next = p->next;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：prev->next = p->next; p = prev->next; delete p;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 循环链表的应用，约瑟夫问题的解决思路解析：约瑟夫问题中，出圈操作需先将前一个节点的 next 指向当前节点的下一个节点（跳过当前节点），再删除当前节点，最后更新当前指针。 B 和 C 先删除 p 会导致无法访问 p->next ， D 删除了新的 p 导致错误，因此 A 正确。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列C++代码判断一个正整数是否是质数，说法正确的是()。\n```cpp\nbool is_prime(int n){\n    if (n <= 1)\n        return false;\n    if(n == 2 || n == 3 || n == 5)\n        return true;\n    if(n % 2 == 0 || n % 3 == 0 || n % 5 == 0)\n        return false;\n    int i = 7;\n    int step = 4;\n    int finish_number = sqrt(n) + 1;\n    while (i <= finish_number){\n        if(n % i == 0)\n            return false;\n        i += step;\n        step = 6 - step;\n    }\n    return true;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码存在错误，比如5是质数，但因为5%5余数是0返回了false"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：finish_number的值应该是n/2,当前写法将导致错误"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：当前while循环正确的前提是：所有大于3的质数都符合6k±1形式"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：while循环修改如下，其执行效果和执行时间相同。\nfor (int i = 2; i < finish_number; i++){\n    if(n % i == 0)\n        return false;\n}\nreturn true;"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 质数的判断方法，质数的数学性质及算法优化解析： A 错误，代码中 n==5 直接返回 true ，不会执行后续判断； B 错误，判断质数只需检查到 sqrt(n) 即可； C 正确，大于 3 的质数均为 6k±1 形式（即循环中 i 按 7,11,13,17... 递增）； D 错误，修改后的循环会检查更多数字（如 4,6 等），执行时间更长。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列C++代码用两种方式求解两个正整数的最大公约数，说法错误的是()。\n```cpp\nint gcd0(int big, int small){\n    if (big < small){\n        swap(big, small);\n    }\n    if (big % small == 0){\n        return small;\n    }\n    return gcd0(small, big % small);\n}\n\nint gcd1(int big, int small){\n    if (big < small){\n        swap(big, small);\n    }\n    for (int i = small; i >= 1; --i){\n        if(big % i == 0 && small % i == 0)\n            return i;\n    }\n    return 1;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：gcd0()函数的时间复杂度为O(log n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：gcd1()函数的时间复杂度为O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：一般说来，gcd0()的效率高于gcd1()"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：gcd1()中的代码for (int i = small; i >= 1; --i)应该修改为for (int i = small; i > 1; --i)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 最大公约数的求解算法，算法时间复杂度分析解析： A 正确， gcd0 是辗转相除法，时间复杂度 O(logn) ； B 正确， gcd1 是枚举法，最坏情况需遍历到 1 ，复杂度 O(n) ； C 正确，辗转相除法效率远高于枚举法； D 错误，若两数最大公约数为 1 （如 2 和 3 ），修改后循环会漏掉 i=1 ，导致错误。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的代码用于判断整数n是否是质数，错误的说法是()。\n```cpp\nbool is_prime(int n){\n    if (n <= 1) return false;\n    int finish_number = static_cast<int>(sqrt(n)) + 1;\n    for (int i = 2; i < finish_number; ++i){\n        if(n % i == 0)\n            return false;\n    }\n    return true;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：埃氏筛算法相对于上面的代码效率更高"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：线性筛算法相对于上面的代码效率更高"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：上面的代码有很多重复计算，因为不是判断单个数是否为质数，故而导致筛选出连续数中质数的效率不高"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：相对而言，埃氏筛算法比上面代码以及线性筛算法效率都高"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 质数判断算法，不同质数筛选算法的效率比较解析： A 、 B 正确，埃氏筛和线性筛均为批量筛选质数的算法，效率高于单个判断的代码； C 正确，单个判断代码对连续数会重复计算； D 错误，线性筛效率高于埃氏筛（线性筛每个数仅被筛一次），因此 D 说法错误。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "唯一分解定理描述了关于正整数的什么性质？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：任何正整数都可以表示为两个素数的和。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：任何大于1的合数都可以唯一分解为有限个质数的乘积。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：两个正整数的最大公约数总是等于它们的最小公倍数除以它们的乘积。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：所有素数都是奇数。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 唯一分解定理的概念，正整数的质因数分解性质解析：唯一分解定理（算术基本定理）指出：任何大于 1 的自然数，要么本身是质数，要么可以唯一分解为有限个质数的乘积。 A 是哥德巴赫猜想， C 公式错误（正确为 1cm(a,b)=a*b/gcd(a,b) ）， D 错误（ 2 是质数且为偶数），因此 B 正确。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的C++代码，用于求一系列数据中的最大值。有关其算法说法错误的是()。\n```cpp\nint find_max_recursive(const vector<int>& nums, int left, int right) {\n    if(left == right)\n        return nums[left];\n    int mid = left + (right - left) / 2;\n    int left_max = find_max_recursive(nums, left, mid);\n    int right_max = find_max_recursive(nums, mid + 1, right);\n    return max(left_max, right_max);\n}\n\nint find_max(const vector<int>& nums){\n    if(nums.empty()){\n        throw invalid_argument(\"输入数组不能为空\");\n    }\n    return find_max_recursive(nums, 0, nums.size() - 1);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：该算法采用分治算法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：该算法是递归实现"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：该算法采用贪心算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：该算法不是递推算法"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 分治算法、递归算法的概念及应用，与贪心算法的区别解析：该算法将数组分为左右两部分，分别求最大值后合并，符合分治算法思想（分治 + 递归），因此 A 、 B 正确。贪心算法强调“局部最优即全局最优”，与该算法无关，故 C 错误。递推算法是迭代实现，该算法是递归，因此 D 正确。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的C++代码，用于求一系列数据中的最大值。有关其算法说法错误的是()。\n```cpp\nint find_max(const vector<int>& nums){\n    if(nums.empty()){\n        throw invalid_argument(\"输入数组不能为空\");\n    }\n    int max_value = nums[0];\n    for (int num : nums){\n        if(num > max_value){\n            max_value = num;\n        }\n    }\n    return max_value;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：本题find_max()函数采用的是迭代算法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：本题find_max()函数的时间复杂度为O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：和上一题的find_max()相比，因为没有递归，所以没有栈的创建和销毁开销"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：本题find_max()函数和上一题的find_max()时间复杂度相同"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 迭代算法的概念，时间复杂度分析，与递归算法的比较解析： A 正确，该算法用循环迭代实现； B 正确，需遍历所有元素，复杂度 O(n) ； C 正确，递归会产生栈开销，迭代不会； D 错误，上一题的分治算法时间复杂度是 O(logn) ，因此两者时间复杂度不同， D 说法错误。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的C++代码用于在升序数组lst中查找目标值target最后一次出现的位置。相关说法，正确的是()。\n```cpp\nint binary_search_last_occurrence(const vector<int>& lst, int target){\n    if(lst.empty()) return -1;\n    int low = 0, high = lst.size() - 1;\n    while(low < high){\n        int mid = (low + high + 1) / 2;\n        if(lst[mid] <= target){\n            low = mid;\n        } else {\n            high = mid - 1;\n        }\n    }\n    if (lst[low] == target)\n        return low;\n    else\n        return -1;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：当lst中存在重复的target时，该函数总能返回最后一个target的位置，即便lst全由相同元素组成"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：当target小于lst中所有元素时，该函数会返回-1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：循环条件改为while(low <= high)程序执行效果相同，且能提高准确性"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：将代码中(low + high + 1) / 2修改为(low + high) / 2效果相同"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二分查找的变体，查找目标值最后一次出现的位置及算法细节解析： A 正确，代码通过 mid = (low + high + 1)/2 实现“向上取整”，确保在重复元素中最终定位到最后一个； B 错误，此时 high 会减到 -1 ，最终 low 为 0 但 lst[0] > target ，返回 -1 ； C 错误，修改循环条件会导致死循环； D 错误，改为普通取整会导致在某些情况无法正确定位最后一个元素（如 low=2, high=3 时， mid 计算错误）。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面C++代码的说法，错误的是()。\n```cpp\ndouble sqrt_binary(long long n, double epsilon = 1e-10) {\n    if (n < 0){\n        throw invalid_argument(\"输入必须为非负整数\");\n    }\n    if (n == 0 || n == 1) return n;\n    //阶段1\n    long long low = 1, high = n;\n    long long k = 0;\n    while(low <= high){\n        long long mid = (low + high) / 2;\n        long long mid_sq = mid * mid;\n        if (mid_sq == n){\n            return mid;\n        } else if (mid_sq < n){\n            k = mid;\n            low = mid + 1;\n        } else {\n            high = mid - 1;\n        }\n    }\n    long long next_k = k + 1;\n    if (next_k * next_k == n){\n        return next_k;\n    }\n    //阶段2\n    double low_d = (double)k;\n    double high_d = (double)(k + 1);\n    double mid;\n    while (high_d - low_d >= epsilon){\n        mid = (low_d + high_d) / 2;\n        double mid_sq = mid * mid;\n        if (mid_sq < n){\n            low_d = mid;\n        } else {\n            high_d = mid;\n        }\n    }\n    double result = (low_d + high_d) / 2;\n    long long check_int = (long long)(result + 0.5);\n    if (check_int * check_int == n){\n        return check_int;\n    }\n    return result;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：“阶段1”的目标是寻找正整数n可能的正完全平方根"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：“阶段2”的目标是如果正整数n没有正完全平方根，则在可能产生完全平方根附近寻找带小数点的平方根"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：代码check_int = (long long)(result + 0.5)是检查因浮点误差是否为正完全平方根"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：阶段2的二分法中high_d - low_d >= epsilon不能用于浮点数比较，会进入死循环"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 二分法求平方根的算法，浮点数比较和精度处理解析： A 正确，阶段 1 通过整数二分查找完全平方数； B 正确，阶段 2 在整数区间内用浮点二分求近似值； C 正确， +0.5 是四舍五入，用于处理浮点误差； D 错误，浮点数比较 high_d - low_d >= epsilon 是可行的（当精度满足时退出），不会死循环。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "硬币找零问题中要求找给客户最少的硬币。coins存储可用硬币规格，单位为角，假设规格都小于10角，且一定有1角规格。amount为要找零的金额，约定必须为1角的整数倍。输出为每种规格及其数量，按规格从大到小输出，如果某种规格不必要，则输出为0。下面是其实现代码，相关说法正确的是()。\n```cpp\nconst int MAX_COINS = 10;\nint result[MAX_COINS] = {0}; // 假设最多10种面额\nint find_coins(const vector<int>& coins, int amount) {\n    sort(coins.begin(), coins.end(), greater<int>());\n    int n = coins.size();\n    for (int i = 0; i < n; ++i){\n        int coin = coins[i];\n        int num = amount / coin;\n        result[i] = num;\n        amount -= num * coin;\n        if (amount == 0) break;\n    }\n    cout << \"找零方案如下：\" << endl;\n    for (int i = 0; i < n; ++i){\n        cout << sorted_coins[i] << \"角需要\" << result[i] << \"枚\" << endl;\n    }\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：上述代码采用贪心算法实现"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：针对本题具体要求，上述代码总能找到最优解"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：上述代码采用枚举算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：上述代码采用分治算法"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 贪心算法的应用，硬币找零问题的求解策略解析： A 正确，代码先排序再优先使用最大面额硬币，符合贪心算法思想； B 错误，贪心算法并非对所有硬币组合都能得到最优解（如 coins=[1,3,4], amount=6 时，贪心会选 4+1+1 ，最优为 3+3 ）； C 、 D 错误，代码未使用枚举或分治。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于下述C++代码的快速排序算法，说法错误的是()。\n```cpp\nint randomPartition(std::vector<int>& arr, int low, int high){\n    int random = low + rand() % (high - low + 1);\n    std::swap(arr[random], arr[high]);\n    int pivot = arr[high];\n    int i = low - 1;\n    for (int j = low; j < high; j++){\n        if (arr[j] <= pivot){\n            i++;\n            std::swap(arr[i], arr[j]);\n        }\n    }\n    std::swap(arr[i + 1], arr[high]);\n    return i + 1;\n}\n\nvoid quickSort(std::vector<int>& arr, int low, int high) {\n    if (low < high){\n        int pi = randomPartition(arr, low, high);\n        quickSort(arr, low, pi - 1);\n        quickSort(arr, pi + 1, high);\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：在randomPartition函数中，变量i的作用是记录大于基准值的元素的边界"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：randomPartition函数随机选择基准值，可以避免输入数据特定模式导致的最坏情况下时间复杂度O(n^2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：快速排序平均时间复杂度是O(nlogn)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：快速排序是稳定排序算法"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 快速排序算法的原理，包括随机选择基准值、划分函数的作用、时间复杂度和稳定性解析： A 正确， i 始终指向小于等于基准值的最后一个元素，其右侧为大于基准值的元素； B 正确，随机选择基准值可避免有序数组等极端情况的 O(n2) 复杂度； C 正确，快排平均复杂度为 O(nlogn) ； D 错误，快排中相同元素的相对位置可能因交换改变，因此是不稳定排序。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨编写了一个如下的高精度除法函数，则横线上应填写的代码为()。\n```cpp\nconst int MAXN = 1005; // 最大位数\nstruct BigInt {\n    int d[MAXN]; // 存储数字，d[0]是个位，d[1]是十位，...\n    int len; // 数字长度\n    BigInt(){\n        memset(d, 0, sizeof(d));\n        len = 0;\n    }\n};\n\nint compare(BigInt a, BigInt b){\n    if(a.len != b.len) return a.len > b.len ? 1 : -1;\n    for(int i = a.len - 1; i >= 0; i--){\n        if(a.d[i] != b.d[i]) return a.d[i] > b.d[i] ? 1 : -1;\n    }\n    return 0;\n}\n\nBigInt sub(BigInt a, BigInt b){\n    BigInt c;\n    for(int i = 0; i < a.len; i++){\n        c.d[i] += a.d[i] - b.d[i];\n        if(c.d[i] < 0){\n            c.d[i] += 10;\n            c.d[i+1]--;\n        }\n    }\n    c.len = a.len;\n    while(c.len > 1 && c.d[c.len-1] == 0) c.len--;\n    return c;\n}\n\npair<BigInt, BigInt> div(BigInt a, BigInt b){\n    BigInt q, r; // q是商，r是余数\n    if(compare(a, b) < 0){ // 如果a < b, 商为0，余数为a\n        q.len = 1;\n        q.d[0] = 0;\n        r = a;\n        return make_pair(q, r);\n    }\n    // 初始化余数r为a的前b.len位\n    r.len = b.len;\n    for(int i = a.len - 1; i >= a.len - b.len; i--){\n        r.d[i - (a.len - b.len)] = a.d[i];\n    }\n    // 逐位计算商\n    for(int i = a.len - b.len; i >= 0; i--){\n        // 把下一位加入余数\n        if(r.len > 1 || r.d[0] != 0){\n            for(int j = r.len; j > 0; j--) {\n                r.d[j] = r.d[j-1];\n            }\n            // 横线处\n        } else {\n            // 横线处\n        }\n        // 计算当前位的商\n        while(compare(r, b) >= 0){\n            r = sub(r, b);\n            q.d[i]++;\n        }\n    }\n    // 确定商的长度\n    q.len = a.len - b.len + 1;\n    while(q.len > 1 && q.d[q.len-1] == 0) q.len--;\n    // 处理余数前导零\n    while(r.len > 1 && r.d[r.len-1] == 0) r.len--;\n    return make_pair(q, r);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：r.d[0] = a.d[i]; r.len++;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：r.d[i] = a.d[i]; r.len++;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：r.d[i] = a.d[i]; r.len = 1;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：r.d[0] = a.d[i]; r.len = 1;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 高精度除法的实现，大整数的存储和运算解析：高精度除法中，逐位计算时需将被除数的下一位移到余数的末尾。代码中先将余数左移（ r.d[ j] = r.d[ j-1] ），再在末尾（ r.d[0] ）补上下一位数字 a.d[i] ，同时长度加 1 。 B 和 C 错误使用了 i 作为索引， D 错误地重置了长度，因此 A 正确。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面C++代码是用欧几里得算法（辗转相除法）求两个正整数的最大公约数，a大于b还是小于b都适用。\n```cpp\nint gcd(int a, int b){\n    while(b){\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 辗转相除法（欧几里得算法）的特性，对输入数据大小关系的适应性解析：若 a < b ，第一次循环中 a % b 结果为 a ，随后 b 变为 a ， a 变为原 b ，即自动交换大小，因此无论 a 和 b 的初始大小如何，代码均适用。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "假设函数gcd()函数能正确求两个正整数的最大公约数，则下面的lcm()函数能求相应两数的最小公倍数。\n```cpp\nint lcm(int a, int b){\n    return a * b / gcd(a, b);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 最大公约数与最小公倍数的关系及计算方法解析：数学上，两数的最小公倍数等于两数乘积除以最大公约数 (lcm(a,b)=a*b/gcd(a,b)) ，因此在 gcd 正确的前提下，该函数正确。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的C++代码用于输出每个数对应的质因数列表，输出形如：{5：[5], 6：[2,3], 7：[7], 8：[2,2,2]}。\n```cpp\nint main(){\n    int n, m;\n    cin >> n >> m;\n    if (n > m) swap(n, m);\n    map<int, vector<int>> prime_factor;\n    for (int i = n; i <= m; ++i){\n        int j = 2, k = i;\n        while(k != 1){\n            if(k % j == 0){\n                prime_factor[i].push_back(j);\n                k /= j;\n            } else {\n                ++j;\n            }\n        }\n    }\n    for(auto& p : prime_factor){\n        cout << p.first << \"：\";\n        for(int v : p.second)\n            cout << v << \" \";\n        cout << endl;\n    }\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 质因数分解的算法实现，列表的正确操作方法解析：代码中 prime_factor[i] = prime_factor[i] + j 是错误的，数组不能直接与整数相加，正确写法应为 prime_factor[i].push_back( j) 。因此代码无法正确输出质因数列表。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的C++代码实现归并排序。代码在执行时，将输出一次HERE字符串，因为merge()函数仅被调用一次。\n```cpp\nvoid merge(std::vector<int>& arr, int left, int mid, int right){\n    std::vector<int> temp(right - left + 1);\n    int i = left;\n    int j = mid + 1;\n    int k = 0;\n    while (i <= mid && j <= right){\n        if(arr[i] <= arr[j]){\n            temp[k++] = arr[i++];\n        } else {\n            temp[k++] = arr[j++];\n        }\n    }\n    while (i <= mid){\n        temp[k++] = arr[i++];\n    }\n    while (j <= right){\n        temp[k++] = arr[j++];\n    }\n    for (int p = 0; p < k; ++p){\n        arr[left + p] = temp[p];\n    }\n}\n\nvoid mergeSort(std::vector<int>& arr, int left, int right) {\n    if (left >= right){\n        return;\n    }\n    int mid = left + (right - left) / 2;\n    mergeSort(arr, left, mid);\n    mergeSort(arr, mid + 1, right);\n    std::cout << \"HERE\";\n    merge(arr, left, mid, right);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 归并排序的递归过程及合并操作的调用次数解析：归并排序采用分治思想，会递归地将数组分为两半，每合并一次子数组就会调用一次 merge 函数。对于长度为 n 的数组， merge 函数的调用次数为（如长度为 2 的数组调用 1 次，长度为 4 的数组调用 3 次），因此 HERE 会被输出多次，而非一次。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序的最好、最坏和平均时间复杂度均为O(nlogn)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 归并排序的时间复杂度特性解析：归并排序的时间复杂度不受输入数据顺序影响，无论最好、最坏还是平均情况，均为 O(nlogn) ，这是其相对于快速排序的优势之一。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "查字典这个小学生必备技能，可以把字典视为一个已排序的数组。假设小杨要查找一个音首字母为g的单词，他首先翻到字典约一半的页数，发现该页的首字母是m，由于字母表中g位于m之前，所以排除字典后半部分，查找范围缩小到前半部分；不断重复上述步骤，直至找到首字母为g的页码。这种查字典的一系列操作可看作二分查找。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 二分查找的实际应用场景及思想解析：二分查找的核心是“每次将查找范围缩小一半”，题目中描述的查字典过程完全符合这一逻辑，因此可看作二分查找。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "求解下图中A点到D点最短路径，其中A到B之间的12可以理解为距离。求解这样的问题常用Dijkstra算法，其思路是通过逐步选择当前距离起点最近的节点来求解非负权重图（如距离不能为负值）单源最短路径的算法。从该算法的描述可以看出，Dijkstra算法是贪心算法。\n\n（图略）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 贪心算法的应用， Dijkstra 算法的原理解析： Dijkstra 算法的核心是每次选择“当前距离起点最近的未访问节点”，并基于该节点更新其他节点的距离，这符合贪心算法“局部最优选择”的思想，因此是贪心算法。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "分治算法将原问题可以分解成规模更小的子问题，使得求解问题的难度降低。但由于分治算法需要将问题进行分解，并且需要将多个子问题的解合并为原问题的解，所以分治算法的效率通常比直接求解原问题的效率低。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 分治算法的效率特性，与直接求解原问题的效率对比解析：分治算法通过将问题分解为子问题，通常能显著提高效率（如归并排序、快速排序等）。虽然分治有分解和合并的开销，但子问题规模缩小带来的收益往往更大，因此效率通常更高，而非更低。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "函数puzzle定义如下，则调用puzzle(7)程序会无限递归。\n```cpp\nint puzzle(int n){\n    if (n == 1) return 1;\n    if (n % 2 == 0) return puzzle(n / 2);\n    return puzzle(3 * n + 1);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 递归函数的执行路径及终止条件分析解析：调用 puzzle(7) 的执行路径为： 7 → 22 → 11 → 34 → 17 → 52 → 26 → 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1 ，最终返回 1 ，不会无限递归。该问题是“ 3n+1 猜想”，目前未发现反例。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如下为线性筛法，用于高效生成素数表，其核心思想是每个合数只被它的最小质因数筛掉一次，时间复杂度为O(n)。\n```cpp\nvector<int> linearSieve(int n){\n    vector<bool> is_prime(n + 1, true);\n    vector<int> primes;\n    for (int i = 2; i <= n; ++i){\n        if(is_prime[i]){\n            primes.push_back(i);\n        }\n        for (int j = 0; j < primes.size() && i * primes[j] <= n; ++j){\n            is_prime[i * primes[j]] = false;\n            if (i % primes[j] == 0){\n                break;\n            }\n        }\n    }\n    return primes;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 线性筛法的原理及时间复杂度特性解析：线性筛（欧拉筛）通过“每个合数只被其最小质因数筛除”的机制，确保每个数仅被处理一次，时间复杂度为 O(n) ，是目前效率最高的素数筛法之一。代码实现正确，因此说法正确。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 151
+}

@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202406-l2",
+ "title": "202406 CCF-GESP编程能力等级认证C++2级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 2,
+ "levelName": "2级",
+ "yearmonth": "202406",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨父母带他到某培训机构给他报名参加CCF组织的GESP认证考试的第1级，那他可以选择的认证语言有几种？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 了解高级语言本题考察 GESP 等级的认证语言，包括 c++ 、 python 和图形化编程三种语言",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面流程图在yr输入2024时，可以判定yr代表闰年，并输出2月是29天，则图中菱形框中应该填入()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：(yr%400=0)||(yr%4=0)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(yr%400==0)|(yr%4=0 & yr%100!=0)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：(yr%400=0)&&(yr%4=0)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(yr%400=0)&&(yr%4==0 && yr%100!=0)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 分支结构中的 if 条件语句本题通过流程图体现分支结构，条件判断框中填写闰年的判定条件：年份是 4 的倍数时，该年是闰年。当年份是 100 的倍数时，当且仅当年份是 400 的倍数时才是闰年",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，下列不可做变量的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：five-Star"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：five star"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：fiveStar"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：fiveStar"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 掌握变量的命名规则本题考察 c++ 中变量的命名由数字、字母、下划线组成，没有短横线，并且只能由字母或下划线开头",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，与for(int i=0;i<10;i++)效果相同的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：for(int i=0;i<10;i+=1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：for(int i=1; i<=10; i++)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：for(int i=10;i>0;i--)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：for(int i=10;i<1;i++)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 赋值运算符本题考察 c++ 中的加赋值运算符， i+=1 的含义是 i=i+1 ，也就是实现了 i++ 的操作",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，cout<<(5%2 &&5%3)的输出是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：true"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：false"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 掌握 % 、 && 和布尔值的含义5%2 的结果非 0 ，为 1 ； 5%3 的结果非 0 ，为 1 ；二者进行 && 与运算，结果仍为 1 ，通过 cout 进行输出",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面的C++代码时输入1，则输出是()。\n```cpp\nint month;\ncin >> month;\nswitch(month){\ncase 1：\ncout << \"Jan \"；\ncase 3：\ncout << \"Mar \"；\nbreak;\ndefault:\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Jan"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Mar"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：Jan Mar"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上均不对"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 掌握分支结构 switch-case 语句本题考察对于 switch 语句的理解，当没有使用 break 将各种分支情况隔离开时，会执行所有分支情况的语句",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面C++代码后，有关说法错误的是()。\n```cpp\nint a, b;\ncin >> b;\nif (a && b)\ncout << \"1\";\nelse if (!(a | b))\ncout << \"2\";\nelse if (a | b)\ncout << \"3\";\nelse\ncout << \"4\";\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如果先后输入1和1，则将输出1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果先后输入0和1或者1和0，则将输出3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果先后输入0和0，则将输出2"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果先后输入0和0，则将输出4"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： if-else 条件语句本题考察对于 if-else 条件语句的理解。当 if 括号内的语句为真，会执行 if 代码块中的语句，否则跳转至 else if 或者 else 。当 a=0 、 b=0 时， a||b 的结果为 0 ，所以 !(a||b) 的结果为 1 ，输出 2",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某货币由5元，2元和1元组成。输入金额（假设为正整数），计算出最少数量。为实现其功能，横线处应填入代码是()。\n```cpp\nint N;\ncin >> N;\nint M5,M2,M1;\nM5=N/5;\n;\nM1=;\nprintf(\"5*%d+2*%d+1*%d\",M5,M2,M1);\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：第1横线处应填入：N/2\n第2横线处应填入：N-M5-M2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：第1横线处应填入：(N-M5*5)/2\n第2横线处应填入：N-M5*5-M2*2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：第1横线处应填入：N-M5*5/2\n第2横线处应填入：N-M5*5-M2*2"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：第1横线处应填入：(N-M5*5)/2\n第2横线处应填入：N-M5-M2"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 数学逻辑、格式化输出本题考察对题干中逻辑的理解，其中 M5 、 M2 、 M1 分别代表 5 元、 2 元、 1 元货币的个数。需要货币总数尽可能少，因此尽可能使用面额更高的货币。首先由 N/5 计算出 5 元货币的个数，这个结果将会取得整数。剩余无法用 5 元来表示的金额，则 是 N - M5  5 ，用 (N - M5  5) / 2 计算出 2 元货币的个数，剩余金额 (N - M5  5 - M2  2)/1 得到 1 元货币的个数",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面C++代码执行后的输出是()。\n```cpp\nint loopCount = 0;\nfor (int i=0; i < 10; i++)\nfor (int j=1; j < i; j++)\nloopCount += 1;\ncout << loopCount;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：55"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：45"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：36"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：28"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 双重 for 循环本题考察对于循环嵌套以及赋值运算符的理解。使用 loopcount 变量记录内层循环总次数，当 i=2 时，内层循环执行 1 次，当 i=3 时，内层循环执行 2 次 ...... 当 i=9 时，内层循环执行 8 次 . 因此总次数为（ 1+8 ） *8/2=36",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面C++代码执行后的输出是()。\n```cpp\nint loopCount = 0;\nfor (int i=0; i < 10; i++){\nfor (int j=0; j < i; j++)\nif (i * j % 2)\nbreak;\nloopCount += 1;\n}\ncout << loopCount;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：25"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：16"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：10"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：9"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 双重 for 循环和 break 终止语句本题考察对于循环嵌套以及 break 终止语句的理解。当 i=1 时， j=0 ， i*j%2 的结果是 0 ；当 i=2 时， j=0/1 ，结果都是 0 ；当 i=3 时， j=0/1/2 ，结果分别是 0/1/0...... 当结果为 1 时，执行 break 语句终止内层循环，进入下一轮的外层循环。使用 loopcount 变量记录结果为 0 的次数。实际上 loopCount 计数不受内层循环影响，执行了 10 次加 1 操作。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设下面C++代码执行过程中仅输入正负整数或0，有关说法错误的是()。\n```cpp\nint N,Sum = 0;\ncin >> N;\nwhile (N){\nSum += N;\ncin >> N;\n}\ncout << Sum;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：执行上面代码如果输入0,将终止循环"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：执行上面代码能实现所有非0整数的求和"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：执行上面代码第一次输入0，最后将输出0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：执行上面代码将陷入死循环，可将while(N)改为while(N=0)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： while 循环的条件该代码不会陷入死循环， N 的值随机， D 选项的改动后执行意义都变了，只能输出 0",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面的C++代码，有关说法正确的是()【质数是指仅能被1和它本身整除的正整数】。\n```cpp\nint N;\ncin >> N;\nbool Flag = true;\nfor (int i= 2; i < N; i++){\nif (i * i > N)\nbreak;\nif(N % i == 0){\nFlag = false;\nbreak;\n}\n}\nif(Flag)\ncout << N << \"是质数\"<< endl;\nelse\ncout << N << \"不是质数\"<< endl;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如果输入正整数，上面代码能正确判断N是否为质数"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果输入整数，上面代码能正确判断N是否为质数"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果输入大于等于0的整数，上面代码能正确判断N是否质数"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如将 Flag = true 修改为 Flag =N>=2? true:false 则能判断所有整数包括负整数、0、正整数是否为质数"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： for 循环、条件判断、对质数的理解原代码没有考虑 N=1 的情况，将输出 1 为质数，由此排除 ABC 。 D 选项的改动规避了 N<2 的情况，正确",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面C++代码用于实现如下图所示的效果，其有关说法正确的是()。\n```cpp\nfor (int i = 1; i < 6; i++){ // L1\nfor (int j= 1; j < i+1; j++) //L2\ncout << i*j << \" \";\ncout << endl;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：当前代码能实现预期效果，无需调整代码"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果cout <<endl;移到循环L2内部，则可实现预期效果"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果 cout << endl;移到循环L1外部，则可实现预期效果"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：删除cout <<endl;行，则可实现预期效果"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 双重 for 循环i=1 ， j=1 ，输出 1 后换行； i=2 ， j=1/2 ，输出 2 4 后换行；以此类推得到的输出结果与题干相符",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面C++代码执行后，输出是()。\n```cpp\nint cnt1 = 0, cnt2 = 0;\nfor (int i = 0; i < 10; i++){\nif(i % 2 == 0)\ncontinue;\nif(i % 2)\ncnt1 += 1;\nelse if (i % 3 == 0)\ncnt2 += 1;\n}\ncout << cnt1 << \" \" << cnt2;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5 2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：5 0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0 2"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0 0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识： for 循环和 if-else 条件判断语句i 的取值范围从 0 遍历到 9 ，使用 cnt1 变量记录满足 i%2==1 的个数，使用 cnt2 变量记录满足 i%3==0 的个数，分别是 i=1 、 3 、 5 、 7 、 9 。通过观察 if-else 结构可知，只有当 i%2==1 且 i%2 ！ =1 时才会执行 else if 判断，这显然互相矛盾，因此 else if 之后的语句不会执行， cnt2 保持初始值 0",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在下面的C++代码中，N必须是小于10大于1的整数，M为正整数（大于0）。如果M被N整除则M为幸运数，如果M中含有N且能被N整除，则为超级幸运数，否则不是幸运数。程序用于判断M是否为幸运数或超级幸运数或非幸运数。阅读下面代码，有关说法正确的是()。\n```cpp\nint N, M;\ncout <<\"请输入幸运数字：\";\ncin >> N;\ncout <<\"请输入正整数：\";\ncin >> M;\nbool Lucky;\nif(M % N == 0)\nLucky = true;\nelse\nLucky = false;\nwhile(M){\nif (M % 10 == N && Lucky){\nprintf(\"%d是%d的超级幸运数！\",M,N);\nbreak;\n}\nM/=10;\n}\nif (M==0)\nif (Lucky)\nprintf(\"%d是%d的幸运数！\",M,N);\nelse\nprintf(\"%d非%d的幸运数！\",M,N);\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如果N输入3，M输入36则将输出：36是3的超级幸运数！"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果N输入7，M输入21则将输出：21是7的幸运数！"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果N输入8，M输入36则将输出：36非8的超级幸运数！"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果N输入3，M输入63则将输出：63是3的超级幸运数！"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 程序阅读能力本题需要注意当 M 的个位与 N 不相同时， M 会不断除以 10 即发生变化，而且没有变量存储原 M 值。因此 A 、 B 、 C 选项中最终会输出的 M 都不是最开始的输入值。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行C++代码 cout << '9'+'1'；的输出为10。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点： cout 语句使用单引号代表这是一个字符，本条 cout 语句会输出数字字符 9 和数字字符 1 的 ascII 码之和 106",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++表达式-12%10的值为2。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲 知识点： 运算符 %c++ 中对于负数的取模运算，就是正常取余后保留负号",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++表达式int(12.56)的值为13。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点： int() 强制类型转换在 c++ 中使用 int() 对浮点数做强制类型转换，会舍弃小数部分，保留为整数 12",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++的整型变量N被赋值为10，则语句cout<<N/ 3<<\"-\"<<N%3执行后输出是3-1。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识 点： 运算符 / 和 % 的含义本题考察 c++ 中运算符 / 和 % 。 / 表示整数除法，返回的值是做整数除法，取除法的商。因此 10/3 =3 ， 10%3=1 。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++代码中，不可以将变量命名为scanf，因为scanf是C++语言的关键字。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识 点： 对于 scanf 的理解scanf() 是 c++ 中的库函数，用于标准输入，而不是关键字。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面C++代码执行后将导致死循环。()\n```cpp\nfor (int i = 0; i < 10; i++)\ncontinue;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识 点： for 循环和 continue 语句执行 continue 语句后，会跳过当前循环的剩余语句不执行转而进入下一轮循环。题干中 i=0 ，此时执行 continue 回到 for 语句， i 自增为 1 ，继续执行 continue 回到 for 语句， i 自增为 2 ；依次循环直到 i=10 不再执行。因此总循环数为 10 次，并不会出现死循环。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面C++代码执行后将输出10。()\n```cpp\nint cnt = 0;\nfor (int i = 0; i < 10; i++)\nfor (int j = 0; j < i; j++){\ncnt += 1;\nbreak;\n}\ncout << cnt;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点： 双重 for 循环、赋值运算符本题使用 cnt 变量记录第二层循环执行的次数，当 i=0 时，内层循环执行 0 次；当 i=1 时，内层循环执行 1 次，当 i=2 时，内层循环执行 2 次 ...... 当 i=9 时，内层循环执行 9 次 . 因此总次数为（ 1+9 ） *9/2=45",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面C++代码执行后，将输出5。()\n```cpp\nint cnt = 0;\nfor (int i= 1; i < 5; i++)\nfor (int j = i; j < 5; j += i)\nif(i*j%2==0)\ncnt += 1;\ncout << cnt;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识点： 双重 for 循环和 if 语句当 i=1 时， j=1/2/3/4 ，此时 ij%2 的结果为 1/0/1/0 ，结果为 0 时满足 if 条件判断则执行 cnt 的自增语句；当 i=2 时， j=2/4 ，此时 ij%2 的结果为 0/0 ；当 i=3 时， j=3 ，此时 ij%2 的结果为 1 ；当 i=4 时， j=4 ，此时 ij%2 的结果为 0 ；",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面C++代码能实现正整数各位数字之和。()\n```cpp\nint N,Sum = 0;\ncin >> N;\nwhile(N){\nSum += N % 10;\nN /= 10;\n}\ncout << Sum;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知 识点： 运算符 % 、赋值运算符 += 和 /=本题考察对两种运算符的认识，通过 N%10 取得 N 的个位数，用 sum 变量保存，再通过 N/=10 去掉 N 的个位数，下一次取得的实际上是 N 的十位数。循环往复，直到 N=0 循环结束，此时已将 N 的所有位数加到 sum 中",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "GESP测试是对认证者的编程能力进行等级认证，同一级别的能力基本上与编程语言无关。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考 纲知识点： 对 GESP 的认识本题考察对 GESP 的认识， GESP 测试是对认证者的编程能力进行等级认证， 同 一 级别的能力基本上与编程语言无关",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 76
+}

@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202506-l7",
+ "title": "202506 CCF-GESP编程能力等级认证C++7级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 7,
+ "levelName": "7级",
+ "yearmonth": "202506",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知小写字母b的ASCI码为98，下列C++代码的输出结果是()。\n#include <iostream>\n1234567\nusing namespace std;\nint main(){\nchar a = 'b' ^ 4；\ncout << a;\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：b"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：bbbb"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：f"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：102"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 位运算已知小写字母 'b' 的 ASCII 码为 98 ，代码中对 'b' 按位异或 4 ，结果为 102 ，对应字母 'f' 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知a为int类型变量，p为int*类型变量，下列赋值语句不符合语法的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：*(p+ a)=*p;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：*(p-a)=a;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：p+a=p;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：p=p+a;"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： C++ 指针类型的概念及基本应用选项 C 试图对临时表达式 p+a 赋值，这是非法的。其他选项都是合法的指针操作。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于C+类的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如需要使用基类的指针释放派生类对象，基类的析构函数应声明为虚析构函数。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：构造派生类对象时，只调用派生类的构造函数，不会调用基类的构造函数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：基类和派生类分别实现了同一个虚函数，派生类对象仍能够调用基类的该方法。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果函数形参为基类指针，调用时可以传入派生类指针作为实参。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 面向对象的思想构造派生类对象时会先调用基类构造函数，选项 B 说法错误。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列C+代码的输出是()。\n#include<iostream>\n1234567\nusing namespace std;\nint main(\n{\nint arr[5] ={2， 4， 6， 8， 10}；\nint * p= arr +2；\ncout << p[3] < end1,\nreturn 0；\n8\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：8"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：编译出错，无法运行。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：不确定，可能发生运行时异常。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： C++ 指针类型的概念及基本应用p 指向 arr[2] ， p[3] 越界访问，行为未定义。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假定只有一个根节点的树的深度为1，则一棵有N个节点的完全二叉树，则树的深度为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[log2(N)]+1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[log2(N)]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[log2(N)]。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：不能确定。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二叉树完全二叉树的深度为",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对于如下图的二叉树，说法正确的是( )。\nA\nB\nC\nD\nE"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：先序遍历是ABDEC。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：中序遍历是BDACE。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：后序遍历是DBCEA。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：广度优先遍历是ABCDE。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 二叉树、广度优先遍历广度优先遍历按层次访问节点，选项 D 符合。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "图的存储和遍历算法，下面说法错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：图的深度优先遍历须要借助队列来完成。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：图的深度优先遍历和广度优先遍历对有向图和无向图都适用。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：使用邻接矩阵存储一个包含v个顶点的有向图，统计其边数的时间复杂度为O(v2)。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：同一个图分别使用出边邻接表和入边邻接表存储，其边结点个数相同。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 图的深度优先遍历、广度优先遍历深度优先遍历使用栈而非队列，选项 A 错误。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一个连通的简单有向图，共有28条边，则该图至少有()个顶点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：6"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：8"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 图解不等式 ，最小 n 为 6 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下哪个方案不能合理解决或缓解哈希表冲突()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：在每个哈希表项处，使用不同的哈希函数再建立一个哈希表，管理该表项的冲突元素。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在每个哈希表项处，建立二叉排序树，管理该表项的冲突元素。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：使用不同的哈希函数建立额外的哈希表，用来管理所有发生冲突的元素。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：覆盖发生冲突的旧元素。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 哈希覆盖冲突元素会丢失数据，方法不合理。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于动态规划的说法中，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：动态规划方法通常能够列出递推公式。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：动态规划方法的时间复杂度通常为状态的个数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：动态规划方法有递推和递归两种实现形式。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：对很多问题，递推实现和递归实现动态规划方法的时间复杂度相当。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 动态规划动态规划时间复杂度与状态转移复杂度有关，选项 B 错误。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的输出为()。\n1\n#include <iostream>\n2\nusing namespace std;\n3\nint rec_fib[100];\n4\nint fib(int n){\n5\nif (n <= 1)\n6\nreturn n;\n7\nif(rec_fib[n] = 0)\n8\nrec_fib[n] = fib(n - 1)+ fib(n - 2)；\n9\nreturn rec_fib[n];\n10\n}\n11\nint main(){\n12\ncout < fib(6) < endl;\n13\nreturn 0；\n14\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：8"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：13"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：64"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：结果是随机的。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 动态规划程序计算斐波那契数列第 6 项为 8 。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的时间复杂度为()。\n1\nint rec_fib[MAX_N];\n2\nint fib(int n){\n3\nif (n <= 1)\n4\nreturn n;\n5\nif(rec_fib[n] = 0)\n6\nrec_fib[n] = fib(n - 1) + fib(n - 2)；\n7\nreturn rec_fib[n];\n8\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(2\")"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(φn),φ=5-1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0(n2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 时间复杂度记忆化递归使每个状态只计算一次，时间复杂度 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面search函数的平均时间复杂度为()。\n1\nint search(int n, int * p, int target){\n2\nint low = 0， high = n;\n3\nwhile(low< high){\n4\nint middle =(low + high)/ 2；\n5\nif (target == p[middle]){\n6\nreturn middle;\n7\n} else if (target > p[middle]){\n8\nlow = middle + 1；\n9\n} else {\n10\nhigh =middle;\n11\n}\n12\n13\nreturn -1；\n14\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n log(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(log(n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(1)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 时间复杂度二分查找时间复杂度 O(n) 。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的时间复杂度为()。\n1\nint primes[MAXP], num = 0；\n2\nbool isPrime[MAXN] = {false};\n3\nvoid sieve(){\n4\nfor (int n = 2； n <= MAXN; n++){\n5\nif(lisPrime[n])\n6\nprimes[num++] = n;\nA\nfor (int i = 0； i < num & n * primes[i] <= MAXN; i+){\n8\nisPrime[n * primes[i]] = true;\n9\nif (n % primes[i] == 0)\n10\nbreak;\n11\n}\n12\n2\n13\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n×logn)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n×log log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n2)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 时间复杂度欧拉筛法时间复杂度 O(n) 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列选项中，哪个不可能是下图的广度优先遍历序列()。\n1\n2\n3\n4\n5\n6\n7\n8\n9"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1,2,4,5,3,7,6,8,9"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1,2,5,4,3,7,8,6,9"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1,4,5,2,7,3,8,6,9"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1,5,4,2,7,3,8,6,9"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 广度优先遍历选项 B 的遍历顺序不符合层次顺序（ 6 应该在 8 之前）。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C+语言中，表达式9&12的结果类型为int、值为8。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识点：位运算9 & 12 = 8 ，类型为 int 。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，指针变量指向的内存地址不一定都能够合法访问。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识点： C++ 指针类型的概念及基本应用指针可能指向非法内存。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "对n个元素的数组进行快速排序，最差情况的时间复杂度为O(nlogn)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点：排序算法快速排序最差时间复杂度 O(n ) 。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一般情况下，long long类型占用的字节数比float类型多。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识点： 基本数据类型long long 通常 8 字节， float 4 字节。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用math.h或cmath头文件中的函数，表达式pow(10,3)的结果的值为1000、类型为int。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点：常用数学函数pow() 返回 double 类型。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二叉排序树的中序遍历序列一定是有序的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识点：二叉排序树二叉排序树中序遍历有序。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "无论哈希表采用何种方式解决冲突，只要管理的元素足够多，都无法避免冲突。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：正确考纲知识点：哈希哈希表空间有限时冲突不可避免。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++语言中，类的构造函数和析构函数均可以声明为虚函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点：面向对象的思想构造函数不能为虚函数。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "动态规划方法将原问题分解为一个或多个相似的子问题，因此必须使用递归实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点：动态规划动态规划可用递推或递归实现。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果将城市视作顶点，公路视作边，将城际公路网络抽象为简单图，可以满足城市间的车道级导航需求。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错误考纲知识点：图的定义简单图是无平行边、无自环的图，既不能两个城市间的多条公路，也不能表示同一公路的多条车道，不能满足城市间的车道级导航需求。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 153
+}

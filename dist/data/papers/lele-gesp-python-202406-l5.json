@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202406-l5",
+ "title": "202406 CCF-GESP编程能力等级认证Python5级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202406",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在Python中，print(c for c in \"GESP\")的输出是（ ）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：('G','E','S','P')"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：['G','E','S','P']"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{'G','E','S','P'}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上选项均不正确"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面有关快速排序的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：快速排序算法通常采用递归实现。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：快速排序算法是一种稳定排序算法。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果被排序数组或者list已排序或逆序，其时间复杂度是O(N2)。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：快速排序是一种原地(in-place)排序算法。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "内排序有不同的类别，从排序算法的实现思路上考虑，下面哪种排序算法和插入排序是同一类？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：希尔排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：快速排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：堆排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：冒泡排序"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码用于求斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。函数Fibo()属于( )。\n```cpp\ndef Fibo(N):\n    if N == 1 or N == 2：\n        return 1\n    fiboList = [1,1]\n    for i in range(2, N):\n        fiboList.append(fiboList[i -1]+fiboList[i -2])\n    return fiboList[N-1]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：枚举算法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：贪心算法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：迭代算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：递归算法"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码用于将输入金额换成最少币种组合方案，其实现算法是()。\n```cpp\ndef findCoins(coins, Money):\n    coins_used = []\n    for coin in coins:\n        while Money >= coin:\n            coins_used.append(coin)\n            Money -= coin\n    return coins_used\ncoins = [100,50,20,10,5,2,1]#货币种类，单位相同\nM = int(input())#输入换算的金额\ncoins_needed = find_coins(coins, M)\nresult= [(c,coins_needed.count(c))forcincoins]\nresult = [x for x in result if x[1] > 0]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：枚举算法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：贪心算法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：迭代算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：递归算法"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面Python的代码，错误的是()。\n```cpp\ndef count_if(iterData,*,key=None):\n    if key == None:\n        return len(iterData)\n    Count = 0\n    for i in iterData:\n        Count += bool(key(i))\n    return Count\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：执行 print(count_if(range(100))将输出100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：执行 print(count_if(range(-10,10),key= abs))将输出19"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：执行 print(count_if(range(-100,10),key = lambda x:x > 5)将输出 4"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：代码 Count += bool(key(i)存在错误"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在下面的Python代码中，最后一行用于输出小于0的list,横线处不能填入的代码是()。\n```cpp\ndef LT(a, b):\n    return a < b\nlstData = list(range(-100,100))\nprint(_____)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[x for x in lstData if  <  ]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：list(filter(lambda x: < 0， lstData))"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：list(filter(LT(x,0),lstData))"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：[x for x in lstData if LT(x, 0)]"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "汉字的unicode编码界于0x4E00和0x9FA5之间。下面Python的代码用于读取红楼们和水浒传文本。如果要能完整阅读这两本小说，求出需要认识的汉字集合，横线处应填入代码是()。\n```cpp\nshzFile = open(\"水浒传.txt\", \"r\", encoding = \"utf-8\")\nhlmFile = open(\"红楼梦.txt\", \"r\", encoding = \"utf-8\")\nsSet = set(shzFile.read())\nhSet = set(hlmFile.read())\nshzFile.close()\nhlmFile.close()\nprint(_____)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：{x for x in (sSet + hSet) if 0x4E00 <= ord(x) <= 0x9FA5 }"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：{x for x in (sSet | hSet) if 0x4E00 <= x <= 0x9FA5 }"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{x for x in (sSet + hSet) if 0x4E00 <= x <= 0x9FA5 }"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：{x for x in (sSet | hSet) if 0x4E00 <= ord(x) <= 0x9FA5 }"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "求回文子字符串，如：在ABCDDCBAXz中，DD、CDDC、BCDDCB、ABCDDCBA均为回文子字符串。下面Python代码是其实现，横线处应填入的代码是()。\n```cpp\nsrcStr = input()\nsymList =[]#保存回文子字符串\nfor i in range(len(srcStr)):\n    for j in range(i + 2， len(srcStr)+ 1)：\n        substr=_____\n        if subStr == _____:\n            symList.append(subStr)\nfor i in sorted(symList, key = lambda x: len(x):\n    print(i)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：srcStr[i:j], subStr[:-1]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：srcStr[i:j],subStr[j:i:-1]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：srcStr[i+2:j],subStr[j-1:i:-1]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：srcStr[i:j+2],subStr[j-1:i-1:-1]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上面代码的时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(log N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(Nlog N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N2)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面Python代码的说法，错误的是()。\n```cpp\ndef Sort(lst):\n    for i in range(1, len(lst):\n        key = lst[i]\n        j=i-1\n        while j >=  and key < lst[j]:\n            lst[j+ 1] = lst[j]\n            j-=1\n        lst[j+ 1]= key\nlst=[4,5,13,2,7,10,1,3,8,11,6,9,12]\nlst = Sort(lst)\nprint(\"sorted list:\", lst)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：该段代码是插入排序算法的实现"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果lst完全有序，则时间复杂度为O(N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果lst完全逆序，则时间复杂度为O(N2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：由于Sort()函数没有返回值，没有最终达到排序效果"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python函数nGram()用于逐一从字符串中截取n个字符，如：nGram(\"ABCDEF\",2)将逐一截取为AB、BC、CD、DE、EF,如：nGram(\"ABCDEF\",3)将逐一截取为ABC、BCD、CDE、DEF,并统计每种截取的数量，横线处应填入代码是()。\n```cpp\ndef nGram(S,n):\n    Result ={}#保存截取字符串及其数量\n    for i in range(_____):\n        nChar = _____\n        Result[nChar]=Result.get(nChar,0)+1\n    return Result\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：len(S)-n ，S[i:n]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：len(S)-n+1 ， S[i:i+n]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：len(S),S[i:i+n]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：len(S)-n ，S[i:i+n]"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上题代码的时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(log N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(N log N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N2)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面是埃氏素数筛的Python实现，横线上应填入的代码是()。\n```cpp\ndef listPrime(N):\n    primeList = list(range(N+1))\n    primeList[0] = primeList[1] = False\n    for i in range(2,int(N ** 0.5)+ 1)：\n        if primeList[i] ！= False:\n            for j in range(_____):\n                primeList[j] = False\n    return [x for x in primeList if × ！= False]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：i+i,N+1,2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：i*i,N+1,i"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：i*i,N,i*i"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：i,N+1,i"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上题代码的时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(N log N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(N log log N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在程序设计中，i*i的效率通常比i*2更高。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "求解指定正整数范围内所有质数，采用线性筛算法比埃氏筛效率更高。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python没有指针语法，不能实现C+中涉及指针的算法。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果将双向链表的最后一个元素指向第一个元素，则构成环状链表。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "链表不能采用快速排序或堆排序，但可以采用插入排序。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，set或dict因为存储时即自动排序，因此可以用二分法查找，时间复杂度为O(logN)。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果自定义class已经定义了_lt_()魔术方法，则包含该类实例的数据结构，则将自动支持内置函数sorted()。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序和快速排序都采用递归实现，也都是不稳定排序。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码能实现十进制正整数N转换为2、8、10、16，可适用于16进制以内进制。其中n和ds分别表示将转换的数以及目标进制。()\n```cpp\nn,ds = map(int,input().split())\nrst = \"\"#保存转换结果\ndigDict = {i:c for i,c in enumerate(\"0123456789ABCDEF\")}\nwhile n ！= 0：\n    rst = digDict[n % ds] + rst\n    n /= ds\nprint(rst)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python代码print(sorted(range(10),key=lambda x:x%5))执行时将报错。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 91
+}

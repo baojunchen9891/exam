@@ -1,0 +1,980 @@
+{
+ "id": "lele-gesp-python-202403-l5",
+ "title": "202403 CCF-GESP编程能力等级认证Python5级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202403",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面流程图在yr输入2024时，可以判定yr代表闰年，并输出2月是29天，则图中菱形框中应该填入()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：(yr%400 = 0) or(yr%4 = 0)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：( yr % 400 = 0) or (yr %4 = 0 and yr %100 ！= 0)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：( yr % 400 = 0) and （ yr%4 = 0）"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(yr % 400 == 0) and (yr % 4 = 0 and yr % 100 ！= 0)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在TCP协议中，完成连接建立需要通过()握手。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：一次"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：二次"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：三次"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：四次"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面有关排序算法的说法，正确的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：快速排序是稳定排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Python中list类型的sort()是稳定排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：冒泡排序是不稳定排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：归并排序是不稳定排序"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "不同的排序算法，其空间复杂度也不同。与冒泡法排序空间复杂度相同的是()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：归并排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：快速排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：计数排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：插入排序"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码中，aFactorial()和bFactorial()用于求正整数的阶乘。有关说法，错误的是()。\n```cpp\ndef aFactorial(N):\n    rst = 1\n    for i in range(1,N + 1)：\n        rst *= i\n    return rst\n\ndef bFactorial(N):\n    if N == 1 or N == 0：\n        return 1\n    return N * bFactorial(N-1)\n\nprint(aFactorial(10),bFactorial(10))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：aFactorial( )用循环方式，bFactorial()递归方式"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：bFactorial()更加符合数学定义，直观易于理解，而aFactorial()需要将数学定义转换为计算机程序实现"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：当N值较大时，aFactorial()执行效率更高，而bFactorial()因为有多次函数调用，效率将降低，且N如果较大，将可能导致不能使用"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：bFactorial()因为代码量较少，没有循环，因此其执行效率更高"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面Python代码的说法，正确的是()。\n```cpp\ndef qSort(1st):\n    if len(lst)<= 1：\n        return lst\n    else:\n        Pivot =lst[0]\n        Less = [x for x in lst[1:] if x <= Pivot]\n        Greater = [x for x in lst[1:] if x > Pivot]\n        return qSort(Less)+ [Pivot] + qSort(Greater)\n\nlstA=[1,2,11,12,21,21,2,3,41,4,3]\nlstB = qSort(lstA)\nprint(1stA,lstB)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码中qSort()函数不是稳定排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：代码中qSort()函数空间复杂度为O(1)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：代码中qSort()函数是就地排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：代码中qSort()函数是外排序，因为排序后的结果保存在新的内存空间即外空间"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上题不能支持其他常见类型的排序，如实现该支持，横线处分别应填写代码是()。\n```cpp\ndef qSort(iterData):\n    if isinstance(iterData, list) == False:\n        lst = [x for x in iterData]\n    else:\n        lst = iterData\n    if len(lst)<= 1：\n        return lst\n    else:\n        Pivot = lst[0]\n        Less = [x for x in lst[1:] if x <= Pivot]\n        Greater = [x for x in lst[1:] if x > Pivot]\n        return qSort(Less)+ [Pivot] + qSort(Greater)\n\ntplA=(1,2,11,12,21,21,2,3,41,4,3)\nlstB = qSort(tplA)\nprint(tplA, lstB)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：isinstance(iterData, list) == False ， lst = [x for x in iterData]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：type(iterData) == list ， lst = [x for x in iterData]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：isinstance(iterData, list),lst = list(iterData)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：type(iterData)!= list ， lst = list(iterData)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上上题qSort()函数不支持排序规则函数，形如sorted()函数的key参数，为实现类似目标，横线处分别应填入代码是()。\n```cpp\ndef qSort(lst, fx = None):\n    if len(lst)<= 1：\n        return lst\n    else:\n        Pivot = lst[0]\n        if fx == None:\n            Less = [x for x in lst[1:] if x <= Pivot]\n            Greater = [x for x in lst[1:] if x > Pivot]\n            return qSort(Less, fx) + [Pivot] + qSort(Greater,fx)\n        else:\n            Less = [x for x in lst[1:] if fx(x) <= fx(Pivot)]\n            Greater = [x for x in lst[1:] if fx(x) > fx(Pivot)]\n            return qSort(Less, fx) + [Pivot] + qSort(Greater,fx)\n\nlstA=[1,2,11,12,21,21,2,3,41,4,3]\nlstB = qSort(lstA, lambda x:x % 10)\nprint(lstA, lstB)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：fx == None ， fx(x) >= fx(Pivot), fx(x) < fx(Pivot)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：fx == None ， fx(x) >= Pivot ，fx(x) < Pivot"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：fx ！= None ，fx(x) >= fx(Pivot),fx(x)< fx(Pivot)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：fx ！= None ，fx(x) >= Pivot ，fx(x)< Pivot"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码中merge()函数的两个参数均为list类型，且是已按相同规则排序的数据。下面有关说法中，正确的是()。\n```cpp\ndef merge(arr1, arr2):\n    result = []\n    while arr1 and arr2:\n        if arr1[0] < arr2[0]:\n            result.append(arr1.pop(0))\n        else:\n            result.append(arr2.pop(0))\n    if arr1:\n        result += arr1\n    if arr2:\n        result += arr2\n    return result\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：第3-7行代码将导致死循环，因为没有循环变量及其改变"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：第5行和第7行代码执行后，result的成员值为None"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：第9行和第11行是否被执行，与arr1和arr2的成员值有关，如果值转换为False,将不会被执行"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：merge()函数的代码没有错误，执行后参数arr1和arr2将合并成新的list保存到result之中，且有序"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读下面Python代码，横线处应填入()。\n```cpp\ndef Check(N,Fx):\n    return Fx(N)\n\ndef isOdd(N):\n    return \"偶数\" if N%2 ==0 else \"奇数\"\n\nisEven = lambda N:\"偶数\" if N % 2 == 0 else \"奇数\"\nprint(Check(10,____),Check(11,______))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：isOdd ，isEven"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：isOdd, isEven(10)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：isOdd(10),isEven"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：isOdd(10), isEven(10)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Python代码的平均时间复杂度是()。\n```cpp\ndef gcd(N,M):\n    return N if M == 0 else gcd(M, N % M)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(log N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(Nlog N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N2)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面Python代码的说法，正确的是()。\n```cpp\ndef bSearch(lst,val):\n    def _bSearch(lst, Low, High, queryVal):\n        if Low > High:\n            return -1\n        midIdx = (Low + High) // 2\n        midVal = lst[midIdx]\n        if queryVal == midVal:\n            return midIdx\n        elif queryVal < midVal:\n            return _bSearch(lst, Low, midIdx - 1, queryVal)\n        else:\n            return _bSearch(lst, midIdx + 1, High, queryVal)\n    return _bSearch(lst, 0, len(lst), val)\n\nlst = list(range(10))\nprint(bSearch(lst,3))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码采用二分法查找，仅对有序list有效，不适用于set、dict等"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：在函数内定义函数，存在多次调用多次定义，因此存在错误"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：第16行代码_bSearch()最后一个参数val应为queryVal"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：第16行代码应为return _bSearch"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在上题的算法中，其时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(log N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(Nlog N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N2)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的Python代码中，idList变量为list类型，保存有大量身份编码，倒数第二位如为偶数，则为女性，奇数为男性，从第7位开始连续8位为出生年月日，年为4位数月和日均为两位数。编码统计每天有几位男生生日女生生日。横线处应填入代码是()。\n```cpp\ndictGender_Birthday={}#性别，出生月日的字典\nfor everyID in idlist:\n    gender, Key = int(everyID[-2])% 2， everyID[10:14]\n    male,female = (1,0) if gender == 1 else (0,1)\n    lastData = dictGender_Birthday.get(Key, (0,0))\n    dictGender_Birthday[Key] = ( lastData[0] + male, lastData[1] + female )\nlistGender_Birthday = sorted(dictGender_Birthday.items())\nprint(listGender_Birthday)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：(1,0) if gender == 1 else (1,0)，(0,1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(0,1) if gender == 1 else (1,0)，(0,0)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0,1 if gender == 1 else 1,0,0,0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(0,1) if gender = 1 else (1,0)，0,0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "有关下面Python代码的说法错误的是()。\n```cpp\ndef Factorization(N):\n    rst = f\"{N}=\"\n    i=2\n    while N != 1:\n        if N % i == 0:\n            rst += f\"{i}*\"\n            N //= i\n        else:\n            i += 1\n    return rst[:-1]\n\nprint(Factorization(45))\n```"
+    }
+   ],
+   "options": [],
+   "answer": "C",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一个算法设计合理的话是可以没有输出的，比如冒泡排序就不输出任何信息()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "流程图描述算法的能力是有限的，比如它无法对能够提前终止的循环给出等价描述()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序的空间复杂度是O(N)。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，当对dict类型进行in运算查找元素是否存在时，其时间复杂度为0(1)，set类型也如此。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在以下Python代码中，执行后输出是5=>4=>3=>2=>1=>2=>3=>2=>1=>5。()\n```cpp\ndef Fibo(N):\n    print(N,end=\"=>\")\n    if N == 1 or N == 2：\n        return 1\n    else:\n        return Fibo(N - 1)+ Fibo(N -2)\nprint(Fibo(5))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法虽然可能不是局部最优，但可达到全局最优。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python内置函数sorted()可对支持for-in循环的数据类型排序。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "冒泡排序是就地排序，空间复杂度为0(1)。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的Python代码能实现N的质因数分解，类似埃氏筛法。()\n```cpp\ndef Factorization(N):\n    rst = f\"{N}=\"\n    i=2\n    while N != 1:\n        if N % i == 0:\n            rst += f\"{i}*\"\n            N //= i\n        else:\n            i += 1\n    return rst[:-1]\n\nprint(Factorization(45))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "Python代码print(sorted(list(range(10,20),key=hex)执行后将输出[10,11,12,13,14,15,16,17,18,19]。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 73
+}

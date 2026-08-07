@@ -1,0 +1,980 @@
+{
+ "id": "lele-gesp-cpp-202409-l8",
+ "title": "202409 CCF-GESP编程能力等级认证C++8级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 8,
+ "levelName": "8级",
+ "yearmonth": "202409",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面关于C++类和对象的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：类的析构函数可以为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：类的构造函数不可以为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：class中成员的默认访问权限为private。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：struct中成员的默认访问权限为private。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： C++ 结构体 类的创建在 C++ 中， struct 默认的访问权限是 public ，而 class 的默认访问权限是 private 。如果你想改变这一默认行为，可以在 struct 中显式地声明成员为 private 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对于一个具有n个顶点的无向图，若采用邻接矩阵表示，则该矩阵的大小为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：n×"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：n×n"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：(n-1)×(n-1)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(n+1)×(n+1)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 图的定义和遍历n 个顶点对的无向图，需要 n 行 n 列的矩阵 ( 对称 ) ，可以用数组下标 0~n-1 对应，选 B 。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "设有编号为A、B、C、D、E的5个球和编号为A、B、C、D、E的5个盒子。现将这5个球投入5个盒子，要求每个盒子放一个球，并且恰好有两个球的编号与盒子编号相同，问有多少种不同的方法？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：120"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：20"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：60"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 排列与组合先从 5 个球中选择 2 个球放到对应的盒子中，有 种，剩余的 3 个球不能和盒子编号相同，因此第 3 个球有 2 种盒子可以选择，第 4 个球和第 5 个球只有 1 种选择。共 10*2=20 种，选 C 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "从甲地到乙地，可以乘高铁，也可以乘汽车，还可以乘轮船。一天中，高铁有10班，汽车有5班，轮船有2班。那么一天中乘坐这些交通工具从甲地到乙地共有多少种不同的走法？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：60"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：30"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：17"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 计数原理由加法原理， ans=10+5+2=17 种。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "n个结点的二叉树，执行释放全部结点操作的时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(2^n)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二叉树对二叉树执行 DFS ，在回溯阶段依次释放每个节点，复杂度 O(n) 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "在一个单位圆上，随机分布n个点，求这n个点能被一个单位半圆周全部覆盖的概率()。"
+    }
+   ],
+   "options": [],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 概率统计 ( 代数 )可以特殊值，取 n=2, 则概率为 1 ，选 A ，更严格的证明 : 在一个圆中，假设选择 A 点，做 A 在圆中的对称点 A’ ，连接 A 和 A’ 并将圆四等分，如图所示，绿色区域可以认为是 A 的半圆区域。对 n 个点，都作出其对称点，这样一共有 2n 个点，这样问题从“在圆内随机取 n 个点”转为：在 2n 个点中取 n 个点，其中对于每个点和它的对称点，只能选一个出来。一共有 2 种选法。n 个点在一个半球，等价于任意两个点他们的公共领地有交集。显然这种方式有 2n 种 ( 可以考虑 3 个点的情况 ->2 种 , 更多的点也是同理 ) 。概率为 :2n/2 ，化简后选 A 。",
+   "auto": false
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面 pailie函数是一个实现排列的程序，横线处可以填入的是()。\n```cpp\n#include <iostream>\nusing namespace std;\nint sum = 0;\nvoid swap(int & a, int & b){\n    int temp = a;\n    a=b;\n    b = temp;\n}\nvoid pailie(int begin, int end, int a[]){\n    if (begin = end){\n        for (int i = 0; i < end; i++)\n            cout < a[i];\n        cout << endl;\n    }\n    for (int i = begin; i < end; i++){\n        //在此处填入选项\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：```cpp\nswap(a[begin + 1], a[i]);\npailie(begin + 1, end, a);\nswap(a[i],a[begin]);\n```"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：```cpp\nswap(a[begin],a[i]);\npailie(begin, end, a);\nswap(a[i],a[begin]);\n```"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：```cpp\nswap(a[begin],a[i]);\npailie(begin + 1, end, a);\nswap(a[i],a[begin]);\n```"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：```cpp\nswap(a[begin]+ 1, a[i]);\npailie(begin + 1, end, a);\nswap(a[i], a[begin + 1]);\n```"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 排列与组合函数作用 : 在 0~n-1 的区间，对 A[0~n-1] 的元素进行全排列。全排列可以这么理解，每个元素都有尝试在开头的机会，之后其他的元素在这个前提之下，继续在该元素后方继续尝试。当然在尝试完成后，还需要将排列还原，方便后续尝试，符合该要求的只有 C 选项。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上一题中，如果主函数为如下的程序，则最后的排列数是多少个？()。\n```cpp\nint main(){\n    int a[5] ={1,2,3,4,5};\n    pailie(0,5,a);\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：120"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：60"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：240"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：180"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 排列与组合5 的全排列 5!=120 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序实现了输出杨辉三角形，代码中横线部分应该填入的是()。\n```cpp\n#include <iostream>\nusing namespace std;\n#define N 35\nint a[N][N];\nint main(){\n    int n;\n    cin >> n;\n    for (int i = 1; i <= n; i++)\n        for (int j= 1; j <= i; j++){\n            if(j ==1 || j = i)\n                a[i][j]=1;\n            else\n                //在此处填入选项\n        }\n    for (int i= 1; i <= n; i++){\n        for (int j= 1; j <= i; j++)\n            cout << a[i][j];\n        cout<<endl;\n    }\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a[i][j] = a[i - 1][j - 1]+ a[i - 1][j];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：a[i][j]= a[i][j -1]+ a[i -1][j];"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a[i][j]= a[i -1][j]+ a[i -1][j];"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：a[i][j]= a[i-1][j -1]+ a[i][j];"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 杨辉三角如图所示，选 A 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面最小生成树的Kruskal算法程序中，横线处应该填入的是()。\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\nstruct Edge {\n    int u, v, weight;\n    bool operator <(const Edge & other) const {\n        return weight < other.weight;\n    }\n};\nint findParent(int vertex, vector<int> & parent){\n    if (parent[vertex] == -1)\n        return vertex;\n    return parent[vertex] = findParent(parent[vertex], parent);\n}\nint main() {\n    int n, m;\n    cin >> n >> m;// n:顶点数，m:边数\n    vector<Edge> edges(m);\n    vector<int> parent(n,-1);\n    int totalWeight = 0;\n    for (int i = 0; i < m; i++)\n        cin >>edges[i].u>>edges[i].v >>edges[i].weight;\n    sort(edges.begin(), edges.end());\n    for (const auto & edge : edges) {\n        int uParent = findParent(edge.u, parent);\n        int vParent = findParent(edge.v, parent);\n        if(______){//在此处填入选项\n            parent[uParent] = vParent;\n            totalWeight += edge.weight;\n        }\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：uParent == vParent"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：uParent >= vParent"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：uParent != vParent"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：uParent <= vParent"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 最小生成树Kruskal 基于避圈法和贪心思想，先按照边权升序，依次考虑每条边 (x,y,z), 如果 x 和 y 已经处于同一个生成树中，则过滤掉当前的边，否则将 x 和 y 的生成树通过 z 边连接，同时用并查集维护 x 和 y( 联接 x 和 y 的集合 ) ，组成更大的生成树。横线处为判断 x 和 y 是否处于同一个集合，不是则链接，并更新最小生成树的边权和。答案选 C 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Prim算法程序中，横线处应该填入的是()。\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\nint prim(vector<vector<int>> & graph, int n){\n    vector<int> key(n, INT_MAX);\n    vector<int> parent(n,-1);\n    key[0]=0;\n    for (int i = 0; i < n; i++) {\n        int u= min_element(key.begin(), key.end()) - key.begin();\n        if (key[u] == INT_MAX)\n            break;\n        for (int v = 0; v < n; v++){\n            if(________){//在此处填入选项\n                key[v]=graph[u][v];\n                parent[v]= u;\n            }\n        }\n    }\n    int sum = 0;\n    for (int i = 0; i < n; i++){\n        if (parent[i] != -1){\n            cout << \"Edge:\" << parent[i] << \" - \"<< i<< \" Weight: \" << key[i] << endl;\n            sum += key[i];\n        }\n    }\n    return sum;\n}\nint main(){\n    int n, m;\n    cin >> n >> m;\n    vector<vector<int>> graph(n,vector<int>(n,0));\n    for (int i= 0; i < m; i++){\n        int u, v, w;\n        cin >> u >> v >> w;\n        graph[u][v]=w;\n        graph[v][u] = w;\n    }\n    int result = prim(graph, n);\n    cout << \"Total weight of the minimum spanning tree: \" << result << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：graph[u][v] >= 0 && key[v] > graph[u][v]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：graph[u][v] <= 0 && key[v] > graph[u][v]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：graph[u][v] == 0 && key[v] > graph[u][v]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：graph[u][v] != 0 && key[v] > graph[u][v]"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 最小生成树最小生成树的 Prim 算法思想：选择圈内的一个点 x( 一开始随便选一个点作为 x) ，遍历 x 的所有出边 y ，从中选取一个边权 z 最小的 y ，该 (x,y,z) 一定是最小生成树的生成边 ( 因为最小生成树的点之间相互连通 ) ，程序中 key 数组就是用来记录过程中每个节点距离圈的距离的最小值， parent 数组是记录节点和边权依次加入圈的具体路径 ( 最终形成一棵生成树 ) ，横线处是比较圈外距离 u 最小的边权 v ，因此答案选 D 。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列Dijkstra算法中，横线处应该填入的是()。\n```cpp\n#include <iostream>\nusing namespace std;\n#define N 100\nint n, e, s;\nconst int inf = 0x7fffff;\nint dis[N + 1];\nint cheak[N + 1];\nint graph[N + 1][N + 1];\nint main(){\n    for (int i = 1; i <= N; i++)\n        dis[i]= inf;\n    cin >> n >> e;\n    for (int i = 1; i <= e; i++){\n        int a, b, c;\n        cin >> a >> b >> c;\n        graph[a][b]=c;\n    }\n    cin >> s;\n    dis[s]= 0;\n    for (int i = 1; i <= n; i++){\n        int minn = inf, minx;\n        for (int j = 1; j <= n; j++){\n            if(________){//在此处填入选项\n                minn = dis[j];\n                minx = j;\n            }\n        }\n        cheak[minx]=1;\n        for (int j = 1; j <= n; j++){\n            if(graph[minx][j]>0){\n                if (minn + graph[minx][j] < dis[j]){\n                    dis[j] = minn + graph[minx][j];\n                }\n            }\n        }\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dis[j] > minn && cheak[j] == 0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dis[j] < minn && cheak[j] == 0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dis[j] >= minn && cheak[j] == 0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dis[j] < minn && cheak[j] != 0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 单源最短路朴素 dijkstra 算法，在非负权图中，用 cheak[] 标记已经求得最短路的点 ( 因为已经求得，所以后续不会再更新 ) ，每次选择距离起点 S 的未求得最短路 (cheak[]==0) 的 , 且最近的节点 minx, 由非负权图的原因，该节点 minxj 将加入已经求得最短路的点的集合，同时用 minx 尝试是否能更新 S 到其他待球节点的最短路。横线处就是求解距离起点 S 的未求得最短路 (cheak[]==0) 的 , 且最近的节点 minx 的，因此选 B 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Floyd算法中，横线处应该填入的是()。\n```cpp\n#include <iostream>\nusing namespace std;\n#define N 21\n#define INF 99999999\nint map[N][N];\nint main(){\n    int n, m, t1, t2, t3;\n    cin >> n >> m;\n    for (int i= 1; i <= n; i++){\n        for (int j = 1; j <= n; j++){\n            if (i == j)\n                map[i][j]=0;\n            else\n                map[i][j]= INF;\n        }\n    }\n    for (int i= 1; i <= m; i++) {\n        cin >> t1 >> t2 >> t3;\n        map[t1][t2]=t3;\n    }\n    for (int k = 1; k <= n; k++)\n        for (int i = 1; i <= n; i++)\n            for (int j = 1; j <= n; j++)\n                if ( )//在此处填入选项\n                    map[i][j] = map[i][k]+ map[k][j];\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n; j++) {\n            cout.width(4);\n            cout << map[i][j];\n        }\n        cout << endl;\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：map[i][j] < map[i][k] + map[k][j]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：map[i][j] > map[i][k] + map[k][j]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：map[i][j] > map[i][k] - map[k][j]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：map[i][j] < map[i][k] - map[k][j]"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： BFloyd 算法本质是个 DP ，或者可以理解为松弛操作：i 和 j 的最短路如果可以通过中间节点 k 做更新：则需要 map[i][ j]>map[i][k]+map[k][ j]; 选 B 。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的Merge_Sort函数时间复杂度为()。\n```cpp\nvoid Merge(int a[], int left, int mid, int right) {\n    int temp[right - left + 1];\n    int i = left;\n    int j= mid + 1;\n    int k = 0;\n    while (i <= mid && j <= right) {\n        if (a[i] < a[j])\n            temp[k++] = a[i++];\n        else\n            temp[k++]= a[j++];\n    }\n    while (i <= mid)\n        temp[k++]= a[i++];\n    while (j <= right)\n        temp[k++]= a[j++];\n    for (int m = left, n = 0; m <= right; m++, n++)\n        a[m]= temp[n];\n}\nvoid Merge_Sort(int a[], int left, int right){\n    if (left == right)\n        return;\n    int mid = (left + right) / 2;\n    Merge_Sort(a,left,mid);\n    Merge_Sort(a, mid+ 1, right);\n    Merge(a, left, mid, right);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n^2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(2^n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(log n)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 归并排序归并排序基于分治，时间复杂度为 O(nlogn) 。空间复杂度 O(n);",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面fibonacci函数的时间复杂度为()。\n```cpp\nint fibonacci(int n){\n    if (n <= 1)\n        return n;\n    else\n        return fibonacci(n - 1)+ fibonacci(n - 2);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(φ^n), φ≈1.618"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n log n)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 较复杂算法的空间复杂度和时间复杂度结合递归搜索树，以最坏的情况考虑， f(n) 每次减少 1 的问题规模需要变为两个分支，记为 f(n)=2 f(n-1)=2²f(n-2)=…=2 f(1)=2 ，因此复杂度接近 O(2 ) 。指数级别。最接近的选择 B 。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "表达式'3'&1的结果为'1'。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： ASCII 码ASCII 码’ 3’ 为 51 ，是奇数， &1 操作是取 51 的最低位 2 进制。结果为 1 ，而非字符’ 1’ 。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++语言中，变量定义必须在某一个函数定义之内。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 变量变量可以为全局变量。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "冒泡排序一般是不稳定的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 排序基于比较的排序中不稳定的有四个：希尔，选择，快速，堆，其余都稳定。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二叉排序树的查找操作的平均时间复杂度，正比于树的高度。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 二叉排序树二叉排序树查找的时间复杂度为树的高度。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用math.h或 cmath头文件中的余弦函数，表达式cos(60)的结果类型为double、值约为0.5。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数学库常用函数 ( 三角函数 )， cos 函数接受的角度参数是以弧度为单位的。因此，如果要用角度（如 60 度）作为参数，需要先将其转换为弧度。在 C 或 C++ 中，可以使用 M_PI （在 math.h 或 cmath 中定义）来表示 π ，从而将 60 度转换为弧度，即 60 * M_PI / 180 。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "你有三种硬币，分别面值2元、5元和7元，每种硬币都有足够多。买一本书需要27元，则最少可以用5个硬币组合起来正好付清，且不需要对方找钱。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 排列与组合7+5+5+5+5=27 共 5 枚，且没有更优方案。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "现有n个完全相同的元素，要将其分为k组，允许每组可以有0个元素，则一共有C(n-1,k-1)种分组方案。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 排列与组合插板法 ：首先，我们有 n 个球排成一列，然后在这 n 个球之间以及两端共 n+1 个空位中选择 k-1 个位置插入隔板。这样，隔板将球分成了 k 组，每组中的球数即为该组的元素数（包括 0 个）。组合计算 ：从 n+1 个空位中选择 k-1 个位置插入隔板，即组合数 C(n+1, k-1) 。但注意到，由于我们实际上是在 n 个球和 k-1 个板之间做选择，且板的数量是固定的 k-1 ，所以更准确的组合应该是从 n+k-1 个“位置”（ n 个球和 k-1 个“潜在隔板位置”的总和）中选择 k 个“实体”（ k-1 个实际隔板和 1 个“虚拟”的起始或结束位置，用于确定组的边界），即 C(n+k-1, k) 。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "已知int类型的变量a和b中分别存储着一个直角三角形的两条直角边的长度，则该三角形的面积可以通过表达式a/2.0*b求得。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 代数公式计算一步到位，和规模无关，复杂度 O(1).",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "已知等差数列的通项公式an=a1+(n-1)·d,则前n项和的求和公式为Sn=n·(a1+an)/2。使用这一公式计算Sn的时间复杂度是O(1)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √数学思维，说谎的人回答的是去诚实国的路，诚实的人回答的是去诚实国的路，故而分辨出来。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "诚实国公民只说实话，说谎国公民只说谎话。你来到一处分岔口，一条通往诚实国，一条通往说谎国，但不知是哪一条通往哪里。正在为难之际，走来两位路人，他们都自称是诚实国公民，都说对方是说谎国公民。你想去说谎国，可以这样问其中一位路人：“我要去说谎国，如果我去问另一个路人，他会指向哪一条路？”。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 自动类型转换a/2.0 会自动隐式转换为 double ，从而保证结果的正确性。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 99
+}

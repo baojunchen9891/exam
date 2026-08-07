@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202503-l5",
+ "title": "202503 CCF-GESP编程能力等级认证C++5级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202503",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "链表不具备的特点是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：可随机访问任何一个元素"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：插入、删除操作不需要移动元素"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：无需事先估计存储空间大小"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：所需存储空间与存储元素个数成正比"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 链表【解析】链表是非线性存储，顺序访问的存储结构，动态分配内存，需要从头节点遍历，不支持随机访问",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "双向链表中每个结点有两个指针域prev和next,分别指向该结点的前驱及后继结点。设p指向链表中的一个结点，它的前驱结点和后继结点均非空。要删除结点p,则下述语句中错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：p->next->prev = p->next; p->prev->next = p->prev; delete p;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：p->prev->next = p->next; p->next->prev = p->prev; delete p;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：p->next->prev = p->prev; p->next->prev->next = p->next; delete p;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：p->prev->next = p->next; p->prev->next->prev = p->prev; delete p;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 链表【解析】双链表中删除非头尾结点 p ，需要将 p 的前驱结点和 p 的后继结点相连后释放 p 结点p 的前驱节点的 next 需要指向 p 的后继结点， p 的后继结点的 prev 需要指向 p 的前驱结点p.prev.next = p.next;p.next.prev = p.prev;C 选项 因为先执行了 p->next->prev = p->prev; 所以 p->next->prev->next 等价于 p->prev->nextD 选项同理",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设双向循环链表包含头尾哨兵结点（不存储实际内容），分别为head和tail,链表中每个结点有两个指针域prev和next，分别指向该结点的前驱及后继结点。下面代码实现了一个空的双向循环链表，横线上应填的最佳代码是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：list->head->prev = list->head; list->tail->prev = list->head;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：list->head->next = list->tail; list->tail->prev = list->head;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：list->head->next = list->tail; list->tail->next = list->head;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：list->head->next = list->tail; list->tail->next = nullptr;"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 链表【解析】双向循环链表中，头结点的 next 指针应指向尾结点，尾结点的 prev 指针应指向头结点，选择 B 选项理论上，头结点的 prev 指针还要指向尾结点，尾结点的 next 指针指向头结点，以形成完整的循环， B 选项最接近答案，足够实现一个双向循环链表",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "用以下辗转相除法（欧几里得算法）求gcd(84,60)的步骤中，第二步计算的数是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：84和60"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：60和24"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：24和12"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：12和0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 辗转相除法【解析】代入代码，第一步 big=84,small=60,84%60 == 24 ，递归调用 gcd(60,24); 所以第二步计算 60 和 24",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "根据唯一分解定理，下面整数的唯一分解是正确的()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：18=3×6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：28=4×7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：36=2×3×6"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：30=2×3×5"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 唯一分解定理【解析】唯一分解定理是指每一个大于 1 的整数都可以分解为若干个素数的乘积， A,B,C 选项选项都可以继续分解，可得 D 选项",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下述代码实现素数表的线性筛法，筛选出所有小于等于n的素数，横线上应填的最佳代码是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：j< primes.size()"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：i * primes[j] <= n"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：j< primes.size()& i * primes[j] <= n"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：j<=n"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 线性筛法【解析】线性筛法核心是每个合数只被最小质因数筛一次，在内层循环中会和前面筛出的所有质数相乘，所以循环范围为 j < primes.size(), 但同时要保证乘积在线性筛的范围内，即 i*primes[j] <= n ，所以选 C 选项",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在程序运行过程中，如果递归调用的层数过多，会因为()引发错误。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：系统分配的栈空间溢出"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：系统分配的堆空间溢出"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：系统分配的队列空间溢出"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：系统分配的链表空间溢出"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 递归【解析】递归调用时会为分配栈空间，调用过多会导致栈溢出",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对下面两个函数，说法错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：两个函数的实现的功能相同。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：两个函数的时间复杂度均为O(n)。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：factorialA采用递归方式。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：factorialB采用递归方式。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 递归【解析】函数 A 计算 n 的阶乘，函数 B 中 res*=n, 计算的是 n 的 n-1 次方 ,B 函数并未进行递归",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下算法中，()是不稳定的排序。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：选择排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：插入排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：归并排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：冒泡排序"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 排序算法【解析】选择排序是不稳定的排序",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "考虑以下C+代码实现的快速排序算法，将数据从小到大排序，则横线上应填的最佳代码是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：if (arr[j] > pivot){ i++; swap(arr[i],arr[j]); }"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：if (arr[j] < pivot){ i++; swap(arr[i],arr[j]); }"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：if (arr[j] < pivot){ swap(arr[i],arr[j]); i++; }"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：if (arr[j] == pivot) { i++; swap(arr[i],arr[j]); }"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排序算法【解析】快速排序将待排序数组分为两部分，小于基准值和大于等于基准值代码中 i 记录当前最后一个小于基准值的元素的位置，当 arr[j] 小于基准值时，应该将 arr[j] 放在 i 的下一个位置，也就是 i++ 之后，将 arr[j] 和 arr[i] 交换，确保 arr[i] 是小于基准值的，遍历结束之后再将基准值放在 i+1 的位置保证左侧全部是小于基准值的，右边则是大于等于基准值的",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "若用二分法在[1,100]内猜数，最多需要猜()次。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 二分查找【解析】二分查找最多次数即为最大深度 ⌈ log2 n ⌉ , 区间 [1,100] 包含 100 个元素，计算可得约为 6 点多，向上取整为 7 ；",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码实现了二分查找算法，在数组arr找到目标元素target的位置，则横线上能填写的最佳代码是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：int mid = left + (right - left) / 2；"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：int mid = left;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：int mid = (left + right) / 2；"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：int mid = right;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二分查找【解析】为了避免 left+right 相加溢出，一般使用 left + (right - left) / 2;",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "贪心算法的核心特征是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：总是选择当前最优解"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：回溯尝试所有可能"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：分阶段解决子问题"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：总能找到最优解"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 贪心算法【解析】贪心算法的核心是局部最优解",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "函数int findMax(int arr[],int low, int high)计算数组中最大元素，其中数组arr从索引low到high,()正确实现了分治逻辑。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：if (low = high) return arr[low]; int mid = (low + high) / 2； return arr[mid];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：if (low >= high) return arr[low]; int mid = (low + high) / 2； int leftMax = findMax(arr, low, mid - 1)； int rightMax = findMax(arr, mid, high); return leftMax+ rightMax;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：if (low > high) return 0； int mid = low + (high - low) / 2； int leftMax = findMax(arr, low, mid); int rightMax = findMax(arr, mid + 1， high); return leftMax * rightMax;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：if (low = high) return arr[low]; int mid = low + (high - low) / 2； int leftMax = findMax(arr, low, mid); int rightMax = findMax(arr, mid + 1， high); return(leftMax > rightMax)? leftMax ： rightMax;"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 分治算法【解析】分治需要分成两部分分别找最大值，然后比较返回较大的一个A 选项直接返回中间值， B 选项返回的是结果的和， C 选项返回的是结果的积",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨编写了一个如下的高精度乘法函数，则横线上应填写的代码为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：int temp = c[k];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：int temp = c[k] + carry;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：int temp = c[k] - carry;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：int temp = c[k] * carry;"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 高精度【解析】 c[k] 为当前这位相乘之后的结果， 15 行部分在处理进位，需要将当前位的值 c[k] 与前一位的进位值 carry 相加，然后更新当前位的值为 temp%10 ，并将新的进位值设置为 temp/10 。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "单链表中删除某个结点p(非尾结点)，但不知道头结点，可行的操作是将p的值设为p->next的值，然后删除 p->next。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：对考纲知识点： 链表【解析】因为不知道 头结点， ⽆ 法更新 head ，所以可以将 p->next 的值赋给 p ，这样就变为了删除 p 的下 ⼀ 个结点， ⽆ 需更改头结点",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "链表存储线性表时要求内存中可用存储单元地址是连续的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错考纲知识点： 链表【解析】链表是 ⾮ 线性的，可 ⽤ 存储单元不需要连续",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "线性筛相对于埃拉托斯特尼筛法，每个合数只会被它的最小质因数筛去一次，因此效率更高。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：对考纲知识点： 线性筛法【解析】线性筛每个合数 只被最 ⼩ 质因数筛掉，复杂度 O(n) ，埃筛复杂度 O(nlog log n)",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法通过每一步选择当前最优解，从而一定能获得全局最优解。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错考纲知识点： 贪 ⼼ 算法【解析】贪 ⼼ 算法不保证 ⼀ 定全局最优解， ⽐ 如 01 背包问题",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "递归函数必须具有一个终止条件，以防止无限递归。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：对【解析】递归需要有边界条件和递归式",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "快速排序算法的时间复杂度与输入是否有序无关，始终稳定为O(nlogn)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错考纲知识点： 排序算法【解析】快速 排序最坏情况为 O(n^2 ）， ⽐ 如输 ⼊ 已经有序且每次选择的都是第 ⼀ 个元素作为基准",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序算法的时间复杂度与输入是否有序无关，始终稳定为O(nlogn)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：对考纲知识点： 排序算法【解析】归并排序不受输 ⼊ 数据的影响",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二分查找适用于对无序数组和有序数组的查找。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错考纲知识点： ⼆ 分查找【解析】 ⼆ 分查找适 ⽤ 于有序数组",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨有100元去超市买东西，每个商品有各自的价格，每种商品只能买1个，小杨的目标是买到最多数量的商品。小杨采用的策略是每次挑价格最低的商品买，这体现了分治思想。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案：错考纲知识点： 贪 ⼼ 算法【解析】采 ⽤ 的是贪 ⼼",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序算法体现了分治算法，每次将大的待排序数组分成大小大致相等的两个小数组，然后分别对两个小数组进行排序，最后对排好序的两个小数组合并成有序数组。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案：对考纲知识点： 归并算法【解析】归并的基本原理",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 132
+}

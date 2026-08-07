@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202503-l5",
+ "title": "202503 CCF-GESP编程能力等级认证Python5级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202503",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "链表不具备的特点是 ( ) 。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：可随机访问任何一个元素"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：插入、删除操作不需要移动元素"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：无需事先估计存储空间大小"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：所需存储空间与存储元素个数成正比"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "双向链表中每个结点有两个指针域 prev 和 next ，分别指向该结点的前驱及后继结点。设 p 指向链表中的一个结点，它的前驱结点和后继结点均非空。现要求删除结点 p ，则下述语句中错误的是（）。\nA.\n```cpp\n1 class Node:\n2 def __init__(self, value):\n3 self.value = value\n4 self.prev = None\n5 self.next = None\n\n7 if p.next:\n8 p.next.next = p.prev\n9 if p.prev:\n10 p.prev.next = p.next\n11 p = None\n```\nC.\n```cpp\n1 class Node:\n2 def __init__(self, value):\n3 self.value = value\n4 self.prev = None\n5 self.next = None\n\n7 if p.next:\n8 p.next.prev = p.prev\n9 if p.prev:\n10 p.prev.next = p.prev\n11 p = None\n```\nD.\n```cpp\n1 class Node:\n2 def __init__(self, value):\n3 self.value = value\n4 self.prev = None\n5 self.next = None\n\n7 if p.next:\n8 p.next.prev = p.next\n9 if p.prev:\n10 p.prev.next = p.next\n11 p = None\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设双向循环链表包含头尾哨兵结点 ( 不存储实际内容 ) ，分别为 head 和 tail ，链表中每个结点有两个指针域 prev 和 next ，分别指向该结点的前驱及后继结点。下面代码实现了一个空的双向循环链表，横线上应填的最佳代码是 ( ) 。\n```cpp\n1 class ListNode:\n2 def __init__(self, val=None):\n3 self.data = val\n4 self.prev = None\n5 self.next = None\n\n7 class LinkedList:\n8 def __init__(self):\n9 self.head = ListNode()\n10 self.tail = ListNode()\n11 _______________________\n12 _______________________\n\n15 def init_linked_list():\n16 return LinkedList()\n```\nA.\n```cpp\n1 self.head.next = self.tail\n2 self.tail.prev = self.head\n```\nB.\n```cpp\n1 self.head.next = self.head\n2 self.tail.prev = self.tail\n```\nC.\n```cpp\n1 self.head.next = self.tail\n2 self.tail.next = self.head\n```\nD.\n```cpp\n1 self.head.prev = self.tail\n2 self.tail.next = self.head\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "用以下辗转相除法（欧几里得算法）求 gcd(84, 60) 的步骤中，第二次调用 gcd() 函数计算的数是（）。\n```cpp\n1 def gcd(a, b):\n2 big = max(a, b)\n3 small = min(a, b)\n4 if big % small == 0:\n5 return small\n6 return gcd(small, big % small)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：84 和 60"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：60 和 24"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：24 和 12"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：12 和 0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "根据唯一分解定理，下面整数的唯一分解是正确的（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：18 = 3 × 6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：28 = 4 × 7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：36 = 2 × 3 × 6"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：30 = 2 × 3 × 5"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下述代码实现素数表的线性筛法，筛选出所有小于等于的素数，横线上应填的最佳代码是 ( ) 。\n```cpp\n1 def sieve_linear(n):\n2 is_prime = [True] * (n + 1)\n3 primes = []\n\n5 if n < 2:\n6 return primes #\n\n8 is_prime[0] = is_prime[1] = False\n\n10 for i in range(2, n // 2 + 1):\n11 if is_prime[i]:\n12 primes.append(i)\n\n15 j = 0\n16 _____________________________________\n17 is_prime[i * primes[j]] = False\n18 if i % primes[j] == 0:\n19 break\n20 j += 1\n\n23 for i in range(n // 2 + 1, n + 1):\n24 if is_prime[i]:\n25 primes.append(i)\n\n27 return primes\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：while j < len(primes) and j * primes[j] <= n:"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：while j < len(primes) and i * primes[j] <= n:"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：while j < len(primes) and j * primes[i] <= n:"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：while i < len(primes) and i * primes[j] < n:"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在程序运行过程中，如果递归调用的层数过多，会因为（）引发错误。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：系统分配的栈空间溢出"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：系统分配的堆空间溢出"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：系统分配的队列空间溢出"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：系统分配的链表空间溢出"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对下面两个函数，说法错误的是（）。\n```cpp\n1 def factorialA(n):\n2 if n <= 1:\n3 return 1\n4 return n * factorialA(n - 1)\n\n6 def factorialB(n):\n7 if n <= 1:\n8 return 1\n9 res = 1\n10 for i in range(2, n + 1):\n11 res *= i\n12 return res\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：两个函数的实现的功能相同。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：两个函数的时间复杂度均为。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：factorialA 采用递归方式。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：factorialB 采用递归方式。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下算法中，（）是不稳定的排序。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：选择排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：插入排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：归并排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：冒泡排序"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "考虑以下 python 代码实现的快速排序算法，将数据从小到大排序，则横线上应填的最佳代码是 ( ) 。\n```cpp\n1 def partition(arr, low, high):\n2 pivot = arr[high]\n3 i = low - 1\n\n5 for j in range(low, high):\n6 _________________________________\n\n8 arr[i + 1], arr[high] = arr[high], arr[i + 1]\n9 return i + 1\n\n11 def quick_sort(arr, low, high):\n12 if low < high:\n13 pi = partition(arr, low, high)\n14 quick_sort(arr, low, pi - 1)\n15 quick_sort(arr, pi + 1, high)\n```\nA.\n```cpp\n1 if arr[i] < pivot:\n2 i += 1\n3 arr[i], arr[j] = arr[j], arr[i]\n```\nB.\n```cpp\n1 if arr[j] < pivot:\n2 j += 1\n```\nC.\n```cpp\n1 if arr[i] < pivot:\n2 j += 1\n3 arr[i], arr[i] = arr[j], arr[i]\n```\nD.\n```cpp\n1 if arr[j] < pivot:\n2 i += 1\n3 arr[i], arr[j] = arr[j], arr[i]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "若用二分法在 [1, 100] 内猜数，最多需要猜（）次。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的 python 代码实现了二分查找算法，在数组 arr 找到目标元素 target 的位置，则横线上能填写的最佳代码是（）。\n```cpp\n1 def binary_search(arr, left, right, target):\n2 while left <= right:\n3 _________________________\n\n5 if arr[mid] == target:\n6 return mid\n7 elif arr[mid] < target:\n8 left = mid + 1\n9 else:\n10 right = mid - 1\n\n12 return -1\n```\nA.\n```cpp\n1 mid = left + (right - left) // 2\n```\nB.\n```cpp\n1 mid = left;\n```\nC.\n```cpp\n1 mid = (left + right) // 2 + 1;\n```\nD.\n```cpp\n1 mid = right;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "贪心算法的核心特征是（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：总是选择当前最优解"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：回溯尝试所有可能"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：分阶段解决子问题"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：总能找到最优解"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "函数 def find_max(arr, low, high): 计算数组中最大元素，其中数组 arr 从索引 low 到 high ，（）正确实现了分治逻辑。\nA.\n```cpp\n1 def find_max(arr, low, high):\n2 if low = high:\n3 return arr[low]\n4 mid = low + (high - low) // 2\n5 left_max = find_max(arr, low, mid)\n6 right_max = find_max(arr, mid, high)\n7 return left_max if left_max > right_max else right_max\n```\nB.\n```cpp\n1 def find_max(arr, low, high):\n2 if low == high:\n3 return arr[low]\n4 mid = low + (high - low) // 2\n5 left_max = find_max(arr, low, mid)\n6 right_max = find_max(arr, mid, high)\n7 return left_max if left_max > right_max else right_max\n```\nC.\n```cpp\n1 def find_max(arr, low, high):\n2 if low == high:\n3 return arr[low]\n4 mid = low + (high - low) // 2\n5 left_max = find_max(arr, low, mid)\n6 right_max = find_max(arr, mid - 1, high)\n7 return left_max if left_max > right_max else right_max\n```\nD.\n```cpp\n1 def find_max(arr, low, high):\n2 if low == high:\n3 return arr[low]\n4 mid = low + (high - low) // 2\n5 left_max = find_max(arr, low, mid)\n6 right_max = find_max(arr, mid + 1, high)\n7 return left_max if left_max > right_max else right_max\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨编写了一个如下的高精度乘法函数，则横线上应填写的代码为（）。\n```cpp\n1 def multiply ( a , b ):\n2 m , n = len ( a ), len ( b )\n3 c = [ 0 ] * ( m + n )\n4 for i in range ( m ):\n5 for j in range ( n ):\n6 c [ i + j ] += a [ i ] * b [ j ]\n7 carry = 0\n8 for k in range ( len ( c )):\n9 ————————————————————\n10 c [ k ] = temp % 10\n11 carry = temp // 10\n\n13 while len ( c ) > 1 and c [ - 1 ] == 0 :\n14 c . pop ()\n\n16 return c\n```\nA.\n```cpp\n1 temp = c [ k ]\n```\nB.\n```cpp\n1 temp = c [ k ] + carry\n```\nC.\n```cpp\n1 temp = c [ k ] - carry\n```\nD.\n```cpp\n1 temp = c [ k ] * carry\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "单链表中删除某个结点 p ( 非尾结点 ) ，但不知道头结点，可行的操作是将 p 的值设为 p.next 的值，然后删除 p.next 。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "链表存储线性表时要求内存中可用存储单元地址是连续的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "线性筛相对于埃拉托斯特尼筛法，每个合数只会被它的最小质因数筛去一次，因此效率更高。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法通过每一步选择当前最优解，从而一定能获得全局最优解。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "递归函数必须具有一个终止条件，以防止无限递归。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "快速排序算法的时间复杂度与输入是否有序无关，始终稳定为。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序算法的时间复杂度与输入是否有序无关，始终稳定为。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二分查找适用于对无序数组和有序数组的查找。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨有 10 元去超市买东西，每个商品有各自的价格，每种商品只能买 1 个，小杨的目标是买到最多数量的商品。小杨采用的策略是每次挑价格最低的商品买，这体现了分治思想。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "归并排序算法体现了分治算法，每次将大的待排序数组分成大小大致相等的两个小数组，然后分别对两个小数组进行排序，最后对排好序的两个小数组合并成有序数组。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 144
+}

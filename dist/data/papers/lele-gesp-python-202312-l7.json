@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202312-l7",
+ "title": "202312 CCF-GESP编程能力等级认证Python7级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 7,
+ "levelName": "7级",
+ "yearmonth": "202312",
+ "year": "2023",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设变量x为float类型，如果下面代码输入为100，输出最接近()。\n```python\nimport math\ndef function():\n    x=float(input(\"Please input a:\"))\n    b=math.log10(x)-math.log2(x)\n    print(b)\nfunction()\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：-5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：-8"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：8"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】 log10(x) 表示 10 的多少次方是 x ， log2(x) 表示 2 的多少次方是 x ，这里的 x 是输入的 100 ，所以， log10(100)=2 ，又因为 2^6 =64 ，所以 log2(100) 是 6. 多，两者作差，约为 -4. 多，选 B 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对于下面动态规划方法实现的函数，以下选项中最适合表达其状态转移函数的为()。\n```python\n#函数调用前，已定义s为list成员数量为MAX_N,\n#f同为list,成员数量为MAX_N,每个成员为MAX_N个成员list\ndef stone_merge(n,a):\n    for i in range(1,n+1):\n        s[i]= s[i - 1]+ a[i]\n    for i in range(1,n+1):\n        for j in range(1,n+1):\n            if i== j:\n                f[i][j]=0\n            else:\n                f[i][j]=MAX_F#预定义的值\n    for l in range(1, n):\n        for i in range(1, n - l+ 1)：\n            j=i+l\n            for k in range(i,j):\n                f[i][j]= min([f[i][j],f[i][k]+ f[k+1][j]+ s[j] - s[i-1])\n    return f[1][n]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：f(i,j)=min(f(i,j),f(i,k)+f(k+1,j)+s(j)-s(i-1))"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：f(i,j)=min(f(i,j),f(i,k)+f(k+1,j)+∑_{k=i}^{j}a(k))"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：f(i,j)=min(f(i,k)+f(k+1,j)+∑a(k))"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：f(i,j)=min(f(i,k)+f(k+1,j)+∑_{k=i}^{j}a(k))"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析】首先看代码， s 数组是前缀和数组， f 数组是 dp 数组，初始化 f 数组为正无穷，只有 f[i][i]=0 （ 1<=i<=n ）的值为 0 ，接着进行了区间 dp ， i 和 j 分别是区间 dp 的两个端点， k 是枚举的分界点， k 的取值范围是 [i,j) ，所以选项 C 错误，根据第 15 行转移方程，发现后面的 s[j]-s[i-1] 是 a[i]+a[i+1]+…+a[j] 的和，且与 k 无关，可以单独拎出来，所以转移方程为 f[i][j]=min(f[i][j], f[i][k]+f[k+1][j])+s[j]-s[i-1] ，选项 D 正确。选项 A,B 的错误点在于 f(i,j) 的初始值为正无穷，所以 f(i,j) 是不参与转移方程的。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码可以用来求最长上升子序列(LIS)的长度，如果输入是整数序列是：517359，则输出是()。\n```python\narr = list(map(int,input().split(\",\")))\ncnt = 1\nans = 0\nfor i in range(len(arr)-1):\n    if arr[i] < arr[i+1]:\n        cnt += 1\n    else:\n        ans = max(ans,cnt)\n        cnt = 1\nans = max(ans,cnt)\nprint(ans)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：975119"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：12223"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：135799"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：111111"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】题目已经提示我们这是在求最长上升子序列， f 数组的含义是以 i 结尾的最长上升子序列长度， ans 是整个序列的最长上升子序列长度，代码中先依次输出了 f[1],f[2],…,f[n], 最后再输出 ans ，接着我们可以进行手算， 1 7 3 5 9 序列的 f 值分别为 1,2,2,3,4,ans=4 ，所以正确答案为 B 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "Python中，下列关于类描述不正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：类属性可以通过类的名称访问其值。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：类属性也可以称之为类的静态属性。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：和实例属性相同，类属性前面也必须有self关键字，并以句点间隔。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果在类的某个实例（对象）中修改类属性的值，则其他该类实例访问该值时，其值也随之改变。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】 static 是静态意思，可以修饰成员变量和成员方法， static 修饰成员变量表示该成员变量在内存中只存储一份，可以被共享访问，修改。选项 C 中 a 的地址都可以访问是不对的，所以本题选 C 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "G是一个非连通无向图，共有28条边，则该图至少有()个顶点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：8"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：9"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析】注意到题目里说的是非连通无向图，那么在同样的点数 n 下，为了有尽量多的边，可以分为两张连通图，一张 n-1 个点的完全图，另一张只有单独一个点，手算后可以发现， 8 个点的完全图有 8*7/2=28 个点，正好满足题目要求，所以总点数为 9 个，选 D 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "哈希表长31，按照下面的程序依次输入41728304，则4存入哪个位置？()\n```python\nN=31\nhtab,flag = [0 for i in range(N)], [0 for i in range(N)]\nn, x, i, j, k= 0， 0， 0， 0， 0\nn = int(input())\nfor i in range(n):\n    x= int(input())\n    k=x%13\n    while(flag[k]):\n        k=(k+1)%13\n    htab[k]=x\n    flag[k]=1\nfor i in range(N):\n    print(htab[i],end=\"\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：4"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：6"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析】题目提示我们这是哈希表，根据代码，发现是按照 %13 进行哈希并且在发生冲突的情况下， 对应放到下一个位置，我们依次计算 17 28 30 4 会放置在什么位置， 17 放置在 4,28 放置在 2,30 本来放置在 4 ，但是发生冲突，最终放置在 5,4 本来放置在 4 ，但是 4 和 5 都被占用了，所以最终放置在 6 ，选 D 。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "某二叉树T的先序遍历序列为：{ABDFCEGH},中序遍历序列为：{BFDAGEHC},则下列说法中正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：T的度为1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：T的高为4"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：T有4个叶节点"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上说法都不对"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】先序遍历是根左右，中序遍历是左根右，首先可以根据先序遍历和中序遍历画出完整的树，如下图：所以正确答案为 B 。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码段可以求两个字符串s1和s2的最长公共子串(LCS),下列相关描述不正确的是()。\n```python\ndef LCS(str1,str2):\n    res = [0]*len(str2) for _ in range(len(str1)]\n    max_len=0\n    max_str=[]\n    for i in range(len(str1):\n        for j in range(len(str2):\n            if str1[i]=str2[j]:\n                if i>0 and j>0:\n                    res[i][j]=1+res[i-1][j-1]\n                else:\n                    res[i][j]=1\n                if res[i][j]>max_len:\n                    max_len=res[i][j]\n                    max_str=[str1[i-max_len+1:i+1]]\n                elif res[i][j]=max_len:\n                    max_str.append(str1[i-max_len:i])\n    return max_str\nstr1,str2=(input().split()\nn=LCS(str1,str2)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码的时间复杂度为O(n^2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：代码的空间复杂度为O(n^2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：空间复杂度已经最优"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：采用了动态规划求解"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】题目告诉我们代码是在求解最长公共子串，代码中使用了双重 for 循环，且循环范围为 [1~n1] 以及 [1~n2] ，所以选项 A 正确，使用了二维数组 dp ，两维的长度也均为字符串长度，所以选项 B 正确，空间复杂度还可以使用滚动数组进一步优化为 O(n) ，所以选项 C 错误，本题选 C ，选项 D 正确，代码中使用的正是动态规划算法。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "图的广度优先搜索中既要维护一个标志数组标志已访问的图的结点，还需哪种结构存放结点以实现遍历？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：双向栈"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：队列"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：哈希表"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：堆"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】图的广度优先搜索是从若干点出发，依次向外进行逐层扩展的算法，使用队列存放待遍历节点，本题选 B 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对关键字序列(44,36,23,35,52,73,90,58}建立哈希表，哈希函数为h(k)=k%7,执行下面的Insert函数，则等概率情况下的平均成功查找长度（即查找成功时的关键字比较次数的均值）为()。\n```python\nclass Node:\n    def __init__(self,Data=None,Next=None):\n        self.Data = Data\n        self.Next = Next\nhTab = [Node() for i in range(7)]\nKey=[44,36,23,35,52,73,90,58,0]\ndef Insert():\n    i=0\n    while Key[i]:\n        j=Key[i]%7\n        x=Node()\n        x.Data=Key[i]\n        x.Next = hTab[j]\n        hTab[j]=x\n        i+=1\nInsert()\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：7/8"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1.5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】代码采用链地址法来存储哈希，即将所有哈希地址相同的记录都链接在同一链表中，哈希方式为 %7 ，我们依次对每个元素进行判断： 44 ， 36 ， 23 ， 35 ， 52 ， 73 ， 90 ， 58 ，每个数字的哈希地址分别是 2,1,2,0,3,3,6,2 ，即哈希值为 0~6 的元素个数分别有 1,1,3,2,0,0,1 ，对于之前的 8 个数字，它们查找成功的次数分别是 1,1,2,1,1,2,1,3 ，总次数为 12 次，平均次数 =12/8=1.5 次，答案为 C 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "学生在读期间所上的某些课程中需要先上其他的课程，所有课程和课程间的先修关系构成一个有向图G,有向边<U,V>表示课程U是课程V的先修课，则要找到某门课程C的全部先修课下面哪种方法不可行？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：BFS搜索"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：DFS搜索"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：DFS+BFS"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：动态规划"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析】查询有向图上有多少个点能够到达该点，可以在反图上进行搜索，所以选项 A,B,C 都可以，正确答案是 D 。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一棵完全二叉树有2023个结点，则叶结点有多少个？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1024"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1013"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1012"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1011"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】设一棵完全二叉树有 k 层，则前 k-1 都是满二叉树，第 k 层的节点需要从左往右排列，那么第 1 层有 1 个节点，第 2 层有 2 个节点，第 3 层有 4 个节点。。。第 9 层有 512 个节点，此时总节点个数为 1023 ，第 10 层放置剩余的 1000 个节点，那么叶节点个数为第 10 层的 1000 个节点，再加上第 9 层除去被第 10 层消耗的 500 个节点外剩余的 12 个节点，总共为 1012 个，选 C 。也可以根据完全二叉树的节点编号性质来计算，即：第 2023 号结点的双亲是最后一个非叶结点，序号是 2023/2=1011 ，所以叶节点个数为： 2023-1011=1012 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "用下面的邻接表结构保存一个有向图G,InfoType和VertexType是定义好的类。设G有n个顶点、e条弧，则求图G中某个顶点u(其顶点序号为k)的度的算法复杂度是()。\n```python\nclass ArcNode:\n    def __init__(self, adjvex=None, nextarc=None,info=None):\n        self.adjvex = adjvex\n        self.nextarc = nextarc\n        self.info = info\nclass VNode:\n    def __init__(self, data=None, firstarc=None):\n        self.data = data\n        self.firstarc = firstarc\nclass ALGraph:\n    def __init__(self, vertices, vexnum, arcnum,kind):\n        self.vertices = vertices\n        self.vexnum, self.arcnum = vexnum, arcnum\n        self.kind = kind\nAdjList = [VNode() for i in range(MAX_VERTEX_NUM)]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(e)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n+e)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n+2*e)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】代码中使用了邻接表来存储边的信息，查找某个点的度时需要计算出度和入度。出度直接从该点出发，遍历该点出发的边即可。同时查询入度，可以在反图上进行类似操作，总复杂度为 O(e), 选 B 。也可以遍历整个邻接表，包含点顶点 u 的弧的数目就是该顶点的度。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个简单有向图G,判断其中是否存在环路的下列说法哪个最准确？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：BFS更快"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：DFS更快"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：BFS和DFS一样快"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：不确定"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析】对于不同的图， BFS 和 DFS 的效率也不一样，有可能 DFS 更快，也有可能 BFS 更快，所以本题正确答案为 D 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "从顶点v1开始遍历下图G得到顶点访问序列，在下面所给的4个序列中符合广度优先的序列有几个？(){v1v2v3v4v5},{v1v2v4v3v5},{v1v4v2v3v5},{v1v2v4v5v3}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：4"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：2"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】广度优先遍历会首先搜索和 s 距离为 k 的所有顶点，然后再去搜索和 s 距离为 k+1 的其他顶点，所以第 1 个序列不是广度优先搜索的序列，因为 v3 和 v1 的距离超过了 v4 和 v1 的距离，但是序列中 v3 确排在 v4 前面，其余 3 个序列都是广度优先搜索的序列，本题选 B 。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨这学期准备参加GESP的7级考试，其中有关于三角函数的内容，他能够通过下面的代码找到结束循环的角度值。()\n```python\nimport math\ndef function():\n    while True:\n        x=float(input())\n        x=x/180*3.14\n        if int(math.sin(x)*math.sin(x)+math.cos(x)*math.cos(x)==1:\n            print(x)\n            break\nfunction()\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】正确，代码将输入的角度转换成弧度，虽然对于任意的弧度，数学上均有，但 int（）转换对某些 x 可能出现截断的情况，能够导致循环结束。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨在开发画笔刷小程序(applet),操作之一是选中黄颜色，然后在下面的左图的中间区域双击后，就变成了右图。这个操作可以用图的泛洪算法来实现。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】泛洪算法是从某个点出发，向周边相邻的区域进行扩展，和操作的要求是一致的，正确。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "假设一棵完全二叉树共有N个节点，则树的深度为log(N)+1。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】树的深度应该是[log2N+1],直接写log会以e为底，错误。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "给定一个数字序列A1,A2,A3,...,An,要求i和j(1<=i<=j<=n),使Ai+..+Aj最大，可以使用动态规划方法来求解。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】问题为最大子段和，动态规划的经典例题，设 f[i] 为以 i 结尾的子段最大值，则 f[i]=max(a[i],f[i-1]+a[i]); 正确。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "若变量x为float类型正数，则log(math.exp(x))>math.log10(x)。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】式子左侧 exp(x), 是 e^x , 所以 log(exp(x)) 就等于 x ，等价于询问对于任意大于 0 的正实数 x ，是否有 x>log10(x), 当 0<x<1 时， log10(x) 为负数，必然成立，当 x==1 时， log10(x)=0, 成立，当 x>1 时， log10(x) 的增长远远慢于 x 的增长，也成立，所以 x>log10(x) 成立，正确。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "简单有向图有n个顶点和e条弧，可以用邻接矩阵或邻接表来存储，二者求节点u的度的时间复杂度一样。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】错误，邻接矩阵求节点 u 的度时间复杂度为 O(n), 而邻接表为 O(e) 。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "某个哈希表键值x为整数，为其定义哈希函数H(x)=x%p,则p选择素数时不会产生冲突。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】错误 ，设 p 为 7 ，则键值 14 和 21 的 hash 值相同，产生了冲突。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "动态规划只要推导出状态转移方程，就可以写出递归程序来求出最优解。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】错误，用递归法求解动态规划方程会造成重复计算，可能导致超时。另外，动态规划算法的核心是状态转移方程，但同时也需要定义状态、初始条件和边界条件等。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "广度优先搜索(BFS)能够判断图是否连通。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】正确， BFS 是图论中遍历图的算法，可以从任意一个点出发进行 BFS ，记录遍历过程中经过的不同点的个数，若不等于总点数，则说明图不连通。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，如果定义了构造函数，则创建对象时先执行完缺省的构造函数，再执行这个定义的构造函数。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】错误，创建对象时最多只会执行一个构造函数。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2023",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 220
+}

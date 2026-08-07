@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-scratch-202506-l4",
+ "title": "202506 CCF-GESP编程能力等级认证Scratch4级真题",
+ "subject": "gesp-scratch",
+ "subjectName": "GESPScratch",
+ "level": 4,
+ "levelName": "4级",
+ "yearmonth": "202506",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2025年4月19日在北京举行了一场颇为瞩目的人形机器人半程马拉松赛。比赛期间，跑动着的机器人会利用身上安装的多个传感器所反馈的数据来调整姿态、保持平衡等，那么这类传感器类似于计算机的？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：处理器"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：存储器"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：输出设备"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：输入设备"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "当输入n=3时，下列流程图的输出结果是？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：12"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：24"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：36"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，小猫说出的内容是？()\n当\n被点击\n将\nstr\n设为\nLOVECCFGESP\n将\ns\n设为\n将\n设为\n1\n将\nj.\n设为\nstr\n的字符数\n重复执行直到\n>\n如果\n=\n那么\n将\ns\n设为\n连接\ns\n和\nstr\n的第\n个字符\n否则\n将\ns\n设为\n连接\n和\n连接\nstr\n的第\n个字符\n和\nstr\n的第\n1\n个字符\n将\n增加\n1\n将\n增加\n-1\n5\n说\n2\n秒"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：LOVECCFGESP"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：LPOSVEEGCFCC"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：LPOSVEEGCFC"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：LPOSEECGCFC"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，如果小猫说出的内容是30，下面程序中“重复执行直到·.”的判断条件是？()\n当\n被点击\n将\nsum\n设为\n0\n将\ni.\n设为\n1\n重复执行直到\n计算\n说\nsum\n2\n秒\n定义\n计算\n如果\n除以\n2\n的余数\n=\n0\n那么\n将\nsum\n增加\n将\ni.\n增加\n1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：>10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1>10或=10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：<10"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：110或i=10"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，下面哪个选项是正确的？()\n问题\n答案\n1\n3+4\n1\n7\n2\n8+3\n2\n11\n3\n9+8\n3\n17\n4\n11+2\n4\n13\n+\n长度4\n=\n+\n长度4\n=\n当\n被点击\n广播\n消息1\n当接收到\n消息1\n.\n询问\n您有什么问题要问？\n并等待\n如果\n问题\n包含\n回答\n?\n那么\n说\n答案\n.\n的第\n问题\n.\n中第一个\n回答\n的编号\n项\n2\n秒\n广播\n消息1\n否则\n将\n回答\n加入\n问题\n询问\n告诉我答案吧\n并等待\n将\n回答\n加入\n答案"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如果输入9+8，小猫会说出这个表达式的答案17，程序终止。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果输入8+9，小猫会说出这个表达式的答案17，程序继续询问。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果输入7+8，小猫不会说出这个表达式的答案，会把这个问题以及你录入的答案添加到对应的列表，程序终止。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果输入8+7，小猫不会说出这个表达式的答案，会把这个问题以及你录入的答案添加到对应的列表，程序继续询问。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，输入正整数5，小猫说出的内容是？()\nlist\n1\nApple\n2\nBanana\n3\nOrange\n4\nGrape\n5\nPeach\n6\nPear\n+\n长度6\n=\n当\n被点击\n询问\n输入一个正整数\n并等待\n计算\n回答\n说\nresult\n2\n秒\n定义\n计算\nn\n将\ni.\n设为\n1\n将\nresult\n设为\n0\n重复执行直到\n>\nlist\n的项目数\n如果\nlist\n的第\ni\n项\n的字符数\n<\nn\n那么\n将\nresult\n.\n增加\n1\n将\n增加\n1\n5"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，输入正整数20101109，小猫说出的内容是？()\n当\n被点击\n将\nresult\n.\n设为\n0\n询问\n请输入一个正整数\n并等待\n计算\n回答\n说\nresult\n2\n秒\n定义\n计算\nn\n将\n设为\nn\n重复执行直到\n=\n0\n将\nk.\n设为\n除以\n10\n的余数\n如果\nk\n除以\n2\n的余数\n=\n1\n那么\n将\nresult\n.\n设为\nresult\n10\n+\nk\n将\ni.\n设为\n向下取整\n.\n/\n10"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：9111"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：911"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1119"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：119"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，绘制出如下图形，红框处填写的数值是？()\n当\n被点击\n移到x\n0\ny.\n0\n面向\n90\n方向\n显示\n将大小设为\n50\n绘图\n定义\n绘图\nn\n重复执行\nn\n次\n全部擦除\n重复执行\n3\n次\n移动\n100\n步\n图章\n移动\n-100\n步\n右转\n30\n度\n5"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：4"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，小猫说出的内容是？()\n当\n被点击\n删除\nlist\n的全部项目\n处理字符串\nCCFGESP\nCSPJ\n说\nlist\n2\n秒\n定义\n处理字符串\ns1\ns2\n将\ns1\n.\n设为\ns1\n将\ns2\n.\n设为\ns2\n将\ni.\n设为\n1\n重复执行直到\n>\ns1\n的字符数\n将\nch\n设为\ns1\n的第\n1\n个字符\n如果\ns2\n包含\nch\n?\n不成立\n那么\n将\nch\n加入\nlist\n将\n增加\n1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：EGF"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：J"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：CCSP"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：FGE"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，输入正整数5，小猫说出的内容是？()\n当\n被点击\n删除\nlist\n的全部项目\n询问\n请输入一个正整数\n并等待\n计算\n回答\n说\nlist\n2\n秒\n定义\n计算\nn\n将\ni\n设为\n1\n重复执行直到\n>\nn\n将\nk\n设为\n1\n将\n设为\n1\n重复执行直到\n>\n1\n将\nk\n设为\nk\n将\ni.\n增加\n1\n将\nk\n加入\nlist\n将\ni\n增加\n1\n5"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：12624120"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：121228834560"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：624120720"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2471116"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，list3的内容为？()\nlist1\nlist2\nlist3\n1\n5\n1\n1\n空\n2\n4\n2\n9\n3\n1\n3\n8\n4\n4\n4\n5\n5\n5\n5\n10\n6\n14\n+\n长度5\n=\n+\n长度6\n=\n+\n长度0\n=\n当\n被点击\n删除\nlist3\n的全部项目\n将\n设为\n1\n重复执行直到\n>\nlist1\n.\n的项目数\n或\n>\nlist2\n.\n的项目数\n如果\nlist1\n.\n的第\n1\n项\n除以\n3\n的余数\n=\n1\n那么\n将\nlist1\n.\n的第\n1\n项\n加入\nlist3\n如果\nlist2\n.\n的第\n项\n除以\n3\n的余数\n=\n2\n那么\n在\nlist3\n的第\n1\n项前插入\nlist2\n的第\n1\n项\n将\ni.\n增加\n1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：8、5、4、1、4"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：4、1、4、5、8"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：4、1、8、4、5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5、8、4、1、4"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，舞台上最多会看到多少只小猫？()\n当\n被点击\n隐藏\n执行\n3\n定义\n执行\nn\n重复执行\nn\n次\n等待\n0.5\n秒\n移到\n随机位置\n克隆\n自己\n广播\n消息1\n当接收到\n消息1\n显示"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面有关排序的哪个说法是正确的？()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：选择排序是一种不稳定的排序"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：冒泡排序是一种不稳定的排序"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：插入排序是一种不稳定的排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：如果给定数据部分有序，选择排序通常比插入排序效率高"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，绘制出如下图形，红框处填写的数值是？()\n当\n被点击\n移到x\n0\ny\n0\n面向\n90\n方向\n隐藏\n绘制\n定义\n绘制\nn\n将\ni.\n设为\n0\n将笔的颜色设为\n全部擦除\n落笔\n重复执行\nn\n次\n移动\n100\n步\n右转\n120\n度\n如果\n除以\n3\n的余数\n=\n2\n那么\n右转\n120\n度\n将\n增加\n1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：9"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，输入小写字母c,小猫说出的内容是？()\n当\n被点击\n删除\nlist\n的全部项目\n询问\n请输入一个字符\n并等待\n计算\n回答\n说\nlist\n的项目数\n2\n秒\n定义\n计算\n将\nS\n设为\nCcFGESP\n将\ni.\n设为\n1\n重复执行直到\n1\n的字符数\n如果\n的第\ni\n个字符\n=\nC\n那么\n将\ni\n加入\nlist\n将\n增加\n1"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：3"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "手工课上，老师给每位同学发一张彩纸。小杨将这张纸对折1次，变成了2层纸厚；再对折1次，变成了4层纸厚；继续对折，纸的层数会一直这样成倍增加。如果小杨最多能对折6次（因为再折纸就太厚了），那么对折6次后，这叠纸一共有32层。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，分别执行下列程序，小猫的运动状态是相同的，都能实现并行效果。\n当\n被点击\n定义\n执行\n换成\n造型1\n造型\n移到\n0\n-120\n重复执行\ny.\n执行\n下一个造型\n,\n重复执行直到\ny坐标\n>\n120\n等待\n0.1秒\n将y坐标增加\n5\n程序1\n停止\n全部脚本\n当\n被点击\n当\n被点击\n换成\n造型1\n造型\n重复执行\n移到x\n0\ny\n-120\n下一个造型\n重复执行直到\ny\n坐标\n>\n120\n等待\n0.1\n秒\n将y坐标增加\n5\n程序2\n停止\n全部脚本"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，小猫说出的内容为6。\nlist1\nlist2\n1\na\n1\n1\n2\nb\n2\n2\n3\nC\n3\n3\n+\n长度3\n长度3\n当\n被点击\n添加\nlist1\n说\nlist2\n.\n的项目数\n2\n秒\n定义\n添加\nlist\n将\nlist\n加入\nlist2"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，运行下列程序，输入字母F,小猫最后说出-1。\nlist\n1\nA\n2\nB\n3\nC\n4\nD\n5\nE\n+\n长度5\n当\n被点击\n询问\n输入字母\n并等待\n寻找\n回答\n定义\n寻找\nC\n说\nlist\n.\n中第一个\nC\n的编号\n2秒"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序后，输入正整数100，小猫最后说出的结果为4。\n当\n被点击\n询问\n请输入一个正整数\n并等待\n计算\n回答\n说\ncnt\n2\n秒\n定义\n计算\nn\n将\nn\n设为\nn\n将\ncnt\n.\n设为\n0\n重复执行直到\nn\n除以\n2\n的余数\n=\n0\n不成立\n将\nn\n设为\nn\n2\n将\ncnt\n.\n增加\n1\n将\ni\n设为\n3\n重复执行直到\nn\n<\n1\n重复执行直到\nn\n除以\n的余数\n=\n0\n不成立\n将\nn\n设为\nn\n将\ncnt\n增加\n1\n将\n增加\n2\n5"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，小猫说出的内容为0。\n当\n被点击\n删除\nlist\n的全部项目\n将\ni.\n设为\n1\n重复执行直到\n1\n>\n99\n判断\n1\n除以\n15\n的余数\n=\n0\n如果\nresult\n=\ntrue\n那么\n将\n1\n加入\nlist\n将\ni.\n增加\n1\n说\nlist\n.\n的项目数\n2\n秒\n定义\n判断\nboolean\n将\nresult\n设为\nfalse\n如果\nboolean\n那么\n如果\n1\n除以\n3\n的余数\n=\n0\n或\n除以\n5\n的余数\n=\n0\n不成立\n那么\n将\nresult\n设为\ntrue"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，红框处依次填入12和2，能够绘制出如下所示图形。\n当\n被点击\n移到\nx\n0\ny.\n0\n面向\n90\n方向\n隐藏\n绘制\n定义\n绘制\nn\ns\n全部擦除\n落笔\n将\n设为\n1\n重复执行\nn\n次\n如果\n1\n除以\n3\n的余数\n=\n那么\n将笔的颜色设为\n否则\n将笔的颜色设为\n移动\ni\n☆\n15\n步\n将\ni.\n增加\n1\n右转\n90\n度"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "对序列[2,0,2,4,3,1,6]进行一趟冒泡排序（由小到大）之后，序列中的数据变为[1,0,2,4,3,2,6]。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "班级有180元班费，计划购买每本12元的笔记本和每盒8元的水彩笔，要求必须同时购买这两种文具且刚好花完所有班费。可以使用枚举算法来求解这个问题。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一个小球从初始高度h米处自由落下，每次碰到地面后会反弹到之前高度的一半。若要计算在第n次落地时，小球总共经过的米数。可以使用模拟算法求解这个问题。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 158
+}

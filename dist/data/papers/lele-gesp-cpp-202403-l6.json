@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202403-l6",
+ "title": "202403 CCF-GESP编程能力等级认证C++6级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 6,
+ "levelName": "6级",
+ "yearmonth": "202403",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在构建哈夫曼树时，每次应该选择()合并。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：最小权值的节点"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：最大权值的节点"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：随机节点"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：深度最深的节点"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 哈夫曼树根据哈夫曼树的定义：带权路径长度最小。可得权值越大的点离根越近，权值越小的离根越远，故每次拿两个权值最小的节点合并。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "面向对象的编程思想主要包括以下哪些原则()？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：贪心、动态规划、回溯"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：并发、并行、异步"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：递归、循环、分治"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：封装、继承、多态"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 面向对象类的特性面向对象类的三大特性分别为：封装、继承、多态。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在队列中，元素的添加和删除是按照()原则进行的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：先进先出"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：先进后出"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：最小值先出"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：随机进出"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 队列队列是一个元素具有先进先出限制的线性表。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个简单的类定义如下，()语句在类的外部正确地创建了一个Circle 对象并调用了 getArea 函数？\n```cpp\nclass Circle {\nprivate:\n    double radius;\npublic:\n    Circle(double r) : radius(r){}\n    double getArea(){\n        return 3.14 * radius * radius;\n    }\n};\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Circle c = Circle(5.0);c.getArea(c);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Circle c(5.0); getArea(c);"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：Circle c = new Circle(5.0);c.getArea();"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：Circle c(5.0);c.getArea();"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 类的创建和初始化getArea 是 Circle 的一个成员函数，且参数表为空，故调用语句应为 c.getArea() ；创建 Circle 对象 c 的语句中， Circle c(5.0); 和 Circle c = Circle(5.0); 是正确的； Circle c = new Circle(5.0); 错误的原因是 new 语句的返回值 Circle* ，而不是 Circle 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码希望能在一棵二叉排序树中搜索特定的值，请在横线处填入()，使其能正确实现相应功能。\n```cpp\nTreeNode* search(TreeNode* root, int target){\n    if (root == NULL || root->val == target){\n        return root;\n    }\n    if(            ){\n        return search(root->left, target);\n    } else {\n        return search(root->right, target);\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：target < root->left"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：target < root->val"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：target > root->val"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：target > root->left"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 二叉排序树二叉排序树中，左子树的元素小于根，由于第 6 行中代码表示访问左子树，故第 5 行应为判断目标元素是否小于根节点元素。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "3位格雷编码的正确顺序是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：000,001,010,011,100,101,110,111"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：000,001,011,010,110,111,101,100"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：000,010,001,011,100,110,101,111"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：000,010,110,100,111,101,011,001"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 格雷编码格雷码中相邻两个编码只有刚好一位不同。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下动态规划算法的含义与目的是()。\n```cpp\nint function(vector<int>& nums){\n    int n = nums.size();\n    if (n == 0) return 0;\n    if (n == 1) return nums[0];\n    vector<int> dp(n,0);\n    dp[0] = nums[0];\n    dp[1] = max(nums[0], nums[1]);\n    for (int i = 2; i < n; ++i){\n        dp[i] = max(dp[i - 1], nums[i] + dp[i - 2]);\n    }\n    return dp[n - 1];\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：计算数组nums 中的所有元素的和"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：计算数组nums中相邻元素的最大和"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：计算数组nums中不相邻元素的最大和"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：计算数组nums中的最小元素"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 一维动态规划在第 11 行的转移方程中， dp[i-1] 代表不取用 nums[i] 的情况，而 nums[i] + dp[i-2] 表示取用 nums[i] 的情况，且可以发现此时 nums[i-1] 一定不为和的一部分，故选 C 。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读以下广度优先搜索的代码：\n```cpp\nvoid bfs(TreeNode* root){\n    if (root == NULL){\n        return;\n    }\n    queue<TreeNode*> q;\n    q.push(root);\n    while(!q.empty()){\n        TreeNode* current = q.front();\n        q.pop();\n        cout << current->val << \" \";\n        if(current->left){\n            q.push(current->left);\n        }\n        if(current->right){\n            q.push(current->right);\n        }\n    }\n}\n```\n使用以上算法遍历以下这棵树，可能的输出是()。\n```\n    1\n   / \\\n  2   3\n / \\   \\\n5   8   9\n|   |   |\n6   1   7\n|       |\n1       8\n         |\n         9\n        / \\\n       10 11\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1 2 8 9 4 5 6 7 10 11"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1 2 3 4 5 6 7 8 9 10 11"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1 2 3 8 9 6 4 5 7 10 11"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1 2 3 4 5 6 7 8 9 10 11"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 二叉树的搜索算法代码为广度优先搜索，且从根节点 1 开始搜索，故输出顺序中节点的深度一定单调递增。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个空栈，执行以下操作序列：\n操作序列：push(1),push(2),push(3),pop(),pop(),push(4),push(5),pop()\n最终栈中的元素是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1,2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1,4,5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1,2,5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1,4"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 栈对栈操作进行手动模拟。每一步之后栈内从底到顶的元素分别为： 1 ； 1,2 ； 1,2,3 ； 1,2 ； 1 ； 1,4 ； 1,4,5 ； 1,4 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一个有124个叶子节点的完全二叉树，最多有()个结点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：247"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：248"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：249"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：250"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 完全二叉树假设二叉树内儿子个数为 0,1,2 的节点个数分别为 n0,n1,n2 ；则有： n2 = n0-1 。且由于该树为完全二叉树，则 n1 只能为 0 或者 1 。此题中 n0 = 124 ，所以树上节点的最多个数为 124 + 1 + 123 = 248 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在求解最优化问题时，动态规划常常涉及到两个重要性质，即最优子结构和()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：重叠子问题"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：分治法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：贪心策略"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：回溯算法"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 动态规划最优化问题的两个重要性质为最优⼦结构和重叠子问题。因为在 DP 转态转移的过程中，需要多次取出同一个子问题的答案。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "若一棵二叉树的先序遍历为：A,B,D,E,C,F、中序遍历为：D,B,E,A,F,C,它的后序遍历为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：D,E,B,F,C,A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：E,D,B,F,C,A"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：D,E,B,C,F,A"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：E,D,B,C,F,A"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二叉树的搜索算法对于还原二叉树的算法，首先从先 / 后序遍历取出根，然后从中序遍历中求出左右子树的大小，由此得到左右子树的先 / 后序遍历和中序遍历，整体上是一个递归过程。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "线性筛法与埃氏筛法相比的优势是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：更容易实现"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：更节省内存"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：更快速"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：更准确"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 素数表的埃氏筛法和线性筛法线性筛法的时间复杂度关于问题规模 n 呈线性 O(n) ；但是埃氏筛法的复杂度为 O(nlogn) 。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码使用了辗转相除法求解最大公因数，请在横线处填入()，使其能正确实现相应功能。\n```cpp\nint gcd(int a, int b){\n    while (b != 0) {\n        \n    }\n    return a;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：int temp = b; b = a / b; a = temp;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：int temp = a; a = b / a; b = temp;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：int temp = b; b = a % b; a = temp;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：b = a % b; a = b;"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 欧几里得算法gcd(a,b) = gcd(b, a%b) 。只有 C 选项可以正确地进行赋值。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的代码片段用于反转单链表，请进行()修改，使其能正确实现相应功能。\n```cpp\nListNode* reverseLinkedList(ListNode* head){\n    ListNode* prev = nullptr;\n    ListNode* current = head;\n    while(current != nullptr){\n        ListNode* next = current->next;\n        current->next = next;\n        prev = current;\n        current = next;\n    }\n    return prev;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：current->next = next;应该改为 current->next = prev;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：ListNode* next = current->next;应该改为 ListNode* next = prev->next;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：current != nullptr 应该改为 current->next != nullptr"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：ListNode* prev = nullptr;应该改为 ListNode* prev = head;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 单链表的创建、插入、遍历prev 在代码中一直指的是原单链表中元素 current 的上一个元素，所以 current ->next 应该赋值为 prev 。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "哈夫曼树是一种二叉树。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 哈夫曼树无",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在动态规划中，状态转移方程的作用是定义状态之间的关系。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 动态规划无",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "继承是将已有类的属性和方法引入新类的过程。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 类的特性无",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "完全二叉树的任意一层都可以不满。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 完全二叉树只有最深的那一层可以不满。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "删除单向链表中的节点，只需知道待删除节点的地址即可，无需访问前一个节点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 单链表的删除操作删除当前节点，需要将其前一个节点的 next 指向当前节点的 next 节点。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在宽度优先搜索中，通常使用队列来辅助实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 宽度优先搜索算法宽度优先搜索的过程刚好符合队列的特性，故可以使用队列辅助实现。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "哈夫曼编码的主要应用领域是有损数据压缩。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 哈夫曼编码哈夫曼编码是根据字符出现频率来编码的，并不主要用于有损的数据中。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二叉搜索树的查找操作的时间复杂度是O(N)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 二叉排序树二叉排序树的查找操作的时间复杂度跟树的深度直接相关，一般认为二叉排序树的平均深度为 O(logn) 级别。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "栈的基本操作包括入栈(push)和出栈(pop)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 栈无",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用哈夫曼编码对一些字符进行编码，如果两个字符的频率差异最大，则它们的编码可能出现相同的前缀。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 哈夫曼编码根据哈夫曼编码的构造方式，两个字符的频率差异最大，长度差距也会最大，若它们的编码出现了相同的前缀，说明所有字符的编码都会有同样的非空前缀，此时可以考虑删除这个前缀使得各字符所对应的编码长度更短（这里不考虑前缀为空的情况，不然无论如何都会有前缀了）",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 62
+}

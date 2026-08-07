@@ -1,0 +1,534 @@
+{
+ "id": "lele-gesp-scratch-202312-l2",
+ "title": "202312 CCF-GESP编程能力等级认证Scratch2级真题",
+ "subject": "gesp-scratch",
+ "subjectName": "GESPScratch",
+ "level": 2,
+ "levelName": "2级",
+ "yearmonth": "202312",
+ "year": "2023",
+ "count": 15,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "现代计算机是指电子计算机，它所基于的是（）体系结构。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：艾伦·图灵"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：冯·诺依曼"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：阿塔纳索夫"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：埃克特-莫克利"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，运行以下程序，小猫的 y 坐标是？ ( )"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：160"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：150"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：140"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：170"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列流程图的输出结果是？ ( )"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：没有输出"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，按下空格键，执行下面的程序，舞台上会看到多少只小猫？ ( )"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：8"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：6"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下面程序，会绘制出什么图形？（）"
+    }
+   ],
+   "options": [],
+   "answer": "C",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，说法错误的是？（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：小猫会一直“喵”叫，不会停止。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：小猫每“喵”叫一次，变量 i 增加 1，变量 i 为 5 后停止。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：小猫会“喵”叫 5 次，之后停止。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：小猫发出执行的广播，又接收处理这个广播。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面哪个不是变量在舞台上的显示模式？ ( )"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：大字模式"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：小字模式"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：正常模式"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：滑杆模式"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下面程序，小猫不可能说的是？（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：15"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：30"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：51"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下面程序，哪个选项的结果是 3 ？（）"
+    }
+   ],
+   "options": [],
+   "answer": "C",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 10,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "妈妈做 16 个小蛋糕，用了 4 个鸡蛋，下列哪个选项能够计算出 12 个鸡蛋可以做小蛋糕的数量？（）"
+    }
+   ],
+   "options": [],
+   "answer": "B",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 11,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨最近在备考 GESP，他用 Scratch 来练习和运行程序，所以 Scratch 也是一个小型操作系统。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下面程序，如果克隆体碰到鼠标指针则消失。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "舞台上有多个角色，每个角色都绘制了各自的图形。若小猫角色，执行下列程序，舞台上只擦除了小猫绘制的图形。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序后，小猫先换成吃饭造型，之后换成喝水造型。( )"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序后，变量 i 的值为 100 。 ( )"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2023",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 48
+}

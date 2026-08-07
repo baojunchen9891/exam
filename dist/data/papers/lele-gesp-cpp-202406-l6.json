@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202406-l6",
+ "title": "202406 CCF-GESP编程能力等级认证C++6级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 6,
+ "levelName": "6级",
+ "yearmonth": "202406",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "面向对象的编程思想主要包括()原则。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：贪心、动态规划、回溯"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：并发、并行、异步"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：递归、循环、分治"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：封装、继承、多态"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 面向对象的思想解析： 面向对象的编程思想 (OOP) 主要包括多态、 继承和封装原则。 多态： 多态允许程序在运行时根据对象的实际类型来选择执行的方法， 增加了代码的灵活性和可扩展性。 继承： 通过继承， 子类可以扩展父类的功能， 而不需要重新编写已有的代码， 提高了代码的复用性和维护性。 封装： 封装隐藏了对象的内部状态， 只提供必要的操作接口， 保护对象数据不被外部直接访问， 同时确保了数据的安全性和完整性。 这些原则共同构成了面向对象编程的核心， 使得代码更加模块化、 可重用、 可维护和可扩展",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下列代码，屏幕上输出()。\n```cpp\n#include <iostream>\nusing namespace std;\nclass my_class {\npublic:\n    static int count;\n    my_class(){\n        count++;\n    }\n    ~my_class(){\n        count--;\n    }\n    static void print_count(){\n        cout << count << \" \";\n    }\n};\nint my_class::count = 0;\nint main(){\n    my_class obj1;\n    my_class::print_count();\n    my_class obj2;\n    obj2.print_count();\n    my_class obj3;\n    obj3.print_count();\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：111"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：123"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：112"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：122"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 静态变量、类的创建 ( 析构函数 )解析： 构造函数 my_class() 在对象 obj 实例化时自动调用，静态局部变量 count 在程序执行到该对象的声明处时被首次初始化为 0 ，在以后的函数调用不再进行初始化；因此后续调用 print_count() 方法时，输出 count 依次自增的结果，程序输出结果为 1 2 3 ，另外析构函数 ~my_class() 会在对象结束调用时做“清理善后” 的工作，即程序结束时，会自动调用三次 ~my_class() 方法，因此最终程序结束时， count 的值为 0 。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下列代码，屏幕上输出()。\n```cpp\n#include <iostream>\nusing namespace std;\nclass shape {\nprotected:\n    int width, height;\npublic:\n    shape(int a = 0, int b = 0) {\n        width = a;\n        height = b;\n    }\n    virtual int area(){\n        cout << \"parent class area: \" <<endl;\n        return 0;\n    }\n};\nclass rectangle: public shape {\npublic:\n    rectangle(int a = 0, int b = 0) : shape(a, b) { }\n    int area (){\n        cout << \"rectangle area: \";\n        return (width * height);\n    }\n};\nclass triangle: public shape {\npublic:\n    triangle(int a = 0, int b= 0) : shape(a, b) { }\n    int area (){\n        cout << \"triangle area: \";\n        return (width * height / 2);\n    }\n};\nint main(){\n    shape *pshape;\n    rectangle rec(10, 7);\n    triangle tri(10,5);\n    pshape = &rec;\n    pshape->area();\n    pshape = &tri;\n    pshape->area();\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：rectangle area: triangle area:"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：parent class area: parent class area:"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：运行时报错"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：编译时报错"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 类的方法调用解析： 主函数实例化两个对象 rectangle rec 和 triangle tri ， pshape 调用 rec 的 area() 方法 , 输出了 rectangle area: ，之后 pshape 调用 tri 的 area() 方法 , 输出了 triangle area:",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "向一个栈顶为hs的链式栈中插入一个指针为s的结点时，应执行()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：hs->next = s;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：s->next = hs; hs = s;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：s->next = hs->next; hs->next = s;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：s->next = hs; hs = hs->next;"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 栈解析： 指针之间的赋值 :A=B 可以理解为 A 指向 B ，栈的结构为先进后出，因此 S 需要作为栈顶存在， hs 需要指向 S ，即 hs=s; 但是在此之前，需要将 S 链接到 hs ，即 S 的下一个指针指向 S ，有 S->next=hs;",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在栈数据结构中，元素的添加和删除是按照什么原则进行的？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：先进先出"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：先进后出"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：最小值先出"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：随机顺序"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 栈解析： 栈的元素添加原则为先进后出 ( 后进先出 ) 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "要实现将一个输入的十进制正整数转化为二进制表示，下面横线上应填入的代码为()。\n```cpp\n#include <iostream>\nusing namespace std;\nstack<int> ten2bin(int n){\n    stack<int> st;\n    int r, m;\n    r=n%2;\n    m=n/2;\n    st.push(r);\n    while(m != 1){\n        r=m%2;\n        st.push(r);\n        m=m/2;\n    }\n    st.push(m);\n    return st;\n}\nint main(){\n    int n;\n    cin >> n;\n    stack<int> bin;\n    bin = ten2bin(n);\n    while(!bin.empty()){\n        //在此处填入代码\n    }\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：cout << bin.top(); bin.pop();"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：bin.pop(); cout << bin.top();"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：cout << bin.back(); bin.pop();"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：cout << bin.front(); bin.pop();"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： B考纲知识点： 栈解析： 如果对十进制 X 进行拆位：每次用 %10 取得最低位，同时 /10 去除最低位，用栈即可得到从个位到高位的各个位，不停弹出即可正常输出十进制的每一位，这个过程可以理解为将十进制转化为二进制，如果将 %10 /10 改为 %2 /2 ，那么这就相当于将十进制转化为二进制。 代码中 ten2bin() 就是拆分各个位并返回栈 st,bin 接收值后，按照栈的弹出规则依次输出即可，因此答案选 B.",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面定义了一个循环队列的类，请补全判断队列是否满的函数，横向上应填写()。\n```cpp\n#include <iostream>\nusing namespace std;\nclass circular_queue {\nprivate:\n    int *arr;\n    int capacity;\n    int front;\n    int rear;\npublic:\n    circular_queue(int size){\n        capacity = size + 1;\n        arr = new int[capacity];\n        front = 0;\n        rear = 0;\n    }\n    ~circular_queue(){\n        delete[] arr;\n    }\n    bool is_empty(){\n        return front == rear;\n    }\n    bool is_full(){\n        //在此处填入代码\n    }\n    void en_queue(int data) {\n        if (is_full()){\n            cout << \"队列已满，无法入队！\" << endl;\n            return;\n        }\n        arr[rear]= data;\n        rear = (rear + 1) % capacity;\n    }\n    int de_queue(){\n        if(is_empty()){\n            cout << \"队列为空，无法出队！\" << endl;\n            return -1;\n        }\n        int data = arr[front];\n        front = (front + 1) % capacity;\n        return data;\n    }\n};\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：return (rear + 1) % capacity == front;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：return rear % capacity == front;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：return rear == front;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：return (rear + 1) == front;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 循环队列解析： 判断循环队列是否为满可以让队列的 rear 指针加 1 之后对 capacity 取模结果等于 front 指针，这时表明队列已满，反之则未满。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对“classmycls”使用哈夫曼(Huffman)编码，最少需要()比特。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：20"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：25"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：30"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 哈夫曼编码解析： 按照哈夫曼编码规则进行建树，如图，按照左 0 右 1 的二进制格式编码，可以得到每个字符的编码 : length(C)=length(S)=length(L)=2,length(A)=3,length(Y)=length(M)=4 经过计算可以得到 classmycls 的总长 =2+2+3+2+2+4+4+2+2+2=25 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "二叉树的()第一个访问的节点是根节点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：先序遍历"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：中序遍历"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：后序遍历"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上都是"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二叉树搜索算法解析： 先序遍历先根再左子树再右子树，中序遍历先左子树再根再右子树，后序遍历先左子树再右子树再根。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一棵5层的满二叉树中节点数为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：31"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：32"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：33"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：16"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 完全二叉树解析： 一个 K 层的满二叉树的节点个数为 1+2+4+……+2k-1=2k-1 ( 等比数列 / 二进制 ) 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在求解最优化问题时，动态规划常常涉及到两个重要性质，即最优子结构和()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：重叠子问题"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：分治法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：贪心策略"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：回溯算法"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 动态规划解析： 动态规划的性质主要包括最优子结构、无后效性和有重叠子问题 最优子结构：如果问题的最优解所包含的子问题的解也是最优的，就称该问题具有最优子结构，即满足最优化原理。这意味着问题的最优解可以通过其子问题的最优解来构建。 无后效性：即某阶段状态一旦确定，就不受这个状态以后决策的影响。也就是说，某状态以后的过程不会影响以前的状态，只与当前状态有关。这一性质确保了动态规划方法的有效性，因为当前阶段的选择不会影响到之前阶段的状态。 有重叠子问题：子问题之间是不独立的，一个子问题在下一阶段决策中可能被多次使用到。这一性质是动态规划算法能够通过存储和重用子问题的解来提高效率的关键。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "青蛙每次能跳1或2步，下面代码计算青蛙跳到第n步台阶有多少种不同跳法。则下列说法，错误的是()。\n```cpp\nint jump_recur(int n){\n    if (n == 1) return 1;\n    if (n == 2) return 2;\n    return jump_recur(n -1) + jump_recur(n -2);\n}\nint jump_dp(int n){\n    vector<int> dp(n + 1);\n    dp[1] = 1;\n    dp[2] = 2;\n    for (int i = 3; i <= n; ++i) {\n        dp[i] = dp[i - 1] + dp[i - 2];\n    }\n    return dp[n];\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：函数jump_recur()采用递归方式。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：函数jump_dp()采用动态规划方法。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：当n较大时，函数jump_recur()存在大量重复计算，执行效率低。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：函数jump_recur()代码量小，执行效率高。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 一维动态规划解析： 状态表示 :dp[i] 表示青蛙到达第 i 个台阶的跳法。 状态转移方程：第 i 个台阶由两个状态转移过来① i-2 级跳两步② i-1 级跳一部，因此状态转移方程为： dp[i]=dp[i-1]+dp[i-2] 目标状态 :dp[n] int jump_recur(int n) 使用递归方式 ( 斐波那契 ) ，无记忆化，因此复杂度为指数。 int jump_dp(int n) 使用动规 ( 递推 ) 方式，复杂度 O(n).",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读以下二叉树的广度优先搜索代码：\n```cpp\n#include <iostream>\n#include <queue>\nusing namespace std;\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x) : val(x), left(nullptr), right(nullptr){}\n};\nTreeNode* bfs(TreeNode* root, int a){\n    if (root == nullptr) return nullptr;\n    queue<TreeNode*> q;\n    q.push(root);\n    while(!q.empty()){\n        TreeNode* node = q.front();\n        q.pop();\n        if (node->val == a)\n            return node;\n        cout << node->val << \" \";\n        if(node->left) q.push(node->left);\n        if(node->right) q.push(node->right);\n    }\n    return nullptr;\n}\n```\n使用以上算法，在以下这棵树搜索数值20时，可能的输出是()。\n树结构：\n      5\n     / \\\n    2   17\n   / \\\n -4   3\n / \\\n9   7"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5 2 -4 3 17 9 7"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：-4 2 3 5 9 17 7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5 2 17 -4 3 9 7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上都不对"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 二叉树搜索算法 ( 层序遍历 )解析： 该程序使用广搜方式，因此为二叉树层序遍历，答案选 C",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "同上题中的二叉树，阅读以下二叉树的深度优先搜索代码：\n```cpp\n#include <iostream>\n#include <stack>\nusing namespace std;\nTreeNode* dfs(TreeNode* root, int a){\n    if (root == nullptr) return nullptr;\n    stack<TreeNode*> stk;\n    stk.push(root);\n    while(!stk.empty()){\n        TreeNode* node = stk.top();\n        stk.pop();\n        if (node->val == a)\n            return node;\n        cout << node->val << \" \";\n        if(node->right) stk.push(node->right);\n        if(node->left) stk.push(node->left);\n    }\n    return nullptr;\n}\n```\n使用以上算法，在二叉树搜索数值20时，可能的输出是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5 2 -4 3 9 17 7"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：-4 2 3 5 9 17 7"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5 2 17 -4 3 9 7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：以上都不对"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 二叉树搜索算法 ( 先序遍历 )解析： 该题目使用栈代替了 DFS 的递归形式，由输出和 push 的顺序 , 可以知道该题目为先序遍历，因此答案为 A 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在上题的树中搜索数值3时，采用深度优先搜索一共比较的节点数为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：4"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 二叉树搜索算法 ( 先序遍历 )解析： 该二叉树中序遍历有序，同时从构造形态上，为一棵二叉排序树，但是程序并不是按照二叉排序树的规则，题目是先序遍历比较，因此比较的节点依次为 :5 、 2 、 -4 、 3, 共 4 次。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "哈夫曼编码本质上是一种贪心策略。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 哈夫曼编码解析： 哈夫曼编码原理为贪心。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "创建一个对象时，会自动调用该对象所属类的构造函数。如果没有定义构造函数，编译器会自动生成一个默认的构造函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 类的创建解析： 如果一个类中声明成员都没有，我们简称为空类。但是空类中并不是真的什么都没有，即使我们什么都不写，类中也会自动生成 6 个默认成员函数。 默认成员函数其实就相当于缺省成员函数。如果不写就会编译器默认生成的，写了编译器就不会生成。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "定义一个类时，必须手动定义一个析构函数，用于释放对象所占用的资源。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 类的创建解析： 由上一题，析构函数编译器会默认生成。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++中类内部可以嵌套定义类。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 类的创建解析： 在 C++ 中，类可以在另一个类的内部定义，这种类被称为嵌套类或内部类。内部类可以访问外部类的所有成员，包括私有成员。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "000,001,011,010,110,111,101,100是一组格雷码。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 格雷码解析： 格雷码的特点为：相邻的两个格雷码，只有一位二进制是不同的。且首尾元素也遵循。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "n个节点的双向循环链表，在其中查找某个节点的平均时间复杂度是O(logn)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 双向循环链表解析： 考察数据结构中链表的知识。查找数据 平均时间复杂度是 O(n).",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "完全二叉树可以用数组存储数据。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 完全二叉树解析： 完全二叉树比较平衡，因此可以从 1 开始编号作为根，后续每个节点 i ，其左右两个孩子的下标为 2i, 和 2i+1 。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++中，静态成员函数只能访问静态成员变量。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 解析： 在 C++ 中，静态成员函数只能访问静态成员变量。这是因为非静态成员变量属于类的对象，而静态成员变量属于类本身。当一个类的实例没有被创建时，非静态成员变量不存在，所以静态成员函数不能访问它们。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在深度优先搜索中，通常使用队列来辅助实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 深度优先搜索算法 (DFS)解析： 深度优先搜索通常递归方式实现，可以用栈代替递归方式。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "对0-1背包问题，贪心算法一定能获得最优解。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 动态规划 ( 简单背包问题 )解析： 贪心无法得到 0-1 背包最优解，这是因为部分闲置的空间降低了总体的价值。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 80
+}

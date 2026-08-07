@@ -1,0 +1,997 @@
+{
+ "id": "lele-gesp-cpp-202503-l7",
+ "title": "202503 CCF-GESP编程能力等级认证C++7级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 7,
+ "levelName": "7级",
+ "yearmonth": "202503",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列哪个选项是C++中的关键字？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：function"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：class"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：method"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：object"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 关键字class 是 C++ 中 用于定义类的关键字 ，而 function 、 method 、 object 不是 C++ 的关键字。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码输出的是()\nint main(){\nint a=5， b=2；\ncout < (a > b) << endl;\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：10"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 位运算a >> b 表 示将 a 右移 b 位。 5 的 二进制为 101 ，右移 2 位后变为 1 ， 十进制为 1 。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下代码的输出是什么？\nint main(){\nint a = 10；\nint *p = &a;\nint *&q = p;\n*q=20;\ncout <<  << endl;\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：20"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 引用q 是 p 的引 用，对 *q 赋值等价于对 a 赋值 ，因此 a 的值变为 20 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码输出的是()\nint main(){\nint arr[5] = {1,2， 3,4， 5}；\nint *p = arr+ 2；\ncout << *p << endl;\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 指针arr + 2 指向数组第三个元素 3 ，解引 用后输出 3 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于排序的说法，正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：选择排序是最快的排序算法之一。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：归并排序通常是稳定的。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：最差情况，N个元素做快速排序的时间复杂度为O(N)。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：最好情况，N个元素做插入排序的时间复杂度为O(N2)。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排序算法归并排序是稳定的排序算法；选择排序的时间复杂度为 O(n^2) ，不是最快的；快速排序最差时间复杂度为 O(n^2) ；插入排序最好时间复杂度为 O(n) 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面关于C++类构造和析构函数的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：构造函数不能声明为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：析构函数必须声明为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：类的默认构造函数可以被声明为private。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：类的析构函数可以被声明为private。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 类与对象析构函数不必声明为虚函数，只有希望通过基类指针释放子类对象时，应为基类声明虚析构函数。构造函数不能为虚函数，默认构造函数和析构函数可设为 private 。事实上，大型软件中常会遇到希望构造对象时必须提供参数的情况，此时可通过将默认构造函数声明为 private 来避免不慎使用默认构造函数。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于树和图的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：树是一种有向无环图，但有向无环图不都是一棵树。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果把树看做有向图，每个节点指向其子节点，则该图是强连通图。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：N个顶点且连通的无向图，其最小生成树一定包含N-1个条边。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：N+1个顶点、N条边的有向图，一定不是强连通的。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 树与图树作为有向图时，节点只能到达子节点，无法到达父节点，因此不是强连通图。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2025是个神奇的数字，因为它是由两个数20和25拼接而成，而且2025=(20+25)2。小杨决定写个程序找找小于N的正整数中共有多少这样神奇的数字。下面程序横线处应填入的是()。\n#include <string>\nint count_miracle(int N){\nint cnt = 0；\nfor (int n = 1； n * n<N; n++){\nint n2 = n * n;\nstd::string s = std::to_string(n2);\nif (s[i] ！= '0'){\nstd::string sl = s.substr(0, i);\nstd::string sr = s.substr(i);\nint nl = std::stoi(sl);\nint nr = std::stoi(sr);\nif ( )/在此处填入选项\ncnt++;\n}\n}\n}\nreturn cnt;\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：nl + nr == n"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：nl + nr == n2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：(nl + nr) * (nl + nr) = n"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(nl+ nr) ^ 2 == n2"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 数学运算题目要求 n2 = (nl + nr)^2 ，其中 n2 是 nl 和 nr 拼接后的数值，因此填 入 nl + nr == n 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个无向图，图的节点编号从0到n-1,图的边以邻接表的形式给出。下面的程序使用深度优先搜索(DFS)遍历该图，并输出遍历的节点顺序。横线处应该填入的是()\n#include <iostream>\n#include <vector>\n#include <stack>\nusing namespace std;\n\nvoid DFS(int start, vector<vector<int>& graph, vector<bool>& visited) {\nstack<int> s;\ns.push(start);\nvisited[start] =true;\n\nwhile(!s.empty(){\nint node = s.top();\ns.pop();\ncout < node < \" \";/ 输出当前节点\n\n/遍历邻接节点\nfor (int neighbor ： graph[node]){\nif(!visited[neighbor]){\n\n}\n}\n}\n}\n\nint main(){\nint n, m;\ncin >>n >> m;\n\nvector<vector<int>> graph(n);\nfor (int i= 0； i < m; i++){\nint u, v;\ncin >>>>v;\ngraph[u].push_back(v);\ngraph[v].push_back(u);\n}\n\nvector<bool> visited(n, false);\n\n/从节点开始DFS遍历\nDFS(0,graph,visited);\n\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：visited[neighbor] = true;\ns.push(neighbor-1);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：visited[neighbor] = true;\ns.push(neighbor+1);"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：visited[neighbor] = false;\ns.push(neighbor);"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：visited[neighbor] = true;\ns.push(neighbor);"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 深度优先搜索DFS 遍历时，需将未访问的邻居标记为已访问并入栈，正确操作为 visited[neighbor] = true; s.push(neighbor); 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个整数数组nums,找到其中最长的严格上升子序列的长度。子序列是指从原数组中删除一些元素（或不删除）后，剩余元素保持原有顺序的序列。下面的程序横线处应该填入的是()\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint lengthOfLIS(vector<int>& nums){\nint n = nums.size();\nif (n == 0) return 0；\nvector<int> dp(n,1);\n\nfor (int i= 1； i < n; i++){\nfor (int j = 0； j < i; j++) {\nif (nums[i] > nums[j]) {\n\n}\n}\n}\nreturn *max_element(dp.begin(), dp.end());\n}\n\nint main() {\nint n;\ncin >>n;\nvector<int> nums(n);\nfor (int i= 0； i < n; i++){\ncin >> nums[i];\n}\n\nint result = lengthOfLIS(nums);\ncout << result << end1;\n\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dp[i] = max(dp[i],dp[j]);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dp[i] = max(dp[i+1],dp[j]+ 1)；"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dp[i] = max(dp[i],dp[j] -1)；"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dp[i] = max(dp[i],dp[j]+ 1)；"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 动态规划dp[i] 应取 max(dp[i], dp[j] + 1) ，表示以 nums[i] 结尾的最长上升子序列长度。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个整数数组nums,找到其中最长的严格上升子序列的长度。子序列是指从原数组中删除一些元素（或不删除）后，剩余元素保持原有顺序的序列。该程序的时间复杂度为()\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint lengthOfLIS(vector<int>& nums){\nint n= nums.size();\nif (n == 0) return 0；\nvector<int> dp(n,1);\n\nfor (int i = 1；i< n; i++){\nfor (int j = 0； j < i; j++) {\nif (nums[i] > nums[j]) {\n\n}\n}\n}\nreturn *max_element(dp.begin(),dp.end());\n}\n\nint main() {\nint n;\ncin >> n;\nvector<int>nums(n);\nfor (int i= 0； i < n; i+) {\ncin > nums[i];\n}\n\nint result = lengthOfLIS(nums);\ncout << result << endl;\n\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(log(n))"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(nlog(n))"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 时间复杂度双重循环的时间复杂度为 O(n^2) 。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定两个无向图G1和G2,判断它们是否同构。图的同构是指两个图的节点可以通过某种重新编号的方式完全匹配，且边的连接关系一致。为了简化问题，假设图的节点编号从0到n-1,并且图的边以邻接表的形式给出。下面程序中横线处应该给出的是()\n#include<iostream>\n#include <vector>\n#include <map>\n#include<algorithm>\nusing namespace std;\n\nstring graphHash(vector<vector<int>& graph){\nvector<string> nodeHashes(graph.size());\nfor (int i = 0； i < graph.size(); i++){\nvector<int> neighbors = graph[i];\nsort(neighbors.begin(),neighbors.end());\nstring hash;\nfor (int neighbor ： neighbors){\n\n}\nnodeHashes[i]=hash;\n}\nsort(nodeHashes.begin(),nodeHashes.end());\nstring finalHash;\nfor (string h ： nodeHashes){\nfinalHash += h + \"；\"；\n}\nreturn finalHash;\n}\n\nint main(){\nint n;\ncin >>n;\n\nvector<vector<int>> G1(n);\nfor (int i = 0； i < n; i++){\nint k;\nwhile(cin > k){\nG1[i].push_back(k);\nif (cin.get() == '\\n') break;\n}\n}\n\nvector<vector<int>> G2(n);\nfor (int i = 0； i < n; i++) {\nint k;\nwhile(cin > k){\nG2[i].push back(k);\nif (cin.get() = '\\n') break;\n}\n}\n\nstring hash1 = graphHash(G1);\nstring hash2 = graphHash(G2);\n\nif (hash1 == hash2){\ncout << \"YES\" << endl;\n} else {\ncout << \"NO\" << endl;\n}\n\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：hash += to_string(neighbor);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：hash += to string(neighbors);"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：hash += to_string(neighbor)+\",\";"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：hash -= to_string(neighbors);"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 哈希函数哈希函数需将每个邻居转换为字符串并用逗号分隔，选项 hash += to_string(neighbor) + \",\" 符合要求。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个m×n的二维网格grid,每个格子中有一个非负整数。请找出一条从左上角(0,0)到右下角(m-1,n-1)的路径，使得路径上的数字总和最小。每次只能向右或向下移动。横线处应该填入的是()\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint minPathSum(vector<vector<int>>& grid){\nint m = grid.size();\nint n = grid[0].size();\n\nvector<vector<int>> dp(m,vector<int>(n,0));\ndp[0][0]=grid[0][0];\nfor (int j = 1； j < n; j++) {\ndp[0][j] = dp[0][j - 1]+ grid[0][j];\n}\nfor (int i = 1； i < m; i++){\ndp[i][0] = dp[i - 1][0]+ grid[i][0];\n}\nfor (int i = 1； i < m; i++) {\nfor (int j = 1； j < n; j++){\n\n}\n}\nreturn dp[m - 1][n - 1]；\n}\n\nint main() {\nint m, n;\ncin >>m >> n;\nvector<vector<int>> grid(m,vector<int>(n));\nfor (int i = 0； i < m; i++) {\nfor (int j = 0； j< n; j++) {\ncin > grid[i][j];\n}\n}\nint result = minPathSum(grid);\ncout < result < endl;\n\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dp[i][j] = min(dp[i - 1][j],dp[i][j - 1]) + grid[i][1];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dp[i][j] = min(dp[i - 1][j],dp[i][j - 1]) + grid[i][j];"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dp[i][j] = min(dp[i - 1][j],dp[i][j])+ grid[i][j];"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dp[i][j] = min(dp[i][j],dp[i][j - 1])+ grid[i][j];"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 动态规划动态规划中， dp[i][j] 的值应为上方和左方的最小值加上当前格子的值，即 min(dp[i-1][j], dp[i][j-1]) + grid[i][j] 。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定一个整数数组nums,找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。下面横线处应该填入的是()\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint maxSubArray(vector<int>& nums){\nint n = nums.size();\nif (n = 0) return 0；\n\nvector<int> dp(n,0);\ndp[0] = nums[0];\nint maxSum = dp[0];\n\nfor (int i = 1； i< n; i++){\n\nmaxSum = max(maxSum, dp[i]);\n}\n\nreturn maxSum;\n}\n\nint main(){\nint n;\ncin >> n;\n\nvector<int> nums(n);\nfor (int i = 0； i< n; i++) {\ncin >> nums[i];\n}\n\nint result = maxSubArray(nums);\ncout << result << endl;\n\nreturn 0；\n}"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dp[i] = max(nums[i+1], dp[i - 1] + nums[i]);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dp[i] = max(nums[i], dp[i - 1] + nums[i]);"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dp[i] = max(nums[i],dp[i + 1] + nums[i]);"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dp[i] = max(nums[i], dp[i - 1] + nums[i+1]);"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 动态规划dp[i] 表示以 nums[i] 结尾的最大子数组和，取 max(nums[i], dp[i-1] + nums[i]) 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在哈希表的实现中，冲突解决是一个重要的问题。以下哪种方法不是常见的哈希表冲突解决策略？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：链地址法(Chaining)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：开放地址法(Open Addressing)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：二次哈希法(Double Hashing)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：二分查找法(Binary Search)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 哈希表二分查找法不是哈希冲突解决策略，链地址法、开放地址法和二次哈希法均为常见策略。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++语法中，表达式1e6、1000000和10^6的值是相同的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 表达式10^6 在 C++ 中是位运算，结果为 12 ，与和 1000000 不同。而且，严格意义上， 1e6 是 double 类型，与 1000000.0 相同，与 int 类型的 1000000 也不是相同的值。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++语言中，函数调用前必须有函数声明或定义。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 函数C++ 要求函数调用前必须有声明或定义。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "快速排序一般是不稳定的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 排序快速排序的稳定性取决于实现 ，通常是不稳定的。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "long long 类型能表达的数都能使用 double类型精确表达。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数据类型long long 类型占 8 个字节，能表达 2^64 个不同的整数； double 类型占 8 个字节，使用科学计数法，表达有效数字的尾数部分只占 8 字节中的一部分（52位+1位符号）。因此，double 无法精确表示所有 long long 范围的整数。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用math.h或cmath头文件中的函数，表达式cos(60)的结果类型为double、值约为0.5。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数学函数cos 的参数是弧度 ， 60 度需转换为 π/3 ， cos(60) 计算的是 60 弧度的余弦值 ，约为 -0.952 。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一颗N层的满二叉树，一定有2N-1个结点。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 二叉树满二叉树是每一层的节点数都达到最大值的二叉树， N 层的满二叉树节点数一定为 2^N − 1 。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "邻接表和邻接矩阵都是图的存储形式。为了操作时间复杂度考虑，同一个图可以同时维护两种存储形式。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 图在查找某两个节点之间是否存在边时，邻接矩阵更快；在遍历某个节点的所有出边（或入边）时，邻接表更快。因此，邻接表和邻接矩阵可以同时维护，不同操作时选用效率较高的数据结构，可以提高操作效率。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "子类对象包含父类的所有成员（包括私有成员）。从父类继承的私有成员也是子类的成员，因此子类可以直接访问。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 继承子类无法直接访问父类的私有成员。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "动态规划算法通常有递归实现和递推实现。但由于递归调用在运行时会由于层数过多导致程序崩溃，有些动态规划算法只能用递推实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 动态规划递归实现可能导致栈溢出 ，递推实现更安全。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "按照下面的规则生成一棵二叉树：以一个人为根节点，其父亲为左子节点，母亲为右子节点。对其父亲、母亲分别用同样规则生成左子树和右子树。以此类推，记录30代的直系家谱，则这是一棵满二叉树。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 树假设 30 代的直系家谱中完全没有重复，则共有 2^30-1 （约等于 10 亿人），这不符合历史上的人类人口。因此，几乎可以断定， 30 代直系家谱中必然存在重复的节点（例如，爷爷的爷爷的爷爷的爷爷，可能与外公的外公的外公的外公是同一个人。俗语说“五百年前是一家”也有这个原因。）。树要求不能有重复节点，因此 30 代的直系家谱不能构成树，也不会是满二叉树。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 134
+}

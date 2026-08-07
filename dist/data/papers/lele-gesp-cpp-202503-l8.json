@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202503-l8",
+ "title": "202503 CCF-GESP编程能力等级认证C++8级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 8,
+ "levelName": "8级",
+ "yearmonth": "202503",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "国家“以旧换新”政策仍在继续，小杨家决定在家里旧的冰箱、电视、洗衣机、微波炉中选两种换新。其中，冰箱有4种型号可选，电视有6种型号可选，洗衣机有3种型号可选，微波炉有5种型号可选。请问小杨家共有多少种换新的方案？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：18"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：119"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：238"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：360"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排列组合四 选 ⼆ 共 C(4,2)=6 种 , 由 于 每 种 电 器 的 数 量 不 同 ， 可 以 单 独 计 算 每 种 ⽅ 案 ：合计 119 种方案，选择 B;",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨和3位朋友约好一起去看电影“哪吒2”。打开购票软件，他们发现，已经没有同一排连续的四个座位了(图中每个方框代表一个座位，红色方框代表已经售出)。朋友们商量了一下，决定分为两组，每组两人在同一排的相邻两个座位，且两组之间至少有一对座位是前后相邻的。请问共有多少种购票方案？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：495"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：96"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 排列组合解析 : 按照 题目要求，共以下 7 种方案 :",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面关于C++类构造和析构函数的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：构造函数不能声明为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：析构函数必须声明为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：类的默认构造函数可以被声明为private。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：类的析构函数可以被声明为private。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 类的构造解析 : 在 C++ 中，以下类型的函数不能声明为虚函数 ：构造函数 ：析构函数 ( 也 可 以 声 明 为 虚 函 数 但 是 应 用 范 围 少 ， 也不 推 荐 )静态成员函数 ：内联成员函数 ：普通函数（非成员函数） ：友元函数 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "□A.树是一种有向无环图，有向无环图都是一棵树。\nB.如果把树看做有向图，每个节点指向其子节点，则该图是弱连通图。\n□C.N个顶点且连通的无向图，其最小生成树一定包含N-1个条边。\n□D.N+1个顶点、N条边的有向图，一定不是强连通的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：树是一种有向无环图，有向无环图都是一棵树。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：如果把树看做有向图，每个节点指向其子节点，则该图是弱连通图。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：N个顶点且连通的无向图，其最小生成树一定包含N-1个条边。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：N+1个顶点、N条边的有向图，一定不是强连通的。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 图论概念解析 :A 错误 : 树是无环连通图，可以是无向图也可以是有向图 ( 有向树 ) 。但并非所有有向无环图都是树，例如森林 ( 多个不连通的树 ) 或子节点有重复的情况（如 A->B ， A->C ， B->D ， C->D ）。B 正确 : 弱连通图是指将有向图的所有的有向边替换为无向边之后，所得的图是连通的。C 正确 : 最小生成树包含所有顶点，且边数最少，因此对于 n 个顶点，边数为 n-1 。D 正确 : 强连通图是指图中任意两个顶点之间都存在路径。 N+1 个顶点要构成强连通图，至少需要 N+1 条边（此时， N+1 个顶点依次指向下一个，形成一个大环）。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "从1到2025这2025个数中，包含数字5的个数()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：600"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：601"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：602"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：603"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 组合计数解 析 :个位 : 每 10 个数出现一次 5 ，共 2025/10=202.5 ，取整为 202 次，再加上 2025 中的 5 ，共 203次。十位 : 每 100 个数出现 10 次 5(50-59) ，共 2025/100=20.25 ，取整为 20 组，每组 10 次，共 200 次百位 :500-599 出现 100 次，共 2 组。千位 : 无",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已定义double类型的变量r和theta,分别表示图中圆半径和圆心角。下列表达式中可以求出弦长s的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：r * cos(theta)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：r * cos(theta / 2)* 2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：r * sin(theta)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：r * sin(theta / 2)* 2"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 数学 , 三角函数解析 : 根据三角函数关系，弦长 s=2rsin(theta/2) 。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "N个节点的平衡二叉树的高为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[log2 N]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[log2 ]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[log2 N]+1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：无法确定。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 平衡二叉树 , 复杂度。解析 : 平衡二叉树的高度与节点数量有关，但不是一个确定的函数关系。因此，无法确定。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于算法的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：如果有足够的时间和空间，枚举法能解决一切有限的问题。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：分治算法将原问题分为多个子问题进行求解，且分解出的子问题必须相互独立。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：如果能找到合理的贪心原则，贪心算法往往能够比其他方法更快求解。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：倍增法在搜索未知长度的有序数组时，通过动态倍增或减半步长，快速定位目标范围。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 各类算法基础解析 :A 正确 : 枚举法可以尝试所有可能的解，因此在时间和空间允许的情况下可以解决有限问题。B 错误 : 分治算法分解出的子问题可以相互重叠，例如动态规划。C 正确 : 贪心算法在每一步选择局部最优解，如果贪心原则合理，可以快速得到全局最优解。D 正确 : 倍增法通过指数级别的步长快速逼近目标范围。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2025是个神奇的数字，因为它是由两个数20和25拼接而成，而且2025=(20+25)2。小杨决定写个程序找找小于N的正整数中共有多少这样神奇的数字。下面程序横线处应填入的是()。\n```cpp\n#include <string>\nint count miracle(int N){\nint cnt = 0；\nfor (int n = 1； n * n< N; n++){\nint n2 = n * n;\nstd:string s = std: ：to_string(n2);\nfor (int i = 1； i < s.length();i++)\nif(s[i] ！= '0'){\nstd:string sl = s.substr(0, i);\nstd: ：string sr= s.substr(i);\nint nl = std: ：stoi(sl);\nint nr = std: ：stoi(sr);\nif(______)//在此处填入选项\ncnt++;\n}\n}\nreturn cnt;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：lnl+nr == n"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：lnl + nr == n2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1(nl+ nr) *(nl+nr)= n"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1(nl+nr)^2 =n2"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 枚举解析 : 根据题意，需要满足 nl+nr ==n!, 即拼接后的两个数之和等于 n 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2025是个神奇的数字，因为它是由两个数20和25拼接而成，而且2025=(20+25)2。小杨决定写个程序找找小于N的正整数中共有多少这样神奇的数字。该函数的时间复杂度为()。\n```cpp\n#include <string>\nint count_miracle(int N){\nint cnt = 0；\nfor (int n = 1；n * n< N; n++){\nint n2 = n * n;\nstd::string s = std:to_string(n2);\nfor (int i = 1； i < s.length();i++)\nif (s[i] ！= '0'){\nstd:string sl = s.substr(0, i);\nstd: ： string sr = s.substr(i);\nint nl = std: ：stoi(sl);\nint nr = std: ： stoi(sr);\nif(______)//在此处填入选项\ncnt++;\n}\n}\nreturn cnt;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N log N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(N1/2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(N1/2 log N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N1/2(log N)2)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 时空复杂度解析 :外层循环 :n 从 1 到 sqrt(N), 复杂度为 sqrt(N) 。内层循环 : 字符串 s 的长度最多为 1og10(N) ，内层循环中 substr 、 stoi 函数均需要 O(log(N)) 的计算时间因此内层循环复杂度为 0((log(N))²) 。总复杂度 :O(sqrt(N)(log( N)) ²)",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的欧氏筛法程序中，两个横线处应填入的分别是()。\n```cpp\nint primes[MAXP], num = 0；\nbool isPrime[MAXN + 1] = {false};\nvoid sieve(){\nfor (int n = 2； n <= MAXN; n++){\nif(!isPrime[n])\nprimes[num++]=n;\nfor(int i = 0； i < num &_____；i++){ //在此处填入选项\nisPrime[n * primes[i]] = true;\nif(______)//在此处填入选项\nbreak;\n}\n}\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1 n * primes[i] < MAXN 2 n % primes[i] == "
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1 n * primes[i]< MAXN 2 primes[i]>n"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1 n * primes[i] <= MAXN 2 n % primes[i] = 0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1 n * primes[i] <= MAXN 2 primes[i] >n"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 质数筛法解析 : 第一个空 :nprimes[i]<= MAXN ，保证 nprimes[i] 不超过数组范围。第二个空 :n%primes[i]==0 ，如果 n 可以被 primes[i] 整除，说明 n 的最小质因子是 primes[i] ，那么n*primes[i+1] 的最小质因子也是 primes[i] ，应该在之前被筛掉。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Floyd算法中，横线处应该填入的是()。\n```cpp\n#include <iostream>\nusing namespace std;\n#define N 21\n#define INF 99999999\nint map[N][N];\nint main(){\nint n, m, t1, t2, t3;\ncin >>n >>m;\nfor (int i= 1； i <= n; i++) {\nfor (int j = 1； j <= n; j++) {\nif (i = j)\nmap[i][j]= 0；\nelse\nmap[i][j]= INF;\n}\n}\nfor (int i= 1； i <= m; i++){\ncin > t1 >> t2 >> t3;\nmap[t1][t2]= t3;\n}\nfor (int k = 1； k <= n; k++)\nfor (int i= 1； i <= n; i++)\nfor (int j = 1； j <= n; j++)\nif (map[i][j] > map[i][k]+ map[k][j])\n;//在此处填入选项\nfor (int i= 1； i <= n; i++){\nfor (int j= 1； j <= n; j++){\ncout.width(4);\ncout < map[i][j];\n}\ncout < endl;\n}\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：map[i][j]= map[i][k]+ map[k][j]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：map[i][k]=map[i][j]-map[k][j]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：map[i][j]= map[i][k]-map[k][j]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：map[k][j]=map[i][j]-map[i][k]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： Floyd 算法解析 :Floyd 算法的核心是松弛操作，如果经过 k 点的路径比直接从 i 到 j 的路径更短，则更新map[i][j] 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面Floyd算法程序的时间复杂度为()。\n```cpp\n#include <iostream>\nusing namespace std;\n#define N 21\n#define INF 99999999\nint map[N][N];\nint main(){\nint n, m, t1, t2, t3;\ncin >> >> m;\nfor (int i= 1； i <= n; i++) {\nfor (int j = 1； j <= n; j++) {\nif (i = j)\nmap[i][j]= 0；\nelse\nmap[i][j] = INF;\n}\n}\nfor (int i = 1； i <= m; i++) {\ncin > t1 > t2 >> t3;\nmap[t1][t2]= t3;\n}\nfor (int k = 1； k <= n; k++)\nfor (int i = 1； i <= n; i++)\nfor (int j = 1； j <= n; j++)\nif (map[i][j] > map[i][k]+ map[k][j])\n;//在此处填入选项\nfor (int i = 1； i <= n; i++) {\nfor (int j = 1； j <= n; j++) {\ncout.width(4);\ncout < map[i][j];\n}\ncout << endl;\n}\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(N2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(N3)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N2log N)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： Floyd 算法 复杂度为 O(n³)",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序实现了输出杨辉三角形，代码中横线部分应该填入的是()。\n```cpp\n#include<iostream>\nusing namespace std;\n#define N 35\nint a[N];\nint main(){\nint n;\ncin >> n;\nfor (int i= 0； i< n; i++){\na[i]= 1；\nfor (int j = i - 1； j > 0； j--)\n;/在此处填入选项\nfor (int j = 0； j <= i; j++)\ncout < a[j] <<\" \";\ncout < endl;\n}\nreturn 0；\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a[j] += a[j+1]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：a[j]+= a[j-1]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a[j-1] += a[j]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：a[j+1]+= a[j]"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 杨辉三角解析 : 杨辉三角形的递推公式是 a[i][j]= a[i-1][j-1]+ a[i-1][j] 。由于代码中只使用了一维数组，需要从后往前更新，因此 a[j]+= a[j-1] 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列程序实现了输出杨辉三角形，其时间复杂度为()。\n```cpp\n#include<iostream>\nusing namespace std;\n#define N 35\nint a[N];\nint main() {\nint n;\ncin >> n;\nfor (int i= 0； i< n; i++) {\na[i]= 1；\nfor (int j= i - 1； j > 0； j--)\n;/在此处填入选项\nfor (int j = 0； j <= i; j++)\ncout < a[j]<<\" \";\ncout << endl;\n}\nreturn o;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n3)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 时间复杂度解析 : 外层循环 :i 从 0 到 n-1 ，复杂度为 O(n) 。内层循环 :j 从 i-1 到 1 ，复杂度为 O(n) 。总复杂度O(n²)",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "表达式'5'-3.0的结果为2.0，类型为double。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 字符类型 , 隐式类型转换。解析 : 字符 '5' 的 ASCII 码值为 53 ， 53-3.0=50.0 ，类型为 double 。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C+语言中，如果想要在一个函数内调用一个类的私有方法，可以在该类中将该函数声明为友元函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 友元函数解析 : 友元函数可以访问类的私有成员。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "插入排序一般是稳定的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 排序解析 : 基于比较的排序中，不稳定的排序有 : 希尔，选择，快速，堆，四种，其他的都是稳定的，插入排序在插入元素时，如果遇到相等的值，会插入到相等元素的后面，因此是稳定的",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "5个相同的红球和4个相同的蓝球排成一排，要求蓝球不能相邻，则一共有15种排列方案。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 排列组合解析 : 先将 5 个红球排成一排，形成 6 个空位，然后将 4 个蓝球插入到这些空位中，共有 C(6,4)=15 种方案。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用math.h或cmath头文件中的函数，表达式pow(2,5)的结果类型为int、值为32。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数学函数解析 :pow 函数的返回值类型为 double,",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++是一种面向对象编程语言，C则不是。多态是面向对象三大特性之一，虚函数是动态多态的代表特性。因此，使用C语言无法实现虚函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 类解析 :C 语言本身没有直接提供虚函数这种语言特性，但是可以通过手动建立虚函数表（ vtable ）结构体的方式实现虚函数。事实上，早在 C++ 语言诞生之前，使用 C 语言编写 UNIX操作系统的过程中就已广泛采用了类似的实践，甚至可以说，正是 C 语言中的相关实践促使C++ 语言设计了虚函数相关语法。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在N个节点的平衡二叉树中查找指定元素的最差时间复杂度为O(N)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 复杂度解析 : 在 N 个节点的平衡二又树中查找指定元素的最差时间复杂度是 O(log N) 。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "定义int类型的变量a和b,求二次函数y=x2+ax+b取最小值时x的值，可以通过表达式-a/2.0求得。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 数学函数解析 : 正确",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "判断无向图中是否有环，可以通过广度优先搜索实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 搜索解析 : 可以通过 BFS 遍历图，如果遇到已经访问过的节点，且该节点不是父节点，则存在环。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "从32名学生中选出4人分别担任班长、副班长、学习委员和组织委员，共有C(32,4)种不同的选法。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 排列组合解析 : 本题组内有序，因此是个排列数，共有 P(32,4)=323130*29 =863040 种选法。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 135
+}

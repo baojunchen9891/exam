@@ -1,0 +1,980 @@
+{
+ "id": "lele-gesp-cpp-202309-l5",
+ "title": "202309 CCF-GESP编程能力等级认证C++5级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 5,
+ "levelName": "5级",
+ "yearmonth": "202309",
+ "year": "2023",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "近年来，线上授课变得普遍，很多有助于改善教学效果的设备也逐渐流行，其中包括比较常用的手写板，那么它属于哪类设备？（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：输入"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：输出"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：控制"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：记录"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 计算机基础知识【解析】本题属于考察计算机基础知识知识。手写板是输入信息的设备，选 A 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "如果 a 和 b 均为 int 类型的变量，且 b 的值不为 0 ，那么下列能正确判断 “ a 是 b 的 3 倍 ” 的表达式是（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：(a >> 3 == b)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(a - b) % 3 == 0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：(a / b == 3)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：(a == 3 * b)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 运算表达式和位运算【解析】本题属于考察运算表达式和位运算知识。 b 不等于 0 ， a 是 b 的 3 倍。 A 选项中， a 右移 3 位，相当于除以 8 ； B 是取余运算；如果 a=7,b=2,a/b 的结果也等于 3 ，因为是整型， C 选项也不正确；选 D 。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "如果变量 a 和 b 分别为 double 类型和 int 类型，则表达式 (a = 6, b = 3 * (7 + 8) / 2, b += a) 的计算结果为（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：6"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：21"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：28"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：不确定"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 数据类型和运算表达式【解析】本题属于考察数据类型、逗号表达式、运算表达式知识。逗号表达式从左到右依次计算每一个表达式，整个逗号表达式的结果是最后一个表达式的计算结果， a=6 ， b=3*15/2=22,b=6+22=28 ，选 C 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "有关下面 C++ 代码说法错误的是（）。"
+    }
+   ],
+   "options": [],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 函数和递归算法【解析】本题属于考察递归和函数知识。 sumA 用循环求的是 1 到 n 的总和； sumB 用递归的方式求 1 到 n 的总和。 1 加到 100000 的和大于 int 类型最大值， 2147483647 ，会溢出，选 C 。",
+   "auto": false
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面 C++ 代码以递归方式实现字符串反序，横线处应填上代码是（）。\n```cpp\nstring sReverse(string sIn) {\n    if (sIn.length() == 0) return \"\";\n    return ________________;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：sIn[sIn.length() - 1] + sReverse(sIn.substr(0, sIn.length() - 1));"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：sIn[0] + sReverse(sIn.substr(1, sIn.length() - 1));"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：sReverse(sIn.substr(0, sIn.length() - 1)) + sIn[sIn.length() - 1];"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：sReverse(sIn.substr(1, sIn.length() - 1)) + sIn[sIn.length() - 1];"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 函数和递归算法【解析】本题属于考察递归和函数知识。要倒序输出字符串，先输出字符串中的最后一个字符，最后一个字符下标是长度 -1 ，然后翻转除了最后一个字符的字符串，这个字符串是从 0 开始，选 sln.length()-1 个字符，选 A 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "印度古老的汉诺塔传说：创世时有三根金刚柱，其中一柱从下往上按照大小顺序摞着 64 片黄金圆盘，当圆盘逐一从一柱借助另外一柱全部移动到另外一柱时，宇宙毁灭。移动规则：在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。下面的 C++ 代码以递归方式实现汉诺塔，横线处应填入代码是（）。\n```cpp\nvoid Hanoi(int N, char A, char B, char C) {\n    if (N == 1) cout << A << \"->\" << C << endl;\n    else {\n        Hanoi(A, C, B, N - 1);\n        cout << A << \"->\" << C << endl;\n        ________________;\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Hanoi(B, C, A, N - 2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Hanoi(B, A, C, N - 1)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：Hanoi(A, B, C, N - 2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：Hanoi(C, B, A, N - 1)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 函数和递归算法【解析】本题属于考察递归和函数知识。汉诺塔比较经典的递归问题，第 11 行代码意味这剩下的 N-1 快圆盘，现在 B 柱子上，借助 A 柱，挪到 C 柱上，选 B 。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "根据下面 C++ 代码的注释，两个横线处应分别填入 （）。\n```cpp\n#include <iostream>\n#include <vector>\nusing namespace std;\nbool isOdd(int x) { return x % 2 == 1; }\nbool isEven(int x) { return x % 2 == 0; }\nbool compare(int x, int y) { return x > y; }\nint checkNum(________________) {\n    int cnt = 0;\n    for (int i = 0; i < lstA.size(); i++)\n        if (________________) cnt++;\n    return cnt;\n}\nint main() {\n    vector<int> lstA = {1, 2, 3, 4, 5};\n    cout << checkNum(compare, lstA) << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：compare 和 isOdd(lstA[i])"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：compare(x1,y1) 和 isOdd"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：compare 和 isOdd"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：compare(x1,y1) 和 isOdd(lstA[i])"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 函数的调用、值传递【解析】本题考察的是 vector 和 sort 函数的使用。本题中首先创建了一个 vector lstA 存储整数 1~99 ，然后调用 sort 函数对 lstA 进行排序， sort 函数排序需要传递三个参数，前两个参数决定了排序范围的起始位置和结束位置，第三个参数是排序规则函数，排序规则函数需要两个参数和一个 bool 类型的返回值，所以代码 1 处传递排序规则函数 compare ，只需要写函数名即可，不需要写成调用的形式，排除选项 B 和 D 。 接下来的代码是将 lstA 中的奇数存储到另一个 vector lstB 中，判断奇数可以使用自定义函数 isOdd ，代码 2 处是调用 isOdd 函数判断当前的 lstA[i] 是否为奇数，因此需要使用调用函数语法 isOdd(IstA[i]) ，正确答案为 A 选项。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面代码正确的是（）。\n```cpp\n#include <iostream>\nusing namespace std;\nbool isEven(int x) { return x % 2 == 0; }\nint checkNum(bool (*func)(int), int lst[], int len) {\n    int cnt = 0;\n    for (int i = 0; i < len; i++)\n        if (func(lst[i])) cnt++;\n    return cnt;\n}\nint main() {\n    int lst[] = {1, 2, 3, 4, 5};\n    cout << checkNum(isEven, lst, 5) << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：checkNum() 函数定义错误。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：将 isEven 作为 checkNum() 参数将导致错误。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：执行后将输出 1 。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：运行时触发异常。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 函数的定义、调用、值传递【解析】本题考察函数指针的知识。 isEven 是一个自定义函数，用于判断为偶数。 checkNum 也是一个自定义函数，该函数的第一个参数是一个函数指针类型，需要传递一个函数，所传递的这个函数要求返回值为 bool ，并且有一个 int 类型参数， isEven 函数复合该类型的要求，所以调用 checkNum 函数时，第一个参数传递函数 isEven ，第二个参数传递整数 10 没有错误，执行 checkNum 函数内部代码 Fx(N) ，也就是调用函数 isEven(10) ，整数 10 是偶数，因此最后调用的结果是 1 ，因此正确答案选 C 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面 C++ 代码正确的是（）。\n```cpp\n#include <iostream>\nusing namespace std;\nbool isEven(int x) { return x % 2 == 0; }\nint checkNum(bool (*func)(int), int lst[], int len) {\n    int cnt = 0;\n    for (int i = 0; i < len; i++)\n        if (func(lst[i])) cnt++;\n    return cnt;\n}\nint main() {\n    int lst[] = {1, 2, 3, 4, 5};\n    cout << checkNum(isEven, lst, 5) << endl; // 行A\n    cout << checkNum([](int x){return x>2;}, lst, 5) << endl; // 行B\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：checkNum() 函数定义错误。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：输出行 A 的语句将导致编译错误。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：输出行 B 的语句将导致编译错误。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：该代码没有编译错误。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 函数指针【解析】本题考察函数指针的知识。 checkNum 函数的第一个参数需要传递一个返回值为 bool 、参数为 int 类型的函数， isEven 函数复合该类型的要求，所以调用 checkNum 函数时，第一个参数传递函数 isEven ，不会导致编译错误， Square 函数的返回值是 int 类型，不符合 cehckNum 函数的第一个参数的类型要求，因此调用时传递 Square 函数会导致编译错误，所以答案为 C 选项。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码执行后的输出是（）。\n```cpp\n#include <iostream>\nusing namespace std;\nint fib(int n) {\n    if (n == 1 || n == 2) return 1;\n    return fib(n-1) + fib(n-2);\n}\nint main() {\n    int a = 5;\n    cout << fib(a) << \"#\";\n    a = 4;\n    cout << fib(a) << \"#\";\n    a = 3;\n    cout << fib(a) << \"#\";\n    a = 2;\n    cout << fib(a) << \"#\";\n    a = 1;\n    cout << fib(a) << \"#\";\n    a = 5;\n    cout << fib(a) << endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：4#3#2#2#4"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：4#3#2#2#1#5"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：4#3#2#1#2#4"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：4#3#2#1#2#5"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 递归和函数【解析】本题属于考察递归和函数知识。第 13 行代码调用 jumFloor(4) ，首先输出 4# ，然后返回 jumFloor(3)+ jumFloor(2) ， jumFloor(3) 输出 3# 再继续递归调用 jumFloor(2)+ jumFloor(1) 依次输出 2#1# 并返回 3 。 jumFloor(2) 输出 2# 返回 2 ，所以第 13 行代码调用之后的返回结果是 3+2=5 ，最后的输出结果就是 4#3#2#1#2#5 ，所以正确答案选 D 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码中的 isPrimeA() 和 isPrimeB() 都用于判断参数 N 是否素数，有关其时间复杂度的正确说法是（ ）。\n```cpp\nbool isPrimeA(int N) {\n    if (N <= 1) return false;\n    for (int i = 2; i < N; i++)\n        if (N % i == 0) return false;\n    return true;\n}\nbool isPrimeB(int N) {\n    if (N <= 1) return false;\n    for (int i = 2; i * i <= N; i++)\n        if (N % i == 0) return false;\n    return true;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：isPrimeA() 的最坏时间复杂度是O(N)， isPrimeB() 的最坏时间复杂度是O(√N)， isPrimeB() 优于isPrimeA() 。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：isPrimeA() 的最坏时间复杂度是O(N)， isPrimeB() 的最坏时间复杂度是O(N)， isPrimeB() 优于isPrimeA() 。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：isPrimeA() 的最坏时间复杂度是O(N)， isPrimeB() 的最坏时间复杂度是O(√N)， isPrimeA() 优于isPrimeB() 。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：isPrimeA() 的最坏时间复杂度是O(N)， isPrimeB() 的最坏时间复杂度是O(N)， isPrimeA() 优于isPrimeB()"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 时间复杂度【解析】本题属于考察时间复杂度的相关知识。 isPrimeA 的最坏时间复杂度是 O(N) ， isPrimeB 的最坏时间复杂度是 O() ， O() 优于 O(N) ，正确答案 B 选项。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码用于归并排序，其中 merge() 函数被调用次数为（）。\n```cpp\n#include <iostream>\nusing namespace std;\nvoid merge(int listData[], int start, int middle, int end) {\n    // 合并代码\n}\nvoid mergeSort(int listData[], int start, int end) {\n    if (start >= end) return;\n    int middle = (start + end) / 2;\n    mergeSort(listData, start, middle);\n    mergeSort(listData, middle + 1, end);\n    merge(listData, start, middle, end);\n}\nint main() {\n    int listData[] = {5, 3, 1, 2, 4, 6, 7};\n    mergeSort(listData, 0, 6);\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：6"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：7"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 分治算法【解析】本题考察归并排序的相关知识。 listA 的长度为 7 ，根据递归返回的条件 start ≥ end ， merge 函数会被调用 6 次，正确答案 C 选项。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在上题的归并排序算法中， mergeSort(listData, start, middle); 和 mergeSort(listData, middle + 1, end); 涉及到的算法为（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：搜索算法"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：分治算法"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：贪心算法"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：递推算法"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 分治算法【解析】本题属于考察归并排序的相关知识。归并排序采用的是分治算法思想，正确答案 B 选项。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "归并排序算法的基本思想是（）。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：将数组分成两个子数组，分别排序后再合并。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：随机选择一个元素作为枢轴，将数组划分为两个部分。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：从数组的最后一个元素开始，依次与前一个元素比较并交换位置。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：比较相邻的两个元素，如果顺序错误就交换位置。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 归并排序算法【解析】本题属于考察归并排序的相关知识。归并排序基本思想就是将数组分成两个子数组，分别排序后再合并，正确答案 A 选项。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "有关下面代码的说法正确的是（）。\n```cpp\nstruct Node {\n    int data;\n    Node* next;\n};\nint main() {\n    Node* head = new Node{1, nullptr};\n    head->next = new Node{2, nullptr};\n    head->next->next = new Node{3, nullptr};\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：上述代码构成单向链表。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：上述代码构成双向链表。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：上述代码构成循环链表。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：上述代码构成指针链表。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 循环链表【解析】本题考察链表的相关知识。第 15 行代码 ~ 第 17 行代码创建了三个链表的节点，第一个节点的 next 指向第二个节点，第二个节点的 next 指向第三个节点，第三个节点的 next 又指向了第一个节点，形成了一个环，所以是循环链表，正确答案 C 选项。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "TCP/IP 的传输层的两个不同的协议分别是 UDP 和 TCP 。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 计算机网络【解析】本题是计算机网络的知识，传输层是这 2 个协议。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在特殊情况下流程图中可以出现三角框和圆形框。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 流程图【解析】本题考察流程图，流程图中没有三角框。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "找出自然数 N 以内的所有质数，常用算法有埃氏筛法和线性筛法，其中埃氏筛法效率更高。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 线性筛法和埃氏筛法【解析】本题考察筛选素数的算法，线性筛法是在埃氏筛法基础的改进，效率更高。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在 C++ 中，可以使用二分法查找链表中的元素。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 二分法和链表【解析】本题考察二分法和链表的知识点，使用二分法查找元素，元素必须是顺序存储的，链表不是顺序存储数据，因此不能使用二分法。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在 C++ 中，通过恰当的实现，可以将链表首尾相接，形成循环链表。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 循环链表【解析】本题考察循环链表的知识点，链表的最后一个节点的 next 指针指向头结点就能形成循环链表。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "贪心算法的解可能不是最优解。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 贪心算法【解析】本题考察贪心算法的知识点，贪心算法找到的不一定是最优解。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一般说来，冒泡排序算法优于归并排序。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 冒泡排序【解析】本题考察排序算法性能，冒泡时间复杂度为 O() ，归并排序的时间复杂度为 O(NlogN) ，因此归并优于冒泡，说法错误。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++ 语言中的 qsort 库函数是不稳定排序。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： gsort 函数【解析】本题考察 qsort 函数， qsort 函数内部使用的是不稳定的排序算法。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "质数的判定和筛法的目的并不相同，质数判定旨在判断特定的正整数是否为质数，而质数筛法意在筛选出范围内的所有质数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 质数的判定和筛选【解析】本题考察质数的判定和筛选，说法正确。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的 C++ 代码执行后将输出 0 5 1 6 2 3 4 。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： sort 函数【解析】本题考察 sort 函数的排序规则，排序规则函数 compareModule5 确定的排序规则是根据除 5 的余数进行升序排序，所以 main 函数中对 0~6 范围的整数排序之后的结果就是 0516234.",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2023",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 26
+}

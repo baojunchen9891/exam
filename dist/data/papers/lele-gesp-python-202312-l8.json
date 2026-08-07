@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202312-l8",
+ "title": "202312 CCF-GESP编程能力等级认证Python8级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 8,
+ "levelName": "8级",
+ "yearmonth": "202312",
+ "year": "2023",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨要从A城到B城，又想顺路游览一番。他有两个选项：1、坐高铁路到C城游览，再坐高铁或飞机到B城；2、坐船到D城游览，再坐船、高铁或飞机到B城。请问小杨从A城到B城共有几种交通方案可以选择？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：6"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】本题本质是一道数学题目，将问题分为 2 部分，第一部分为 A->C->B, 有 2 种方案，第二部分为 A->D->B ，有 3 种方案，加起来是 5 种，选择 C 。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在Python定义fuc1()函数如下。有关调用该函数的说法，正确的是()。\ndef fuc1(a, b):\n    return a+b"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：调用func1()函数时，如果参数a为类似二维数组list,b为一维list,函数调用不会报错；"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：调用func1()函数时，如果参数a为类似二维数组list,b为一维list,函数调用将会报错；"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：调用func1()函数时，如果参数a和b的类型均为tuple,b也为tuple,函数调用将会报错；"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：调用func1()函数时，如果参数a和b的类型为dict,函数调用将会报错；"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "【解析】本题考察的是 “ + ” 号的运算，其中 A,B 选择是关于列表的加法，是将两个列表的拼接成一个列表 ， 不会报错 。 C 选项是关于元组的加法 ， 元组是不可修改的 ， 但是两个元组相加是生成了另一个元组 ， 并不会修改原始元组 ， 不会报错 。 D 选项是关于字典的加法 ， 字典相加也是将两个字典合并成一个新的字典 ， 不会报错。选择 A 。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面有关Python类和对象的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：对象的生命周期开始时，会执行构造函数。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：对象的生命周期结束时，会执行析构函数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：类的析构函数可以为虚函数。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：类的构造函数可以为虚函数。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析】本题中，对象的生命周期开始和结束分别会执行构造函数和析构函数 ， 所以 A,B, 正确 。 对于虚函数 ， 在 python 中是虚函数的装饰器有 @abstractmethod 和 @virtual ， 并且是通过继承和方法重写来实现的 ， 其中构造函数不能当成虚函数使用 ， 因为创建一个对象时我们总是要明确指定对象的类型 ， 尽管我们可能通过基类的指针或引用去访问它但析构却不一定 ， 我们往往通过基类的指针来销毁对象 。 这时候如果析构函数不是虚函数 ， 就不能正确识别对象类型从而不能正确调用析构函数。选择 D 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "使用邻接矩阵表达n个顶点的有向图，则该矩阵的大小为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：n×(n+1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：n×n"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：n×(n-1)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2n×(n-1)/2"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析】邻接矩阵的行列分别为 n 个，大小则为 n*n 。选择 B 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "5位同学排队，其中一位同学不能排在第一，则共有多少种可能的排队方式？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：5"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：24"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：96"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：120"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】本题是排序题目， 5 位同学排序方法有 A55, 减去指定同学排在第一位的情况 A44, 则有 120-24=96 ，选择 C 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一个无向图包含n个顶点，则其最小生成树包含多少条边？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：n-1"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：n"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：n+1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：最小生成树可能不存在。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析 】 n 个顶点的组成的树有 n-1 条边 ， 但是没有保证为连通图 ， 所以不能判断是否存在最小生成树，选择 D 。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知三个float类型的变量a、b和theta分别表示一个三角形的两条边长及二者的夹角（弧度），则下列哪个表达式可以计算这个三角形的面积？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：a*b*sin(theta)/2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：(a+b)*sin(theta)/2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a*b*cos(theta)/2"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：sqrt(a*a + b*b - 2*a*b*cos(theta))"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "【解析 】 本题是数学题目 ， 三角形的面积是 ( 底  高 )/2 ， 其中 ， 如果以 b 为底 ， 还缺少高 ， 通过三角函数 ， h=asin(theta) ， 带入公式 ， ab sin(theta)/2 ， 选择 A 。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对有n个元素的二叉排序树进行中序遍历，其时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(log(n))"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n^2)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】树的遍历是将每个元素遍历一次，因此时间复杂度为 O(n) ，选择 C 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设输入参数m和n满足m≤n,则下面程序的最差情况的时间复杂度为()。\n1 def gcd(m,n):\n2     while m>0:\n3         t=m\n4         m=n%m\n5         n=t\n6     return n"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(log(n))"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n×m)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(m×log(n))"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "【解析 】 本题是辗转相除法求最大公倍数 ， 所以时间复杂度为 O(log(n)) ， 选择 A 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的时间复杂度为()。\nimport sys\nsys.setrecursionlimit(100000)\ndef power_mod(a,n,mod):\n    if n==0:\n        return 1\n    a=a%mod\n    if n==1:\n        return a\n    pw=power_mod(a,n/2,mod)\n    pw2=pw*pw%mod\n    if n%2==0:\n        return pw2\n    return pw2*a%mod\nb=power_mod(3,2,5)\nprint(b)"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(a×n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(log(n))"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(log(n)×a)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析 】 本题是关于快速幂的程序 ， 是计算 a**n%mod ， 每次 n 的值都会 /2 ， 所以时间复杂度为 O(logn) ，选择 C 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的时间复杂度为(MAXN已预先设定值)()。\nrecord_choose=[0 for j in range(MAXM)] for i in range(MAXN)]\ndef choose(n,m):\n    if (m==0 or m==n):\n        return 1\n    if record_choose[n][m]==0:\n        record_choose[n][m]=choose(n-1,m-1)+choose(n-1,m)\n    return record_choose[n][m]"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(2^n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(2^m×(n-m))"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(C(n,m))"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(m×(n-m))"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "【解析 】 本题是使用了递归算法 ， 并且对求出的值进行了记录 ， 简化了算法的时间复杂度 ， 通过打表的方法 ， 记录对应的值 ， 可以发现总共访问了 m*(n-m) 个元素，选择 D 。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的程序使用出边的邻接表表达有向图，则下列选项中哪个是它表达的图？()。\n1 class Edge:\n2     def __init__(self, e=None, next=None):\n3         self.e = e\n4         self.next = next\n5 class Node:\n6     def __init__(self, first=None):\n7         self.first=first\n8 e = [Edge() for i in range(5)]\n9 e = [Edge(1,None), Edge(2,e[2]), Edge(3,None), Edge(2,None), Edge(0,None)]\n10 n = [e[0],e[1],e[3],e[4]]"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：0->1, 1->2->3, 2->3, 3->2, 4->0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：0->1, 1->2, 2->3, 3->2, 4->0"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：0->1, 1->2, 2->3, 3->2, 4->0"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：0->1, 1->2->3, 2->3, 3->2, 4->0"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析 】 结构体 edge 里的 next 指向的是下一条边 ， Node 里的 first 指向的是每个点的第一条边，所以 0 号点指向 1 号点， 1 号点指向 2,3 号点， 2 号点指向 3 号点， 3 号点指向 0 号点，最接近的符合代码描述的选项是 B 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的输出为()。\n1 def function():\n2     cnt=0\n3     for a in range(1,11):\n4         for b in range(1,11):\n5             for h in range(1,11):\n6                 if (a+b)*h==20:\n7                     cnt=cnt+1\n8     print(cnt)\n9 function()"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：12"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：18"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：36"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：42"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "【解析 】 本题是三重 for 循环 ， a,b,h 取值范围都为 (1,10], 当满足条件 (a+b)h==20 时 ， 计数器 +1 。 因为 (a+b)h==20, 所以 h 的值有 1,2,4,5,10 ， 那对应的 a+b 的值有 20,10,5,4,2 方案数分别为 1,9,4,3,1 ，总共 18 种，选择 B 。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的输出为()。\n（程序未完整给出，根据上下文推测为某程序输出）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：6"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：11"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：22"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "【解析 】 本题代码中要求 a ， b ， c 都是正整数 ， 满足 a+b+c<=30 且 a^2+b^2=c^2, 符合要求的 a,b,c 有 3 4 5 ； 5 12 13 ； 6 8 10 共 3 种，选 A 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的程序中，二维数组v和h分别代表如下图所示的网格中的水平边的边长和垂直边的时间消耗。程序使用动态规划计算从左下角到右上角的最小时间消耗，则横线处应该填写下列哪个选项的代码？()。\n1 #v和h为List类型，相当于二维数组，已赋初值\n2 dis = [[0 for j in range(MAXX)] for i in range(MAXY)]\n3 def shortest_path(x,y):\n4     dis[0][0]=0\n5     for i in range(y):\n6         dis[i+1][0] = dis[i][0] + v[i][0]\n7     for j in range(x):\n8         dis[0][j+1] = dis[0][j] + h[0][j]\n9     for i in range(y):\n10        for j in range(x):\n11            #在此处填写代码\n12    return dis[y][x]"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dis[i][j] = min([dis[i-1][j]+v[i-1][j], dis[i][j-1]+h[i][j-1]])"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dis[i][j] = min([dis[i-1][j]+h[i-1][j], dis[i][j-1]+v[i][j-1]])"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dis[i+1][j+1] = min([dis[i][j+1]+v[i][j+1], dis[i+1][j]+h[i+1][j]])"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dis[i+1][j+1] = min([dis[i][j+1]+h[i][j+1], dis[i+1][j]+v[i+1][j]])"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "【解析】本题要求计算从网格的左下角到右上角的最小时间消耗。二维数组 v 和 h 分别表示网格中的水平边和垂直边的时间消耗 。 程序使用动态规划方法计算这个最小时间。动态规划状态转移方程需要根据网格的边长和时间消耗来设置 。 在第 11 行的输出 dis[y][x] ， 我们注意到枚举的范围是 < y 和 <x ， 因此 第 1 0 行计算的是 dis[i+1][j+1] 。 根据选项 C 的第一个转移 dis[i][j+1] ，可见这里是从第一维转移过来，类似于 第 5 行也是从第一维转移过来，使用的是 v 数组。因此，选项 C 正确。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "python语言非常强大，可以用来求解方程的解。例如，如果变量x为float类型的变量，则执行语句x*2-4=0;后，变量x的值会变为2.0。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析 】 本题中 x*2-4=0 既不是赋值语句 ， 也不是判断语句 ， 所以不能通过编译 。 错误。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "一个袋子中有3个完全相同的红色小球、2个完全相同的蓝色小球。每次从中取出1个，且不放回袋子，这样进行3次后，将取出的小球依次排列，则可能的颜色顺序有7种。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析 】 将所有情况进行枚举 ， 分别为 ： 红红红 ， 红红蓝 ， 红蓝红 ， 蓝红红 ， 红蓝蓝，蓝红蓝，蓝蓝红。正确。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "杨辉三角，是二项式系数的一种三角形排列，在中国南宋数学家杨辉1261年所著的《详解九章算法》一书中出现，是中国数学史上的一项伟大成就。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】本题是历史题，杨辉三角，是二项式系数在三角形中的一种几何排列 ， 在中国南宋数学家杨辉所著的《详解九章算法》中出现。正确。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "N个顶点的有向完全图（不带自环）有N×(N-1)/2条边。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】有向完全图， (x,y) 和 (y,x) 不算同一条边，所以有 n*(n-1) 条边。错误。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果待查找的元素确定，只要哈希表的大小不小于查找元素的个数，就一定存在不会产生冲突的哈希函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析 】 在极端情况下 ， 可以先将待查找元素放进哈希表中 ， 再根据位置构造一个由 if-else 判断组成的哈希函数 ： 当查找元素与某一项待查找相同时 ， 返回对应的位置 。 虽然这样构造的哈希函数的时间复杂度较高 ， 但满足不会产生冲突 。 正确。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "动态规划算法的时间复杂度一般为：必要状态的数量，乘以计算一次状态转移方程的时间复杂度。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析】动态规划的时间复杂度一般为状态数 * 转移复杂度。正确。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "已知int类型的变量a、b和h中分别存储着一个梯形的顶边长、底边长和高，则这个梯形的面积可以通过表达式(a+b)*h/2求得。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】本题考察梯形的面积公式，正确。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "判断图是否连通只能用广度优先搜索算法实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】还可以使用深度优先算法。错误。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在N个元素的二叉排序树中查找一个元素，最好情况的时间复杂度是O(logN)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "【解析】最好的情况下是 O(1) ，一次就可以找到。错误。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "给定float类型的变量x,且其值大于等于0，我们可以通过二分法求出根号x即x^(1/2)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "【解析 】 二分法要求查找的元素是有序排列的 ， f(x)=x 在 x ∈ [0,+ ∞ ) 上是单调递增。正确。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2023",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 221
+}

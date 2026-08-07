@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202409-l4",
+ "title": "202409 CCF-GESP编程能力等级认证C++4级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 4,
+ "levelName": "4级",
+ "yearmonth": "202409",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，()正确定义了一个返回整数值并接受两个整数参数的函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：int add(int a, int b) { return a + b; }"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：void add(int a, int b) { return a + b; }"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：int add(a, b){ return a + b; }"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：void add(int a, int b) { return a - b; }"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 函数定义A 定义了一个返回类型为 int 的函数 add ，它接受两个 int 类型的参数，并正确地返回它们的和。B 定义了一个返回类型为 void 的函数，不能返回任何值，所以不符合题意。C 缺少参数类型声明， a 和 b 必须指定为 int 类型。D 同样定义了一个返回类型为 void 的函数，不能返回值",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，形参与实参的关系描述正确的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：形参在函数调用时指定，实参在函数定义时传递"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：形参在函数定义时指定，实参在函数调用时传递"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：形参和实参可以互换"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：形参和实参必须是完全相同的类型，不能有任何差异。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 形参与实参A 错误，形参是在函数定义时指定，实参是在函数调用时传递的。B 正确，形参确实是在函数定义中声明的，而实参是在函数调用时提供的。C 错误，形参和实参不能互换，形参是函数定义中的占位符，实参是实际传递的值。D 错误，形参和实参不必完全相同类型，但必须兼容，例如可以使用类型转换。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行以下代码，屏幕上将输出()。\n```cpp\n#include <iostream>\nusing namespace std;\n\nint var = 100;\n\nvoid function(){\n    int var = 200;\n    cout << var << \" \";\n    cout << ::var << \" \";\n}\n\nint main(){\n    cout << var << \" \";\n    function();\n    var += 100;\n    cout << var << \" \";\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：100 200 100 200"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：100200100300"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：100200200200"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：100200200300"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 作用域main 函数：首先输出全局变量 var ，其值为 100 。调用 function ：局部变量 var 被定义为 200 ，所以 cout << var << \" \"; 输出 200 。cout << ::var << \" \"; 仍然输出全局变量 var ，其值未改变，输出 100 。回到 main 函数：此时全局 var 仍然是 100 ，输出 200 ，所以最后输出的结果是 100 200 100 200 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下面代码，屏幕上输出是()。\n```cpp\nint arr[3] = {24, 9, 7};\nint* p = arr;\np++;\ncout << *p << endl;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：24"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：9"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：7"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：不确定"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 指针int arr[3] = {24, 9, 7}; 定义了一个包含三个整数的数组。int p = arr; 将指针 p 指向数组的第一个元素 arr[0] ，即 24 。p++; 将指针 p 移动到数组的下一个元素，即 arr[1] ，此时 p 指向 9 。cout << p << endl; 输出 p 当前指向的值，即 9",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下面代码片段的结果是()。\n```cpp\nint x = 20;\nint y = 24;\nint* p = &x;\nint* q = &y;\np = q;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：将x赋值为24"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：将y赋值为20"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：将q指向x的地址"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：将p指向y的地址"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 指针int x = 20; 和 int y = 24; 定义了两个整数变量。int p = &x; 将指针 p 指向 x 的地址。int q = &y; 将指针 q 指向 y 的地址。p = q; 将指针 p 更新为指向 q 的地址，即 p 现在指向 y 的地址。因此，最终的结果是 p 指向了 y 的地址，而没有改变 x 或 y 的值",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，()正确定义一个名为student的结构体，其中包含一个name字符数组和一个age整数？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：struct student { char name[20]; int age; };"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：student struct { char name[20]; int age;};"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：student struct { string name; int age; };"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：struct student { char[20] name; int age; };"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 结构体A 正确地定义了一个名为 student 的结构体，包含一个字符数组 name 和一个整数 age 。B 错误，顺序不正确， struct 应该在前。C 错误，使用了 string ，但缺少 #include <string> 头文件，且结构体定义不正确。D 错误， char[20] name; 语法不正确，应该是 char name[20];",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在C++中，()正确声明了一个3行4列的二维数组。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：int arr[3,4];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：int arr[3][4];"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：int arr[4][3];"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：int arr(3, 4);"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 二维数组A 错误， int arr[3, 4]; 的语法不正确，逗号不应在数组声明中使用。B 正确， int arr[3][4]; 声明了一个 3 行 4 列的二维数组。C 虽然语法正确，但它声明的是一个 4 行 3 列的数组，而不是题目中要求的 3 行 4 列。D 错误， int arr(3, 4); 使用了圆括号，这是错误的语法，不能用于数组声明。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一个二维数组定义为int arr[3][4];(假设一个int变量占4个字节)，则int arr[0]占用()个字节的内存。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：4"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：12"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：16"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 二维数组内存对于定义为 int arr[3][4]; 的二维数组，其中每个 int 变量占用 4 个字节， int arr[0] 指的是第一行的数组 arr[0][0] 到 arr[0][3] 。计算：每行有 4 个 int ，每个占 4 个字节，因此 int arr[0] 占用的内存为 4×4=16 字节",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码采用递推算法来实现整数n的阶乘(n!=n×(n-1)×..×2×1),则横线上应填写()。\n```cpp\nint factorial(int n){\n    int result = 1;\n    for (int i = 2; i <= n; i++) {\n        //在此处填入代码\n    }\n    return result;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：result *= i;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：result += i;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：result *= result;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：result += result;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 递推算法阶乘的定义是： n! = n  (n-1)  (n-2)  ...  1 。在循环中，从 2 到 n ，每次应将 result 乘以当前的 i ，所以正确的填入应该是 result *= i; 。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在排序算法中，稳定性指的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：排序后数据不会丢失"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：排序后相同元素的相对顺序保持不变"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：排序后数据不会被修改"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：排序后数据的时间复杂度不变"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排序稳定性稳定排序算法在排序时，如果有两个相等的元素，排序后这两个元素的相对顺序保持不变。其他选项的解释不符合稳定性的定义：A 错误，排序后的数据是否丢失与稳定性无关。C 错误，排序后数据可能会被修改（如位置改变）。D 错误，时间复杂度是排序算法的性能指标，与稳定性无关。因此，正确答案是 B",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码实现了冒泡排序函数，则横线上应填写()。\n```cpp\n//交换数组arr的第i个元素和第j个元素\nvoid swap(vector<int> &arr, int i, int j) {\n    int tmp = arr[i];\n    arr[i] = arr[j];\n    arr[j] = tmp;\n}\n\nint bubble_sort(vector<int> &arr){\n    for (int i = arr.size() - 1; i > 0; i--) {\n        bool flag = false;//标志位\n        {\n            //在此处填入代码\n            if (arr[j] > arr[j+1]){\n                swap(arr, i, j);\n                flag = true;\n            }\n        }\n        if(!flag)\n            break;//此轮“冒泡”未交换任何元素\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：for (int j = 0; j < arr.size() - 1; j++)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：for (int j = arr.size() - 1; j > 0; j--)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：for (int j = 0; j < i; j++)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：for (int j = i-1; j <= 0; j--)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 冒泡排序冒泡排序的外层循环遍历数组，从后向前控制需要比较的元素范围。内层循环 for (int j = 0; j < i; j++) 则确保在当前遍历中比较到第 i 个元素，保证了在每一轮中较大的元素会逐步“冒泡”到末尾",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上一题算法的时间复杂度为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(2n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 时间复杂度冒泡排序的时间复杂度是 O(n²)",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面代码实现了插入排序函数（升序），则横线上应填写()。\n```cpp\nvoid insertion_sort(vector<int> &nums){\n    for (int i = 1; i < nums.size(); i++){\n        int base = nums[i], j = i - 1;\n        {\n            //在此处填入代码\n            nums[j+1] = nums[j];\n            j--;\n        }\n        nums[j + 1] = base;\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：while(j >= 0 && nums[j] > base)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：while (j > 0 && nums[j] > base)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：while (j >= 0 && nums[j] < base)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：while (j > 0 && nums[j] < base)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 插入排序插入排序的基本思想是将当前元素（ base ）插入到已排序的部分（ nums[0] 到 nums[i-1] ）中。在比较时，如果 nums[ j] 大于 base ，就需要将 nums[ j] 向后移动，以腾出位置来插入 base 。因此，条件应该是 j >= 0 （确保不越界）且 nums[ j] > base",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨用文件重定向实现在log.txt文件中输出日志，则下面横线上应填写()。\n```cpp\n#include <iostream>\n#include <fstream>\n#include <string>\nusing namespace std;\n\nint main(){\n    ofstream log_file(\"log.txt\");\n    streambuf* original_cout = cout.rdbuf();\n    cout.rdbuf(log_file.rdbuf());\n    //在此处填入代码\n    cout.rdbuf(original_cout);//恢复原始的标准输出缓冲区\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：cout << \"This output will go to the log file.\" << endl;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：log_file << \"This output will go to the log file.\" << endl;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：cout >> \"This output will go to the log file.\" >> endl;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：log_file >> \"This output will go to the log file.\" >> endl;"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 文件重定向由于之前的代码将 cout 的输出重定向到了 log_file ，因此使用 cout 输出的信息将被写入到 log.txt 文件中。选项 A 正确，使用 cout ，而 cout 已经被重定向到 log_file 。其他选项不正确：B 错误，因为 log_file 是一个文件流，应该通过 cout 来输出，不能直接用 log_file 来输出。C 错误， >> 运算符是用于输入流的，不适用于输出。D 错误，类似于 B ， log_file 不应直接使用 >> 来输出",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下面的代码，屏幕上将输出()。\n```cpp\n#include <iostream>\nusing namespace std;\n\nint divide(int a, int b){\n    if(b == 0){\n        throw runtime_error(\"division by zero error \");\n    }\n    return a / b;\n}\n\nint main(){\n    int x = 10;\n    int y = 0; // 设为会导致除零错误\n    try {\n        int result = divide(x, y);\n        cout << \"result:\" << result << endl;\n    }\n    catch(const runtime_error& e){\n        cout << \"caught an exception: \" << e.what() << endl;\n    }\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：division by zero error result: caught an exception:"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：result: caught an exception: division by zero error"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：caught an exception: division by zero error"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：division by zero error caught an exception: division by zero error"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 异常处理在 main 函数中， y 被设置为 0 。调用 divide(x, y) 时，由于 y 为 0 ，会抛出一个 runtime_error 异常。异常被 catch 块捕获，输出 \"caught an exception: \" 后接异常的消息，使用 e.what() 获取错误信息。因此，最终输出是： caught an exception: division by zero error",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "代码int a=10; int* p =&a;可以正确定义指针和初始化指针。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 指针int p ：这里定义了一个整型指针 p 。星号  表示 p 是一个指向整型的指针。&a ： & 是取地址运算符，它返回变量 a 的内存地址。将 &a 赋值给 p ，意味着 p 现在指向 a 的地址。因此，指针 p 正确地定义并初始化为指向变量 a 的地址",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++中，引用传递允许函数修改传递给它的参数的值。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 引用传递引用传递是 C++ 中的一种参数传递方式，它允许函数直接操作传入的变量。通过使用引用（ & ），函数可以修改原变量的值，而不是只处理变量的副本。这种方式既高效又灵活",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "指针的大小与其所指向的变量的数据类型的大小相同。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 指针大小指针的大小通常与其所处的系统架构有关（如 32 位或 64 位），而与其所指向的变量的数据类型大小无关。在 64 位系统中，所有指针通常都是 8 字节，而在 32 位系统中，通常是 4 字节",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二维数组的行的大小必须在定义时确定，列的大小可以动态变化。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 二维数组在 C++ 中，二维数组的行和列的大小都必须在定义时确定，不能动态变化。行的大小在定义时是固定的，列的大小可以在某些情况下通过动态分配实现，但如果使用标准数组，列的大小也必须是常量。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "递推算法通过逐步求解当前状态和前一个或几个状态之间的关系来解决问题。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 递推算法递推算法通过利用已知的前一个或多个状态来逐步计算当前状态，从而解决问题。这种方法常用于动态规划和分治策略中，通过构建状态转移方程来有效地求解复杂问题。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "选择排序是稳定的排序算法。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 选择排序选择排序是一种不稳定的排序算法。在选择排序过程中，相同元素的相对位置可能会改变，因此不能保证稳定性",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "插入排序的时间复杂度总是比冒泡排序低。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 插入排序与冒泡排序不完全正确。插入排序在最佳情况下（已经排序的数组）时间复杂度为 O(n) ，而冒泡排序在最佳情况下也为 O(n) 。但在平均和最坏情况下，插入排序的时间复杂度为 O(n^2) ，与冒泡排序相同。因此，不能说插入排序总是比冒泡排序低",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++中，如果没有捕获到异常（没有匹配的catch块），程序会继续执行而不会终止。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 异常处理在 C++ 中 ， 如 果 抛 出 了 异 常 但 没 有 找 到 匹 配 的 catch 块 来 捕 获 它 ， 程 序 会 调 用 std::terminate() ，导致程序终止。因此，未捕获的异常会导致程序结束，而不是继续执行",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "以下代码用递推法求斐波那契数列的第n项，时间复杂度为指数级。\n```cpp\nint fibonacci(int n){\n    if (n == 0) return 0;\n    if (n == 1) return 1;\n    int f0 = 0; // F(0)\n    int f1 = 1; // F(1)\n    int current;\n    for (int i = 2; i <= n; i++) {\n        current = f1 + f0; // F(n) = F(n-1) + F(n-2)\n        f0 = f1;\n        f1 = current;\n    }\n    return current;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 递推法迭代的方式计算斐波那契数列，时间复杂度为线性 O(n) ，而不是指数级 O(2^n)",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下面C++代码后，输出的是20。\n```cpp\nint point(int* p){\n    return *p * 2;\n}\nint main() {\n    int a = 10;\n    int* p = &a;\n    *p = point(p);\n    cout << *p << endl;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 指针通过指针传递，函数 point(p) 返回 10 * 2 = 20 ，并将其赋给 a ，最终输出 20",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 95
+}

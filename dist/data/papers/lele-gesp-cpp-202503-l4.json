@@ -1,0 +1,997 @@
+{
+ "id": "lele-gesp-cpp-202503-l4",
+ "title": "202503 CCF-GESP编程能力等级认证C++4级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 4,
+ "levelName": "4级",
+ "yearmonth": "202503",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于下述代码，说法错误的是( )。\n```cpp\nint multiply(int x, int y);\n\nint main(){\n    int a = 4;\n    int b = 5;\n    int result = multiply(a, b);\n    std::cout << \"The result is: \" << result << std::endl;\n    return 0;\n}\n\nint multiply(int x, int y) {\n    return x * y;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：函数 multiply 的定义应该放到函数 main 之前。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：函数声明int multiply(int x, int y);中明确指定了函数multiply()的返回值为整数类型。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：在main函数中，函数 multiply通过multiply(a,b)被调用，其中a和b是定义在main函数中的变量，它们作为实参传递给了multiply函数的形参x和y。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：运行上述代码，将输出The result is:20。"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 函数声明与定义、函数调用与参数传递、函数返回值各选项分析选项 A ：函数 multiply 的定义不一定要放到函数 main 之前。在 C++ 中，函数声明可以提前告知编译器函数的存在、返回值类型和参数列表，这样即使函数定义在调用之后，编译器也能正确处理函数调用。本题中 int multiply(int x, int y); 就是函数声明，有了这个声明， main 函数中就可以正常调用 multiply 函数，所以该选项说法错误。选项 B ：函数声明 int multiply(int x, int y); 明确指定了函数 multiply 的返回值为整数类型 int ，该选项说法正确。选项 C ：在 main 函数中， multiply(a, b) 调用了 multiply 函数，其中 a 和 b 是 main 函数中定义的变量，作为实参传递给了 multiply 函数的形参 x 和 y ，该选项说法正确。选项 D ： multiply 函数实现了两个整数的乘法运算， a = 4 ， b = 5 ，调用 multiply(a, b) 得到的结果是 4 * 5 = 20 ，最后输出 The result is: 20 ，该选项说法正确。综上，答案是A。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下述代码将输出( )。\n```cpp\nint x = 10;\nvoid func() { int x = 20; std::cout << x; }\nint main(){\n    func();\n    std::cout << x;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2020"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2010"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 变量作用域、函数调用与输出代码分析1. 首先定义了一个全局变量 x 并初始化为 10 。2. 在 func 函数中，又定义了一个局部变量 x 并初始化为 20 。在 func 函数内部， std::cout << x; 输出的是局部变量 x 的值，即 20 。因为在函数内部，局部变量会覆盖同名的全局变量，所以这里输出的是 20 。3. 在 main 函数中调用 func 函数后，接着执行 std::cout << x; 。此时，这里的 x 是全局变量 x ，因为在 main 函数中没有定义与全局变量 x 同名的局部变量，所以输出的是全局变量 x 的值，即 10 。综上，最终的输出结果是 2010 ，答案选 B 。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下述代码后，变量a的值为( )。\n```cpp\nint a = 10;\nint* p = &a;\n*p = 20;\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：10"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：20"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：随机值"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：编译错误"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 指针的概念与使用、变量的内存操作代码分析inta =10; // 定义一个整型变量 a ，并初始化为 10intp =&a; // 定义一个整型指针 p ，并将变量 a 的地址赋值给 p ，此时 p 指向变量 ap=20; // 通过指针 p 解引用操作，将指针 p 所指向的变量（即 a ）的值修改为 201.int a = 10; ：定义了 一个整型变量 a ，并将其初始值设为 10 。2.int p = &a; ：定义了一个整型指针 p ，使用取地址运算符 & 获取变量 a 的地址，并将该地址赋值给指针 p 。这样，指针 p 就指向了变量 a 。3.p = 20; ：使用解引用运算符 * 对指针 p 进行解引用操作，解引用后得到的是指针 p 所指向的变量，也就是变量 a 。然后将 20 赋值给解引用后的结果，相当于直接修改了变量 a 的值。所以，执行完上述代码后，变量 a 的值变为 20 ， 答案选 B 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下哪种参数传递方式可以避免拷贝大型对象？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：只能用值传递"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：只能用引用传递"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：只能用指针传递"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：引用传递和指针传递均可"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 函数参数传递的不同方式值传递：在值传递方式中，函数调用时会将实参的值复制一份传递给形参，对于大型对象，这种拷贝操作会消耗较多的时间和内存空间。引用传递：引用传递是将实参的引用（本质上是实参的别名）传递给函数，函数中对形参的操作实际上就是对实参的操作，不会发生对象的拷贝，从而避免了拷贝大型对象带来的开销。指针传递：指针传递是将实参的地址传递给函数，函数通过指针来访问和操作实参所指向的对象，也不会进行对象的拷贝，同样可以避免拷贝大型对象。所以引用传递和指针传递均可避免拷贝大型对象，答案 是 D 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下述代码，将输出( )。\n```cpp\nvoid swap(int a, int &b) {\n    int temp = a;\n    a = b;\n    b = temp;\n}\nint main() {\n    int x = 1, y = 2;\n    swap(x, y);\n    std::cout << x << y;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：12"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：21"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：22"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：11"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 函数参数传递方式、函数调用与变量作用域代码分析函数 swap 的参数传递方式：函数 swap 有两个参数，第一个参数 a 是值传递，第二个参数 b 是引用传递。值传递是将实参的值复制一 份传递给形参，在函数内部对形参的修改不会影响到实参。引用传递是将实参的引用（即别名）传递给形参，在函数内部对形参的修改会直接影响到实参。函数调用过程：在 main 函数中，定义了两个整型变量 x = 1 和 y = 2 。调用 swap(x, y) 时， x 的值被复制给 swap 函数的形参 a ， y 的引用被传递给 swap 函数的形参 b 。在 swap 函数内部，执行 int temp = a; a = b; b = temp; 语句，交换了 a 和 b 的值。由于 a 是值传递， a 的改变不会影响到 x ；而 b 是引用传递， b 的改变会影响到 y ，此时 y 的值变为 1 。输出结果：在 main 函数中，调用 swap 函数后， x 的值仍然是 1 ， y 的值变为 1 ，所以 std::cout << x << y; 输出的结果是 11 。综上，答案选 A 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的描述中，( )正确定义一个名为Person的结构体并正确初始化了一个 Person 结构体的变量p。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：struct Person { string name; int age; }; Person p(\"Yang\",10);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：struct Person { string name; int age; }; Person p; p.name = \"Yang\"; p.age = 10;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：struct Person { string name; int age; }; Person p = { \"Yang\", 10 };"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：struct Person { string name; int age; }; Person p = new Person(\"Yang\", 10);"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 结构体的定义与使用各选项分析选项 A ：该结构体定义中没有定义构造函数，而 Person p(\"Yang\", 10); 试图使用类似构造函数的方式初始化结构体变量，在没有自定义构造函数的情况下，这种初始化方式是错误的。所以选项 A 不正确。选项 B ：在结构体定义中， string name, 后面的逗号使用错误，应该是分号 ; 来结束成员变量的声明。所以该结构体定义存在语法错误，选项 B 不正确。选项 C ：此结构体定义正确，并且使用初始化列表的方式对结构体变量 p 进行初始化，按照成员变量的顺序依次赋值，这种初始化方式是符合 C++ 语法规则的。所以选项 C 正确。选项 D ：new 运算符用于动态分配内存，返回的是一个指向对象的指针。而 Person p 定义的是一个结构体变量，不是指针类型。不能将指针赋值给结构体变量，这种赋值方式存在类型不匹配的错误。所以选项 D 不正确。综上，答案选 C 。故正确答案是 B 。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定如下代码，\n```cpp\nstruct Person {\n    std::string name;\n    int age;\n    struct Address{\n        std::string street;\n        std::string city;\n    };\n    Address address;\n};\n```\n下面描述错误的是( )。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：结构 Person 内嵌套结构 Address"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Person 有一个 Address 类型的 address 成员"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：一个 Person 类型的变量 p的 address 的初始化可以写成： p.address.street = \"123 Main St\"; p.address.city=\"Anytown\";"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：结构的嵌套可以减少命名冲突，因此可以不必控制嵌套层次"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 结构体嵌套代码分析struct Person {std::string name;int age;struct Address {std::string street;std::string city;};Address address;};此代码定义了一个 Person 结构体，其中嵌套了一个 Address 结构体，并且 Person 结构体有一个 Address 类型的成员 address 。各选项分析选项 A ： 从 代 码 中 可 以 明 显 看 出 ， Address 结 构 体 定 义 在 Person 结 构 体 内 部 ， 所 以 结 构 Person 内嵌套结构 Address ，该选项描述正确。选项 B ：代码中 Person 结构体包含一个 Address 类型的成员 address ，即 Address address; ，该选项描述正确。选项 C ：对于一个 Person 类型的变量 p ，可以通过 p.address.street 和 p.address.city 来访问和初始化 address 成员的 street 和 city 属性，如 p.address.street = \"123 Main St\"; p.address.city = \"Anytown\"; ，该选项描述正确。选项 D ：虽然结构体的嵌套在一定程度上可以减少命名冲突，但过多的嵌套会增加代码的复杂度，降低代码的可读性和可维护性。因此，在实际编程中需要控制嵌套层次，避免过度嵌套。所以该选项描述错误。综上，答案选 D 。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设int arr[2][3]={{1,2,3},{4,5,6}};则 arr[1][2]的值是( )。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：6"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 二维数组的定义与访问这里定义了一个 2 行 3 列的二维数组 arr ，并进行了初始化。二维数组可以看作是一个矩阵，其中第一个下标表示行号，第二个下标表示列号，且下标都是从 0 开始计数的。所以， arr[1][2] 的值是 6 ，答案选 D 。",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面( )正确定义了二维数组。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：int arr[3,4];"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：int arr[3][4];"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：int arr(3,4);"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：int a[3-4];"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 二维数组定义选项 A ： int arr[3,4]; 这种定义方式是错误的，在 C++ 中，二维数组的定义应该使用 [][] 形式来指定行数和列数，而不是用逗号分隔。选项 B ： int arr[3][4]; 是正确的二维数组定义方式，它定义了一个名为 arr 的二维数组，有 3 行 4 列，符合 C++ 中二维数组的定义语法。选项 C ： int arr(3,4); 这种方式不是定义二维数组的正确语法，在 C++ 中，定义数组通常使用方括号 [] ，而不是圆括号 () 。选项 D ： int a[3 - 4]; 定义了一个一维数组，且数组大小为 3 - 4 = -1 ，这是不符合语法规则的，数组大小必须是一个大于等于 0 的常量表达式。",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨正在爬楼梯，需要爬n阶才能到达楼顶。如果每次可以爬1个或2个台阶，下面代码采用递推算法来计算一共有多少种不同的方法可以爬到楼顶，则横线上应填写( )。\n```cpp\nint f(int n){\n    if (n == 1 || n == 2)\n        return n;\n    int f1 = 1;\n    int f2 = 2;\n    int res = 0;\n    for (int i = 3; i <= n; i++) {\n        //在此处填入代码\n    }\n    return res;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：res += f1 + f2; f1 = f2; f2 = res;"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：res = f1 + f2; f1 = f2; f2 = res;"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：res += f1 + f2; f2 = res; f1 = f2;"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：res = f1 + f2; f2 = res; f1 = f2;"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 递推算法问题分析这是一个经典的爬楼梯问题，其核心思想是：到达第 n 阶楼梯的方法数等于到达第 n - 1 阶楼梯的方法数加上到达第 n - 2 阶楼梯的方法数。因为每次只能爬 1 个或 2 个台阶，所以要到达第 n 阶，要么是从第 n - 1 阶爬 1 个台阶上来，要么是从第 n - 2 阶爬 2 个台阶上来。各选项分析选项 A ：res += f1 + f2;f1 = f2;f2 = res;res += f1 + f2; 这种累加方式不符合状态转移方程，会导致结果错误。正确的做法是直接将 f1 和 f2 的和赋值给 res ，而不是累加。所以选项 A 错误。选项 B ：res = f1 + f2;f1 = f2;f2 = res;首先 res = f1 + f2; 计算出到达第 i 阶楼梯的方法数，然后 f1 = f2; 将 f2 的值赋给 f1 ，更新 f1 为到达第 i - 1 阶楼梯的方法数，最后 f2 = res; 将 res 的值赋给 f2 ，更新 f2 为到达第 i 阶楼梯的方法数，为下一次循环做准备。这种方式符合递推算法的状态转移方程，是正确的。所以选项 B 正确。选项 C ：res += f1 + f2;f2 = res;f1 = f2;同样， res += f1 + f2; 不符合状态转移方程，而且 f2 = res; 和 f1 = f2; 的顺序会导致 f1 和 f2 的值更新错误。所以选项 C 错误。选项 D ：res = f1 + f2;f2 = res;f1 = f2;虽然 res = f1 + f2; 计算出了到达第 i 阶楼梯的方法数，但 f2 = res; 和 f1 = f2; 的顺序会导致 f1 和 f2 的值更新错误，没有正确维护递推关系。所以选项 D 错误。综上，答案选 B 。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "给定如下算法，其时间复杂度为( )。\n```cpp\nbool f(int arr[], int n, int target) {\n    for (int i = 0; i < (1 << n); i++){\n        int sum = 0;\n        for (int j = 0; j < n; j++) {\n            if(i & (1 << j)){\n                sum += arr[j];\n            }\n        }\n        if (sum == target) return true;\n    }\n    return false;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n^2)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n×2^n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n^3)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 算法复杂度分析这段代码的功能是判断数组 arr 中是否存在若干元素的和等于目标值 target 。它通过枚举数组元素所有可能的组合来实现这一功能。时间复杂度分析外层循环：n外层循环的条件是 i < (1 << n) ，其中 1 << n 表示将 1 左移 n 位，其结果为 2 。所以外层循环会n执行 2 次。内层循环：内层循环的条件是 j < n ，它会执行 n 次。嵌套循环的总执行次数：由于内层循环嵌套在外层循环内部，对于外层循环的每一次迭代，内层循环都会完整地执行 n次 。 因 此 ， 嵌 套 循 环 的 总 执 行 次 数 为 外 层 循 环 执 行 次 数 与 内 层 循 环 执 行 次 数 的 乘 积 ， 即nn×2 。所以，答案选 B 。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面关于排序稳定性的描述，正确的是( )。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：稳定性指算法的时间复杂度恒定"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：稳定排序保证相同元素的相对顺序不变"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：选择排序是稳定排序"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：插入排序不是稳定排序"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排序算法的稳定性各选项分析选项 A ：排序算法的稳定性与时间复杂度并无关联。稳定性是指在排序过程中，相等元素的相对顺序是否保持不变；而时间复杂度描述的是算法执行时间随输入规模增长的变化趋势。所以选项 A 错误。选项 B ：稳定排序的定义就是在排序操作中，保证相同元素的相对顺序不变。例如，在一个待排序序列中，如果有两个相等的元素 a 和 b ，且 a 在 b 之前，那么经过稳定排序后， a 仍然会在 b 之前。所以选项 B 正确。选项 C ：选择排序不是稳定排序。选择排序的基本思想是每次从未排序部分选择最小（或最大）的元素，与未排序部分的第一个元素交换位置。在交换过程中，可能会改变相等元素的相对顺序。例如，序列 [5, 8, 5, 2] ，第一次选择最小元素 2 与第一个元素 5 交换位置后，两个 5 的相对顺序就发生了改变。所以选项 C 错误。选项 D ：插入排序是稳定排序。插入排序的工作原理是将未排序数据插入到已排序序列的合适位置。在插入过程中，如果遇到相等元素，插入排序会将新元素插入到相等元素的后面，从而保证相等元素的相对顺序不变。所以选项 D 错误。综上，答案选 B 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "对数组arr[]={5,3,8,1}进行升序排序，执行第一轮冒泡排序后数组 arr中的内容为( )。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：3,5,1,8"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：3,1,5,8"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：3,5,8,1"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5,3,8,1"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 冒泡排序算法的基本原理和执行过程冒泡排序的基本思想是重复地走访过要排序的数列，一次比较两个元素，如果它们的顺序错误就把它们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。对于升序排序的冒泡排序，在每一轮中，会从数组的第一个元素开始，依次比较相邻的两个元素，如果前一个元素大于后一个元素，则交换它们的位置。给定数组 arr[] = {5, 3, 8, 1} ，进行第一轮冒泡排序的过程如下：比较第 1 个元素 5 和第 2 个元素 3 ，因为 5 > 3 ，所以交换它们的位置，数组变为 {3, 5, 8, 1} 。比较第 2 个元素 5 和第 3 个元素 8 ，因为 5 < 8 ，所以不交换它们的位置，数组仍然是 {3, 5, 8, 1} 。比较第 3 个元素 8 和第 4 个元素 1 ，因为 8 > 1 ，所以交换它们的位置，数组变为 {3, 5, 1, 8} 。经过第一轮冒泡排序后，数组 arr 中的内容为 {3, 5, 1, 8} ，所以答案选 A 。",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "运行下面的代码，将出现( )。\n```cpp\ndouble hmean(double a, double b){\n    if (a == -b)\n        throw runtime_error(\"Runtime error occurred.\");\n    return 2.0*a*b/(a + b);\n}\n\nint main(){\n    double x = 10;\n    double y = -10;\n    try {\n        int result = hmean(x, y);\n        cout << \"hmean:\" << result << endl;\n    }\n    catch (const runtime_error& e){\n        cout << \"Caught:\" << e.what() << endl;\n    }catch(...){\n        cout << \"Caught an unknown exception.\" << endl;\n    }\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：屏幕上输出Caught: Runtime error occurred."
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：屏幕上输出Caught an unknown exception."
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：程序调用std::terminate()"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：编译错误"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 异常处理机制代码分析函数 hmean ：该函数接受两个双精度浮点数 a 和 b 作为参数，计算它们的调和平均数。如果 a 等于 -b ，则抛出一个 runtime_error 类型的异常，异常信息为 \"Runtime error occurred.\" 。main 函数：定义了两个双精度浮点数 x = 10 和 y = -10 。在 try 块中调用 hmean(x, y) 函数，由于 x 等于 -y ， hmean 函数会抛出 runtime_error 异常。异常抛出后，程序会跳出 try 块，寻找匹配的 catch 块进行处理。第一个 catch 块 catch (const runtime_error& e) 用于捕获 runtime_error 类型的异常，当捕获到该异常时，会输出异常信息。第二个 catch (...) 块用于捕获其他未知类型的异常。由于 hmean 函数抛出的是 runtime_error 类型的异常，程序会进入第一个 catch 块进行处理，输出 Caught: Runtime error occurred. 。所以，答案选 A 。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面哪种方式不能实现将字符串\"Happy Spring!\"输出重定向到文件log.txt( )。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：freopen(\"log.txt\",\"w\",stdout); cout << \"Happy Spring!\" << endl; fclose(stdout);"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：std::ofstream outFile(\"log.txt\"); outFile << \"Happy Spring!\" << endl; outFile.close();"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：std::ofstream outFile(\"log.txt\"); cout << \"Happy Spring!\" << endl; outFile.close();"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：ofstream log_file(\"log.txt\"); streambuf* org_cout = cout.rdbuf(); cout.rdbuf(log_file.rdbuf()); cout << \"Happy Spring!\" << endl; cout.rdbuf(org_cout);"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 文件操作以及输出重定向选项分析选项 Afreopen(\"log.txt\", \"w\", stdout);cout << \"Happy Spring!\" << endl;fclose(stdout);freopen 函数用于将标准输出流 stdout 重定向到指定的文件 log.txt 。之后使用 cout 输出的内容都会被写入到 log.txt 文件中，最后使用 fclose(stdout) 关闭文件。所以该选项可以实现将字符串输出到文件。选项 Bstd::ofstream outFile(\"log.txt\");outFile << \"Happy Spring!\" << endl;outFile.close();std::ofstream 是 C++ 中用于文件输出的流类，通过创建 outFile 对象并打开 log.txt 文件，使用 outFile 输出字符串到文件，最后关闭文件。因此该选项也能实现将字符串输出到文件。选项 Cstd::ofstream outFile(\"log.txt\");cout << \"Happy Spring!\" << endl;outFile.close();虽然创建了 outFile 对象并打开了 log.txt 文件，但后续使用的是 cout 进行输出， cout 是标准输出流，默认输出到控制台，并没有将输出重定向到文件，所以字符串不会被写入到 log.txt 文件中。故该选项不能实现将字符串输出到文件。选项 Dofstream log_file(\"log.txt\");streambuf* org_cout = cout.rdbuf();cout.rdbuf(log_file.rdbuf());cout << \"Happy Spring!\" << endl;cout.rdbuf(org_cout);此选项通过 cout.rdbuf() 函数将 cout 的缓冲区替换为 log_file 的缓冲区，从而实现将 cout 的输出重定向到文件 log.txt 。输出完成后，再将 cout 的缓冲区恢复为原来的缓冲区。所以该选项可以实现将字符串输出到文件。综上，答案选 C 。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "函数是C++中的核心概念，用于封装可重用的代码块。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 函数的基本概念在 C++ 中，函数是一种重要的编程结构，它将一段具有特定功能的代码封装起来，形成一个独立的单元。通过给函数定义一个名称，在程序的其他地方可以方便地调用这个函数，实现代码的复用。这样不仅提高了代码的可读性和可维护性，还使得程序的结构更加清晰，便于开发人员对复杂程序进行模块化设计和管理。所以“函数是 C++ 中的核心概念，用于封装可重用的代码块”这一描述是准确的。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在C++中，函数的返回类型可以省略，默认为int 。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 函数定义的基本语法在 C++ 中，函数的返回类型不能省略。如果函数没有返回值，需要使用 void 关键字明确指定其返回类型为 void 。如果不指定返回类型，编译器会报错，而不是默认为 int 。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "结构体的成员默认是public 访问权限。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 结构体的访问权限在 C++ 中，结构体和类相似，都可以包含成员变量和成员函数。不同的是，结构体的成员默认访问权限是 public ，即结构体的成员可以在结构体外部直接访问，除非显式地使用 private 或 protected 关键字来修改成员的访问权限。而类的成员默认访问权限是 private 。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "假设整数数组arr[4]={0,1,2,3};的第一个元素在内存中的地址为0x7ffee4065820,经过int* p = arr; p += 1;后，指针p的值是1。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 指针的运算在 C++ 中，当对指针进行算术运算时，其移动的字节数取决于指针所指向的数据类型。在本题中， arr 是一个 int 类型的数组， int* p = arr 将指针 p 指向数组 arr 的首元素。当执行 p += 1 时，指针 p 会按照 int 类型的大小向后移动一个元素的位置。在大多数系统中， int 类型通常占 4 个字节，所以 p 的值会增加 4 ，而不是 1 。此时 p 的值应该是 0x7ffee4065820 + 4 = 0x7ffee4065824 ，它指向数组 arr 的第二个元素 1 的地址，而不是值为 1 。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "二维数组作为函数参数时，必须显式指定所有维度的大小。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 二维数组作为函数参数的传递规则在 C++ 里，二维数组作为函数参数时，不需要显式指定所有维度的大小，但必须指定除第一维之外其他维度的大小。这是因为在函数调用时，编译器需要知道每一行的元素个数，以便正确地进行内存寻址和数据访问。例如，下面是一个正确的示例：#include<iostream>// 函数定义，指定第二维大小voidprintArray(intarr[][3],introws){for(inti =0;i <rows;++i){for(intj =0;j <3;++j){std::cout<<arr[i][j]<<\" \";}std::cout<<std::endl;}}intmain(){intarr[2][3]={{1,2,3},{4,5,6}};printArray(arr,2);return0;}在这个例子中，函数 printArray 的参数 arr 只指定了第二维的大小为 3 ，第一维大小由调用函数时传入的 rows 参数来确定。所以，“二维数组作为函数参数时，必须显式指定所有维度的大小”这种说法是错误的。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 递推算法的基本概念递推算法的核心就是利用已知的初始条件，借助递推关系（也就是递推公式），逐步计算出后续的值，最终得到目标值。例如，在斐波那契数列中，初始值为 F(0)=0 ， F(1)=1 ，递推公式为 F(n)=F(n-1)+F(n-2)(n≥2) 。通过这个初始值和递推公式，就可以从 n=2 开始，逐步计算出后续的斐波那契数。所以，“递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法”这一描述是准确的。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "考虑最坏情况下冒泡排序算法的时间复杂度，T(n)为待排序数字的数目为n的复杂度，则其递推关系式为 T(n)=T(n-1)+n, T(0)=1。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： C++ 异常处理机制中未捕获异常的处理在 C++ 里，当程序抛出一个异常时，会尝试寻找与之匹配的 catch 块来处理这个异常。若在整个调用栈中都没有找到合适的 catch 块，也就是该异常未被捕获，那么程序会调用 std::terminate 函数。 std::terminate 函数的默认行为是终止程序的执行，并且通常会输出一些错误信息或者调用预先设置的终止处理函数（如果有的话）。所以，“未捕获异常会调用 std::terminate 终止程序”这一表述是正确的。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "插入排序在最好情况（已有序）下的时间复杂度是O(n^2)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 冒泡排序算法的时间复杂度分析以及递推关系式的建立冒泡排序最坏情况分析在最坏情况下，冒泡排序需要对一个长度为n的数组进行 n-1 轮比较和交换操作。每一轮中，需要比较的次数逐渐减少。对于长度为 n 的数组，第一轮需要比较 n-1 次，第二轮需要比较 n-2 次，以此类推，最后一轮需要比较 1 次。递推关系式分析如果要建立递推关系式，对于长度为n的数组进行冒泡排序，可看作先对长度为 n-1 的数组进行冒泡排序（其复杂度为 T(n-1) ），然后再进行 n-1 次比较和可能的交换操作。所以递推关系式应该是 T(n)=T(n-1)+(n-1) ，而不是 T(n)=T(n-1)+n 。初始条件分析当 n=0 时，数组为空，不需要进行任何排序操作，所以 T(0)=0 ，而不是 T(0)=1 。综上所述，题目中的说法是错误的。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "对数组arr[]={4,3,1,5,2}进行升序排序，执行第一轮选择排序后数组arr中的内容是{1,4,3,5,2}。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 插入排序算法复杂度分析插入排序的基本思想是将未排序数据插入到已排序序列的合适位置。在最好情况下，即待排序数组已经是有序的。对于插入排序，每插入一个新元素时，只需要和已排序部分的最后一个元素比较一次，因为数组已经有序，新元素总是大于等于已排序部分的最后一个元素，所以不需要进行元素的移动操作。对于一个包含 n 个元素的数组，插入排序在最好情况下需要进行 n-1 次比较操作，其时间复杂度为 O(n) ，而不是 O(n^2) 。所以该说法错误。",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "未捕获异常会调用std::terminate终止程序。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 选择排序算法的执行过程选择排序的基本思想是每一轮从待排序的数据元素中选出最小（或最大）的一个元素，存放在序列的起始位置，然后再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾，以此类推，直到全部待排序的数据元素排完。对于数组 arr[] = {4, 3, 1, 5, 2} 进行升序排序的第一轮操作如下：从数组的第一个元素开始，遍历整个数组，找出最小的元素。在这个数组中，最小的元素是 1 ，它位于数组的第 3 个位置（索引为 2 ）。然后将这个最小元素 1 与数组的第一个元素 4 进行交换。交换后，数组就变为 {1, 3, 4, 5, 2} 。所以，执行第一轮选择排序后数组 arr 中的内容是 {1, 3, 4, 5, 2} ，而不是 {1, 4, 3, 5, 2} 。题目说法错误。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 131
+}

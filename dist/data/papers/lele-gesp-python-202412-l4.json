@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-python-202412-l4",
+ "title": "202412 CCF-GESP编程能力等级认证Python4级真题",
+ "subject": "gesp-python",
+ "subjectName": "GESPPython",
+ "level": 4,
+ "levelName": "4级",
+ "yearmonth": "202412",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "2024年10月8日，诺贝尔物理学奖“意外地”颁给了两位计算机科学家约翰·霍普菲尔德(JohnJ.Hopfield)和杰弗里·辛顿(Geoffrey E. Hinton)。这两位科学家的主要研究方向是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：天体物理"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：流体力学"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：人工智能"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：量子理论"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "计算机系统中存储的基本单位用B来表示，比如某个照片大小为3MB,其中B代表的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Byte"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Block"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：Bulk"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：Bit"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是？()\n```\nitems = [('item1',2),('item2', 3)， ('item3',1)]\nsorted_items = sorted(items, key=lambda x: (-x[1], x[0]))\nprint(sorted_items)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[('item3',1),('item1',2),('item2',3)]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[('iteml',2),('item2',3),('item3',1)]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[('item2',3),('item3',1),('item1',2)]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：[('item2',3),('item1',2),('item3',1)]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下Python代码实现的排序算法的时间复杂度是？()\n```\ndef func sort(arr):\n    for i in range(1, len(arr):\n        key = arr[i]\n        j=i-1\n        while j >=  and key < arr[j]:\n            arr[j+1]= arr[j]\n            j-=1\n        arr[j+1]= key\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(2n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n2)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n3)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是？()\n```\nz=5\ndef outer():\n    def inner():\n        global z\n        z=15\n    inner()\n    print(z,end=\"#\")\nouter()\nprint(z,end=\"#\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：15#15#"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：15#5#"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：5#15#"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：5#5#"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是？()\n```\ndef double_elements(lst):\n    for i in range(len(lst):\n        lst[i]*= 2\n    return lst\nlstB =[1,2,3]\ndouble_elements(lstB)\nprint(lstB, double_elements(lstB))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：[1,2,3][2,4,6]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：[2,4,6][4,8,12]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：[4,8,12][4,8,12]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：[1,2,3][4,8,12]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，会发生什么？()\n```\nmy_list=[1,2,3]\nprint(my_list[3])\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：代码正常执行，输出3"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：抛出TypeError异常"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：抛出ValueError异常"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：抛出IndexError异常"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是？()\n```\ntry:\n    my_dict = {'a': 1， 'b': 2}\n    print(my_dict['c'])\nexcept KeyError:\n    print(\"10\",end=\"#\")\nelse:\n    print(\"20\",end=\"#\")\nfinally:\n    print(\"30\",end=\"#\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：10#"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：20#"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：10#30#"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：20#30#"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果可能是？()\n```\nmy_dic ={'a':[1,2,3],'b':(4,5,6)}\nmy_dic['a'][0]=10\nmy_dic['b']+=(7,)\nprint(my_dic)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：{'a':[1,2,3],'b':(4,5,6,7)}"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：{'a':[10,2,3],'b':(4,5,6,7)}"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：{'a':[10,2,3],'b':(4,5,6)}"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：{'a':[10,2,3],'b':(4,5,6,7,7)}"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是？()\n```\ndef func(a, *， b):\n    print(\"{},{}\".format(a, b))\nfunc(1,b=2)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1,2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：2,1"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：抛出异常"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：None"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是？()\n```\ndef func(**kwargs):\n    return {\"name\": kwargs.get(\"name\", \"Guest\"),\n            \"age\": kwargs.get(\"age\",18)}\nuser = func(name=\"Bob\")\nprint(user[\"name\"])\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：Guest"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：Bob"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：18"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：None"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "在一个棋盘上，有一堆麦子。根据棋盘的规则，第1格放1粒麦子，第2格放2粒麦子，第3格放4粒麦子，以此类推，每增加一格，麦子的数量翻倍。下列程序用来计算在第n(n<64)格有多少粒麦子，其中横线处填写的代码为？()\n```\nlst =[0] * 64\nlst[1]=1\ndef calculate_wheat(n):\n    if n <= 1：\n        return lst[n]\n    i=2\n    while i <= n:\n        lst[i]=   #填写代码\n        i+=1\n    return lst[i - 1]\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：lst[i -1]*2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：lst[i-2]*2"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：lst[i-1]+lst[i-2]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：lst[-1] * 2"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "小杨相信数字“1”、“3”、“5”能给他带来好运，不喜欢数字“7”。他设计了一个计算数字幸运值的程序。对于数字中的所有字符，字符“1”幸运值为5，字符“3”幸运值为6，字符“5”幸运值为7，字符“7”的幸运值为-3，其他字符的幸运值为0，数字的幸运值即为其所有字符的幸运值之和。请在下面程序空白处填上正确内容以实现计算某数字幸运值的功能。\n```\ndic = {\"1\"：5，\"3\"：6，\"5\"：7，\"7\"：-3}\nnum = input(\"请输入数字：\")\nans = 0\nfor i in range(len(num)):\n    ch = num[i]\n    if __________ ： # 填写代码①\n        #填写代码②\nprint(\"该数字的幸运值为：\"，ans)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：① ch in dic.values() ② ans += dic[ch]"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：① ch in dic.items() ② ans += dic[ch]"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：① ch in dic.keys()② ans = dic[ch]"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：① ch in dic ② ans += dic[ch]"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "打开一个由小写英文和数字组成的文本文件notes.txt,将该文件中的每一个字母加密后写入到一个新文件encrypted_notes.txt,加密的方法是：a变成b,b变成c,...,z变成a,其它字符不变化。请在下面程序空白处填上正确内容以实现程序功能。\n```\nfile = open(\"notes.txt\", \"r\")\nline = file.readline()\nlist = []\nwhile line:\n    for i in range(len(line):\n        if line[i].islower():\n            jm=   #填写代码①\n            list.append(chr(jm))\n        else:\n            list.append(line[i])\n    line = file.readline()\ns=   #填写代码②\nfile = open(\"encrypted_notes.txt\", \"w+\")\nfile.write(s)\nfile.close()\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：① (ord(line[i]) + 1) % 26 ② '.join(list)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：① ord('a') + (ord(line[i]) + 1 - ord('a')) % 26 ② '.join(list)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：① (ord(line[i])+ 1)% 26 ② str(list)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：① ord('a') + (ord(line[i]) + 1 - ord('a')) % 26 ② str(list)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设你管理一个实验室，需要记录物品的领用情况。每次领用时，你会记录下领用的日期、物品名称以及领用人的姓名。这个信息将被保存在一个名为lab issuance.txt的文本文件中。其要求如下：①在文件末尾追加新的物品领用记录；②可以查看当前所有的物品领用记录。请在下面程序空白处填上正确内容以实现程序功能。\n```\ndef append_record(date, item, name):\n    with open(\"lab_issuance.txt\", __________) as file: #填写代码①\n        file.write(f\"{date},{item},{name}\\n\")\ndef read_records():\n    with open(\"lab_issuance.txt\", \"r\") as file:\n        records =   #填写代码②\n        for record in records:\n            print(record, end=\"\")\n#示例操作\nappend_record(\"2024-11-05\",\"Computer\", \"Tom\")\nappend_record(\"2024-11-06\",\"Pen\",\"Jack\")\nread_records()\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：①\"a\"②file.readlines()"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：① \"a\" ② file.readline()"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：① \"w\"② file.readlines()"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：① \"w\" ② file.readline()"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Windows的资源管理器中为已有文件A建立副本的操作是Ctrl+C,然后Ctrl+V。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果是14。\n```\na=5\nb=3\nresult = (a & b)< 1\nprint(result)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下面Python代码，调用函数get_max可以得到一个None类型的数据。\n```\ndef get_max(*args):\n    if not args:\n        return None\n    return max(args)\nprint(type(get_max()))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "执行下面Python代码后，输出的结果为[1,3,5,7]。\n```\nprint(list(filter(lambda x:×%2 = 0，[1,2,3,4,5,6,7,8]))\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面这段程序的时间复杂度为常数阶O(1)。\n```\ndef fun(n):\n    print(\"Hello, World!\")\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "如果在函数内部对一个变量进行赋值操作，那么该变量默认为局部变量。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，已执行 list_of_tuples =[(1,2)，(3,4)]，如果执行 list_of_tuples[0][1] =5 将不会报错。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中， [(i,i * 2) for i in range(5)]+[7,]是合法的表达式。()"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "根据下面Python函数定义，调用func()函数时如果参数分别为str和tuple类型，会报错。\n```\ndef func(a, b):\n    return a + str(b)\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在Python中，使用 with open(file,'w')as f:语句打开文件后，即使发生异常，文件资源通常也会被正确关闭。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 125
+}

@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202506-l8",
+ "title": "202506 CCF-GESP编程能力等级认证C++8级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 8,
+ "levelName": "8级",
+ "yearmonth": "202506",
+ "year": "2025",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一间的机房要安排6名同学进行上机考试，座位共2行3列。考虑到在座位上很容易看到同一行的左右两侧的屏幕，安排中间一列的同学做A卷，左右两列的同学做B卷。请问共有多少种排座位的方案？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：720"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：90"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：48"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：15"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 排列组合6 位同学安排到 6 个座位上，共 6!=720 种方案。其他条件均为多余条件，并不能改变 6 位同学安排到 6 个座位上的要求。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "又到了毕业季，学长学姐们都在开心地拍毕业照。现在有3位学长、3位学姐希望排成一排拍照，要求男生不相邻、女生不相邻。请问共有多少种拍照方案？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：720"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：72"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：36"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：2"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 排列组合将男生和女生内部进行全排列，每个共 A(3,3)=6 种交替排列的方式有：男 - 女 - 男 - 女 - 男 - 女（首位为男生）；女 - 男 - 女 - 男 - 女 - 男（首位为女生）。共两种 , 因此总方案为： 662=72 种",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下列关于C++类和对象的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：通过语句 const int x = 5； 定义了一个对象x 。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：通过语句 std:string t = \"12345\"；定义了一个对象t。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：通过语句 void (*fp)() = NULL;定义了一个对象 fp 。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：通过语句 class MyClass;定义了一个类 MyClass 。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 类在 C++ 中， class MyClass; 这种写法并不是完整定义一个类，而是对类 MyClass 进行前向声明。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "关于生成树的说法，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：一个无向连通图，一定有生成树。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：n个顶点的无向图，其生成树要么不存在，要么一定包含n-1条边。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：n个顶点、n-1条边的无向图，不可能有多颗生成树。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：n个顶点、n-1条边的无向图，它本身就是自己的生成树。"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 树与图基础如果不联通 , 那么就是森林 , 就无法构成生成树",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "一对夫妻生男生女的概率相同。这对夫妻希望儿女双全。请问这对夫妻生下两个孩子时，实现儿女双全的概率是多少？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：1/2"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：1/3"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：1/4"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：1/6"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 数学期望（男男） , （男女） （女男）（女女）满足 \" 儿女双全 \" （即既有男孩又有女孩）的情况是：男女 , 女男 , 总共有 4 种等概率的可能结果，其中 2 种符合条件，因此概率为：符合条件的情况数 ÷ 总情况数 = 2/4 = 1/2",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已定义变量double a,b;，下列哪个表达式可以用来判断一元二次方程x^2+ax+b=0是否有实根？()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：4*b - a * a < 0"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：4*b <= a*a"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：a*a - 4*b"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：b*4 - a*a"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 数学函数对一元二次房称 ax²+bx+c=0 的实根判定公式为： b²-4ac>=0 ，带入题目中的符号，得到 B 选项 ;",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "n个结点的二叉树，执行广度优先搜索的平均时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(log n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(2^n)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 树与图遍历对树执行搜索的时间复杂度为 O(n)",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于动态规划的说法中，错误的是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：动态规划方法通常能够列出递推公式。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：动态规划方法的时间复杂度通常为状态的个数。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：动态规划方法有递推和递归两种实现形式。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：对很多问题，递推实现和递归实现动态规划方法的时间复杂度相当。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 动态规划一般来说，动态规划的时间复杂度可以表示为 O ( 状态数量 × 每个状态的转移操作数 );",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的sum_digit函数试图求出从1到n(包含1和n)的数中，包含数字d的个数。该函数的时间复杂度为()。\n```cpp\n#include <string>\nint count_digit(int n, char d){\n    int cnt = 0;\n    std::string s = std::to_string(n);\n    for (int i = 0; i < s.length(); i++)\n        if(s[i] == d)\n            cnt++;\n    return cnt;\n}\nint sum_digit(int n, char d){\n    int sum = 0;\n    for (int i = 1; i <= n; i++)\n        sum += count_digit(i, d);\n    return sum;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n^2)"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： count_digit() 和位数相关 , 对 n ，位数为 log10(n) ，主函数为 n 次 for 循环，总体复杂度 O(nlogn)",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面程序的输出为()。\n```cpp\n#include <iostream>\nconst int N = 10;\nint ch[N][N][N];\nint main(){\n    for (int x = 0; x < N; x++)\n        for (int y = 0; y < N; y++)\n            for (int z = 0; z < N; z++)\n                if(x == 0 && y == 0 && z == 0)\n                    ch[x][y][z] = 1;\n                else {\n                    if(x > 0)\n                        ch[x][y][z] += ch[x-1][y][z];\n                    if(y > 0)\n                        ch[x][y][z] += ch[x][y-1][z];\n                    if(z > 0)\n                        ch[x][y][z] += ch[x][y][z-1];\n                }\n    std::cout << ch[1][2][3] << std::endl;\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：60"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：20"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：15"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：10"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 动态规划 , 排列组合本题可以理解为计算从 (0,0,0) 到 (1,2,3) 的路径数量，每次只能沿 x 、 y 或 z 轴正方向移动一步。在 6 个位置中，安排 1 个 x 步、 2 个 y 步、 3 个 z 步，有多少种不同的排列方式 , 使用排列组合公式 (1+2+3)!/1!/2!/3! 得到答案为 60 ，或者程序运行的方式。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面 count_triple函数的时间复杂度为()。\n```cpp\nint gcd(int a, int b){\n    if (a == 0)\n        return b;\n    return gcd(b % a, a);\n}\nint count_triple(int n) {\n    int cnt = 0;\n    for (int v = 1; v * v * 4 <= n; v++)\n        for (int u = v + 1; u * (u + v) * 2 <= n; u += 2)\n            if (gcd(u, v) == 1){\n                int a = u * u - v * v;\n                int b = u * v * 2;\n                int c = u * u + v * v;\n                cnt += n / (a + b + c);\n            }\n    return cnt;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n^2)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n^2 log n)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 复杂度count_tr iple 函数功能：统计某种三元组的数量 ; 两层嵌套循环遍历变量 v 和 u, 对每对 (u, v) ，调用 gcd(u, v) 判断是否互质 , 若互质，则计算三元组并累加计数；外层循环（ v 的范围）：条件为 v  v  4 <= n ，即 v <= sqrt(n/4) ，因此 v 的遍历次数为 O(√n) 。内层循环（ u 的范围）：条件为 u  (u + v)  2 <= n ，且 u 从 v+1 开始、步长为 2 递增。当 v 固定时， u 的最大值近似为 √ (n/2), 看作 O(√n) 。gcd 函数时间复杂度为 O(log min(a, b)) ，在最坏情况下可视为 O(log n) （因 u 和 v 均不超过 √ n ）。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面quick_sort函数试图实现快速排序算法，两处横线处分别应该填入的是()。\n```cpp\nvoid swap(int & a, int & b){\n    int temp = a; a = b; b = temp;\n}\nint partition(int a[], int l, int r) {\n    int pivot = a[l], i = l+1, j = r;\n    while (i <= j){\n        while (i <= j && a[j] >= pivot)\n            j--;\n        while (i <= j && a[i] <= pivot)\n            i++;\n        if (i < j)\n            swap(a[i], a[j]);\n    }\n    ; //在此处填入选项\n    return ; //在此处填入选项\n}\nvoid quick_sort(int a[], int l, int r) {\n    if (l < r){\n        int pivot = partition(a, l, r);\n        quick_sort(a, l, pivot - 1);\n        quick_sort(a, pivot + 1, r);\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：swap(a[l], a[i])  i"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：swap(a[l], a[j])  i"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：swap(a[l], a[i])  j"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：swap(a[l], a[j])  j"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 快速排序第一处：需要将基准值放到正确位置，即交换 a[l] 和 a[j] （因为 j 是最后一个小于基准值的位置） , 第二处：返回基准值的最终位置 j 。",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面LIS函数试图求出最长上升子序列的长度，横线处应该填入的是()。\n```cpp\nint max(int a, int b){\n    return (a > b) ? a : b;\n}\nint LIS(vector<int> & nums){\n    int n = nums.size();\n    if (n == 0)\n        return 0;\n    vector<int> dp(n, 1);\n    int maxLen = 1;\n    for (int i = 1; i < n; i++){\n        for (int j = 0; j < i; j++)\n            if(nums[j] < nums[i])\n                ; //在此处填入选项\n        maxLen = max(maxLen, dp[i]);\n    }\n    return maxLen;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：dp[j] = max(dp[j], dp[i])"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：dp[j] = max(dp[j], dp[i] + 1)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：dp[i] = max(dp[i] + 1, dp[j])"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：dp[i] = max(dp[i], dp[j] + 1)"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 线性 DP本题考察 LIS 的状态转移方程 ,DP[i] 为以 nums[i] 为结尾的 LIS 的长度 , 对 nums[i] ，考虑前方的 j ，衔接某个 nums[j], 满足 nums[j]<nums[i] ，则 i 可以衔接到 j 结尾 , 组成长度 +1 的 LIS;",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面LIS函数试图求出最长上升子序列的长度，其时间复杂度为()。\n```cpp\n#define INT_MIN (-1000)\nint LIS(vector<int> & nums){\n    int n = nums.size();\n    vector<int> tail;\n    tail.push_back(INT_MIN);\n    for (int i = 0; i < n; i++) {\n        int x = nums[i], l = 0, r = tail.size();\n        while(l < r){\n            int mid = (l + r) / 2;\n            if (tail[mid] < x)\n                l = mid + 1;\n            else\n                r = mid;\n        }\n        if (r == tail.size())\n            tail.push_back(x);\n        else\n            tail[r] = x;\n    }\n    return tail.size() - 1;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(log n)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(n)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(n log n)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(n^2)"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 线性 DPLIS 可以贪心 + 二分答案求解 , 复杂度 O(nlogn)",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的程序使用邻接矩阵表达的带权无向图，则从顶点0到顶点3的最短距离为()。\n```cpp\nint weight[4][4] ={\n    {0,5,8,10},\n    {5,0,1,7},\n    {8,1,0,3},\n    {10,7,3,0}};\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：9"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：11"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：12"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 最短路根据题目画图，得到最短路 0~3 为 0~1~2~3=9",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，表达式9|12的结果类型为int、值为13。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 表达式计算| 运算规则，二进制中对应位有 1 个 1 ，当前位的结果就是 1 ， 9 的二进制 1001,12 的二进制为 1100, 计算结果为 1101 ，十进制值为 13",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++语言中，访问数据发生下标越界时，总是会产生运行时错误，从而使程序异常退出。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 程序运行如果程序运行过程中，越界访问的数据已经申请的数据范围内，有可能会正常退出。正因下标越界访问的结果的不确定性，使得该类错误更难发现，应尽量在设计过程中避免。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "对n个元素的数组进行归并排序，最差情况的时间复杂度为O(nlogn)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 归并排序归并排序最好最坏复杂度均为 O(nlogn)",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "5个相同的红球和4个相同的蓝球排成一排，要求每个蓝球的两侧都必须至少有一个红球，则一共有15种排列方案。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 排列组合只有 1 种排列方案 , 红蓝相间 ;",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "使用math.h或cmath头文件中的函数，表达式log(8)的结果类型为double、值约为3。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数学函数表达式 log(8) 的计算结果是 ln(8) ，即 8 的自然对数值。近似值约为 2.079441",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "C++是一种面向对象编程语言，C则不是。继承是面向对象三大特性之一，因此，使用C语言无法实现继承。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 类尽管 C 语言没有类 , 但是可以使用 C 语言模拟实现类的继承 ;",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "n个顶点的无向完全图，有n^(n-2)棵生成树。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 生成树由凯莱公式即可求解 ;",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "已知三个double类型的变量a、b和theta分别表示一个三角形的两条边长及二者的夹角（弧度），则三角形的周长可以通过表达式 sqrt(a * a + b * b - 2 * a * b * cos(theta)) 求得。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： ×考纲知识点： 数学函数周长为： A + B + sqrt(AA + BB - 2AB*cos(C))",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "有V个顶点、E条边的图的深度优先搜索遍历时间复杂度为O(V+E)。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 图的遍历使用邻接表存储， DFS 遍历复杂度为 O(V+E)",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "从32名学生中选出4人分别担任班长、副班长、学习委员和组织委员，老师要求班级综合成绩排名最后的4名学生不得参选班长或学习委员（仍可以参选副班长和组织委员），则共有P(30,4)种不同的选法。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： √考纲知识点： 排列组合分步乘法原理得证 ;",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2025",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 154
+}

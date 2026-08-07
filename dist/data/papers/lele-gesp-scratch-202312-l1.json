@@ -1,0 +1,468 @@
+{
+ "id": "lele-gesp-scratch-202312-l1",
+ "title": "202312 CCF-GESP编程能力等级认证Scratch1级真题",
+ "subject": "gesp-scratch",
+ "subjectName": "GESPScratch",
+ "level": 1,
+ "levelName": "1级",
+ "yearmonth": "202312",
+ "year": "2023",
+ "count": 15,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "现代计算机是指电子计算机，它所基于的是（）体系结构。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：艾伦·图灵"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：冯·诺依曼"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：阿塔纳索夫"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：埃克特-莫克利"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "下面的积木块在哪个模块当中？（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：运动"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：外观"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：声音"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：控制"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，其程序如下图所示，点击绿旗，按下1次空格键后，小猫的坐标为？（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：（-50，-100）"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：（-150，-100）"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：（-100，-50）"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：（-100，-150）"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列程序，小猫最终的大小是？（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：110"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：90"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：120"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "默认小猫角色，下列那组程序可以让小猫不断面向鼠标指向的方向？（）"
+    }
+   ],
+   "options": [],
+   "answer": "D",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 6,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "下列哪个选项实现的功能与下图程序一样？（）"
+    }
+   ],
+   "options": [],
+   "answer": "D",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 7,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "运行下列程序，能够让小猫走到鱼缸所在位置的是？（）"
+    }
+   ],
+   "options": [],
+   "answer": "D",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 8,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "程序运行后，角色大小最大的是哪一个？（）"
+    }
+   ],
+   "options": [],
+   "answer": "B",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 9,
+   "type": "填空题",
+   "stem": [
+    {
+     "t": "下列哪个选项可以把背景音乐的音波曲线变成一条直线？（）"
+    }
+   ],
+   "options": [],
+   "answer": "A",
+   "analysis": "",
+   "auto": false
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "角色箭头的程序如下图所示，点击绿旗，下列选项描述正确的是？（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：箭头向右移动，当碰到字母A时就不见了"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：箭头向右移动，当碰到字母B时就不见了"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：箭头向右移动，当碰到字母C时就不见了"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：箭头向右移动，不会隐藏"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "小杨最近在备考GESP，他用Scratch来练习和运行程序，所以Scratch也是一个小型操作系统。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，执行下列代码，小猫的方向仍为-90°。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "默认小猫角色，点击绿旗，执行下列程序，小猫会一直在舞台来回移动，不会停止。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "点击绿旗，执行下列程序，角色的造型可能没有变化。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "当前背景是Desert，执行下列程序，可以将背景切换为Arctic。（）"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2023",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 47
+}

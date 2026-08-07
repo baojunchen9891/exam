@@ -1,0 +1,1013 @@
+{
+ "id": "lele-gesp-cpp-202412-l6",
+ "title": "202412 CCF-GESP编程能力等级认证C++6级真题",
+ "subject": "gesp-cpp",
+ "subjectName": "GESPC++",
+ "level": 6,
+ "levelName": "6级",
+ "yearmonth": "202412",
+ "year": "2024",
+ "count": 25,
+ "questions": [
+  {
+   "no": 1,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "面向对象编程(OOP)是一种特殊的程序设计方法。下面()不是重要的OOP特性。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：抽象"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：封装"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：继承"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：模块化"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 面向对象编程特性面向对象编程的三大特性是封装、继承和多态，而模块化是结构化编程的一个特点，不属于 OOP 的特性。",
+   "auto": true
+  },
+  {
+   "no": 2,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于C++中类的说法，哪一项是正确的？"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：类中定义的所有成员变量和成员函数默认是public 访问权限。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：类的构造函数必须显式声明返回类型为 void。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：在C++中，类的数据一般设置为私有，其公有成员函数提供访问私有数据的唯一途径。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：同一个类的实例有各自的成员数据和成员函数。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： C++类在 C++ 中，类的成员变量和成员函数默认是私有的（ private ），构造函数没有返回类型，同一个类的不同实例共享成员函数，但每个实例有自己的成员变量。",
+   "auto": true
+  },
+  {
+   "no": 3,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下C+代码段中存在语法错误或逻辑错误，()是正确的。\n```cpp\n#include <iostream>\nusing namespace std;\nclass MyClass {\npublic:\n    MyClass(){\n        cout << \"Constructor called!\" << endl;\n    }\n    void display(){\n        cout << \"Display function called!\"<< endl;\n    }\n};\nint main(){\n    MyClass* obj = NULL;\n    obj->display();\n    return 0;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：NULL 在C++中无法用于指针初始化，应使用 nullptr。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：obj 的定义应该是 MyClass obj;而不是指针类型。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：obj->display()语句存在空指针访问错误，obj应该初始化为一个有效的对象。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：obj->display()语句会调用 display()函数，但它没有输出任何内容。"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 空指针访问使用 NULL 初始化指针后，直接调用指针指向的成员函数会导致空指针访问错误。应该先将指针初始化为一个有效的对象，或者使用 nullptr 代替 NULL 。",
+   "auto": true
+  },
+  {
+   "no": 4,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读以下代码，下面哪一项是正确的？\n```cpp\nvoid processData(){\n    stack<int> s;\n    queue<int> q;\n    for (int i = 1; i <= 5; ++i){\n        s.push(i);\n        q.push(i);\n    }\n    while(!s.empty()){\n        cout << \"Stack pop: \"<< s.top()<< endl;\n        s.pop();\n    }\n    while(!q.empty()){\n        cout << \"Queue pop: \"<< q.front()<< endl;\n        q.pop();\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：栈s的输出顺序是12345，队列q的输出顺序是54321。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：栈s的输出顺序是54321，队列q的输出顺序是12345。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：栈s的输出顺序是12345，队列q的输出顺序是12345。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：栈s的输出顺序是12345，队列q的输出顺序是12345，程序不会正常执行。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 栈和队列栈是后进先出（ LIFO ），所以输出顺序是 1 2 3 4 5 ；队列是先进先出（ FIFO ），所以输出顺序是 5 4 3 2 1 。",
+   "auto": true
+  },
+  {
+   "no": 5,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "N个节点的双向循环链，在其中查找某个节点的平均时间复杂度是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：O(1)"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：O(N)"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：O(log N)"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：O(N3)"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 链表查找链表中查找元素需要从头指针开始逐个遍历，其实就是顺序查找，时间复杂度为 O(N) 。",
+   "auto": true
+  },
+  {
+   "no": 6,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于树的说法，()是正确的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：在一棵二叉树中，叶子结点的度一定是2。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：满二叉树中每一层的结点数等于O(2^(层数-1))。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：在一棵树中，所有结点的度之和等于所有叶子结点的度之和。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：一棵二叉树的先序遍历结果和中序遍历结果一定相同。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 树的性质叶子结点的度为 0 ，先序遍历和中序列遍历相同是要满足所有结点均不包含左子树这个前提条件的。",
+   "auto": true
+  },
+  {
+   "no": 7,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "已知字符集{A,B,C,D}的出现频率如下表所示：\n字符频率\nA 8\nB 3\nC 1\nD 6\n根据哈夫曼编码法，下面()是正确的哈夫曼树。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A. 树形描述（略）"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：B. 树形描述（略）"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：C. 树形描述（略）"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：D. 树形描述（略）"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 哈夫曼树给定以下二叉搜索树，调用函数 search(root,7) 时，输出的结果是（ ）。 A. 5 3 7 B. 5 7 C. 2 3 4 5 6 7 D. 8 7 答 案： B 解析：二叉搜索树 先从根遍历 输出 5 ，然后 7 比 5 大看右子树找到后结束。",
+   "auto": true
+  },
+  {
+   "no": 8,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "上一题中各字符的哈夫曼编码是()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：A:0,B:10,C:110,D:111"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：A:0,B:10,C:11,D:10"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：A:0,B:101,C:100,D:11"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：A:11, B:10, C:01,D:00"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 哈夫曼编码解析 :",
+   "auto": true
+  },
+  {
+   "no": 9,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "()是3位格雷编码。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：000001011010 110111101100"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：000001010011 100101 110111"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：000001100101011010111110"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：000010001011 100110101111"
+      }
+     ]
+    }
+   ],
+   "answer": "A",
+   "analysis": "答案： A考纲知识点： 格雷编码1 位格雷码： 0 1 2 位格雷码 : 先镜像 → 0 1 1 0 镜像部分加前缀 1 序列加前缀 0 → 00 01 11 10 3 位：先镜像 00 01 11 10 10 11 01 00 同上加前缀 → 000 001 011 010 110 111 101 100",
+   "auto": true
+  },
+  {
+   "no": 10,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "根据下面二叉树和给定的代码，\n```cpp\n#include <iostream>\nusing namespace std;\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x) : val(x), left(NULL), right(NULL){}\n};\nTreeNode* search(TreeNode* root, int val) {\n    cout << root->val << \" \";\n    if (root == NULL || root->val == val) return root;\n    if (val < root->val)\n        return search(root->left, val);\n    else\n        return search(root->right, val);\n}\n```\n给定以下二叉搜索树，调用函数search(root,7)时，输出的结果是()。\n树形：\n    5\n   / \\\n  3   7\n / \\   \\\n2   4   8"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：537"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：57"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：234567"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：87"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 二叉搜索树二叉搜索树 先从根遍历 输出 5 ，然后 7 比 5 大看右子树找到后结束。",
+   "auto": true
+  },
+  {
+   "no": 11,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读以下二叉树的深度优先搜索算法，横线上应填写()。\n```cpp\nvoid dfs(TreeNode* root){\n    if (root == nullptr) return;\n    stack<TreeNode*> s;\n    s.push(root);\n    while(!s.empty()){\n        //在此处填入代码\n        cout << node->value << \" \";\n        if(node->right) s.push(node->right);\n        if(node->left) s.push(node->left);\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：TreeNode* node = s.top();"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：TreeNode* node = s.top(); s.pop();"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：TreeNode* node = s.front();"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：TreeNode* node = s.front(); s.pop();"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 深度优先搜索用栈遍历，取出栈顶元素，删除栈顶元素。",
+   "auto": true
+  },
+  {
+   "no": 12,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "阅读以下二叉树的广度优先搜索的代码，横线上应填写()。\n```cpp\n#include <queue>\nvoid bfs(TreeNode* root){\n    if (root == NULL) return;\n    queue<TreeNode*> q;\n    q.push(root);\n    while(!q.empty()){\n        //在此处填入代码\n        cout << node->val << \" \";\n        if(node->left) q.push(node->left);\n        if(node->right) q.push(node->right);\n    }\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：TreeNode* node = q.top();"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：TreeNode* node = q.top(); q.pop();"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：TreeNode* node = q.front();"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：TreeNode* node = q.front(); q.pop();"
+      }
+     ]
+    }
+   ],
+   "answer": "D",
+   "analysis": "答案： D考纲知识点： 广度优先搜索用队列遍历，取出队头，删除队头",
+   "auto": true
+  },
+  {
+   "no": 13,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "使用上题中的宽度优先搜索算法遍历以下这棵树，可能的输出是()。\n树形：\n    2\n   / \\\n  1   3\n / \\   \\\n4   5   6\n       / \\\n      8   9"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：128945367"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：123456689"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：123896457"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：845921367"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 广度优先搜索BFS 遍历又称为层次遍历，逐层进行 , 1 2 3 8 9 6 4 5 7",
+   "auto": true
+  },
+  {
+   "no": 14,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "以下关于动态规划的描述，()是正确的。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：动态规划适用于没有重叠子问题的优化问题。"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：动态规划要求问题具有最优子结构和无后效性。"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：动态规划通常通过递归来实现。"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：动态规划与贪心算法不同，贪心算法不适用于有重叠子问题的问题。"
+      }
+     ]
+    }
+   ],
+   "answer": "B",
+   "analysis": "答案： B考纲知识点： 动态规划判断一道题目能否用动态规划解决的前提有 3 点。 1. 该问题有最优子结构； 2. 该问题有重叠子问题； 2. 问题具有无后效性。",
+   "auto": true
+  },
+  {
+   "no": 15,
+   "type": "单选题",
+   "stem": [
+    {
+     "t": "假设背包的最大容量W=8kg,共有有4个物品可供选择，4个物品的重量分别为weights=[2,3,5,7],对应的价值分别为values =[30,40,60,80]，则该0/1背包问题中，背包的最大价值为()。"
+    }
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": [
+      {
+       "t": "A：70"
+      }
+     ]
+    },
+    {
+     "key": "B",
+     "content": [
+      {
+       "t": "B：90"
+      }
+     ]
+    },
+    {
+     "key": "C",
+     "content": [
+      {
+       "t": "C：100"
+      }
+     ]
+    },
+    {
+     "key": "D",
+     "content": [
+      {
+       "t": "D：120"
+      }
+     ]
+    }
+   ],
+   "answer": "C",
+   "analysis": "答案： C考纲知识点： 0/1背包选择重量为 3 和 5 的物品 得到的价值为 100 ，没有比 100 更大的价值了。",
+   "auto": true
+  },
+  {
+   "no": 16,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "构造函数是一种特殊的类成员函数，构造函数的名称和类名相同。但通过函数重载，可以创建多个同名的构造函数，条件是每个构造函数的参数列表不同。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 构造函数• 构造函数名称和类名相同：这是构造函数的一个显著特点。 • 函数重载： C++ 支持函数重载，因此可以有多个构造函数，前提是它们的参数列表不同（参数的数量或类型不同）。这种重载允许根据不同的初始值或条件来灵活地创建类的对象。",
+   "auto": true
+  },
+  {
+   "no": 17,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "类的静态成员函数既能访问类的静态数据成员，也能访问非静态数据成员。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 静态成员函数类的静态成员函数只能访问类的静态数据成员，不能访问非静态数据成员（除非通过对象指针或引用）。",
+   "auto": true
+  },
+  {
+   "no": 18,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "栈中元素的插入和删除操作都在栈的顶端进行，所以方便用单向链表实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 栈的实现栈是后进先出的数据结构，插入和删除操作都在栈顶进行。单向链表可以实现栈的操作，因为链表可以在头部方便地插入和删除元素。",
+   "auto": true
+  },
+  {
+   "no": 19,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面代码构建的树一定是完全二叉树：\n```cpp\nstruct TreeNode {\n    int value;\n    TreeNode* left;\n    TreeNode* right;\n};\nTreeNode* buildCompleteBinaryTree(){\n    TreeNode* root = new TreeNode{1};\n    root->left = new TreeNode{2};\n    root->right = new TreeNode{3};\n    root->left->left = new TreeNode{4};\n    root->left->right = new TreeNode{5};\n    root->right->left = new TreeNode{6};\n    return root;\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 完全二叉树按代码逻辑先构造根，再构造根的左右子树，再构造左子树的左右子树，再构造右子树的左子树，这种构造方法和完全二叉树一致。",
+   "auto": true
+  },
+  {
+   "no": 20,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在二叉排序树中，左子树所有节点的值都大于根节点的值，右子树所有节点的值都小于根节点的值。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 二叉排序树二叉排序树又称二叉搜索树，左孩子小于根节点，右孩子大于根结点。",
+   "auto": true
+  },
+  {
+   "no": 21,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在生成一个派生类的对象时，只调用派生类的构造函数。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 派生类构造在生成一个派生类的对象时，会先调用基类的构造函数（如果有的话），然后再调用派生类的构造函数。这是构造函数链的一个例子。",
+   "auto": true
+  },
+  {
+   "no": 22,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "下面的代码实现了二叉树的前序遍历，它通过递归方法访问每个节点并打印节点值。\n```cpp\nvoid preorder(TreeNode* root){\n    if (root == NULL) return;\n    cout << root->val << \" \";\n    preorder(root->left);\n    preorder(root->right);\n}\n```"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 正确考纲知识点： 前序遍历前序遍历的顺序是根左右，若遍历到空结点则返回。",
+   "auto": true
+  },
+  {
+   "no": 23,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "宽度优先搜索算法(BFS)保证了每个节点在最短路径的情况下被访问。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 错误考纲知识点： 宽度优先搜索宽度优先搜索算法（ BFS ）按照层次遍历图或树，但它并不保证找到从起始节点到目标节点的最短路径（除非图是无权的）。对于有权图，应使用迪杰斯特拉算法或 A* 等算法来找到最短路径。",
+   "auto": true
+  },
+  {
+   "no": 24,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "在解决简单背包问题时，动态规划的状态转移方程如下：\n```cpp\ndp[i][w] = max(dp[i-1][w], dp[i-1][w - weights[i-1]] + values[i-1]);\n```\n该方程表示：在考虑第i个物品时，当前背包容量为w,如果不放物品i,则最大价值是dp[i-1][w];如果放入物品 i,则最大价值是 dp[i-1][w - weights[i-1]] + values[i-1],其中数组 weights 和 values 分别表示所有物品的重量和价值，数组下标从开始。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "对",
+   "analysis": "答案： 错误考纲知识点： 动态规划如果 放 入 物品 i ，则最大价值是 dp[i-1][w - weights[i]] + values[i]",
+   "auto": true
+  },
+  {
+   "no": 25,
+   "type": "判断题",
+   "stem": [
+    {
+     "t": "栈中元素的插入和删除操作都在栈的顶端进行，所以方便用双向链表比单向链表更合适表实现。"
+    }
+   ],
+   "options": [
+    {
+     "key": "对",
+     "content": [
+      {
+       "t": "对"
+      }
+     ]
+    },
+    {
+     "key": "错",
+     "content": [
+      {
+       "t": "错"
+      }
+     ]
+    }
+   ],
+   "answer": "错",
+   "analysis": "答案： 错误考纲知识点： 栈的实现栈是后进先出的数据结构，插入和删除操作都在栈顶进行。链表可以实现栈的操作，因为链表可以在头部方便地插入和删除元素，这和单链表或双链表无关。",
+   "auto": true
+  }
+ ],
+ "durationMin": 90,
+ "totalScore": 100,
+ "passScore": 60,
+ "tags": {
+  "year": "2024",
+  "type": "真题",
+  "progress": "未开始"
+ },
+ "source": "xxw123.com",
+ "pid": 115
+}
