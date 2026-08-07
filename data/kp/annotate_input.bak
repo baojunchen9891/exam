@@ -1,0 +1,6037 @@
+{
+ "generatedAt": "2026-08-05T00:02:10",
+ "subject": "gesp-cpp",
+ "note": "教研填写每题 kp_ids(考点id数组) 与 primary_kp(主考点)；填空表示未归类需复核。填完跑 kp_backfill.py。",
+ "items": [
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "运行下面程序后变量 a 的值是（ ）。",
+   "options": [
+    "A：42",
+    "B：43",
+    "C：编译错误",
+    "D：不确定"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "以下关于数组的描述中，（ ）是错误的",
+   "options": [
+    "A：数组名是一个指针常量",
+    "B：随机访问数组的元素方便快捷",
+    "C：数组可以像指针一样进行自增操作",
+    "D：sizeof(arr) 返回的是整个数组 arr 占用的字节数"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "给定如下定义的数组 arr ，则 *(*(arr + 1) + 2) 的值是（ ）。",
+   "options": [
+    "A：2",
+    "B：5",
+    "C：4",
+    "D：6"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "下面这段代码会输出（ ）",
+   "options": [
+    "A：3 5",
+    "B：编译失败：定义处少了默认参数",
+    "C：运行错误",
+    "D：链接失败：未定义引用"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下面这段代码会输出（ ）。",
+   "options": [
+    "A：5 5",
+    "B：10 10",
+    "C：5 10",
+    "D：10 5"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下面程序运行的结果是（ ）",
+   "options": [
+    "A：6 7",
+    "B：6 6",
+    "C：5 6",
+    "D：5 5"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "关于结构体初始化，以下哪个选项中正确的是（ ）struct Point {int x,y;};",
+   "options": [
+    "A：Point p = (1,2);",
+    "B：Point p = {1,2};",
+    "C：Point p = new {1,2};",
+    "D：Point p = <1,2>;"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "运行如下代码会输出（ ）",
+   "options": [
+    "A：Mimi 2",
+    "B：Mimi 3",
+    "C：kitty 3",
+    "D：kitty 2"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "关于排序算法的稳定性，以下说法错误的是（ ）",
+   "options": [
+    "A：稳定的排序算法不改变相等元素的相对位置",
+    "B：冒泡排序是稳定的排序算法",
+    "C：选择排序是稳定的排序算法",
+    "D：插入排序是稳定的排序算法"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "下面代码试图实现选择排序，使其能对数组 nums 排序为升序，则横线上应分别填写（ ）",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "下面程序实现插入排序（升序排序），则横线上应分别填写（ ）",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "关于插入排序的时间复杂度，下列说法正确的是（ ）。",
+   "options": [
+    "A：最好情况和最坏情况的时间复杂度都是",
+    "B：最好情况是，最坏情况是",
+    "C：最好情况是，最坏情况是",
+    "D：最好情况是，最坏情况是"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "小杨正在爬楼梯，需要 阶才能到达楼顶，每次可以爬 阶或 阶，求小杨有多少种不同的方法可以爬到楼顶，横线上应填写（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "假设有一个班级的成绩单，存储在一个长度为 n 的数组 scores 中，每个元素是一个学生的分数。老师想要找出 所有满足 scores[i] + scores[j] + scores[k] == 300 的三元组，其中 i < j < k。下面代码实现该功能，请问其时间复杂度是（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "关于异常处理，以下说法错误的是（ ）",
+   "options": [
+    "A：try 块中的代码可能会抛出异常",
+    "B：catch 块可以有多个，处理不同类型的异常",
+    "C：throw 语句用于抛出异常",
+    "D：所有异常都必须被捕获，否则程序会崩溃"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "以下代码能正确初始化指针",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "执行下面C++代码将输出 11 。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "以下C++代码合法",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "执行下面C++代码将输出 10",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "下面代码将二维数组 arr 传递给函数 f ，函数内部用 arr[i][j] 访问元素，函数参数声明为 int arr[] [4] 是错误的",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "递推是在给定初始条件下，已知前一项（或前几项）求后一项的过程。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "虽然插入排序的时间复杂度为，但由于单元操作相对较少，因此在小数据量的排序任务中非常受欢迎。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "对整数数组 {4, 1, 3, 1, 5, 2} 进行冒泡排序（将最大元素放到最后），执行一轮之后是 {4, 1, 3, 1, 2, 5} 。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "以下代码只能捕获 int 类型异常。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "以下代码将 Hello 写入文件 data.txt",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "排兵布阵",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-838",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "最长连续段",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "在C++中，声明一个指向整型变量的指针的正确语法是（ ）。",
+   "options": [
+    "A：int* ptr;",
+    "B：*int ptr;",
+    "C：int ptr*;",
+    "D：ptr int;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面的函数接收一个 行 列的二维数组并输出其中元素，则横线上不能填写（ ）。void printArray(________) {for (int i = 0; i < 3; ++i)for (int j = 0; j < 4; ++j)std::cout << arr[i][j] << \" \";}",
+   "options": [
+    "A：int arr[3][4]",
+    "B：int arr[][4]",
+    "C：int (*arr)[4]",
+    "D：int** arr"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "在C++中， int arr[3][4] 和 int* arr = new int[12] 均可模拟一个 行 列的二维数组。关于这两种方式，下面说法错误的是（ ）。",
+   "options": [
+    "A：int arr[3][4] 在栈上分配空间，适合数组较小的情况；",
+    "B：int* arr = new int[12] 在堆上分配空间，数组较大时也适用；",
+    "C：这两种方式申请的内存空间都是连续的。",
+    "D：这两种方式申请的内存都能自动释放。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "关于以下 C++代码，说法正确的是（ ）。int main() {greet();return 0;}void greet() {cout << \"Hello!\" << endl;}",
+   "options": [
+    "A：正确编译并输出 Hello！",
+    "B：编译错误：找不到函数 greet()",
+    "C：编译警告但可以运行",
+    "D：链接错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "在C++中，如果希望通过函数修改传入的结构体对象的内容，应该使用哪种参数传递方式？",
+   "options": [
+    "A：值传递或引用传递",
+    "B：值传递或指针传递",
+    "C：引用传递或指针传递",
+    "D：仅指针传递"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "以下哪个选项正确描述了C++中形参和实参的区别？",
+   "options": [
+    "A：形参是函数调用时传递给函数的具体值，实参是函数定义中声明的变量。",
+    "B：形参是函数定义中声明的变量，实参是函数调用时传递给函数的具体值。",
+    "C：形参和实参在函数调用时是完全相同的。",
+    "D：形参只在函数内部可见，实参在函数外部可见。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "运行如下代码会输出（ ）。int value = 100;void print1() {int value = 50;cout << value << \" \";cout << ::value << \" \";}void print2() {cout << value << \" \";}print1();print2();",
+   "options": [
+    "A：100 100 100",
+    "B：50 50 50",
+    "C：50 100 100",
+    "D：50 50 100"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "小杨在整理一副扑克牌的所有红心扑克牌，使其从小到大排列。他的做法是：最开始抓到第1张扑克牌被认为已经排好序；然后抓第2张扑克牌，将其插入至有序部分的正确位置；不断循环步骤，每次将新抓到扑克牌插入至有序部分，直至抓完所有扑克牌，这样抓牌结束时就完成了扑克牌的排序。小杨这种整理扑克牌的方式与（ ）排序的方式最接近。",
+   "options": [
+    "A：冒泡排序",
+    "B：插入排序",
+    "C：选择排序",
+    "D：直接排序"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "以下哪种情况是使用插入排序的合适场景？",
+   "options": [
+    "A：数据量非常大，且乱序严重",
+    "B：希望获得稳定排序，但不要求实时性",
+    "C：数据几乎有序，只需少量调整",
+    "D：想在交换次数最少的前提下排好大数组"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "以下关于递推算法基本思想的描述，正确的是（ ）。",
+   "options": [
+    "A：递推算法通过将问题分解为相互独立的子问题来解决。",
+    "B：递推算法从已知的基础情况出发，通过某种关系逐步推导出更大规模问题的解。",
+    "C：递推算法通常用于穷举所有可能的解决方案。",
+    "D：递推算法适用于在每一步做出局部最优选择以达到全局最优。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "给定如下算法，其时间复杂度为（ ）。bool f(int arr[], int n, int target) {for (int i = 0; i < n; i++) {int sum = 0;for (int j = 0; j < n; j++) {if (i & (1 << j)) {sum += arr[j];}}if (sum == target) return true;}return false;}",
+   "options": [
+    "A：O(n)",
+    "B：O(n^2)",
+    "C：O(n^3)",
+    "D：O(2^n)"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "下述斐波那契数列计算的时间复杂度是（ ）。int fibonacci(int n) {if (n == 0) return 0;if (n == 1) return 1;return fibonacci(n - 1) + fibonacci(n - 2);}",
+   "options": [
+    "A：O(n)",
+    "B：O(n^2)",
+    "C：O(n^3)",
+    "D：O(2^n)"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "关于下面 C++ 程序的描述，（ ）最准确。ifstream in(\"data.txt\");string line;while (getline(in, line)) {cout << line << endl;}",
+   "options": [
+    "A：将从标准输入读取每行，并输出到屏幕",
+    "B：程序无法运行，因为 getline 只能读取 cin",
+    "C：将 data.txt 中的每一行读取并输出到屏幕",
+    "D：程序将创建 data.txt 并写入默认文本"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "在C++中，异常处理机制（try-catch块）的主要目的是( )。",
+   "options": [
+    "A：提高程序的运行速度。",
+    "B：在程序发生运行时错误时，提供一种结构化的错误处理方式。",
+    "C：确保程序在编译时没有错误。",
+    "D：减少程序的内存占用。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "为了提高冒泡排序的效率，如果某轮“冒泡”中没有执行任何交换操作，说明数组已经完成排序，可直接返回结果，则两条横线上分别应该填写（ ）。void bubbleSortWithFlag(vector<int> &nums) {for (int i = nums.size() - 1; i > 0; i--) {bool flag;________________ // 在此处填入代码for (int j = 0; j < i; j++) {if (nums[j] > nums[j + 1]) {swap(nums[j], nums[j + 1]);___________________________ // 在此处填入代码}}if (!flag)break;}}",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "下面C++代码正确声明了一个返回 int 类型、接受两个 int 参数的函数。int add(int, int);",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "下面C++代码的输出是 15 。void foo(int x) {x += 5;}int main() {int a = 10;foo(a);cout << a << endl;}",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "下面c++代码在一个结构体中又定义了别的结构体。这种结构嵌套定义的方式语法不正确。#include <string>#include <vector>using namespace std;struct Library {struct Book {struct Author {string name;int birthYear;};string title;int year;Author author;};string name;vector<Book> books;}；",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "在C++中，相比于值传递，使用引用传递作的优点可以直接操作和修改原始变量，避免数据拷贝，提高效率。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "下面这段代码不合法，因为每一行都必须显式初始化 个元素。int arr[2][3] = {{1, 2}, {3}};",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "以下程序中使用了递推方式计算阶，计算结果正确。int factorial(int n) {int res = 1;for (int i = 0; i < n; ++i) {res *= i;}return res;}",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "无论初始数组是否有序，选择排序都执行O(n^2)次比较。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "以下C++代码，尝试对有 n 个整数的数组 arr 进行排序。这个代码实现了选择排序算法。for (int i = 0; i < n - 1; ++i) {int minIndex = i;for (int j = i + 1; j < n; ++j) {if (arr[j] < arr[minIndex])minIndex = j;}if (minIndex != i)swap(arr[i], arr[minIndex]);}",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "如果一个异常在 try 块中抛出但没有任何 catch 匹配，它将在编译时报错。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "下面C++代码实现将 Hello 写入 data.txt 。ofstream out(\"data.txt\");out << \"Hello\";out.close();",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "试题名称：画布裁剪",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-786",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "试题名称：排序",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "关于下述代码，说法错误的是（ ）。",
+   "options": [
+    "A：函数 multiply 的定义应该放到函数 main 之前。",
+    "B：函数声明 int multiply(int x, int y); 中明确指定了函数multiply() 的返回值为整数类型。",
+    "C：在 main 函数中，函数 multiply 通过 multiply(a, b) 被调用，其中 a 和 b 是定义在 main 函数中的变量，它们作为实参传递给了 multiply 函数的形参 x 和 y 。",
+    "D：运行上述代码，将输出 The result is: 20 。"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "执行下述代码将输出（ ）。",
+   "options": [
+    "A：2020",
+    "B：2010",
+    "C：1010",
+    "D：编译错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "执行下述代码后，变量 a 的值为（ ）",
+   "options": [
+    "A：10",
+    "B：20",
+    "C：随机值",
+    "D：编译错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "以下哪种参数传递方式可以避免拷贝大型对象？",
+   "options": [
+    "A：只能用值传递",
+    "B：只能用引用传递",
+    "C：只能用指针传递",
+    "D：引用传递和指针传递均可"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "执行下述代码，将输出（ ）。",
+   "options": [
+    "A：12",
+    "B：21",
+    "C：22",
+    "D：11"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下面的描述中，（ ）正确定义一个名为 Person 的结构体并正确初始化了一个 Person 结构体的变量 p",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "给定如下代码下面描述错误的是（ ）。",
+   "options": [
+    "A：结构 Person 内嵌套结构 Address",
+    "B：Person 有一个 Address 类型的 address 成员",
+    "C：一个 Person 类型的变量 p 的 address 的初始化可以写成： p.address.street = \"123 Main St\"; p.address.city = \"Anytown\";",
+    "D：结构的嵌套可以减少命名冲突，因此可以不必控制嵌套层次"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "假设 int arr[2][3] = {{1,2,3},{4,5,6}}; ，则 arr[1][2] 的值是（ ）。",
+   "options": [
+    "A：2",
+    "B：3",
+    "C：5",
+    "D：6"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下面（ ）正确定义了二维数组",
+   "options": [
+    "A：int arr[3,4];",
+    "B：int arr[3][4];",
+    "C：int arr(3,4);",
+    "D：int a[3-4];"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "小杨正在爬楼梯，需要爬 阶才能到达楼顶。如果每次可以爬 个或 个台阶，下面代码采用递推算法来计算一共有多少种不同的方法可以爬到楼顶，则横线上应填写（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "给定如下算法，其时间复杂度为（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "下面关于排序稳定性的描述，正确的是（ ）。",
+   "options": [
+    "A：稳定性指算法的时间复杂度恒定",
+    "B：稳定排序保证相同元素的相对顺序不变",
+    "C：选择排序是稳定排序",
+    "D：插入排序不是稳定排序"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "对数组 arr[]={5, 3, 8, 1} 进行升序排序，执行第一轮冒泡排序后数组 arr 中的内容为（ ）。",
+   "options": [
+    "A：3, 5, 1, 8",
+    "B：3, 1, 5, 8",
+    "C：3, 5, 8, 1",
+    "D：5, 3, 8, 1"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "运行下面的代码，将出现（ ）。",
+   "options": [
+    "A：屏幕上输出 Caught: Runtime error occurred.",
+    "B：屏幕上输出 Caught an unknown exception.",
+    "C：程序调用 std::terminate()",
+    "D：编译错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "下面哪种方式不能实现将字符串 \"Happy Spring!\" 输出重定向到文件 log.txt （ ）",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "函数是C++中的核心概念，用于封装可重用的代码块。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "在C++中，函数的返回类型可以省略，默认为 int 。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "结构体的成员默认是 public 访问权限。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "假设整数数组 arr[4]= {0, 1, 2, 3}; 的第一个元素在内存中的地址为 0x7ffee4065820 , 经过 int* p= arr; p += 1; 后，指针 p 的值是1。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "二维数组作为函数参数时，必须显式指定所有维度的大小。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "考虑最坏情况下冒泡排序算法的时间复杂度，为待排序数字的数目为 的复杂度，则其递推关系式为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "插入排序在最好情况（已有序）下的时间复杂度是",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "对数组 arr[]={4, 3, 1, 5, 2} 进行升序排序，执行第一轮选择排序后数组arr中的内容是 {1, 4, 3, 5, 2} 。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "未捕获异常会调用std::terminate终止程序。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "荒地开垦",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-681",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "二阶矩阵",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "下面的语句中，（ ）正确定义了一个计算浮点数 的平方()的函数,并成功调用该函数。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面代码的描述中，正确的是（ ）。",
+   "options": [
+    "A：代码执行结束后， times 的值为0",
+    "B：n 是形参， times 是实参",
+    "C：n 是实参， times 是形参",
+    "D：代码最后一行换成 n_chars(times, my_char); 也可以"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "给定以下代码，执行上述代码后，变量 a 的值为（ ）。",
+   "options": [
+    "A：5",
+    "B：10",
+    "C：15",
+    "D：20"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "运行下面代码，屏幕上输出是（ ）。",
+   "options": [
+    "A：0.2",
+    "B：0.5",
+    "C：1.2",
+    "D：1.5"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "运行下面代码片段后， x 和 *p 的结果分别是（ ）。",
+   "options": [
+    "A：20 20",
+    "B：20 22",
+    "C：22 20",
+    "D：22 22"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下面的描述中，（ ）不能正确定义一个名为 Student 的结构体以及一个包含20个元素的结构数组。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "假定整型是32位，对一个 行 列的二维整数数组 array ,假设数组第一个元素在内存中的地址为0x7ffee4065820 ，则第2行第2个元素的地址 &array[1][1] 为（ ）。",
+   "options": [
+    "A：0x7ffee4065824",
+    "B：0x7ffee4065828",
+    "C：0x7ffee406582c",
+    "D：0x7ffee4065830"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "下面（ ）正确定义二维数组。",
+   "options": [
+    "A：int a[3][];",
+    "B：int a[][];",
+    "C：int a[][4];",
+    "D：int a[][2] = {{1,2},{1,2},{3,4}};"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下面代码采用递推算法来计算斐波那契数列 f（n）=f（n-1）+f（n-2），则横线上应填写（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "下面关于排序算法（冒泡排序、插入排序和选择排序）的描述中，不正确的是（ ）。",
+   "options": [
+    "A：冒泡排序基于元素交换实现，需借助临时变量，共涉及 个单元操作；而插入排序基于元素赋值实现，仅需个单元操作。因此冒泡排序的计算开销通常比插入排序更高。",
+    "B：选择排序在任何情况下的时间复杂度都为",
+    "C：冒泡排序在任何情况下的时间复杂度都为",
+    "D：如果给定数据部分有序，插入排序通常比选择排序效率更高。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "冒泡排序的第一轮操作是从左到右遍历数组，通过两两比较相邻元素，将当前最大的元素移动到末尾。给定数组 arr[]={4, 1, 3, 1, 5, 2} ，执行第一轮冒泡排序后数组 arr 中的内容为（ ）。",
+   "options": [
+    "A：1, 4, 3, 1, 5, 2",
+    "B：1, 3, 1, 4, 2, 5",
+    "C：1, 4, 3, 1, 2, 5",
+    "D：4, 1, 3, 1, 5, 2"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "给定如下代码，其时间复杂度为（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "下面代码实现了插入排序函数，则横线上应填写（ ）。",
+   "options": [
+    "A：int base = nums[i], j = i - 1;",
+    "B：int base = nums[i], j = i;",
+    "C：int base = nums[0], j = i - 1;",
+    "D：int base = nums[0], j = i;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "下面哪种方式不能实现将字符串\"Welcome to GESP!\"输出重定向到文件 log.txt （ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "运行下面的代码，将出现什么情况？（ ）",
+   "options": [
+    "A：屏幕上输出 Caught: Runtime error occurred",
+    "B：屏幕上输出 Caught an unknown exception",
+    "C：程序调用 std::terminate()",
+    "D：编译错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "在 C++ 中，下面代码可以正确定义指针和初始化指针。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "一个函数必须在调用之前既声明又定义。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "函数参数可以通过值传递、引用传递和指针传递，这样函数内对参数的修改可以直接修改传入变量的值。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "int arr[3][] 是一个正确的二维数组的声明。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "某算法的递推关系式为 T（n）=T（n-1）+n（n 为正整数）及 T（0）=1，则该算法的时间复杂度为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "冒泡排序的平均时间复杂度为，但最优情况下为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "冒泡排序和插入排序都是稳定的排序算法。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "选择排序是稳定的排序算法。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "在 C++语言中，如果一个函数可能抛出异常，那么一定要在try 子句里调用这个函数。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "Recamán题目描述小杨最近发现了有趣的 Recamán 数列，这个数列是这样生成的：数列的第一项 a1是 1；如果是正整数并且没有在数列中出现过，那么数列的第 k项ak 为，否则为。小杨想知道 Recamán 数列的前 n项从小到大排序后的结果。手动计算非常困难，小杨希望你能帮他解决这个问题。输入格式第一行，一个正整数n 。输出格式一行，n 个空格分隔的整数，表示 Recamán 数列的前 n项从小到大排序后的结果。样例输入样例 1输出样例 1输入样例 2输出样例 2样例解释数据范围对于所有数据点，保证1≤n≤3000。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-601",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "字符排序题面描述小杨有 n个仅包含小写字母的字符串 s1,s2,...,sn，小杨想将这些字符串按一定顺序排列后拼接到一起构成字符串t。小杨希望最后构成的字符串 t满足：假设ti 为字符串 t的第i 个字符，对于所有的j<i 均有 tj≤ti。两个字符的大小关系与其在字母表中的顺序一致，例如 e<g<p<s。小杨想知道是否存在满足条件的字符串排列顺序。输入格式第一行包含一个正整数 T，代表测试数据组数。对于每组测试数据，第一行包含一个正整数 n，含义如题面所示。之后n 行，每行包含一个字符串si 。输出格式对于每组测试数据，如果存在满足条件的排列顺序，输出 1，否则输出 0。样例样例解释对于第一组测试数据，一种可行的排列顺序为 aa+ac+de，构成的字符串 t为 aaacde，满足条件。对于全部数据，保证有 1≤t，n≤100每个字符串的长度不超过 10。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "下列代码中，输出结果是（ ）",
+   "options": [
+    "A：12 24 24 12",
+    "B：24 12 12 24",
+    "C：12 12 24 24",
+    "D：24 24 12 12"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面函数不能正常执行的是（）",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "下面程序输出的是（）",
+   "options": [
+    "A：2 2 3 9",
+    "B：2 10 3 9",
+    "C：2 10 11 121",
+    "D：2 10 3 100"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "假设变量 a 的地址是0x6ffe14，下面程序的输出是（ ）。",
+   "options": [
+    "A：10",
+    "B：0x6ffe14",
+    "C：0x6ffe15",
+    "D：0x6ffe18"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "如果下列程序输出的地址是 0x6ffe00 ，则 cout<<a+1<<endl; 输出的是（）",
+   "options": [
+    "A：0x6ffe04",
+    "B：0x6ffe0C",
+    "C：0x6ffe08",
+    "D：0x6ffe00"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "C++中，关于文件路径说法错误的是（）",
+   "options": [
+    "A：\"GESP.txt\"：指定与当前工作目录中的程序文件相同目录中的 GESP.txt 文件",
+    "B：\"../data/GESP.txt\"：指定与当前工作目录中的程序文件上一级目录下的 data 目录中的 GESP.txt 文件",
+    "C：\"./data/GESP.txt\"：指定与当前工作目录中的程序文件同级目录下的 data 目录中的 GESP.txt 文件",
+    "D：\"GESP.txt\"是绝对路径"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "关于直接插入排序，下列说法错误的是（）",
+   "options": [
+    "A：插入排序的最好情况是数组已经有序，此时只需要进行 n-1次比较，时间复杂度为O（n）",
+    "B：最坏情况是数组逆序排序，此时需要进行 n（n-1）/2次比较以及 n-1次赋值操作（插入）",
+    "C：平均来说插入排序算法的复杂度为",
+    "D：空间复杂度上，直接插入法是就地排序，空间复杂度为O（n）"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "下列程序横线处，应该输入的是 （ ）。",
+   "options": [
+    "A：swap(a[j],a[j+1]);",
+    "B：swap(a[j-1],a[j]);",
+    "C：swap(a[j-1],a[j+1]);",
+    "D：swap(&a[j-1],&a[j+1]);"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下面关于递推的说法不正确的是（ ）。",
+   "options": [
+    "A：递推表现为自己调用自己",
+    "B：递推是从简单问题出发，一步步的向前发展，最终求得问题。是正向的",
+    "C：递推中，问题的n要求是在计算中确定，不要求计算前就知道n",
+    "D：斐波那契数列可以用递推实现求解"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "关于几种排序算法的说法，下面说法错误的是（ ）",
+   "options": [
+    "A：选择排序不是一个稳定的排序算法",
+    "B：冒泡排序算法不是一种稳定的排序算法",
+    "C：插入排序是一种稳定的排序算法",
+    "D：如果排序前2个相等的数在序列中的前后位置顺序和排序后它们2个的前后位置顺序相同，则称为一种稳定的排序算法"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "数组{45,66,23,1,10,97,52,88,5,33}进行从小到大冒泡排序过程中，第一遍冒泡过后的序列是（ ）。",
+   "options": [
+    "A：{45,23,1,10,66,52,88,5,33,97}",
+    "B：{45,66,1,23,10,97,52,88,5,33}",
+    "C：{45,66,23,1,10,52,88,5,33,97}",
+    "D：{45,66,23,1,10,97,52,88,33,5}"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "下面的排序算法程序中，横线处应该填入的是（ ）。",
+   "options": [
+    "A：a[j]=a[j-1];",
+    "B：a[j]=a[j+1];",
+    "C：a[j+1]=a[j-1];",
+    "D：a[j+1]=a[j];"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "下面的程序中，如果输入 10 0 ，会输出（ ）。",
+   "options": [
+    "A：Division by zero condition!",
+    "B：0",
+    "C：10",
+    "D：100"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "10条直线，最多可以把平面分为多少个区域（ ）。",
+   "options": [
+    "A：55",
+    "B：56",
+    "C：54",
+    "D：58"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "下面程序中，如果语句 cout<<p<<endl; 输出的是 0x6ffe00 ，则 cout<<++p<<endl; 输出的是（）",
+   "options": [
+    "A：0x6ffe0c",
+    "B：0x6ffe09",
+    "C：0x6ffe06",
+    "D：0x6ffe04"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "int& a 和 &a 是一样的，都是取 a 的地址。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "以下代码不能够正确执行。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "引用是一个指针常量。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "下面程序两个输出结果是一样的。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "函数不可以调用自己。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "函数参数传递过程中，如果传常量值、常量引用和常量指针都是不能被修改的，它们可以防止函数对实参的值或地址进行修改。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "下面代码输出的值等于0",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "在下面这个程序里， a[i][j] 和一个普通的整型变量一样使用。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "一个一维数组，至少含有一个自然数N，是一个合法的数列。可以在一维数组末尾加入一个自然数M，M不能超过一维数组末尾元素的一半，形成一个新的合法的一维数组，如果N=6，那么可以有6个不同的合法数组。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "插入排序算法中，平均时间复杂度是，最坏的情况逆序情况下，达到最大时间复杂度。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "黑白方块题面描述小杨有一个 n行 m列的网格图，其中每个格子要么是白色，要么是黑色。对于网格图中的一个子矩形，小杨认为它是平衡的当且仅当其中黑色格子与白色格子数量相同。小杨想知道最大的平衡子矩形包含了多少个格子。输入格式第一行包含两个正整数n,m ，含义如题面所示。之后 n行，每行一个长度为 m的 01串，代表网格图第 i行格子的颜色，如果为0 ，则对应格子为白色，否则为黑色。输出格式输出一个整数，代表最大的平衡子矩形包含格子的数量，如果不存在则输出 0。样例1样例解释对于样例1，假设 ( i,j) 代表第 i行第 j列，最大的平衡子矩形的四个顶点分别为 ( 1,2)，(1,5 )，( 4,2)，(4,5 )。数据范围对于全部数据，保证有1≤n,m≤10。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-583",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "宝箱题面描述小杨发现了n个宝箱，其中第i个宝箱的价值是ai。小杨可以选择一些宝箱放入背包并带走，但是小样的背包比较特殊，假设小杨选择的宝箱中最大价值为x，最小价值为y，小杨需要保证x-y≤k，否则小杨的背包会损坏。小杨想知道背包不损坏的情况下，自己能够带走宝箱的总价值最大是多少。输入格式第一行包含两个正整数n,k，含义如题面所示。第二行包含n个正整数a1,a2,....,an，代表宝箱的价值。输出格式输出一个整数，代表带走宝箱的最大总价值。样例1样例解释在背包不损坏的情况下，小杨可以拿走两个价值为2的宝箱和一个价值为3的宝箱。数据范围对于全部数据，保证有1≤n≤1000，0≤k≤1000，1≤ai≤1000。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "若函数声明为 int f(int &x){ x+=3; return x; } ，则对声明的变量 int a=3 ，下面哪个调用能够改变 a 的值(   )。",
+   "options": [
+    "A：f(&a) ;",
+    "B：f(*a) ;",
+    "C：f(a) ;",
+    "D：f(a-3) ;"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面C++代码执行后，输出的是(   )。int main()\r\n{\r\n\tint x[]={2, 0, 2, 4};\r\n\tchar geSP[]=\"Grade Examination of SP\";\r\n\tcout << geSP[sizeof(x)] << endl;\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：G",
+    "B：e",
+    "C：n",
+    "D：P"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "下面C++代码执行后输出是(   )。int foo(float *f)\r\n{\r\n\treturn int(*f*2);\r\n}\r\nint main()\r\n{\r\n\tfloat fnum[10]={1.1};\r\n\tfnum[1]=foo(fnum);\r\n\tcout << fnum[0]+fnum[1] << endl;\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：1",
+    "B：1.1",
+    "C：3",
+    "D：3.1"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "对二维数组 int arr[3][16]; ，则 arr[1] 占用内存的大小为（   ）字节。",
+   "options": [
+    "A：4",
+    "B：16",
+    "C：48",
+    "D：64"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "对二维数组 int arr[3][16]; ，若 arr 的地址是 0x28cbc0 ，则 arr[1] 的值是（   ）。",
+   "options": [
+    "A：0x28cbc4",
+    "B：0x28cbd0",
+    "C：0x28cc00",
+    "D：不确定"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下面C++代码执行后输出是（   ）。int main()\r\n{\r\n\tchar *p=\"I love GESP!\";\r\n\tcout << p+5 << endl;\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：e",
+    "B：I lov",
+    "C：e GESP!",
+    "D：GESP!"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下面C++代码执行以后输出的是（   ）。int rc=5;\r\nint main()\r\n{\r\n\tint rc;\r\n\tcout << ++rc << endl;\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：0",
+    "B：1",
+    "C：6",
+    "D：不确定"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "下面C++函数中采用的算法是（   ）。int fib(int n)\r\n{\r\n\tint i, f[n]={0, 1};\r\n\tfor(int i=2; i<=n; i++)\r\n\t\tf[i]=f[i-1]+f[i-2];\r\n\treturn f[n];\r\n}",
+   "options": [
+    "A：递推",
+    "B：递归",
+    "C：迭代",
+    "D：循环"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "插入排序在最好情况下的时间复杂度是（   ）。",
+   "options": [
+    "A：O(1)",
+    "B：O(N/2)",
+    "C：O(N)",
+    "D：O(N2)"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "在如下的C++代码执行后，设第11和12行的输出地址值分别为 X 和 Y ，则下面正确的是（   ）。struct pass{\r\n\tint no;\r\n\tchar name[20];\r\n\tint level;\r\n};\r\nint main()\r\n{\r\n\tstruct pass XiaoYang;\r\n\tcout << \"&XiaoYang=\" << &XiaoYang << endl; //第11行\r\n\tcout << \"&(XiaoYang.no)=\" << &(XiaoYang.no) << endl; //第12行\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：X>Y",
+    "B：X==Y",
+    "C：X<Y",
+    "D：不确定"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "如果文件 1.txt 中的内容如下，则执行下面C++代码时，注释了 #### 那行代码所输出的 x 的值为（ C ）。50 2024 3.16 I\r\nlove\r\nGESP!int main()\r\n{\r\n\tifstream fin;\r\n\tstring line;\r\n\tint x;\r\n\tfin.open(\"1.txt\",ios::in);\r\n\tfor (int i=0; i< 2; i++){\r\n\t\tfin >> line;\r\n\t\tcout << line << endl;\r\n\t}\r\n\tfin>>x;\r\n\tcout << x << endl; //####\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：5",
+    "B：2024",
+    "C：3",
+    "D：0"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "执行下列C++代码时输出中的第2行是（   ）。int main()\r\n{\r\n\tchar *s[]={(char*)\"2024\",(char*)\"3.16\",(char*)\"GESP\"};\r\n\tfor (int i=0; i< 2; i++){\r\n\t\tcout << *s+i << endl;\r\n\t}\r\n\tcout << endl;\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：2024",
+    "B：3.16",
+    "C：024",
+    "D：3"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "C++语言中下面哪个关键字能够限定对象的作用域（   ）。",
+   "options": [
+    "A：extern",
+    "B：static",
+    "C：inline",
+    "D：public"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "小杨的父母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是（   ）。",
+   "options": [
+    "A：小程序",
+    "B：计时器",
+    "C：操作系统",
+    "D：神话人物"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "中国计算机学会（CCF）在2024年1月27日的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（   ）。",
+   "options": [
+    "A：制造自动驾驶汽车",
+    "B：创立培训学校",
+    "C：发明汉字激光照排系统",
+    "D：成立方正公司"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "对 int a[]={2,0,2,4,3,1,6} ，执行第一趟选择排序处理后 a 中数据变为 {0,2,2,4,3,1,6} 。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "如果待排序数据不能都装进内存，需要使用外排序算法。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "定义变量 int a=5 , 则 cout << &++a 会输出 6 。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "两个函数之间可以使用全局变量来传递数据。 (   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "定义数组 int a[2024][3][16]={2,0,2,4,3,1,6} ，则 cout << a[2023][2][15] 的结果不确定。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "在C++语言中，函数的参数为指针时，可以在函数内部修改该参数的值。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "在C++语言中 try 子句里抛出的结构体等类型的异常无法被 catch 捕获。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "C++语言中 cout << 9^2 << endl; 会输出81。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置ip地址并接入到WIFI盒子才能收看节目，那这个WIFI盒子具有路由器的功能。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "任何一个 for 循环都可以转化为等价的 while 循环（   ）。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "相似字符串问题描述对于两个字符串A和B，如果A可以通过删除一个字符，或插入一个字符，或修改一个字符变成B，那么我们说A和B是相似的。比如 apple 可以通过插入一个字符变成 applee ，可以通过删除一个字符变成 appe ，也可以通过修改一个字符变成 bpple ，因此 apple 和 applee 、 appe 、 bpple 都是相似的。但 applee 并不能通过任意一个操作变成bpple ，因此它们并不相似。特别地，完全相同的两个字符串也是相似的。给定T组A,B，请你分别判断他们是否相似。输入描述第一行一个正整数T。接下来T行，每行两个用空格隔开的字符串A和B。保证T≤100，A,B的长度不超过50。保证A和B只包含小写字母。输出描述输出T行，对于每组A,B，如果它们相似，则输出 similar ，否则输出 not similar 。特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入1：5\r\napple applee\r\napple appe\r\napple bpple\r\napplee bpple\r\napple apple样例输出1：similar\r\nsimilar\r\nsimilar\r\nnot similar\r\nsimilar",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-497",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "做题题目描述小杨同学为了提高自己的实力制定了做题计划，在第k天时，他必须要完成k道题，否则他就会偷懒。小杨同学现在找到了一个题库，一共有n套题单，每一套题单中有一定数量的题目。但是他十分挑剔，每套题单他只会使用一次，每一天也只能使用一套题单里的题目，之后那套题单就会被弃之不用。对于每套题单，他不必完成题单内所有的题。那么问题来了，小杨同学最多会做题几天才偷懒呢？输入格式第一行，1个数为n，表示有多少套题单。第二行，n个整数a1,a2,...,an，分别表示每套题单有多少道题。输出格式输出一行，小杨同学偷懒前最多做题天数。样例输入1：4\r\n3 1 4 1样例输出1：3对于全部数据，保证有1≤n≤106,1≤ai≤109。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "下面有关函数参数的说法，正确的是(   )。",
+   "options": [
+    "A：函数参数传递时，主函数当中采用值传递方式将参数传递给子函数时，若子函数将参数值改变，主函数当中的参数值不变。",
+    "B：函数参数传递时，主函数当中采用值传递方式将参数传递给子函数时，若子函数将参数值改变，主函数当中的参数值将随子函数一样改变而改变。",
+    "C：函数参数传递时，主函数如果将参数的地址传递给子函数，若子函数将参数值改变，主函数当中的参数值将不改变。",
+    "D：函数参数传递可以不满足子函数的参数个数要求。"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面C++代码执行后，输出的是(   )。",
+   "options": [
+    "A：chen",
+    "B：c",
+    "C：chen a dai",
+    "D：dai"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "下面C++代码最后执行后输出是(   )。",
+   "options": [
+    "A：1",
+    "B：2",
+    "C：3",
+    "D：4"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "下面C++代码执行后的结果是(   )。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下面C++代码执行后输出是（   ）。",
+   "options": [
+    "A：1,2,3",
+    "B：1",
+    "C：2",
+    "D：3"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "如果变量x的地址是0x6ffe14,下面C++代码执行以后输出的是（   ）。",
+   "options": [
+    "A：0x6ffe11",
+    "B：0x6ffe14",
+    "C：0x6ffe18",
+    "D：0x6ffe15"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "在C++中,执行下面代码后，输出的是（   ）。",
+   "options": [
+    "A：400",
+    "B：200",
+    "C：20",
+    "D：100"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "下列C++语句执行以后结果是true的是（   ）。",
+   "options": [
+    "A：3&&false",
+    "B：5&&2",
+    "C：101&&000",
+    "D：4&true"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "在如下的C++代码中实现了对字符串中出现的26个字母的个数统计，横线处应填入是（   ）。",
+   "options": [
+    "A：alpha[i]=alpha[i-1]+1;",
+    "B：alpha[i]=alpha[i]+1;",
+    "C：alpha[i+1]=alpha[i]+1;",
+    "D：alpha[i-1]=alpha[i]+1;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "下面C++代码执行后生成的文件其字节数为（   ）。",
+   "options": [
+    "A：10",
+    "B：16",
+    "C：40",
+    "D：24"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "下列C++代码输入 1,2,3,4 ，执行后，将输出的是（   ）。",
+   "options": [
+    "A：1#4#",
+    "B：1#3#",
+    "C：1#2#3#4#",
+    "D：1#2#3#4"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "以下C++代码用于实现每个整数对应的因数，如输入 12 ，则输出 1 2 3 4 6 12 ；如输入 18 ，则输出 1 2 3 6 9 18 。横线处应填入代码是（   ）。",
+   "options": [
+    "A：if(n%i==0)",
+    "B：if(n/i==0)",
+    "C：if(n%i!=0)",
+    "D：if(n/i!=0)"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "某公司新出了一款无人驾驶的小汽车，通过声控智能驾驶系统，乘客只要告诉汽车目的地，车子就能自动选择一条优化路线，告诉乘客后驶达那里。请问下面哪项不是驾驶系统完成选路所必须的。（   ）",
+   "options": [
+    "A：麦克风",
+    "B：扬声器",
+    "C：油量表",
+    "D：传感器"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "现代计算机是指电子计算机，它所基于的是（   ）体系结构。",
+   "options": [
+    "A：艾伦·图灵",
+    "B：冯·诺依曼",
+    "C：阿塔纳索夫",
+    "D：埃克特-莫克利"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "输入一个正整数N，想找出它所有相邻的因数对，比如，输入12，因数对有(1,2)、(2,3)、(3,4)。下面哪段代码找不到所有的因数对？（   ）",
+   "options": [
+    "A：for(i=1;i",
+    "B：for(i=2;i",
+    "C：for(i=2;i",
+    "D：for(i=1;i"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "C++的内置函数 sort() 支持数组的局部排序。例如 int a={10,9,8,7,6,5,4,3,2,1} ，可以用sort(a,a+5) ,排序成 {6,7,8,9,10,5,4,3,2,1} 。(    )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "用递归法求 的阶乘，时间复杂度是O(n)。(    )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "[(1,2)*2]*3 在C++中是合法的表达式。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "在下面的C++代码中，将对1.txt文件写入 hello 。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "文本文件 1.txt 第1行由 01234 共5个字符组成其间没有空格，当用C++代码正常打开文件成功并执行如下代码以后，第1行长度为5（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "执行C++代码 cout<<(5||2); 后将输出 1 。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "在C++中，两个字符串相加的运算符为+相当于字符串的合并运算。下面C++代码执行后，将输出chenadai 。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "C++内置函数 sort() 可以对整数、浮点数、字符数组进行从大到小，从小到大，局部排序。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "小杨最近在准备考GESP，他用的Dev C++来练习和运行程序，所以Dev C++也是一个小型操作系统。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "任何一个while循环都可以转化为等价的for循环（   ）。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "小杨的字典时间限制：1.0 s内存限制：128.0 MB问题描述在遥远的星球，有两个国家 A 国和 B 国，他们使用着不同的语言：A 语言和 B 语言。小杨是 B 国的翻译官，他的工作是将 A 语言的文章翻译成 B 语言的文章。为了顺利完成工作，小杨制作了一本字典，里面记录了 个 A 语言单词对应的 B 语言单词，巧合的是，这些单词都由地球上的 26 个小写英文字母组成。小杨希望你写一个程序，帮助他根据这本字典翻译一段 A 语言文章。这段文章由标点符号 !()-[]{}\\|;:'\",./?<> 和一些 A 语言单词构成，每个单词之间必定由至少一个标点符号分割，你的程序需要把这段话中的所有 A 语言单词替换成它的 B 语言翻译。特别地，如果遇到不在字典中的单词，请使用大写 UNK 来替换它。例如，小杨的字典中包含 2 个 A 语言单词 abc 和 d ，它们的 B 语言翻译分别为 a 和 def ，那么我们可以把 A语言文章 abc.d.d.abc.abcd. 翻译成 B 语言文章 a.def.def.a.UNK. ，其中，单词 abcd 不在词典内，因此我们需要使用 UNK 来替换它。输入描述第一行一个整数N，表示词典中的条目数。保证N≤100。接下来 行，每行两个用单个空格隔开的字符串A,B，分别表示字典中的一个 A 语言单词以及它对应的 B 语言翻译。保证所有A不重复；保证A和B的长度不超过10。最后一行一个字符串S，表示需要翻译的 A 语言文章。保证字符串 的长度不超过1000，保证字符串S只包含小写字母以及标点符号 !()-[]{}\\|;:'\",./?<> 。输出描述输出一行，表示翻译后的结果。特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入 12\r\nabc a\r\nd def\r\nabc.d.d.abc.abcd.样例输出 1a.def.def.a.UNK.样例输入 23\r\nabc a\r\nd def\r\nabcd xxxx\r\nabc,(d)d!-abc?abcd样例输出 2a,(def)def!-a?xxxx样例输入 31\r\nabcdefghij klmnopqrst\r\n!()-[]{}\\|;:'\",./?<>abcdefghijklmnopqrstuvwxyz样例输出 3!()-[]{}\\|;:'\",./?<>UNK",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-417",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "田忌赛马时间限制：1.0 s内存限制：128.0 MB问题描述你要和田忌赛马。你们各自有N匹马，并且要进行N轮比赛，每轮比赛，你们都要各派出一匹马决出胜负。你的马匹的速度分别为u1,u2,…,uN，田忌的马匹的速度分别为v1,v2,…,vN。田忌会按顺序派出他的马匹，请问你要如何排兵布阵，才能赢得最多轮次的比赛？巧合的是，你和田忌的所有马匹的速度两两不同，因此不可能出现平局。输入描述第一行一个整数 。保证1≤N≤5×104。接下来一行N个用空格隔开的整数，依次为u1,u2,…,uN，表示你的马匹们的速度。保证1≤ui≤2N。接下来一行N个用空格隔开的整数，依次为v1,v2,…,vN，表示田忌的马匹们的速度。保证1≤vi≤2N。输出描述输出一行，表示你最多能获胜几轮。特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入 13\r\n1 3 5\r\n2 4 6样例输出 12样例解释 1第 1 轮，田忌派出速度为2的马匹，你可以派出速度为3的马匹迎战，本轮你获胜。第 2 轮，田忌派出速度为4的马匹，你可以派出速度为5的马匹迎战，本轮你获胜。第 3 轮，田忌派出速度为6的马匹，你可以派出速度为1的马匹迎战，本轮田忌获胜。如此，你可以赢得 2 轮比赛。样例输入 25\r\n10 3 5 8 7\r\n4 6 1 2 9样例输出 25",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "人们所使用的手机上安装的App通常指的是（     ）。",
+   "options": [
+    "A：一款操作系统",
+    "B：一款应用软件",
+    "C：一种通话设备",
+    "D：以上都不对"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下列流程图的输出结果是？(     )",
+   "options": [
+    "A：9",
+    "B：7",
+    "C：5",
+    "D：11"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "对包含 n 个元素的数组进行冒泡排序，平均时间复杂度一般为（     ）。",
+   "options": [
+    "A：O(n)",
+    "B：O(nlogn)",
+    "C：O(n2)",
+    "D：以上都不正确"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "下列关于C++语言中指针的叙述，不正确的是（     ）。",
+   "options": [
+    "A：可以定义指向 int 类型的指针。",
+    "B：可以定义指向自定义结构体类型的指针。",
+    "C：自定义结构体类型可以包含指针类型的元素。",
+    "D：不能定义指向void类型的指针，那没有意义。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下列关于C++语言中数组的叙述，不正确的是（     ）。",
+   "options": [
+    "A：一维数组可以用来表示数列。",
+    "B：二维数组可以用来表示矩阵。",
+    "C：三维数组可以用来表示空间中物体的形状。",
+    "D：世界是三维的，所以定义四维数组没有意义。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下列关于C++语言中函数的叙述，正确的是（     ）。",
+   "options": [
+    "A：函数调用前必须定义。",
+    "B：函数调用时必须提供足够的实际参数。",
+    "C：函数定义前必须声明。",
+    "D：函数声明只能写在函数调用前。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下列关于C++语言中函数的叙述，不正确的是（     ）。",
+   "options": [
+    "A：两个函数的声明可以相同。",
+    "B：两个函数的局部变量可以重名。",
+    "C：两个函数的参数可以重名。",
+    "D：两个函数可以重名。"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "一个二维数组定义为 char array[3][10]; ，则这个二维数组占用内存的大小为（     ）。",
+   "options": [
+    "A：10",
+    "B：30",
+    "C：32",
+    "D：48"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "如果 n 为 int 类型的变量，一个指针变量定义为 int *p = &n; ，则下列说法正确的是（     ）。",
+   "options": [
+    "A：指针变量 p 的值与变量 n 是相同的。",
+    "B：指针变量 p 的值与变量 n 的地址是相同的。",
+    "C：指针变量 p 指向的值为 'n' 。",
+    "D：指针变量 p 指向的值与变量 n 的地址是相同的。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "一个三维数组定义为 long long array[6][6][6]; ，则 array[1][2][3] 和 array[3][2][1] 在内存中的位置相差多少字节？（     ）",
+   "options": [
+    "A：70字节",
+    "B：198字节",
+    "C：560字节",
+    "D：无法确定"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "如果 a 为 int 类型的变量，且 a 的值为6，则执行 a = ~a; 之后， a 的值会是（     ）。",
+   "options": [
+    "A：-6",
+    "B：6",
+    "C：-7",
+    "D：7"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "一个数组定义为 int a[5] = {1, 2, 3, 4, 5}; ，一个指针定义为 int * p = &a[2]; ，则执行 *p =a[1]; 后，数组a中的值会变为（     ）。",
+   "options": [
+    "A：{1, 2, 2, 4, 5}",
+    "B：{1, 3, 3, 4, 5}",
+    "C：{1, 2, 3, 3, 5}",
+    "D：{1, 2, 4, 4, 5}"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "下列关于C++语言中异常处理的叙述，正确的是（     ）。",
+   "options": [
+    "A：一个 try 子句可以有多个 catch 子句与之对应。",
+    "B：如果 try 子句在执行时发生异常，就一定会进入某一个 catch 子句执行。",
+    "C：如果 try 子句中没有可能发生异常的语句，会产生编译错误。",
+    "D：catch 子句处理异常后，会重新执行与之对应的 try 子句。"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "执行以下C++语言程序后，输出结果是（     ）。",
+   "options": [
+    "A：0",
+    "B：5",
+    "C：55",
+    "D：无法确定。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "在下列代码的横线处填写（     ），完成对有 n 个 int 类型元素的数组 array 由小到大排序。",
+   "options": [
+    "A：int j = 1; j < n; j++",
+    "B：int j = 0; j < n; j++",
+    "C：int j = 0; j < i - 1; j++",
+    "D：int j = 0; j < i; j++"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "在C++语言中，指针变量在逻辑上指向另一个变量在内存中的位置，指针变量本身不占用内存。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "对N个元素的数组执行插入排序算法，通常的时间复杂度是O(N2)。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "在C++语言中，每个变量都有其作用域。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "在C++语言中，在函数调用时，通过引用传递的参数不会复制实际参数，因此不会额外占用内存。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "在C++语言中，可以通过定义结构体，定义一个新的数据类型。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "在C++语言中，可以定义结构体类型的数组变量，定义结构体时也可以包含数组成员。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "如果希望记录10个最长为99字节的字符串，可以将字符串数组定义为 char s[10][100]; 。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "一个可能抛出异常的函数，调用它的位置没有在 try 子句中，会引起编译错误。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "== 和 := 都是C++语言的运算符。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "通过使用文件重定向操作，可以将程序中输出到 cout 的内容输出到文件中，这是常用的记录程序运行日志的方法之一。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "进制转换（2023年9月C++四级））时间限制：1.0 s内存限制：128.0 MB问题描述N进制数指的是逢N进一的计数制。例如，人们日常生活中大多使用十进制计数，而计算机底层则一般使用二进制。除此之外，八进制和十六进制在一些场合也是常用的计数制（十六进制中，一般使用字母 A 至 F 表示十至十五；本题中，十一进制到十五进制也是类似的）。在本题中，我们将给出N个不同进制的数。你需要分别把它们转换成十进制数。提示对于任意一个L位K进制数，假设其最右边的数位为第0位，最左边的数位为第L-1位，我们只需要将其第i位的数码乘以权值Ki ，再将每位的结果相加，即可得到原K进制数对应的十进制数。下面是两个例子：1. 八进制数 1362 对应的十进制数为1×83+3×82+6×81+2×80=754 ；2. 十六进制数 3F0 对应的十进制数为 3×162+15×161+0×160=1008。输入描述输入的第一行为一个十进制表示的整数N。接下来N行，每行一个整数K，随后是一个空格，紧接着是一个K进制数，表示需要转换的数。保证所有 进制数均由数字和大写字母组成，且不以 0 开头。保证K进制数合法。保证N≤1000；保证2≤K≤16保证所有K进制数的位数不超过9。输出描述输出N行，每一个十进制数，表示对应K进制数的十进制数值。特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入 128 136216 3F0样例输出 17541008样例输入 222 1101110 123456789样例输出 227123456789",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-381",
+   "level": 4,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "变长编码时间限制：1.0 s内存限制：128.0 MB问题描述小明刚刚学习了三种整数编码方式：原码、反码、补码，并了解到计算机存储整数通常使用补码。但他总是觉得，生活中很少用到231-1这么大的数，生活中常用的0~100这种数也同样需要用4个字节的补码表示，太浪费了些。热爱学习的小明通过搜索，发现了一种正整数的变长编码方式。这种编码方式的规则如下：1. 对于给定的正整数，首先将其表达为二进制形式。例如，(0) {10}=(0) {2}，(926) {10}=(1110011110) {2} 。2. 将二进制数从低位到高位切分成每组7bit，不足 bit的在高位用0填补。例如， (0) {2}变为0000000的一组，(1110011110) {2}变为0011110和0000111的两组。3. 由代表低位的组开始，为其加入最高位。如果这组是最后一组，则在最高位填上0，否则在最高位填上1。于是，0的变长编码为00000000一个字节，926的变长编码为10011110和00000111两个字节。这种编码方式可以用更少的字节表达比较小的数，也可以用很多的字节表达非常大的数。例如，987654321012345678的二进制为(0001101 1011010 0110110 1001011 1110100 0100110 1001000 0010110 1001110) {2}，于是它的变长编码为（十六进制表示） CE 96 C8 A6 F4 CB B6 DA 0D ，共9个字节。你能通过编写程序，找到一个正整数的变长编码吗？输入描述输入第一行，包含一个正整数N。约定 0≤N≤1018。输出描述输出一行，输出N对应的变长编码的每个字节，每个字节均以2位十六进制表示（其中，A-F使用大写字母表示），两个字节间以空格分隔。样例输入10样例输出100样例输入2926样例输出29E 07样例输入3987654321012345678样例输出3CE 96 C8 A6 F4 CB B6 DA 0D",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "与数组相比，链表在（ ）操作上通常具有更高的效率。",
+   "options": [
+    "A：随机访问元素",
+    "B：查找指定元素",
+    "C：在已知位置插入或删除节点",
+    "D：遍历所有元素"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面C++代码实现双向链表。函数 is_empty() 判断链表是否为空，如链表为空返回 true ，否则返回 false 。横线处不能填写（ ）。",
+   "options": [
+    "A：return head == nullptr;",
+    "B：return tail == nullptr;",
+    "C：return head.data == 0;",
+    "D：return size == 0;"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "基于上题代码正确的前提下，填入相应代码完善 append() ，用于在双向链表尾部增加新节点，横线上应填写（ ）。",
+   "options": [
+    "A：tail->next = newNode;",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "下列C++代码用循环链表解决约瑟夫问题，即假设 n 个人围成一圈，从第一个人开始数，每次数到第 k 个的人就出圈，输出最后留下的那个人的编号。横线上应填写（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下列C++代码判断一个正整数是否是质数，说法正确的是( )。",
+   "options": [
+    "A：代码存在错误，比如5是质数，但因为 5 % 5 余数是0返回了 false",
+    "B：finish_number 的值应该是 n / 2 ，当前写法将导致错误",
+    "C：当前 while 循环正确的前提是：所有大于3的质数都符合 6k±1 形式",
+    "D："
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下列C++代码用两种方式求解两个正整数的最大公约数，说法错误的是( )。",
+   "options": [
+    "A：gcd0() 函数的时间复杂度为",
+    "B：gcd1() 函数的时间复杂度为",
+    "C：一般说来， gcd0() 的效率高于 gcd1()",
+    "D：gcd1() 中的代码 for (int i = small; i >= 1; --i) 应该修改为for (int i = small; i > 1; --i)"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下面的代码用于判断整数 是否是质数，错误的说法是（ ）。",
+   "options": [
+    "A：埃氏筛算法相对于上面的代码效率更高",
+    "B：线性筛算法相对于上面的代码效率更高",
+    "C：上面的代码有很多重复计算，因为不是判断单个数是否为质数，故而导致筛选出连续数中质数的效率不高",
+    "D：相对而言，埃氏筛算法比上面代码以及线性筛算法效率都高"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "唯一分解定理描述了关于正整数的什么性质？",
+   "options": [
+    "A：任何正整数都可以表示为两个素数的和。",
+    "B：任何大于1的合数都可以唯一分解为有限个质数的乘积。",
+    "C：两个正整数的最大公约数总是等于它们的最小公倍数除以它们的乘积。",
+    "D：所有素数都是奇数。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下面的C++代码，用于求一系列数据中的最大值。有关其算法说法错误的是（ ）。",
+   "options": [
+    "A：该算法采用分治算法",
+    "B：该算法是递归实现",
+    "C：该算法采用贪心算法",
+    "D：该算法不是递推算法"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "下面的C++代码，用于求一系列数据中的最大值。有关其算法说法错误的是（ ）。",
+   "options": [
+    "A：本题 find_max() 函数采用的是迭代算法",
+    "B：本题 find_max() 函数的时间复杂度为",
+    "C：和上一题的 find_max() 相比，因为没有递归，所以没有栈的创建和销毁开销",
+    "D：本题 find_max() 函数和上⼀题的 find_max() 空间复杂度相同"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "下面的 C++ 代码用于在升序数组 lst 中查找目标值 target 最后一次出现的位置。相关说法，正确的是（ ）。",
+   "options": [
+    "A：当 lst 中存在重复的 target 时，该函数总能返回最后一个 target 的位置，即便 lst 全由相同元素组成",
+    "B：当 target 小于 lst 中所有元素时，该函数会返回 0",
+    "C：循环条件改为 while (low <= high) 程序执行效果相同，且能提高准确性",
+    "D：将代码中 (low + high + 1) / 2 修改为 (low + high) / 2 效果相同"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "有关下面C++代码的说法，错误的是（ ）。",
+   "options": [
+    "A：“阶段1”的目标是寻找正整数 n 可能的正完全平方根",
+    "B：“阶段2”的目标是如果正整数 n 没有正完全平方根，则在可能产生完全平方根附近寻找带小数点的平方根",
+    "C：代码 check_int = (long long)(result + 0.5) 是检查因浮点误差是否为正完全平方根",
+    "D：阶段2的二分法中 high_d - low_d >= epsilon 不能用于浮点数比较，会进入死循环"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "硬币找零问题中要求找给客户最少的硬币。 coins 存储可用硬币规格，单位为角，假设规格都小于10角，且一定有1角规格。 amount 为要找零的金额，约定必须为1角的整数倍。输出为每种规格及其数量，按规格从大到小输出，如果某种规格不必要，则输出为0。下面是其实现代码，相关说法正确的是（ ）。",
+   "options": [
+    "A：上述代码采用贪心算法实现",
+    "B：针对本题具体要求，上述代码总能找到最优解",
+    "C：上述代码采用枚举算法",
+    "D：上述代码采用分治算法"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "关于下述C++代码的快速排序算法，说法错误的是（ ）。",
+   "options": [
+    "A：在 randomPartition 函数中，变量 i 的作用是记录大于基准值的元素的边界",
+    "B：randomPartition 函数随机选择基准值，可以避免输入数据特定模式导致的最坏情况下时间复杂度",
+    "C：快速排序平均时间复杂度是",
+    "D：快速排序是稳定排序算法"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "小杨编写了一个如下的高精度除法函数，则横线上应填写的代码为（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "下面C++代码是用欧几里得算法（辗转相除法）求两个正整数的最大公约数， a 大于 b 还是小于 b 都适用。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "假设函数 gcd() 函数能正确求两个正整数的最大公约数，则下面的 lcm() 函数能求相应两数的最小公倍数。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "下面的C++代码用于输出每个数对应的质因数列表，输出形如： {5: [5], 6: [2, 3], 7: [7], 8: [2, 2, 2]} 。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "下面的C++代码实现归并排序。代码在执行时，将输出一次 HERE 字符串，因为merge()函数仅被调用一次。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "归并排序的最好、最坏和平均时间复杂度均为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "查字典这个小学生必备技能，可以把字典视为一个已排序的数组。假设小杨要查找一个音首字母为 g 的单词，他首先翻到字典约一半的页数，发现该页的首字母是 m ，由于字母表中 g 位于 m 之前，所以排除字典后半部分，查找范围缩小到前半部分；不断重复上述步骤，直至找到首字母为 g 的页码。这种查字典的一系列操作可看作二分查找。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "求解下图中A点到D点最短路径，其中A到B之间的12可以理解为距离。求解这样的问题常用Dijkstra算法，其思路是通过逐步选择当前距离起点最近的节点来求解非负权重图（如距离不能为负值）单源最短路径的算法。从该算法的描述可以看出，Dijkstra算法是贪心算法。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "分治算法将原问题可以分解成规模更小的子问题，使得求解问题的难度降低。但由于分治算法需要将问题进行分解，并且需要将多个子问题的解合并为原问题的解，所以分治算法的效率通常比直接求解原问题的效率低。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "函数 puzzle 定义如下，则调用 puzzle(7) 程序会无限递归。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "如下为线性筛法，用于高效生成素数表，其核心思想是每个合数只被它的最小质因数筛掉一次，时间复杂度为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "试题名称：奖品兑换",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-787",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "试题名称：最大公因数",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "链表不具备的特点是( )。",
+   "options": [
+    "A：可随机访问任何一个元素",
+    "B：插入、删除操作不需要移动元素",
+    "C：无需事先估计存储空间大小",
+    "D：所需存储空间与存储元素个数成正比"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "双向链表中每个结点有两个指针域 prev 和 next ，分别指向该结点的前驱及后继结点。设 p 指向链表中的一个结点，它的前驱结点和后继结点均非空。要删除结点 p ，则下述语句中错误的是（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "假设双向循环链表包含头尾哨兵结点(不存储实际内容)，分别为 head 和 tail ，链表中每个结点有两个指针域 prev 和 next ，分别指向该结点的前驱及后继结点。下面代码实现了一个空的双向循环链表，横线上应填的最佳代码是( )。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "用以下辗转相除法（欧几里得算法）求gcd(84, 60)的步骤中，第二步计算的数是（ ）。",
+   "options": [
+    "A：84和60",
+    "B：60和24",
+    "C：24和12",
+    "D：12和0"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "根据唯一分解定理，下面整数的唯一分解是正确的（ ）。",
+   "options": [
+    "A：18 = 3 × 6",
+    "B：28 = 4 × 7",
+    "C：36 = 2 × 3 × 6",
+    "D：30 = 2 × 3 × 5"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数，横线上应填的最佳代码是( )。",
+   "options": [
+    "A：j < primes.size()",
+    "B：i * primes[j] <= n",
+    "C：j < primes.size() && i * primes[j] <= n",
+    "D：j <= n"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "在程序运行过程中，如果递归调用的层数过多，会因为（ ）引发错误。",
+   "options": [
+    "A：系统分配的栈空间溢出",
+    "B：系统分配的堆空间溢出",
+    "C：系统分配的队列空间溢出",
+    "D：系统分配的链表空间溢出"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "对下面两个函数，说法错误的是（ ）。",
+   "options": [
+    "A：两个函数的实现的功能相同。",
+    "B：两个函数的时间复杂度均为",
+    "C：factorialA采用递归方式",
+    "D：factorialB采用递归方式"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下算法中，（ ）是不稳定的排序",
+   "options": [
+    "A：选择排序",
+    "B：插入排序",
+    "C：归并排序",
+    "D：冒泡排序"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "考虑以下C++代码实现的快速排序算法，将数据从小到大排序，则横线上应填的最佳代码是( )。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "若用二分法在[1, 100]内猜数，最多需要猜（ ）次。",
+   "options": [
+    "A：100",
+    "B：10",
+    "C：7",
+    "D：5"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "下面代码实现了二分查找算法，在数组 arr 找到目标元素 target 的位置，则横线上能填写的最佳代码是（ ）。",
+   "options": [
+    "A：int mid = left + (right - left) / 2;",
+    "B：int mid = left",
+    "C：int mid = (left + right) / 2;",
+    "D：int mid = right;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "贪心算法的核心特征是（ ）",
+   "options": [
+    "A：总是选择当前最优解",
+    "B：回溯尝试所有可能",
+    "C：分阶段解决子问题",
+    "D：总能找到最优解"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "函数 int findMax(int arr[], int low, int high) 计算数组中最大元素，其中数组 arr 从索引low 到 high ，（ ）正确实现了分治逻辑",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "小杨编写了一个如下的高精度乘法函数，则横线上应填写的代码为（ ）。",
+   "options": [
+    "A：int temp = c[k];",
+    "B：int temp = c[k] + carry",
+    "C：int temp = c[k] - carry;",
+    "D：int temp = c[k] * carry"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "单链表中删除某个结点 p (非尾结点)，但不知道头结点，可行的操作是将 p 的值设为 p->next 的值，然后删除 p->next 。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "链表存储线性表时要求内存中可用存储单元地址是连续的",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "线性筛相对于埃拉托斯特尼筛法，每个合数只会被它的最小质因数筛去一次，因此效率更高",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "贪心算法通过每一步选择当前最优解，从而一定能获得全局最优解",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "递归函数必须具有一个终止条件，以防止无限递归",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "快速排序算法的时间复杂度与输入是否有序无关，始终稳定为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "归并排序算法的时间复杂度与输入是否有序无关，始终稳定为",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "二分查找适用于对无序数组和有序数组的查找。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "小杨有100元去超市买东西，每个商品有各自的价格，每种商品只能买1个，小杨的目标是买到最多数量的商品。小杨采用的策略是每次挑价格最低的商品买，这体现了分治思想。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "归并排序算法体现了分治算法，每次将大的待排序数组分成大小大致相等的两个小数组，然后分别对两个小数组进行排序，最后对排好序的两个小数组合并成有序数组。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "平均分化",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-682",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "原根判断",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "下面关于链表和数组的描述，错误的是（ ）。",
+   "options": [
+    "A：当数据数量不确定时，为了应对各种可能的情况，需要申请一个较大的数组，可能浪费空间；此时用链表比较合适，大小可动态调整。",
+    "B：在链表中访问节点的效率较低，时间复杂度为。",
+    "C：链表插入和删除元素效率较低，时间复杂度为。",
+    "D：链表的节点在内存中是分散存储的，通过指针连在一起。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "在循环单链表中，节点的 next 指针指向下一个节点，最后一个节点的 next 指针指向（ ）。",
+   "options": [
+    "A：当前节点",
+    "B：nullptr",
+    "C：第一个节点",
+    "D：上一个节点"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "为了方便链表的增删操作，一些算法生成一个虚拟头节点，方便统一删除头节点和其他节点。下面代码实现了删除链表中值为 val 的节点，横线上应填的最佳代码是( )。",
+   "options": [
+    "A：dummyHead->next = head; cur = dummyHead;",
+    "B：dummyHead->next = head->next; cur = dummyHead;",
+    "C：dummyHead->next = head; cur = dummyHead->next;",
+    "D：dummyHead->next = head->next; cur = dummyHead->next;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "对下面两个函数，说法错误的是（ ）。",
+   "options": [
+    "A：两个函数的实现的功能相同。",
+    "B：fibA采用递推方式。",
+    "C：fibB采用的是递归方式。",
+    "D：fibA时间复杂度为，fibB的时间复杂度为。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "两块长方形土地的长宽分别为 和 米，要将它们分成正方形的小块，使得正方形的尺寸尽可能大。小杨采用如下的辗转相除函数 gcd(24, 36) 来求正方形分块的边长，则函数 gcd 调用顺序为（ ）。",
+   "options": [
+    "A：gcd(24, 36)、gcd(24, 12)、gcd(12, 0)",
+    "B：gcd(24, 36)、gcd(12, 24)、gcd(0, 12)",
+    "C：gcd(24, 36)、gcd(24, 12)",
+    "D：gcd(24, 36)、gcd(12, 24)"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "唯一分解定理表明，每个大于1的自然数可以唯一地写成若干个质数的乘积。下面函数将自然数 n的所有质因素找出来，横线上能填写的最佳代码是（ ）。",
+   "options": [
+    "A：for (int i = 3; i <= n; i ++)",
+    "B：for (int i = 3; i * i <= n; i ++)",
+    "C：for (int i = 3; i <= n; i += 2)",
+    "D：for (int i = 3; i * i <= n; i += 2)"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下述代码实现素数表的埃拉托色尼(埃氏)筛法，筛选出所有小于等于n 的素数。下面说法，正确的是（ ）。",
+   "options": [
+    "A：代码的时间复杂度是",
+    "B：在标记非素数时，代码从开始，可以减少重复标记。",
+    "C：代码会输出所有小于等于n 的奇数。",
+    "D：调用函数 sieve_Eratosthenes(10) ，函数返回值的数组中包含的元素有： 2, 3, 5, 7, 9 。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数。下面说法正确的是( )。",
+   "options": [
+    "A：线性筛的时间复杂度是",
+    "B：每个合数会被其所有的质因子标记一次。",
+    "C：线性筛和埃拉托色尼筛的实现思路完全相同。",
+    "D：以上都不对"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "考虑以下C++代码实现的快速排序算法：以下关于快速排序的说法，正确的是（ ）。",
+   "options": [
+    "A：快速排序通过递归对子问题进行求解。",
+    "B：快速排序的最坏时间复杂度是。",
+    "C：快速排序是一个稳定的排序算法。",
+    "D：在最优情况下，快速排序的时间复杂度是。"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "下面关于归并排序，描述正确的是（ ）。",
+   "options": [
+    "A：归并排序是一个不稳定的排序算法。",
+    "B：归并排序的时间复杂度在最优、最差和平均情况下都是。",
+    "C：归并排序需要额外的空间。",
+    "D：对于输入数组 {12, 11, 13, 5, 6, 7}，代码输出结果为：7 6 5 13 12 11。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "给定一个长度为 n的有序数组 nums ，其中所有元素都是唯一的。下面的函数返回数组中元素 target 的索引。关于上述函数，描述不正确的是（ ）。",
+   "options": [
+    "A：函数采用二分查找，每次计算搜索当前搜索区间的中点，然后根据中点的元素值排除一半搜索区间。",
+    "B：函数采用递归求解，每次问题的规模减小一半。",
+    "C：递归的终止条件是中间元素的值等于 target ，若数组中不包含该元素，递归不会终止。",
+    "D：算法的复杂度为。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "给定一个长度为 m的有序数组 nums ，其中可能包含重复元素。下面的函数返回数组中某个元素 target 的左边界，若数组中不包含该元素，则返回 −1 。例如在数组 nums = [5,7,7,8,8,10] 中查找 target=8 ，函数返回8 在数组中的左边界的索引为 。则横线上应填写的代码为（ ）。",
+   "options": [
+    "A：right = middle - 1;",
+    "B：right = middle;",
+    "C：right = middle + 1;",
+    "D：以上都不对"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "假设有多个孩子，数组 g 保存所有孩子的胃口值。有多块饼干，数组 s 保存所有饼干的尺寸。小杨给孩子们发饼干，每个孩子最多只能给一块饼干。饼干的尺寸大于等于孩子的胃口时，孩子才能得到满足。小杨的目标是尽可能满足越多数量的孩子，因此打算采用贪心算法来找出能满足的孩子的数目，则横线上应填写的代码为（ ）。",
+   "options": [
+    "A：result++; index--;",
+    "B：result--; index--;",
+    "C：result--; index++;",
+    "D：result++; index++;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "关于分治算法，以下说法中不正确的是（ ）",
+   "options": [
+    "A：分治算法将问题分成子问题，然后分别解决子问题，最后合并结果。",
+    "B：归并排序采用了分治思想。",
+    "C：快速排序采用了分治思想。",
+    "D：冒泡排序采用了分治思想。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "小杨编写了一个如下的高精度减法函数：下面说法，正确的是（ ）。",
+   "options": [
+    "A：如果数组a 表示的整数小于 表示的整数，代码会正确返回二者的差为负数。",
+    "B：代码假设输入数字是以倒序存储的，例如 500存储为 {0, 0, 5} 。",
+    "C：代码的时间复杂度为",
+    "D：当减法结果为 0时，结果数组仍然会存储很多个元素0 。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "单链表只支持在表头进行插入和删除操作。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "线性筛相对于埃拉托斯特尼筛法，每个合数只会被它的最小质因数筛去一次，因此效率更高。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "任何一个大于1的自然数都可以分解成若干个不同的质数的乘积，且分解方式是唯一的。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "贪心算法通过每一步选择当前最优解，从而一定能获得全局最优解。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "递归算法必须有一个明确的结束条件，否则会导致无限递归并可能引发栈溢出。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "快速排序和归并排序的平均时间复杂度均为，且都是稳定排序。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "快速排序的时间复杂度总比插入排序的时间复杂度低。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "二分查找仅适用于数组而不适合链表，因为二分查找需要跳跃式访问元素，链表中执行跳跃式访问的效率低。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "对有序数组 {5,13,19,21,37,56,64,75,88,92,100} 进行二分查找，成功查找元素 19 的比较次数是2。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "递归函数每次调用自身时，系统都会为新开启的函数分配内存，以存储局部变量、调用地址和其他信息等，导致递归通常比迭代更加耗费内存空间。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "奇妙数字",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-602",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "武器强化",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "下面C++代码用于求斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。函数fibo()属于( )。",
+   "options": [
+    "A：枚举算法",
+    "B：贪心算法",
+    "C：迭代算法",
+    "D：递归算法"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面C++代码用于将输入金额换成最少币种组合方案，其实现算法是( )。",
+   "options": [
+    "A：枚举算法",
+    "B：贪心算法",
+    "C：迭代算法",
+    "D：递归算法"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "小杨采用如下双链表结构保存他喜欢的歌曲列表：小杨想在头指针为 head 的双链表中查找他喜欢的某首歌曲，采用如下查询函数，该操作的时间复杂度为（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "小杨想在如上题所述的双向链表中加入一首新歌曲。为了能快速找到该歌曲，他将其作为链表的第一首歌曲，则下面横线上应填入的代码为（ ）。",
+   "options": [
+    "A：head->next->prev = p;",
+    "B：head->next = p;",
+    "C：head->prev = p;",
+    "D：触发异常，不能对空指针进行操作。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下面是根据欧几里得算法编写的函数，它计算的是 a与 b的（ ）。",
+   "options": [
+    "A：最小公倍数",
+    "B：最大公共质因子",
+    "C：最大公约数",
+    "D：最小公共质因子"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "欧几里得算法还可以写成如下形式:下面有关说法，错误的是（ ）。",
+   "options": [
+    "A：本题的 gcd() 实现为递归方式。",
+    "B：本题的 gcd() 代码量少，更容易理解其辗转相除的思想。",
+    "C：当 a较大时，本题的 gcd() 实现会多次调用自身，需要较多额外的辅助空间。",
+    "D：当 a较大时，相比上题中的 gcd() 的实现，本题的 gcd() 执行效率更高。"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下述代码实现素数表的线性筛法，筛选出所有小于等于n 的素数，则横线上应填的代码是( )。",
+   "options": [
+    "A：for (int j = 0; j < primes.size() && i * primes[j] <= n; j++)",
+    "B：for (int j = 0; j <= sqrt(n) && i * primes[j] <= n; j++)",
+    "C：for (int j = 0; j <= n; j++)",
+    "D：for (int j = 1; j <= sqrt(n); j++)"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "上题代码的时间复杂度是（ ）。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "为了正确实现快速排序，下面横线上的代码应为（ ）。",
+   "options": [
+    "A：while (i <= mid)",
+    "B：while (i < mid)",
+    "C：while (i < j)",
+    "D：while (i <= j)"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "关于分治算法，以下哪个说法正确？",
+   "options": [
+    "A：分治算法将问题分成子问题，然后分别解决子问题，最后合并结果。",
+    "B：归并排序不是分治算法的应用。",
+    "C：分治算法通常用于解决小规模问题。",
+    "D：分治算法的时间复杂度总是优于"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "根据下述二分查找法，在排好序的数组 1，3，6，9，17，31，39，52，61，79，81，90，96 中查找数值82，和82比较的数组元素分别是（ ）。",
+   "options": [
+    "A：52, 61, 81, 90",
+    "B：52, 79, 90, 81",
+    "C：39, 79, 90, 81",
+    "D：39, 79, 90"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "要实现一个高精度减法函数，则下面代码中加划线应该填写的代码为（ ）。",
+   "options": [
+    "A：a[i + 1]--;",
+    "B：a[i]--;",
+    "C：b[i + 1]--;",
+    "D：b[i]--;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "设A 和 B是两个长度为m 的有序数组，现将A 和 B合并成一个有序数组，归并排序算法在最坏情况下至少要做（ ）次比较。",
+   "options": [
+    "A：",
+    "B：",
+    "C：",
+    "D："
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "给定如下函数：则当n=7时，函数返回值为（ ）。",
+   "options": [
+    "A：0",
+    "B：1",
+    "C：21",
+    "D：-11"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "给定如下函数（函数功能同上题，增加输出打印）：则当 n=4时，屏幕上输出序列为（ ）。",
+   "options": [
+    "A：4 3 2 1",
+    "B：1 2 3 4",
+    "C：4 2 3 1 2",
+    "D：4 2 3 2 1"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "如果将双向链表的最后一个结点的下一项指针指向第一个结点，第一个结点的前一项指针指向最后一个结点，则该双向链表构成循环链表。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "数组和链表都是线性表，链表的优点是插入删除不需要移动元素，并且能随机查找。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "链表的存储空间物理上可以连续，也可以不连续。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "找出自然数n以内的所有质数，常用算法有埃拉托斯特尼（埃氏）筛法和线性筛法，其中埃氏筛法效率更高。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "唯一分解定理表明任何一个大于1的整数都可以唯一地表示为一系列质数的乘积，即质因数分解是唯一的。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "贪心算法通过每一步选择局部最优解来获得全局最优解，但并不一定能找到最优解。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "归并排序和快速排序都采用递归实现，也都是不稳定排序。（ ）",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "插入排序有时比快速排序时间复杂度更低。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "在进行全国人口普查时，将其分解为对每个省市县乡来进行普查和统计。这是典型的分治策略。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "在下面C++代码中，由于删除了变量 ptr ，因此 ptr 所对应的数据也随之删除，故执行下述代码时，将报错。",
+   "options": [
+    "A：对",
+    "B：错"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "黑白格题面描述小杨有一个 n行 m列的网格图，其中每个格子要么是白色，要么是黑色。小杨想知道至少包含 k个黑色格子的最小子矩形包含了多少个格子。输入格式第一行包含三个正整数n,m,k ，含义如题面所示。之后n 行，每行一个长度为m 的 01串，代表网格图第 i行格子的颜色，如果为 0，则对应格子为白色，否则为黑色输出格式输出一个整数，代表至少包含k 个黑色格子的最小子矩形包含格子的数量，如果不存在则输出 0。样例1样例解释对于样例1，假设 (i,j ) 代表第 i行第 j列，至少包含 5个黑色格子的最小子矩形的四个顶点为 ( 2,4)，( 2,5)，( 4,4)，(4,5)，共包含 6个格子。数据范围",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-584",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "小杨的幸运数字题面描述小杨认为他的幸运数字应该恰好有两种不同的质因子，例如，12=2×2 ×3的质因子有 2,3，恰好为两种不同的质因子，因此12 是幸运数字，而30=2×3×5 的质因子有 2,3,5，不符合要求，不为幸运数字。小杨现在有 n个正整数，他想知道每个正整数是否是他的幸运数字。输入格式第一行包含一个正整数n ，代表正整数个数。之后n 行，每行一个正整数。输出格式输出n 行，对于每个正整数，如果是幸运数字，输出 1，否则输出 0。样例1样例解释7的质因子有7，只有1种。12的质因子有2,3，恰好有两种。30的质因子有2,3，5，三种。数据范围",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "唯一分解定理描述的内容是（   ）？",
+   "options": [
+    "A：任意整数都可以分解为素数的乘积",
+    "B：每个合数都可以唯一分解为一系列素数的乘积",
+    "C：两个不同的整数可以分解为相同的素数乘积",
+    "D：以上都不对"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "贪心算法的核心思想是（   ）？",
+   "options": [
+    "A：在每一步选择中都做当前状态下的最优选择",
+    "B：在每一步选择中都选择局部最优解",
+    "C：在每一步选择中都选择全局最优解",
+    "D：以上都对"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "下面的 C++ 代码片段用于计算阶乘。请在横线处填入（   ），实现正确的阶乘计算。int factorial(int n) {\r\n\tif (n == 0 || n == 1) {\r\n\t\treturn 1;\r\n\t} else {\r\n\t\t_________________________________ // 在此处填入代码\r\n\t}\r\n}",
+   "options": [
+    "A：return n * factorial(n - 1);",
+    "B：return factorial(n - 1) / n;",
+    "C：return n * factorial(n);",
+    "D：return factorial(n / 2) * factorial(n / 2);"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "下面的代码片段用于在双向链表中删除一个节点。请在横线处填入（   ），使其能正确实现相应功能。void deleteNode(DoublyListNode*& head, int value) {\r\n\tDoublyListNode* current = head;\r\n\twhile (current != nullptr && current->val != value) {\r\n\t\tcurrent = current->next;\r\n\t}\r\n\tif (current != nullptr) {\r\n\t\tif (current->prev != nullptr) {\r\n\t\t\t____________________________________ // 在此处填入代码\r\n\t\t} else {\r\n\t\t\thead = current->next;\r\n\t\t}\r\n\t\tif (current->next != nullptr) {\r\n\t\t\tcurrent->next->prev = current->prev;\r\n\t\t}\r\n\t\tdelete current;\r\n\t}\r\n}",
+   "options": [
+    "A：if (current->next != nullptr) current->next->prev = current->prev;",
+    "B：current->prev->next = current->next;",
+    "C：delete current->next;",
+    "D：current->prev = current->next;"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "辗转相除法也被称为（   ）",
+   "options": [
+    "A：高斯消元法",
+    "B：费马定理",
+    "C：欧几里德算法",
+    "D：牛顿迭代法"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "下面的代码片段用于计算斐波那契数列。该代码的时间复杂度是（   ）？int fibonacci(int n) {\r\n\tif (n <= 1) {\r\n\t\treturn n;\r\n\t} else {\r\n\t\treturn fibonacci(n - 1) + fibonacci(n - 2);\r\n\t}\r\n}",
+   "options": [
+    "A：O(1)",
+    "B：O(n)",
+    "C：O(2n)",
+    "D：O(logn)"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下面的代码片段用于将两个高精度整数进行相加。请在横线处填入（   ），使其能正确实现相应功能。string add(string num1, string num2) {\r\n\tstring result;\r\n\tint carry = 0;\r\n\tint i = num1.size() - 1, j = num2.size() - 1;\r\n\twhile (i >= 0 || j >= 0 || carry) {\r\n\t\tint x = (i >= 0) ? num1[i--] - '0' : 0;\r\n\t\tint y = (j >= 0) ? num2[j--] - '0' : 0;\r\n\t\tint sum = x + y + carry;\r\n\t\tcarry = sum / 10;\r\n\t\t_______________________________________\r\n\t}\r\n\treturn result;\r\n}",
+   "options": [
+    "A：result = to_string(sum % 10) + result;",
+    "B：result = to_string(carry % 10) + result;",
+    "C：result = to_string(sum / 10) + result;",
+    "D：result = to_string(sum % 10 + carry) + result;"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "给定序列：1，3，6，9，17，31，39，52，61，79，81，90，96。使用以下代码进行二分查找查找元素 82时，需要循环多少次，即最后输出的 times 值为（   ）。int binarySearch(const std::vector<int>& arr, int target) {\r\n\tint left = 0;\r\n\tint right = arr.size() - 1;\r\n\tint times = 0;\r\n\twhile (left <= right) {\r\n\t\ttimes ++;\r\n\t\tint mid = left + (right - left) / 2;\r\n\t\tif (arr[mid] == target) {\r\n\t\t\tcout << times << endl;\r\n\t\t\treturn mid;\r\n\t\t} else if (arr[mid] < target) {\r\n\t\t\tleft = mid + 1;\r\n\t\t} else {\r\n\t\t\tright = mid - 1;\r\n\t\t}\r\n\t}\r\n\tcout << times << endl;\r\n\treturn -1;\r\n}",
+   "options": [
+    "A：2",
+    "B：5",
+    "C：3",
+    "D：4"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下面的代码片段用于判断一个正整数是否为素数。请对以下代码进行修改，使其能正确实现相应功能。（   ）bool isPrime(int num) {\r\n\tif (num < 2) {\r\n\t\treturn false;\r\n\t}\r\n\tfor (int i = 2; i * i < num; ++i) {\r\n\t\tif (num % i == 0) {\r\n\t\t\treturn false;\r\n\t\t}\r\n\t}\r\n\treturn true;",
+   "options": [
+    "A：num < 2 应该改为 num <= 2",
+    "B：循环条件 i * i < num 应该改为 i * i <= num",
+    "C：循环条件应该是 i <= num",
+    "D：循环体中应该是 if (num % i != 0)"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "在埃拉托斯特尼筛法中，要筛选出不大于 n 的所有素数，最外层循环应该遍历什么范围（   ）？vector<int> sieveOfEratosthenes(int n) {\r\n\tstd::vector<bool> isPrime(n + 1, true);\r\n\tstd::vector<int> primes;\r\n\t_______________________ {\r\n\t\tif (isPrime[i]) {\r\n\t\t\tprimes.push_back(i);\r\n\t\t\tfor (int j = i * i; j <= n; j += i) {\r\n\t\t\t\tisPrime[j] = false;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tfor (int i = sqrt(n) + 1; i <= n; ++i) {\r\n\t\tif (isPrime[i]) {\r\n\t\t\tprimes.push_back(i);\r\n\t\t}\r\n\t}\r\n\treturn primes;\r\n}",
+   "options": [
+    "A：for (int i = 2; i <= n; ++i)",
+    "B：for (int i = 1; i < n; ++i)",
+    "C：for (int i = 2; i <= sqrt(n); ++i)",
+    "D：for (int i = 1; i <= sqrt(n); ++i)"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "素数的线性筛法时间复杂度为（   ）。",
+   "options": [
+    "A：O(n)",
+    "B：O(nloglogn)",
+    "C：O(nlogn)",
+    "D：O(n2)"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "归并排序的基本思想是（   ）。",
+   "options": [
+    "A：动态规划",
+    "B：分治",
+    "C：贪心算法",
+    "D：回溯算法"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "在快速排序中，选择的主元素（pivot）会影响算法的（   ）。",
+   "options": [
+    "A：不影响",
+    "B：时间复杂度",
+    "C：空间复杂度",
+    "D：时间复杂度和空间复杂度"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "递归函数在调用自身时，必须满足（   ），以避免无限递归？",
+   "options": [
+    "A：有终止条件",
+    "B：函数参数递减（或递增）",
+    "C：函数返回值固定",
+    "D：以上都对"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "假设给定链表为: ，若调用 searchValue(head, 5) ，函数返回值为（   ）。int searchValue(ListNode* head, int target) {\r\n\twhile (head != nullptr) {\r\n\t\tif (head->val == target) {\r\n\t\t\treturn 1;\r\n\t\t}\r\n\t\thead = head->next;\r\n\t}\r\n\treturn 0;\r\n}",
+   "options": [
+    "A：返回 1",
+    "B：返回 0",
+    "C：死循环，无法返回",
+    "D：返回 -1"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "辗转相除法用于求两个整数的最大公约数。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "插入排序的时间复杂度是O(NlogN)。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "二分查找要求被搜索的序列是有序的，否则无法保证正确性。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "使用贪心算法解决问题时，每一步的局部最优解一定会导致全局最优解。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "分治算法的核心思想是将一个大问题分解成多个相同或相似的子问题进行解决，最后合并得到原问题的解。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "分治算法的典型应用之一是归并排序，其时间复杂度为O(NlogN)。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "素数表的埃氏筛法和线性筛法的时间复杂度都是O(NloglogN)。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "贪心算法是一种可以应用于所有问题的通用解决方案。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "单链表和双链表都可以在常数时间内实现在链表头部插入或删除节点的操作。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "在C语言中，递归的实现方式通常会占用更多的栈空间，可能导致栈溢出。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "成绩排序问题描述有N名同学，每名同学有语文、数学、英语三科成绩。你需要按如下规则对所有同学的成绩从高到低排序：1. 比较总分，高者靠前；2. 如果总分相同，则比较语文和数学两科总分，高者靠前；3. 如果仍相同，则比较语文和数学两科的最高分，高者靠前；4. 如果仍相同，则二人并列。你需要输出每位同学的排名，如遇x人并列，则他们排名相同，并留空后面的x-1个名次。例如，有3名同学并列第1，则后一名同学自动成为第4名。输入描述第一行一个整数N，表示同学的人数。接下来N行，每行三个非负整数ci,mi,ei分别表示该名同学的语文、数学、英语成绩。保证0≤ci,mi,ei≤150。输出描述输出N行，按输入同学的顺序，输出他们的排名。注意：请不要按排名输出同学的序号，而是按同学的顺序输出他们各自的排名特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入1：6\r\n140 140 150\r\n140 149 140\r\n148 141 140\r\n141 148 140\r\n145 145 139\r\n0 0 0样例输出1：1\r\n3\r\n4\r\n4\r\n2\r\n6数据规模对于30的测试点，保证N≤100，且所有同学的总分各不相同。对于所有测试点，保证2≤N≤104。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-498",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "B-smooth 数题面描述小杨同学想寻找一种名为B-smooth 数的正整数。如果一个正整数的最大质因子不超过B，则该正整数为B-smooth 数。小杨同学想知道，对于给定的n和B，有多少个不超过n的B-smooth 数。输入格式第一行包含两个正整数n,B，含义如题面所示。输出格式输出一个非负整数，表示不超过n的B-smooth 数的数量。样例输入1：10 3样例输出1：7样例解释在不超过10的正整数中，3-smooth 数有{1,2,3,4,6,8,9}，共7个。数据范围对于全部数据，保证有1≤n≤106，1≤B≤106。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "下面C++代码用于求斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。下面有关说法错误的是(   )。",
+   "options": [
+    "A：fiboA( ) 用递归方式， fiboB() 循环方式",
+    "B：fiboA( ) 更加符合斐波那契数列的数学定义，直观易于理解，而 fiboB() 需要将数学定义转换为计算机程序实现",
+    "C：fiboA( ) 不仅仅更加符合数学定义，直观易于理解，且因代码量较少执行效率更高",
+    "D：fiboB( ) 虽然代码量有所增加，但其执行效率更高"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "下面C++代码以递归方式实现合并排序，并假设 merge (int T[], int R[], int s, int m, int t) 函数将有序（同样排序规则）的T[s..m]和T[m+1..t]归并到R[s..t]中。横线处应填上代码是(   )。",
+   "options": [
+    "A：mergeSort(SList, T2, s, m,len), mergeSort(SList, T2, m,t,len)",
+    "B：mergeSort(SList, T2, s, m-1,len), mergeSort(SList, T2, m+1,t,len)",
+    "C：mergeSort(SList, T2, s, m,len), mergeSort(SList, T2, m+1,t,len)",
+    "D：mergeSort(SList, T2, s, m-1,len), mergeSort(SList, T2, m-1,t,len)"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "阅读下面的C++代码，执行后其输出是(   )。",
+   "options": [
+    "A：1->120<===>2->120",
+    "B：1->120<===>1->120",
+    "C：1->120<===>1->2->3->4->5->120",
+    "D：1->120<===>2->3->4->5->6->120"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "下面的C++用于对 lstA 排序，使得偶数在前奇数在后，横线处应填入(   )。",
+   "options": [
+    "A：isEven(lstA[j]) && !isEven(lstA[j+1])",
+    "B：!isEven(lstA[j]) && isEven(lstA[j+1])",
+    "C：lstA[j] > lstA[j+1]",
+    "D：lstA[j] < lstA[j+1]"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下面的C++代码用于将字符串保存到带头节点的双向链表中，并对重复的串计数，然后将最新访问的串的节点放在链头便于查找。横线处应填入代码是（   ）。",
+   "options": [
+    "A：if(pHead) {p->next = pHead->next, pHead->next->prev = p;}",
+    "B：if(pHead->next) {p->next = pHead->next, pHead->next->prev = p;}",
+    "C：p->next = pHead->next, pHead->next->prev = p;",
+    "D：触发异常，不能对空指针进行操作。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "有关下面C++代码说法正确的是（   ）。",
+   "options": [
+    "A：如果 x 小于10， rc 值也不会超过20",
+    "B：foo 可能无限递归",
+    "C：foo 可以求出 x 和 y 的最大公共质因子",
+    "D：foo 能够求出 x 和 y 的最小公倍数"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "下面的C++代码实现对list的快速排序，有关说法，错误的是（   ）。",
+   "options": [
+    "A：qSort(less) + qSort(greater) + (vector<int>)pivot",
+    "B：(vector<int>)pivot + (qSort(less) + qSort(greater))",
+    "C：(qSort(less) + (vector<int>)pivot + qSort(greater))",
+    "D：qSort(less) + pivot + qSort(greater)"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "下面C++代码中的 isPrimeA() 和 isPrimeB() 都用于判断参数N是否素数，有关其时间复杂度的正确说法是（   ）。",
+   "options": [
+    "A：isPrimeA( ) 的最坏时间复杂度是， isPrimeB( ) 的最坏时间复杂度是， isPrimeA() 优于 isPrimeB()",
+    "B：isPrimeA() 的最坏时间复杂度是， isPrimeB( ) 的最坏时间复杂度是， isPrimeB() 绝大多数情况下优于 isPrimeA()",
+    "C：isPrimeA() 的最坏时间复杂度是， isPrimeB( ) 的最坏时间复杂度是， isPrimeA( ) 优于isPrimeB( )",
+    "D：isPrimeA() 的最坏时间复杂度是， isPrimeB( ) 的最坏时间复杂度是， isPrimeA() 优于isPrimeB( )"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "下面C++代码用于有序 list 的二分查找，有关说法错误的是（   ）。",
+   "options": [
+    "A：代码采用二分法实现有序 list 的查找",
+    "B：代码采用分治算法实现有序 list 的查找",
+    "C：代码采用递归方式实现有序 list 的查找",
+    "D：代码采用动态规划算法实现有序 list 的查找"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "在上题的 _binarySearch 算法中，如果 lst 中有 N 个元素，其时间复杂度是（   ）。",
+   "options": [
+    "A：O(N)",
+    "B：O(logN)",
+    "C：O(NlogN)",
+    "D：O(N2)"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "下面的C++代码使用数组模拟整数加法，可以处理超出大整数范围的加法运算。横线处应填入代码是（   ）。",
+   "options": [
+    "A：c.push_back(t % 10), t = t % 10;",
+    "B：c.push_back(t / 10), t = t % 10;",
+    "C：c.push_back(t / 10), t = t / 10;",
+    "D：c.push_back(t % 10), t = t / 10;"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "有关下面C++代码的说法正确的是（   ）。",
+   "options": [
+    "A：上述代码构成单向链表",
+    "B：上述代码构成双向链表",
+    "C：上述代码构成循环链表",
+    "D：上述代码构成指针链表"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "通讯卫星在通信网络系统中主要起到（   ）的作用。",
+   "options": [
+    "A：信息过滤",
+    "B：信号中继",
+    "C：避免攻击",
+    "D：数据加密"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "小杨想编写一个判断任意输入的整数N是否为素数的程序，下面哪个方法不合适？（   ）",
+   "options": [
+    "A：埃氏筛法",
+    "B：线性筛法",
+    "C：二分答案",
+    "D：枚举法"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "下面的排序算法都要处理多趟数据，哪种排序算法不能保证在下一趟处理时从待处理数据中选出最大或最小的数据？（   ）",
+   "options": [
+    "A：选择排序",
+    "B：快速排序",
+    "C：堆排序",
+    "D：冒泡排序"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "归并排序的时间复杂度是O(NlogN)。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "小杨在生日聚会时拿一块H*W的巧克力招待来的K个小朋友，保证每位小朋友至少能获得一块相同大小的巧克力。那么小杨想分出来最大边长的巧克力可以使用二分法。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "以下C++代码能以递归方式实现斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "贪心算法可以达到局部最优，但可能不是全局最优解。(   )",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "小杨设计了一个拆数程序，它能够将任意的非质数自然数N转换成若干个质数的乘积，这个程序是可以设计出来的。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "插入排序有时比快速排序时间复杂度更低。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "下面的C++代码能实现十进制正整数N转换为八进制并输出。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "对数组 int arr[] = {2, 6, 3, 5, 4, 8, 1, 0, 9, 10} 执行 sort(arr, arr+10) ，则执行后 arr中的数据调整为 {0, 1, 2, 3, 4, 5, 6, 8,9, 10} 。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "小杨想写一个程序来算出正整数N有多少个因数，经过思考他写出了一个重复没有超过N/2次的循环就能够算出来了。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "同样的整数序列分别保存在单链表和双向链中，这两种链表上的简单冒泡排序的复杂度相同。（   ）",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "小杨的幸运数时间限制：1.0 s内存限制：128.0 MB问题描述小杨认为，所有大于等于 的完全平方数都是他的超级幸运数。小杨还认为，所有超级幸运数的倍数都是他的幸运数。自然地，小杨的所有超级幸运数也都是幸运数。对于一个非幸运数，小杨规定，可以将它一直+1，直到它变成一个幸运数。我们把这个过程叫做幸运化。例如，如果a=4，那么4是最小的幸运数，而1不是，但我们可以连续对1做3次+1操作，使其变为4，所以我们可以说，1幸运化后的结果是4。现在，小杨给出N个数，请你首先判断它们是不是幸运数；接着，对于非幸运数，请你将它们幸运化。输入描述第一行 2 个正整数a,N。接下来N行，每行一个正整数x，表示需要判断（幸运化）的数。输出描述输出N行，对于每个给定的x，如果它是幸运数，请输出 lucky ，否则请输出将其幸运化后的结果。特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入 12 4\r\n1\r\n4\r\n5\r\n9样例输出 14\r\nlucky\r\n8\r\nlucky样例解释 11虽然是完全平方数，但它小于a，因此它并不是超级幸运数，也不是幸运数。将其进行3次+1操作后，最终得到幸运数 。4是幸运数，因此直接输出 lucky 。5不是幸运数，将其进行3次+1操作后，最终得到幸运数8。9是幸运数，因此直接输出 lucky 。样例输入 216 11\r\n1\r\n2\r\n4\r\n8\r\n16\r\n3264\r\n128\r\n256\r\n512\r\n1024样例输出 216\r\n16\r\n16\r\n16\r\nlucky\r\nlucky\r\nlucky\r\nlucky\r\nlucky\r\nlucky\r\nlucky数据规模对于30%的测试点，保证a,x≤100，N≤100。对于60%的测试点，保证a,x≤106。对于所有测试点，保证a≤1000001；保证N≤2×105；保证1≤x≤1000001。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-418",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "烹饪问题时间限制：1.0 s内存限制：128.0 MB问题描述有N种食材，编号从0至N-1，其中第 种食材的美味度为 。不同食材之间的组合可能产生奇妙的化学反应。具体来说，如果两种食材的美味度分别为x和y，那么它们的契合度为x and y。其中，and运算为按位与运算，需要先将两个运算数转换为二进制，然后在高位补足0，再逐位进行与运算。例如，12与6的二进制表示分别为 1100 和 0110 ，将它们逐位进行与运算，得到 0100 ，转换为十进制得到4，因此。在 C++ 或 Python 中，可以直接使用 & 运算符表示与运算。现在，请你找到契合度最高的两种食材，并输出它们的契合度。输入描述第一行一个整数N，表示食材的种数。接下来一行N个用空格隔开的整数，依次为a0,…,aN-1，表示各种食材的美味度。输出描述输出一行一个整数，表示最高的契合度。特别提醒在常规程序中，输入、输出时提供提示是好习惯。但在本场考试中，由于系统限定，请不要在输入、输出中附带任何提示信息。样例输入 13\r\n1 2 3样例输出 12样例解释 1可以编号为1,2的食材之间的契合度为2 and 3=2，是所有食材两两之间最高的契合度。样例输入 25\r\n5 6 2 10 13样例输出 28样例解释 1可以编号为3,4的食材之间的契合度为10 and 13=8，是所有食材两两之间最高的契合度。数据规模对于40%的测试点，保证N≤1000；对于所有测试点，保证N≤106，0≤ai≤2147483647。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 1,
+   "type": "单选题",
+   "stem": "近年来，线上授课变得普遍，很多有助于改善教学效果的设备也逐渐流行，其中包括比较常用的手写板，那么它属于哪类设备？（     ）",
+   "options": [
+    "A：输入",
+    "B：输出",
+    "C：控制",
+    "D：记录"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 2,
+   "type": "单选题",
+   "stem": "如果 a 和 b 均为 int 类型的变量，且 b 的值不为 0 ，那么下列能正确判断“ a 是 b 的3倍”的表达式是（     ）。",
+   "options": [
+    "A：(a >> 3 == b)",
+    "B：(a - b) % 3 == 0",
+    "C：(a / b == 3)",
+    "D：(a == 3 * b)"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 3,
+   "type": "单选题",
+   "stem": "如果变量 a 和 b 分别为 double 类型和 int 类型，则表达式 (a = 6, b = 3 * (7 + 8) / 2, b += a) 的计算结果为（     ）。",
+   "options": [
+    "A：6",
+    "B：21",
+    "C：28",
+    "D：不确定"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 4,
+   "type": "单选题",
+   "stem": "有关下面C++代码说法错误的是（     ）。",
+   "options": [
+    "A：sumA() 用循环方式求从 1 到 N 之和， sumB() 用递归方式求从 1 到 N 之和。",
+    "B：默认情况下，如果输入正整数 1000 ，能实现求从 1 到 1000 之和。",
+    "C：默认情况下，如果输入正整数 100000 ，能实现求从 1 到 100000 之和。",
+    "D：一般说来， sumA() 的效率高于 sumB() 。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 5,
+   "type": "单选题",
+   "stem": "下面C++代码以递归方式实现字符串反序，横线处应填上代码是（     ）。",
+   "options": [
+    "A：sIn[sIn.length() - 1] + sReverse(sIn.substr(0, sIn.length() - 1));",
+    "B：sIn[0] + sReverse(sIn.substr(1, sIn.length() - 1));",
+    "C：sReverse(sIn.substr(0, sIn.length() - 1)) + sIn[sIn.length() - 1];",
+    "D：sReverse(sIn.substr(1, sIn.length() - 1)) + sIn[sIn.length() - 1];"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 6,
+   "type": "单选题",
+   "stem": "印度古老的汉诺塔传说：创世时有三根金刚柱，其中一柱从下往上按照大小顺序摞着64片黄金圆盘，当圆盘逐一从一柱借助另外一柱全部移动到另外一柱时，宇宙毁灭。移动规则：在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。下面的C++代码以递归方式实现汉诺塔，横线处应填入代码是（     ）。",
+   "options": [
+    "A：Hanoi(B, C, A, N - 2)",
+    "B：Hanoi(B, A, C, N - 1)",
+    "C：Hanoi(A, B, C, N - 2)",
+    "D：Hanoi(C, B, A, N - 1)"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 7,
+   "type": "单选题",
+   "stem": "根据下面C++代码的注释，两个横线处应分别填入（     ）。",
+   "options": [
+    "A：compare 和 isOdd(lstA[i])",
+    "B：compare(x1,y1) 和 isOdd",
+    "C：compare 和 isOdd",
+    "D：compare(x1,y1) 和 isOdd(lstA[i])"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 8,
+   "type": "单选题",
+   "stem": "有关下面代码正确的是（     ）。",
+   "options": [
+    "A：checkNum() 函数定义错误。",
+    "B：将 isEven 作为 checkNum() 参数将导致错误。",
+    "C：执行后将输出 1 。",
+    "D：运行时触发异常。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 9,
+   "type": "单选题",
+   "stem": "有关下面C++代码正确的是（     ）。",
+   "options": [
+    "A：checkNum() 函数定义错误。",
+    "B：输出行 A 的语句将导致编译错误。",
+    "C：输出行 B 的语句将导致编译错误。",
+    "D：该代码没有编译错误。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 10,
+   "type": "单选题",
+   "stem": "下面代码执行后的输出是（     ）。",
+   "options": [
+    "A：4#3#2#2#4",
+    "B：4#3#2#2#1#5",
+    "C：4#3#2#1#2#4",
+    "D：4#3#2#1#2#5"
+   ],
+   "answer": "D",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 11,
+   "type": "单选题",
+   "stem": "下面代码中的 isPrimeA() 和 isPrimeB() 都用于判断参数 N 是否素数，有关其时间复杂度的正确说法是（     ）。",
+   "options": [
+    "A：isPrimeA() 的最坏时间复杂度是O(N)， isPrimeB() 的最坏时间复杂度是O(logN)， isPrimeB() 优于isPrimeA() 。",
+    "B：isPrimeA() 的最坏时间复杂度是O(N)， isPrimeB() 的最坏时间复杂度是O(N1/2)， isPrimeB() 优于isPrimeA() 。",
+    "C：isPrimeA() 的最坏时间复杂度是O(N1/2)， isPrimeB() 的最坏时间复杂度是O(N)， isPrimeA() 优于isPrimeB() 。",
+    "D：isPrimeA() 的最坏时间复杂度是O(logN)， isPrimeB() 的最坏时间复杂度是O(N)， isPrimeA() 优于isPrimeB()。"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 12,
+   "type": "单选题",
+   "stem": "下面代码用于归并排序，其中 merge() 函数被调用次数为（     ）。",
+   "options": [
+    "A：0",
+    "B：1",
+    "C：6",
+    "D：7"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 13,
+   "type": "单选题",
+   "stem": "在上题的归并排序算法中， mergeSort(listData, start, middle); 和 mergeSort(listData, middle+ 1, end); 涉及到的算法为（     ）。",
+   "options": [
+    "A：搜索算法",
+    "B：分治算法",
+    "C：贪心算法",
+    "D：递推算法"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 14,
+   "type": "单选题",
+   "stem": "归并排序算法的基本思想是（     ）。",
+   "options": [
+    "A：将数组分成两个子数组，分别排序后再合并。",
+    "B：随机选择一个元素作为枢轴，将数组划分为两个部分。",
+    "C：从数组的最后一个元素开始，依次与前一个元素比较并交换位置。",
+    "D：比较相邻的两个元素，如果顺序错误就交换位置。"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 15,
+   "type": "单选题",
+   "stem": "有关下面代码的说法正确的是（     ）。",
+   "options": [
+    "A：上述代码构成单向链表。",
+    "B：上述代码构成双向链表。",
+    "C：上述代码构成循环链表。",
+    "D：上述代码构成指针链表。"
+   ],
+   "answer": "C",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 1,
+   "type": "判断题",
+   "stem": "TCP/IP的传输层的两个不同的协议分别是UDP和TCP。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 2,
+   "type": "判断题",
+   "stem": "在特殊情况下流程图中可以出现三角框和圆形框。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 3,
+   "type": "判断题",
+   "stem": "找出自然数 N 以内的所有质数，常用算法有埃氏筛法和线性筛法，其中埃氏筛法效率更高。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 4,
+   "type": "判断题",
+   "stem": "在C++中，可以使用二分法查找链表中的元素。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 5,
+   "type": "判断题",
+   "stem": "在C++中，通过恰当的实现，可以将链表首尾相接，形成循环链表。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 6,
+   "type": "判断题",
+   "stem": "贪心算法的解可能不是最优解。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 7,
+   "type": "判断题",
+   "stem": "一般说来，冒泡排序算法优于归并排序。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "B",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 8,
+   "type": "判断题",
+   "stem": "C++语言中的 qsort 库函数是不稳定排序。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 9,
+   "type": "判断题",
+   "stem": "质数的判定和筛法的目的并不相同，质数判定旨在判断特定的正整数是否为质数，而质数筛法意在筛选出范围内的所有质数。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 10,
+   "type": "判断题",
+   "stem": "下面的C++代码执行后将输出 0 5 1 6 2 3 4 。",
+   "options": [
+    "A：正确",
+    "B：错误"
+   ],
+   "answer": "A",
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 1,
+   "type": "问答题",
+   "stem": "因数分解时间限制：1.0 s内存限制：128.0 MB问题描述每个正整数都可以分解成素数的乘积，例如：6=2×3、20=22×5现在，给定一个正整数N，请按要求输出它的因数分解式。输入描述输入第一行，包含一个正整数N。约定2≤N≤1012输出描述输出一行，为N的因数分解式。要求按质因数由小到大排列，乘号用星号*表示，且左右各空一格。当且仅当一个素数出现多次时，将它们合并为指数形式，用上箭头^表示，且左右不空格。样例输入16样例输出12 * 3样例输入220样例输出22^2 * 5样例输入323样例输出323",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  },
+  {
+   "paperId": "lele-382",
+   "level": 5,
+   "qNo": 2,
+   "type": "问答题",
+   "stem": "巧夺大奖时间限制：1.0 s内存限制：128.0 MB问题描述小明参加了一个巧夺大奖的游戏节目。主持人宣布了游戏规则：1、游戏分为n个时间段，参加者每个时间段可以选择一个小游戏。2、游戏中共有n个小游戏可供选择。3、每个小游戏有规定的时限和奖励。对于第i个小游戏，参加者必须在第Ti个时间段结束前完成才能得到奖励Ri。小明发现，这些小游戏都很简单，不管选择哪个小游戏，他都能在一个时间段内完成。关键问题在于，如何安排每个时间段分别选择哪个小游戏，才能使得总奖励最高？输入描述输入第一行，包含一个正整数n。 既是游戏时间段的个数，也是小游戏的个数。约定1≤n≤500。输入第二行，包含n个正整数。第i个正整数为Ti，即第i个小游戏的完成期限。约定1≤Ti≤n。输入第三行，包含n个正整数。第i个正整数为Ri，即第i个小游戏的完成奖励。约定1≤Ri≤1000。输出描述输出一行，包含一个正整数C，为最高可获得的奖励。样例输入174 2 4 3 1 4 670 60 50 40 30 20 10样例输出1230样例解释17个时间段可分别安排完成第4、2、3、1、6、7、5个小游戏，其中第4、2、3、1、7个小游戏在期限内完成。因此，可以获得总计40+60+50+70+10=230的奖励。",
+   "options": [],
+   "answer": null,
+   "kp_ids": [],
+   "primary_kp": null
+  }
+ ]
+}
