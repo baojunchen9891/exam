@@ -629,4 +629,10 @@ const EXAM = (() => {
     segHtml, tagHtml, renderQuestion, renderNav, requireLogin, requireAdmin, refreshIcons,
   };
 })();
+
+// 暴露到全局 window，供各页面通过 window.EXAM.renderNav(...) 调用。
+// 注意：顶层 const 声明不会自动成为 window 的属性，必须显式赋值，
+// 否则 curriculum / cspjsjixun / kp-practice-list / schedule 等页面的
+// `if (window.EXAM) EXAM.renderNav(...)` 守卫永远为假，导航栏不渲染。
+window.EXAM = EXAM;
 if (typeof module !== "undefined") module.exports = EXAM;
